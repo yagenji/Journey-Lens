@@ -1,0 +1,84 @@
+# ============================================================
+#  Journey Lens — Sveltia CMS 設定（Decap 互換）
+#  YOUR_... を自分のものに置換。認証は Sveltia 公式手順に従う:
+#  https://github.com/sveltia/sveltia-cms#readme
+# ============================================================
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO   # 例: yourname/journey-lens
+  branch: main
+  # ログインは GitHub の個人用トークン(PAT)方式を使用。認証ワーカーは不要です。
+  # （将来「Login with GitHub」ボタンにしたい場合のみ、認証ワーカーのURLを base_url に設定）
+
+media_folder: "uploads"
+public_folder: "/uploads"
+locale: ja
+
+collections:
+  - name: site
+    label: サイト内容
+    files:
+      - name: content
+        label: 国（撮影地）・写真・タイムラプス
+        file: content.json
+        format: json
+        fields:
+          - label: 国（撮影地）
+            name: locations
+            widget: list
+            label_singular: 国
+            summary: "{{fields.num}} · {{fields.en}}"
+            fields:
+              - { label: "ID（英小文字・記号なし）", name: id, widget: string, hint: "例: iceland。URL/アンカーに使用" }
+              - { label: 番号, name: num, widget: string, hint: "例: 02" }
+              - { label: 国名（英）, name: en, widget: string }
+              - { label: 国名（日・任意）, name: jp, widget: string, required: false }
+              - label: 大陸
+                name: continent
+                widget: select
+                options:
+                  - { label: アジア, value: asia }
+                  - { label: ヨーロッパ, value: europe }
+                  - { label: アフリカ, value: africa }
+                  - { label: 北アメリカ, value: namerica }
+                  - { label: 南アメリカ, value: samerica }
+                  - { label: オセアニア, value: oceania }
+                  - { label: 南極, value: antarctica }
+              - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
+              - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
+              - { label: 導入文（standfirst・1行）, name: standfirst, widget: string }
+              - { label: 体験エッセイ（本文）, name: essay, widget: text, hint: "段落は空行で区切る。1段落目の後に引用が大きく入ります" }
+              - { label: 引用（pull quote）, name: pullquote, widget: string, required: false }
+              - label: 写真・タイムラプス
+                name: media
+                widget: list
+                label_singular: メディア
+                summary: "{{fields.type}} · {{fields.cap}}"
+                fields:
+                  - label: 種類
+                    name: type
+                    widget: select
+                    default: photo
+                    options: [ { label: 写真, value: photo }, { label: タイムラプス（動画）, value: video } ]
+                  - { label: "画像（写真本体／動画のサムネ）", name: image, widget: image }
+                  - { label: "表紙に出す", name: cover, widget: boolean, default: false, hint: "ONの写真だけトップのモザイクに出ます（写真のみ）" }
+                  - label: 動画の表示方法
+                    name: mode
+                    widget: select
+                    required: false
+                    default: feature
+                    options: [ { label: "クリックで再生（30秒以上の長尺向き）", value: feature }, { label: "自動ループ（短い無音クリップ向き）", value: loop } ]
+                  - { label: "動画URL（YouTube / Vimeo / MP4直リンク）", name: videoUrl, widget: string, required: false, hint: "長尺はこちら推奨" }
+                  - { label: "動画ファイル（短いMP4・任意）", name: video, widget: file, required: false, hint: "自動ループはこの方式のみ対応" }
+                  - { label: "長さ（任意）", name: duration, widget: string, required: false, hint: "例: 1:12" }
+                  - { label: キャプション, name: cap, widget: string, hint: "例: PL.01 · Glacier tongue" }
+                  - label: 大きさ
+                    name: size
+                    widget: select
+                    default: md
+                    options: [ { label: 小, value: sm }, { label: 中, value: md }, { label: 大, value: lg }, { label: 全幅, value: full } ]
+                  - label: 形
+                    name: shape
+                    widget: select
+                    default: land
+                    options: [ { label: 横長, value: land }, { label: 縦長, value: port }, { label: 正方形, value: sq }, { label: ワイド, value: wide } ]
