@@ -146,7 +146,10 @@ a{color:inherit;text-decoration:none}
 .social a{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:color .25s,border-color .25s,transform .25s}
 .social a:hover{color:var(--trail);border-color:var(--trail);transform:translateY(-2px)}
 .social svg{width:18px;height:18px}
-.about-stat{font-family:var(--mono);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);margin:16px 0 0}
+.about-stats{display:flex;justify-content:center;gap:clamp(14px,3vw,28px);margin:20px 0 0;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{display:block;font-family:var(--mincho);font-weight:600;font-size:clamp(1.4rem,3vw,1.9rem);color:var(--trail);line-height:1}
+.stat-label{display:block;font-family:var(--mono);font-size:.55rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-top:7px}
 .bio .pullquote{font-size:clamp(1.55rem,3.9vw,2.4rem)}
 .bio p{font-size:clamp(.96rem,1.65vw,1.1rem)}
 .bio p{font-family:var(--mincho);font-size:clamp(1rem,1.8vw,1.18rem);line-height:2;margin:0 0 1.3em}
@@ -294,7 +297,11 @@ a{color:inherit;text-decoration:none}
             <li><a href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26L22.84 21.75h-6.66l-5.21-6.82L4.99 21.75H1.68l7.73-8.84L1.25 2.25H8.08l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></li>
             <li><a href="https://note.com/m_yagenji" target="_blank" rel="noopener" aria-label="note"><svg viewBox="111 111 270 270" fill="currentColor" aria-hidden="true"><path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/></svg></a></li>
           </ul>
-          <p class="about-stat">90+ countries</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">90+</span><span class="stat-label">countries visited</span></div>
+            <div class="stat"><span class="stat-num">5</span><span class="stat-label">countries lived in</span></div>
+            <div class="stat"><span class="stat-num">7</span><span class="stat-label">continents visited</span></div>
+          </div>
         </div>
         <div class="bio">
           <p class="pullquote">世界は、見に行くほどに近くなる。</p>
