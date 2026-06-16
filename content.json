@@ -69,7 +69,10 @@
           "cover": false
         }
       ],
-      "continent": "europe"
+      "continent": "europe",
+      "featured": false,
+      "placeJa": "",
+      "year": "2019"
     },
     {
       "id": "iceland",
@@ -140,7 +143,10 @@
           "cover": false
         }
       ],
-      "continent": "europe"
+      "continent": "europe",
+      "featured": true,
+      "placeJa": "",
+      "year": "2022"
     },
     {
       "id": "hokkaido",
@@ -199,7 +205,10 @@
           "cover": false
         }
       ],
-      "continent": "asia"
+      "continent": "asia",
+      "featured": false,
+      "placeJa": "美瑛・富良野",
+      "year": "2023"
     },
     {
       "id": "patagonia",
@@ -270,7 +279,10 @@
           "cover": true
         }
       ],
-      "continent": "samerica"
+      "continent": "samerica",
+      "featured": true,
+      "placeJa": "",
+      "year": "2018"
     },
     {
       "id": "antarctica",
@@ -341,7 +353,10 @@
           "cover": false
         }
       ],
-      "continent": "antarctica"
+      "continent": "antarctica",
+      "featured": true,
+      "placeJa": "",
+      "year": "2020"
     }
   ]
 }

@@ -5,7 +5,7 @@
 # ============================================================
 backend:
   name: github
-  repo: yagenji/Journey-Lens  # 例: yourname/journey-lens
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO   # 例: yourname/journey-lens
   branch: main
   # ログインは GitHub の個人用トークン(PAT)方式を使用。認証ワーカーは不要です。
   # （将来「Login with GitHub」ボタンにしたい場合のみ、認証ワーカーのURLを base_url に設定）
@@ -19,11 +19,11 @@ collections:
     label: サイト内容
     files:
       - name: content
-        label: 国（撮影地）・写真・タイムラプス
+        label: 国（旅先）・写真・タイムラプス
         file: content.json
         format: json
         fields:
-          - label: 国（撮影地）
+          - label: 国（旅先）
             name: locations
             widget: list
             label_singular: 国
@@ -33,6 +33,8 @@ collections:
               - { label: 番号, name: num, widget: string, hint: "例: 02" }
               - { label: 国名（英）, name: en, widget: string }
               - { label: 国名（日・任意）, name: jp, widget: string, required: false }
+              - { label: 場所（都市・地域・任意。国名｜場所で表示）, name: placeJa, widget: string, required: false }
+              - { label: 撮影年（任意。例 2022 / 2018–2019）, name: year, widget: string, required: false }
               - label: 大陸
                 name: continent
                 widget: select
@@ -44,6 +46,7 @@ collections:
                   - { label: 南アメリカ, value: samerica }
                   - { label: オセアニア, value: oceania }
                   - { label: 南極, value: antarctica }
+              - { label: 特集に出す（トップの特集に表示）, name: featured, widget: boolean, default: false, required: false }
               - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
               - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
               - { label: 導入文（standfirst・1行）, name: standfirst, widget: string }
