@@ -51,6 +51,7 @@ collections:
               - { label: 導入文（standfirst・1行）, name: standfirst, widget: string }
               - { label: 体験エッセイ（本文）, name: essay, widget: text, hint: "段落は空行で区切る。1段落目の後に引用が大きく入ります" }
               - { label: 引用（pull quote）, name: pullquote, widget: string, required: false }
+              - { label: note記事URL（任意）, name: noteUrl, widget: string, required: false, hint: "この旅先に対応するnote記事のURL。入れると本文の後に「noteで読む」リンクが出ます。空なら非表示" }
               - label: 写真・タイムラプス
                 name: media
                 widget: list
