@@ -5,10 +5,6 @@
       "num": "01",
       "en": "LOFOTEN",
       "jp": "ロフォーテン",
-      "placeJa": "",
-      "year": "2019",
-      "continent": "europe",
-      "featured": false,
       "lat": 68.15,
       "lon": 13.61,
       "standfirst": "陽が沈まない三晩。眠るのが惜しくて、ずっと起きていた。",
@@ -18,81 +14,71 @@
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/lof-1/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.01 · 真夜中の稜線",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/lof-2/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.02 · 峡湾の壁",
           "size": "md",
           "shape": "port",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "video",
           "image": "https://picsum.photos/seed/lof-tl1/1500/950",
-          "cover": false,
-          "mode": "loop",
-          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
           "video": "",
+          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "mode": "loop",
           "duration": "0:12",
           "cap": "TL.01 · オーロラの流れ",
           "size": "md",
-          "shape": "land"
+          "shape": "land",
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/lof-3/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.03 · 干潟",
           "size": "sm",
           "shape": "sq",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/lof-4/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.04 · 夕暮れのレーヌ",
           "size": "lg",
           "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/lof-5/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.05 · 冷たい波",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         }
-      ]
+      ],
+      "continent": "europe",
+      "featured": false,
+      "placeJa": "",
+      "year": "2019"
     },
     {
       "id": "iceland",
       "num": "02",
       "en": "ICELAND",
       "jp": "アイスランド",
-      "placeJa": "",
-      "year": "2022",
-      "continent": "europe",
-      "featured": true,
       "lat": 64.96,
       "lon": -19.02,
       "standfirst": "天気を追いかけた十一日間。じっとしていない国で。",
@@ -101,82 +87,72 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/B86DAB8F-129D-4E51-A477-29AB78F5D2F3_4_5005_c.jpeg",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "image": "https://picsum.photos/seed/ice-1/1500/1000",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.01 · 氷河の舌",
-          "size": "lg",
-          "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "size": "full",
+          "shape": "wide",
+          "cover": true
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ice-2/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.02 · 玄武岩",
           "size": "md",
           "shape": "port",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ice-3/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.03 · ダイヤモンドビーチ",
           "size": "md",
           "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         },
         {
           "type": "video",
           "image": "https://picsum.photos/seed/ice-tl1/1500/950",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
           "video": "",
+          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "mode": "feature",
           "duration": "0:48",
           "cap": "TL.01 · 北の光",
           "size": "lg",
-          "shape": "land"
+          "shape": "land",
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ice-4/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.04 · 苔の原",
           "size": "sm",
           "shape": "sq",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ice-5/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.05 · 高地の川",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         }
-      ]
+      ],
+      "continent": "europe",
+      "featured": true,
+      "placeJa": "",
+      "year": "2022"
     },
     {
       "id": "hokkaido",
       "num": "03",
       "en": "HOKKAIDŌ",
       "jp": "北海道",
-      "placeJa": "美瑛・富良野",
-      "year": "2023",
-      "continent": "asia",
-      "featured": false,
       "lat": 43.22,
       "lon": 142.86,
       "standfirst": "雪の中で過ごした一週間。静けさの大きさを知った。",
@@ -186,69 +162,59 @@
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/hok-1/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.01 · 雪原",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/hok-2/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.02 · 樹氷",
           "size": "md",
           "shape": "port",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/hok-3/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.03 · 一本の木",
           "size": "md",
           "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/hok-4/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.04 · 足跡",
           "size": "sm",
           "shape": "sq",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/hok-5/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.05 · 白の静寂",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         }
-      ]
+      ],
+      "continent": "asia",
+      "featured": false,
+      "placeJa": "美瑛・富良野",
+      "year": "2023"
     },
     {
       "id": "patagonia",
       "num": "04",
       "en": "PATAGONIA",
       "jp": "パタゴニア",
-      "placeJa": "",
-      "year": "2018",
-      "continent": "samerica",
-      "featured": true,
       "lat": -50.94,
       "lon": -73.4,
       "standfirst": "風に翻弄された八日間。塔が燃えるその朝を待って。",
@@ -258,81 +224,71 @@
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/pat-1/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.01 · 三つの塔",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/pat-2/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.02 · グアナコ",
           "size": "md",
           "shape": "port",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/pat-3/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.03 · 氷河湖",
           "size": "md",
           "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "video",
           "image": "https://picsum.photos/seed/pat-tl1/1500/950",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
           "video": "",
+          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "mode": "feature",
           "duration": "0:36",
           "cap": "TL.01 · 尖塔を流れる雲",
           "size": "sm",
-          "shape": "sq"
+          "shape": "sq",
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/pat-4/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.04 · レンガの森",
           "size": "lg",
           "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/pat-5/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.05 · 最初の光",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         }
-      ]
+      ],
+      "continent": "samerica",
+      "featured": true,
+      "placeJa": "",
+      "year": "2018"
     },
     {
       "id": "antarctica",
       "num": "05",
       "en": "ANTARCTICA",
       "jp": "南極",
-      "placeJa": "",
-      "year": "2020",
-      "continent": "antarctica",
-      "featured": true,
       "lat": -64.8,
       "lon": -62.5,
       "standfirst": "世界の果て。氷は青く、静けさは完全だった。",
@@ -342,71 +298,65 @@
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ant-1/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.01 · 氷の崖",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ant-2/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.02 · 孤高の氷山",
           "size": "md",
           "shape": "port",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ant-3/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.03 · カニクイアザラシ",
           "size": "md",
           "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         },
         {
           "type": "video",
           "image": "https://picsum.photos/seed/ant-tl1/1500/950",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
           "video": "",
+          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+          "mode": "feature",
           "duration": "1:12",
           "cap": "TL.01 · 流氷",
           "size": "lg",
-          "shape": "land"
+          "shape": "land",
+          "cover": false
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ant-4/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.04 · 青いクレバス",
           "size": "sm",
           "shape": "sq",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": true
         },
         {
           "type": "photo",
           "image": "https://picsum.photos/seed/ant-5/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください",
           "cap": "PL.05 · 半島の光",
           "size": "full",
           "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "cover": false
         }
-      ]
+      ],
+      "continent": "antarctica",
+      "featured": true,
+      "placeJa": "",
+      "year": "2020"
     }
   ]
 }
