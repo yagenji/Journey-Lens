@@ -313,6 +313,7 @@ a{color:inherit;text-decoration:none}
             <li><a id="socialIg" href="https://instagram.com/makoto_yagenji" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4.6"/><circle cx="12" cy="12" r="3.5"/><circle cx="16.5" cy="7.5" r="1" fill="currentColor" stroke="none"/></svg></a></li>
             <li><a id="socialX" href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26L22.84 21.75h-6.66l-5.21-6.82L4.99 21.75H1.68l7.73-8.84L1.25 2.25H8.08l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></li>
             <li><a id="socialNote" href="https://note.com/m_yagenji" target="_blank" rel="noopener" aria-label="note"><svg viewBox="111 111 270 270" fill="currentColor" aria-hidden="true"><path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/></svg></a></li>
+            <li><a id="socialYt" href="https://www.youtube.com/channel/UCC7_hzVek3-t1lQMpbK2uTA" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.58 7.19c-.23-.86-.91-1.54-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.42c-.86.23-1.54.91-1.77 1.77C2 8.75 2 12 2 12s0 3.25.42 4.81c.23.86.91 1.54 1.77 1.77C5.75 19 12 19 12 19s6.25 0 7.81-.42c.86-.23 1.54-.91 1.77-1.77C22 15.25 22 12 22 12s0-3.25-.42-4.81zM10 15V9l5.2 3-5.2 3z"/></svg></a></li>
           </ul>
           <div class="about-stats" id="aboutStats">
             <div class="stat"><span class="stat-num">90+</span><span class="stat-label">countries visited</span></div>
@@ -730,7 +731,8 @@ function buildAbout(p){if(!p)return;
   const nm=document.getElementById('aboutName');if(nm){nm.innerHTML=esc(p.nameJa||'')+(p.nameEn?'<span class="about-name-en">'+esc(p.nameEn)+'</span>':'');}
   const bw=document.getElementById('aboutBioWrap');if(bw){let h='';if(p.pullquote)h+='<p class="pullquote">'+esc(p.pullquote)+'</p>';if(Array.isArray(p.bio))h+=p.bio.map(t=>'<p>'+esc(t)+'</p>').join('');if(h)bw.innerHTML=h;}
   const st=document.getElementById('aboutStats');if(st&&Array.isArray(p.stats)&&p.stats.length){st.innerHTML=p.stats.map(s=>'<div class="stat"><span class="stat-num">'+esc(s.num)+'</span><span class="stat-label">'+esc(s.label)+'</span></div>').join('');}
-  const sm={facebook:'socialFb',instagram:'socialIg',x:'socialX',note:'socialNote'};if(p.social){for(const k in sm){const a=document.getElementById(sm[k]);if(a){const u=p.social[k];if(u){a.href=u;a.style.display='';}else{a.style.display='none';}}}}}
+  const sm={facebook:'socialFb',instagram:'socialIg',x:'socialX',note:'socialNote'};if(p.social){for(const k in sm){const a=document.getElementById(sm[k]);if(a){const u=p.social[k];if(u){a.href=u;a.style.display='';}else{a.style.display='none';}}}}
+  if(p.social&&p.social.youtube){const y=document.getElementById('socialYt');if(y)y.href=p.social.youtube;}}
 function vsrc(m){return m.videoUrl||m.video||'';}
 function parseVideo(u){if(!u)return null;let m;
   if(m=u.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/))return{kind:'embed',embed:'https://www.youtube.com/embed/'+m[1]+'?autoplay=1&rel=0'};
