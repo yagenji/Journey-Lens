@@ -273,6 +273,92 @@
       ]
     },
     {
+      "id": "argentina",
+      "en": "ARGENTINA",
+      "jp": "アルゼンチン",
+      "placeJa": "パタゴニア",
+      "year": "2026",
+      "continent": "samerica",
+      "featured": false,
+      "lat": -50.34,
+      "lon": -72.27,
+      "standfirst": "夜明けに燃える山と、青く澄んだ氷河に息をのんだ。",
+      "essay": "パタゴニアの朝は、まだ夜の中から始まった。フィッツロイへ向かう道を、足元の暗さを確かめながら歩いていく。冷たい空気を吸うたびに、眠気が少しずつ遠のき、山の気配だけが前方に濃くなっていった。靴音だけが、小さく続いていた。\n\n日の出の時間が近づくと、空の端がかすかに明るくなった。やがてフィッツロイの岩肌に光が触れ、山が内側から燃えるように染まっていく。声を出すより先に、ただその色を見ていた。朝焼けは、静かな火のようだった。\n\nモレノ氷河では、氷の上を歩く時間が忘れがたく残っている。足元には硬い白と淡い青が重なり、氷河どけ水は信じられないほど澄んでいた。これほど深く、冷たく、美しい青があるのかと思いながら、何度も立ち止まった。\n\n氷河にかかる虹は、強い風の中でふいに現れた。白い氷と青い水、そのあいだに薄い色が渡っていく。パタゴニアの風景は大きいのに、記憶に残るのは光の細さや、足元の冷たさだった。遠くで氷が鳴るような気配もした。",
+      "pullquote": "山は燃え、氷は静かに青をたたえていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-1/1500/1000",
+          "cover": true,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "PL.01 · 三つの塔",
+          "size": "full",
+          "shape": "wide",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-2/1500/1000",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "PL.02 · グアナコ",
+          "size": "md",
+          "shape": "port",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-3/1500/1000",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "PL.03 · 氷河湖",
+          "size": "md",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "video",
+          "image": "https://picsum.photos/seed/pat-tl1/1500/950",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "video": "",
+          "duration": "0:36",
+          "cap": "TL.01 · 尖塔を流れる雲",
+          "size": "sm",
+          "shape": "sq"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-4/1500/1000",
+          "cover": false,
+          "videoUrl": "",
+          "cap": "PL.04 · レンガの森",
+          "size": "lg",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-5/1500/1000",
+          "cover": true,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "PL.05 · 最初の光",
+          "size": "full",
+          "shape": "wide",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        }
+      ],
+      "num": "04"
+    },
+    {
       "id": "tajikistan",
       "en": "TAJIKISTAN",
       "jp": "タジキスタン",
@@ -297,34 +383,7 @@
           "duration": "",
           "cap": "ta",
           "size": "md",
-          "shape": "land"
-        }
-      ]
-    },
-    {
-      "id": "argentina",
-      "en": "ARGENTINA",
-      "jp": "アルゼンチン",
-      "placeJa": "パタゴニア",
-      "year": "2026",
-      "continent": "samerica",
-      "featured": false,
-      "lat": -50.34,
-      "lon": -72.27,
-      "standfirst": "夜明けに燃える山と、青く澄んだ氷河に息をのんだ。",
-      "essay": "パタゴニアの朝は、まだ夜の中から始まった。フィッツロイへ向かう道を、足元の暗さを確かめながら歩いていく。冷たい空気を吸うたびに、眠気が少しずつ遠のき、山の気配だけが前方に濃くなっていった。靴音だけが、小さく続いていた。\n\n日の出の時間が近づくと、空の端がかすかに明るくなった。やがてフィッツロイの岩肌に光が触れ、山が内側から燃えるように染まっていく。声を出すより先に、ただその色を見ていた。朝焼けは、静かな火のようだった。\n\nモレノ氷河では、氷の上を歩く時間が忘れがたく残っている。足元には硬い白と淡い青が重なり、氷河どけ水は信じられないほど澄んでいた。これほど深く、冷たく、美しい青があるのかと思いながら、何度も立ち止まった。\n\n氷河にかかる虹は、強い風の中でふいに現れた。白い氷と青い水、そのあいだに薄い色が渡っていく。パタゴニアの風景は大きいのに、記憶に残るのは光の細さや、足元の冷たさだった。遠くで氷が鳴るような気配もした。",
-      "pullquote": "山は燃え、氷は静かに青をたたえていた。",
-      "noteUrl": "",
-      "media": [
-        {
-          "type": "photo",
-          "image": "https://picsum.photos/seed/pat-1/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "PL.01 · 三つの塔",
-          "size": "full",
-          "shape": "wide",
+          "shape": "land",
           "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
