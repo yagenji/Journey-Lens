@@ -116,3 +116,4 @@ collections:
               - { label: Instagram URL, name: instagram, widget: string, required: false }
               - { label: X URL, name: x, widget: string, required: false }
               - { label: note URL, name: note, widget: string, required: false }
+              - { label: YouTube URL, name: youtube, widget: string, required: false }
