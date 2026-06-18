@@ -13,16 +13,16 @@
   ],
   "stats": [
     {
-      "num": "90+",
+      "num": "90",
       "label": "countries visited"
-    },
-    {
-      "num": "5",
-      "label": "countries lived in"
     },
     {
       "num": "7",
       "label": "continents visited"
+    },
+    {
+      "num": "5",
+      "label": "countries lived in"
     }
   ],
   "social": {
