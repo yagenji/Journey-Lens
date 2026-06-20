@@ -94,6 +94,19 @@ a{color:inherit;text-decoration:none}
 .feat-read{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;color:var(--trail);transition:color .25s,letter-spacing .25s}
 .feat-row:hover .feat-read{color:var(--trail-hi);letter-spacing:.2em}
 @media(max-width:760px){.feat-row,.feat-row:nth-child(even){grid-template-columns:1fr;gap:16px}.feat-row:nth-child(even) .feat-media{order:0}}
+.badge-new{display:inline-block;font-family:var(--mono);font-size:.58rem;font-weight:600;letter-spacing:.14em;color:var(--bg);background:var(--trail);padding:2px 7px;border-radius:999px;vertical-align:middle;margin-left:10px}
+.recent{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px)}
+.recent-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;flex-wrap:wrap}
+.recent-head .eyebrow{display:inline-block}
+.recent-head h3{font-family:var(--mincho);font-weight:600;font-size:clamp(1.15rem,2.6vw,1.6rem);margin:0;line-height:1}
+.recent-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.recent-list a{display:flex;align-items:baseline;gap:14px;padding:13px 4px;border-bottom:1px solid var(--line);color:inherit;transition:background .2s,padding-left .2s}
+.recent-list a:hover{background:var(--bg-2);padding-left:10px}
+.recent-date{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--trail);min-width:4.6em;flex:none}
+.recent-name{font-family:var(--mincho);font-size:1.05rem;color:var(--ink)}
+.recent-name .nm-place{color:var(--ink-soft)}
+.recent-go{margin-left:auto;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;color:var(--ink-soft);flex:none}
+.recent-list a:hover .recent-go{color:var(--trail)}
 .nm-place{color:var(--ink-soft);font-weight:400;font-size:.6em;letter-spacing:.02em;margin-left:.15em}
 .corr-lead{font-family:var(--mincho);font-size:clamp(1rem,1.8vw,1.15rem);color:var(--ink);margin:0 0 clamp(20px,3vh,32px)}
 
@@ -275,6 +288,13 @@ a{color:inherit;text-decoration:none}
     </div>
   </section>
 
+  <section class="recent" id="recent" hidden>
+    <div class="wrap">
+      <div class="recent-head"><span class="eyebrow">Recently Added</span><h3>最近追加した旅先</h3></div>
+      <ul class="recent-list" id="recentList"></ul>
+    </div>
+  </section>
+
   <section class="atlas section-pad" id="atlas">
     <div class="wrap">
       <div class="sec-head"><div><span class="eyebrow">The Atlas</span><h2>旅の地図</h2></div><span class="idx"></span></div>
@@ -420,7 +440,8 @@ const FALLBACK={
       "continent": "europe",
       "featured": false,
       "placeJa": "",
-      "year": "2019"
+      "year": "2019",
+      "publishedAt": "2026-05-25"
     },
     {
       "id": "iceland",
@@ -495,7 +516,8 @@ const FALLBACK={
       "featured": true,
       "placeJa": "",
       "year": "2022",
-      "noteUrl": "https://note.com/m_yagenji"
+      "noteUrl": "https://note.com/m_yagenji",
+      "publishedAt": "2026-06-12"
     },
     {
       "id": "hokkaido",
@@ -557,7 +579,8 @@ const FALLBACK={
       "continent": "asia",
       "featured": false,
       "placeJa": "美瑛・富良野",
-      "year": "2023"
+      "year": "2023",
+      "publishedAt": "2026-04-20"
     },
     {
       "id": "patagonia",
@@ -631,7 +654,8 @@ const FALLBACK={
       "continent": "samerica",
       "featured": true,
       "placeJa": "",
-      "year": "2018"
+      "year": "2018",
+      "publishedAt": "2026-06-01"
     },
     {
       "id": "antarctica",
@@ -705,7 +729,8 @@ const FALLBACK={
       "continent": "antarctica",
       "featured": true,
       "placeJa": "",
-      "year": "2020"
+      "year": "2020",
+      "publishedAt": "2026-03-15"
     }
   ]
 };
@@ -744,11 +769,23 @@ function firstPhoto(c){return (c.media||[]).find(m=>m.type==='photo')||{};}
 function coverTiles(){let t=[];COUNTRIES.forEach(c=>(c.media||[]).forEach(m=>{if(m.type==='photo'&&m.cover)t.push({img:m.image,c:c});}));
   if(!t.length)COUNTRIES.forEach(c=>{const m=firstPhoto(c);if(m.image)t.push({img:m.image,c:c});});return t.slice(0,8);}
 function featuredList(){const f=COUNTRIES.filter(c=>c.featured);const rest=COUNTRIES.filter(c=>!c.featured);return f.concat(rest).slice(0,5);}
+const NEW_DAYS=30;
+const RECENT_COUNT=5;
+function pdate(c){if(!c||!c.publishedAt)return null;const t=Date.parse(c.publishedAt);return isNaN(t)?null:t;}
+function isNew(c){const t=pdate(c);if(t==null)return false;const age=Date.now()-t;return age>=0&&age<=NEW_DAYS*86400000;}
+function newBadge(c){return isNew(c)?'<span class="badge-new">NEW</span>':'';}
+function fmtYM(t){const d=new Date(t);return d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0');}
+function recentList(n){return COUNTRIES.filter(c=>pdate(c)!=null).sort((a,b)=>pdate(b)-pdate(a)).slice(0,n||3);}
+function buildRecent(){const sec=document.getElementById('recent'),ul=document.getElementById('recentList');if(!sec||!ul)return;
+  const items=recentList(RECENT_COUNT);if(!items.length){sec.hidden=true;return;}
+  ul.innerHTML='';items.forEach(c=>{const a=el('a',null,'');a.href='#/'+c.id;
+    a.innerHTML='<span class="recent-date">'+fmtYM(pdate(c))+'</span><span class="recent-name">'+nameHTML(c)+'</span>'+newBadge(c)+'<span class="recent-go">見る →</span>';
+    ul.appendChild(el('li',null,'')).appendChild(a);});sec.hidden=false;}
 function buildFeatured(){const w=document.getElementById('featuredRows');if(!w)return;w.innerHTML='';
   featuredList().forEach(c=>{const hero=(c.heroImage||firstPhoto(c).image||'');
     const a=el('a','feat-row');a.href='#/'+c.id;
     a.innerHTML='<div class="feat-media"><img loading="lazy" src="'+hero+'" alt="'+esc(c.jp)+'"></div>'+
-      '<div class="feat-text"><div class="feat-folio">'+esc(c.en)+(c.year?' · '+esc(c.year):'')+'</div>'+
+      '<div class="feat-text"><div class="feat-folio">'+esc(c.en)+(c.year?' · '+esc(c.year):'')+newBadge(c)+'</div>'+
       '<h3 class="feat-title">'+nameHTML(c)+'</h3>'+
       (c.standfirst?'<p class="feat-stand">'+esc(c.standfirst)+'</p>':'')+
       '<span class="feat-read">読む →</span></div>';
@@ -825,7 +862,7 @@ function renderList(items,kind){
   }else{
     if(!items.length){ul.appendChild(el('li','a-empty','この大陸の旅先はまだありません。'));return;}
     items.forEach(c=>{const a=el('a',null,'');a.href='#/'+c.id;a.dataset.go=c.id;
-      a.innerHTML='<span class="a-name">'+nameHTML(c)+'</span><span class="a-go">見る →</span>';
+      a.innerHTML='<span class="a-name">'+nameHTML(c)+newBadge(c)+'</span><span class="a-go">見る →</span>';
       ul.appendChild(el('li',null,'')).appendChild(a);});
   }
 }
@@ -910,7 +947,7 @@ function router(){const h=location.hash;
 
 (async function init(){
   const data=await loadContent();COUNTRIES=data.locations||[];
-  buildCover();buildFeatured();showWorld();wireScope(home);loadProfile().then(buildAbout);
+  buildCover();buildFeatured();buildRecent();showWorld();wireScope(home);loadProfile().then(buildAbout);
   addEventListener('hashchange',router);router();
   const search=document.getElementById('atlasSearch');search.addEventListener('input',()=>doSearch(search.value));
   document.getElementById('atlasBack').addEventListener('click',e=>{e.preventDefault();search.value='';showWorld();});
