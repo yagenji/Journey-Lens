@@ -46,6 +46,7 @@ collections:
                   - { label: オセアニア, value: oceania }
                   - { label: 南極, value: antarctica }
               - { label: 特集に出す（トップの特集に表示）, name: featured, widget: boolean, default: false, required: false }
+              - { label: 公開日（任意・最近の更新に使用）, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false, hint: "この旅先を追加・公開した日。入れると「最近追加した旅先」に出て、30日間は NEW マークが付きます。空なら何も出ません" }
               - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
               - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
               - { label: 導入文（standfirst・1行）, name: standfirst, widget: string }
