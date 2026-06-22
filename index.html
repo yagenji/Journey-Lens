@@ -50,7 +50,7 @@ a{color:inherit;text-decoration:none}
 .nav.solid{background:rgba(19,21,15,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .brand{font-family:var(--latin);font-weight:700;font-size:1.02rem;letter-spacing:.3em;text-transform:uppercase;color:var(--ink)}
 .nav-links{display:flex;gap:clamp(16px,2.4vw,32px);align-items:center}
-.nav-links a{font-size:.82rem;letter-spacing:.12em;color:var(--ink)}
+.nav-links a{font-family:var(--latin);font-size:.85rem;letter-spacing:.08em;color:var(--ink)}
 .nav-links a:hover{color:var(--trail)}
 .nav-toggle{display:none;font-size:.82rem;letter-spacing:.1em;color:var(--ink)}
 
@@ -74,14 +74,15 @@ a{color:inherit;text-decoration:none}
 .section-pad{padding:clamp(64px,11vh,138px) clamp(18px,5vw,80px)}
 .wrap{max-width:1240px;margin:0 auto}
 .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:clamp(26px,5vh,48px);border-bottom:1px solid var(--line);padding-bottom:16px;flex-wrap:wrap}
-.sec-head .eyebrow{display:block;margin-bottom:8px}
-.sec-head h2{font-family:var(--mincho);font-weight:600;margin:0;font-size:clamp(1.8rem,5vw,3rem);line-height:1}
+.sec-en{font-family:var(--latin);font-weight:600;margin:0;font-size:clamp(2rem,5.5vw,3.4rem);line-height:1;letter-spacing:.01em;color:var(--ink)}
+.sec-ja{display:block;font-family:var(--sans);font-size:.8rem;letter-spacing:.24em;color:var(--ink-soft);margin-top:11px}
 .sec-head .idx{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;color:var(--ink-soft)}
 
 /* featured */
 .featured{padding:clamp(56px,9vh,110px) clamp(18px,5vw,80px)}
 .feat-lead{font-family:var(--mincho);font-size:clamp(1rem,2vw,1.25rem);color:var(--ink-soft);max-width:44ch;line-height:1.7;margin:0 0 clamp(28px,5vh,52px)}
 .feat-rows{display:flex;flex-direction:column;gap:clamp(30px,6vh,72px)}
+.feat-more{display:inline-block;margin-top:clamp(28px,5vh,52px);font-family:var(--mono);font-size:.8rem;letter-spacing:.16em;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:3px;transition:color .3s,border-color .3s}.feat-more:hover{color:var(--trail);border-color:var(--trail)}
 .feat-row{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(20px,3.4vw,52px);align-items:center;color:inherit}
 .feat-row:nth-child(even){grid-template-columns:.88fr 1.12fr}
 .feat-row:nth-child(even) .feat-media{order:2}
@@ -97,8 +98,8 @@ a{color:inherit;text-decoration:none}
 .badge-new{display:inline-block;font-family:var(--mono);font-size:.58rem;font-weight:600;letter-spacing:.14em;color:var(--bg);background:var(--trail);padding:2px 7px;border-radius:999px;vertical-align:middle;margin-left:10px}
 .recent{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px)}
 .recent-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;flex-wrap:wrap}
-.recent-head .eyebrow{display:inline-block}
-.recent-head h3{font-family:var(--mincho);font-weight:600;font-size:clamp(1.15rem,2.6vw,1.6rem);margin:0;line-height:1}
+.rec-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.3rem,3vw,1.9rem);margin:0;line-height:1;color:var(--ink)}
+.rec-ja{font-family:var(--sans);font-size:.72rem;letter-spacing:.2em;color:var(--ink-soft)}
 .recent-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .recent-list a{display:flex;align-items:baseline;gap:14px;padding:13px 4px;border-bottom:1px solid var(--line);color:inherit;transition:background .2s,padding-left .2s}
 .recent-list a:hover{background:var(--bg-2);padding-left:10px}
@@ -107,6 +108,11 @@ a{color:inherit;text-decoration:none}
 .recent-name .nm-place{color:var(--ink-soft)}
 .recent-go{margin-left:auto;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;color:var(--ink-soft);flex:none}
 .recent-list a:hover .recent-go{color:var(--trail)}
+.statement{padding:clamp(84px,15vh,160px) clamp(18px,5vw,80px);text-align:center;display:flex;flex-direction:column;align-items:center}
+.st-rule{width:46px;height:1px;background:var(--trail);opacity:.85;margin:28px 0 42px}
+.st-body{font-family:var(--mincho);color:var(--ink);font-size:clamp(1.18rem,2.5vw,1.58rem);line-height:1.95;letter-spacing:.05em;max-width:780px}
+.st-body p{margin:0;text-wrap:balance}
+.st-body p+p{margin-top:1.5em}
 .nm-place{color:var(--ink-soft);font-weight:400;font-size:.6em;letter-spacing:.02em;margin-left:.15em}
 .corr-lead{font-family:var(--mincho);font-size:clamp(1rem,1.8vw,1.15rem);color:var(--ink);margin:0 0 clamp(20px,3vh,32px)}
 
@@ -162,7 +168,8 @@ a{color:inherit;text-decoration:none}
 .portrait{border:1px solid var(--line)}.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .portrait .cap{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;color:var(--ink-soft);padding:10px 2px 0}
 .about-id{text-align:center}
-.about-name{font-family:var(--mincho);font-weight:600;font-size:clamp(1.5rem,3vw,2rem);letter-spacing:.08em;line-height:1.3;margin:20px 0 0}
+.about-role{font-family:var(--sans);font-weight:500;font-size:.82rem;letter-spacing:.26em;color:var(--ink-soft);margin:20px 0 0}
+.about-name{font-family:var(--mincho);font-weight:600;font-size:clamp(1.5rem,3vw,2rem);letter-spacing:.08em;line-height:1.3;margin:6px 0 0}
 .about-name-en{display:block;font-family:var(--latin);font-weight:500;font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-soft);margin-top:7px}
 .social{list-style:none;display:flex;justify-content:center;gap:14px;padding:0;margin:18px 0 0}
 .social a{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:color .25s,border-color .25s,transform .25s}
@@ -249,6 +256,7 @@ a{color:inherit;text-decoration:none}
 
 .reveal{opacity:0;transform:translateY(24px);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.7,.2,1)}
 .reveal.in{opacity:1;transform:none}
+.ph{opacity:0;transition:opacity .8s ease}.ph.on{opacity:1}
 @media(max-width:900px){
   .cover-mosaic{grid-template-columns:repeat(2,1fr)}
   .atlas-grid{grid-template-columns:1fr}
@@ -258,13 +266,13 @@ a{color:inherit;text-decoration:none}
   .nav-toggle{display:block}
 }
 @media(max-width:620px){.plates{grid-template-columns:repeat(2,1fr);gap:8px}.f-2,.f-3,.f-4,.f-6{grid-column:span 2}.r-wide{aspect-ratio:16/9}.kit{grid-template-columns:1fr}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}.ph{opacity:1}}
 </style>
 
 <header class="nav" id="nav">
   <a class="brand" href="#">Journey Lens</a>
   <button class="nav-toggle" id="navToggle" aria-expanded="false">メニュー ＋</button>
-  <nav class="nav-links" id="navLinks"><a href="#featured">旅の物語</a><a href="#atlas">地図</a><a href="#about">自己紹介</a></nav>
+  <nav class="nav-links" id="navLinks"><a href="#featured">Stories</a><a href="#atlas">Atlas</a><a href="#about">About</a></nav>
 </header>
 
 <main id="home">
@@ -274,30 +282,38 @@ a{color:inherit;text-decoration:none}
       <span class="eyebrow cover-eyebrow">A photographic journey</span>
       <h1 class="cover-title">Journey Lens</h1>
       <p class="cover-tag">旅をしよう。レンズ越しの、世界へ。</p>
-      <p class="cover-tag-en">Set out — the world, through the lens.</p>
-      <div class="cover-strip"><span>風景・街・人</span><span>写真とタイムラプス</span><span>旅先は随時追加</span></div>
       <a class="cover-cue" href="#atlas">地図を見る ↓</a>
     </div></div>
   </section>
 
+  <section class="statement">
+    <span class="eyebrow">About this site</span>
+    <span class="st-rule"></span>
+    <div class="st-body">
+      <p>世界を旅して出会った景色を、そのまま写した写真です。</p>
+      <p>それがいつか、誰かの旅のきっかけになりますように。</p>
+    </div>
+  </section>
+
   <section class="featured" id="featured">
     <div class="wrap">
-      <div class="sec-head"><div><span class="eyebrow">Stories</span><h2>旅の物語</h2></div><span class="idx"></span></div>
-      <p class="feat-lead">いくつかの旅から。</p>
+      <div class="sec-head"><div><h2 class="sec-en">Stories</h2><span class="sec-ja">旅の物語</span></div><span class="idx"></span></div>
+      <p class="feat-lead">特に心に残った旅を、いくつか。</p>
       <div class="feat-rows" id="featuredRows"></div>
+      <a class="feat-more" href="#atlas">すべての旅先を地図で見る →</a>
     </div>
   </section>
 
   <section class="recent" id="recent" hidden>
     <div class="wrap">
-      <div class="recent-head"><span class="eyebrow">Recently Added</span><h3>最近追加した旅先</h3></div>
+      <div class="recent-head"><h3 class="rec-en">Recently Added</h3><span class="rec-ja">最近追加した旅先</span></div>
       <ul class="recent-list" id="recentList"></ul>
     </div>
   </section>
 
   <section class="atlas section-pad" id="atlas">
     <div class="wrap">
-      <div class="sec-head"><div><span class="eyebrow">The Atlas</span><h2>旅の地図</h2></div><span class="idx"></span></div>
+      <div class="sec-head"><div><h2 class="sec-en">The Atlas</h2><span class="sec-ja">旅の地図</span></div><span class="idx"></span></div>
       <p class="atlas-lead">まず大陸を選び、そこから旅先を選んでください。ピンを押すと、その土地の物語へ。どこから始めても構いません。</p>
       <div class="atlas-grid">
         <div class="map-frame">
@@ -323,10 +339,11 @@ a{color:inherit;text-decoration:none}
 
   <section class="about section-pad reveal" id="about">
     <div class="wrap">
-      <div class="sec-head"><div><span class="eyebrow">About</span><h2>自己紹介</h2></div><span class="idx"></span></div>
+      <div class="sec-head"><div><h2 class="sec-en">About</h2><span class="sec-ja">自己紹介</span></div><span class="idx"></span></div>
       <div class="about-grid">
         <div class="about-id">
-          <div class="portrait"><img id="aboutPortrait" src="https://picsum.photos/seed/jl-portrait/700/875" alt="八源寺 誠 のポートレート（サンプル）"></div>
+          <div class="portrait"><img id="aboutPortrait" src="https://picsum.photos/seed/jl-portrait/700/875" alt="八源寺 誠 のポートレート"></div>
+          <p class="about-role" id="aboutRole">旅する人</p>
           <p class="about-name" id="aboutName">八源寺 誠<span class="about-name-en">Makoto Yagenji</span></p>
           <ul class="social" aria-label="SNS">
             <li><a id="socialFb" href="https://www.facebook.com/makoto.yagenji" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.3h2.45l.37-2.85H13.5V9.04c0-.82.23-1.38 1.4-1.38h1.5V5.11c-.26-.03-1.15-.11-2.18-.11-2.16 0-3.64 1.32-3.64 3.74v2.09H8.13v2.85h2.45V21h2.92z"/></svg></a></li>
@@ -358,7 +375,7 @@ a{color:inherit;text-decoration:none}
 
 <footer class="colophon"><div class="colophon-grid">
   <div class="mark">Journey Lens</div>
-  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br>© 2026 Makoto Yagenji · All rights reserved<br>※ 掲載の写真・映像はすべてサンプルです</div>
+  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br>© 2026 Makoto Yagenji · All rights reserved</div>
 </div></footer>
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="拡大表示">
@@ -753,6 +770,7 @@ async function loadContent(){try{const r=await fetch('content.json',{cache:'no-s
 async function loadProfile(){try{const r=await fetch('about.json',{cache:'no-store'});if(r.ok)return await r.json();}catch(e){}return null;}
 function buildAbout(p){if(!p)return;
   const img=document.getElementById('aboutPortrait');if(img&&p.portrait){img.src=p.portrait;if(p.portraitAlt)img.alt=p.portraitAlt;}
+  const rl=document.getElementById('aboutRole');if(rl&&p.role!==undefined){if(p.role){rl.textContent=p.role;rl.style.display='';}else{rl.style.display='none';}}
   const nm=document.getElementById('aboutName');if(nm){nm.innerHTML=esc(p.nameJa||'')+(p.nameEn?'<span class="about-name-en">'+esc(p.nameEn)+'</span>':'');}
   const bw=document.getElementById('aboutBioWrap');if(bw){let h='';if(p.pullquote)h+='<p class="pullquote">'+esc(p.pullquote)+'</p>';if(Array.isArray(p.bio))h+=p.bio.map(t=>'<p>'+esc(t)+'</p>').join('');if(h)bw.innerHTML=h;}
   const st=document.getElementById('aboutStats');if(st&&Array.isArray(p.stats)&&p.stats.length){st.innerHTML=p.stats.map(s=>'<div class="stat"><span class="stat-num">'+esc(s.num)+'</span><span class="stat-label">'+esc(s.label)+'</span></div>').join('');}
@@ -784,14 +802,14 @@ function buildRecent(){const sec=document.getElementById('recent'),ul=document.g
 function buildFeatured(){const w=document.getElementById('featuredRows');if(!w)return;w.innerHTML='';
   featuredList().forEach(c=>{const hero=(c.heroImage||firstPhoto(c).image||'');
     const a=el('a','feat-row');a.href='#/'+c.id;
-    a.innerHTML='<div class="feat-media"><img loading="lazy" src="'+hero+'" alt="'+esc(c.jp)+'"></div>'+
+    a.innerHTML='<div class="feat-media"><img class="ph" decoding="async" loading="lazy" src="'+hero+'" alt="'+esc(c.jp)+'"></div>'+
       '<div class="feat-text"><div class="feat-folio">'+esc(c.en)+(c.year?' · '+esc(c.year):'')+newBadge(c)+'</div>'+
       '<h3 class="feat-title">'+nameHTML(c)+'</h3>'+
       (c.standfirst?'<p class="feat-stand">'+esc(c.standfirst)+'</p>':'')+
       '<span class="feat-read">読む →</span></div>';
     w.appendChild(a);});}
 function buildCover(){const w=document.getElementById('coverMosaic');w.innerHTML='';
-  coverTiles().forEach(t=>{const a=el('a','cover-tile');a.href='#/'+t.c.id;a.innerHTML='<img src="'+t.img+'" alt="'+esc(t.c.en)+'"><span class="cover-tile-label">'+esc(t.c.en)+'</span>';w.appendChild(a);});}
+  coverTiles().forEach(t=>{const a=el('a','cover-tile');a.href='#/'+t.c.id;a.innerHTML='<img decoding="async" src="'+t.img+'" alt="'+esc(t.c.en)+'"><span class="cover-tile-label">'+esc(t.c.en)+'</span>';w.appendChild(a);});}
 
 /* atlas: continent-first */
 const wm=document.getElementById('worldmap');
@@ -898,9 +916,9 @@ function mediaFigure(m){
   if(m.type==='video'){const src=vsrc(m),info=parseVideo(src);fig.dataset.video=src;fig.dataset.poster=m.image||'';
     const ambient=(m.mode==='loop')&&info&&info.kind==='file';
     if(ambient){const v=el('video');v.muted=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.preload='metadata';if(m.image)v.poster=m.image;const s=el('source');s.src=info.src;v.appendChild(s);fig.appendChild(v);fig.appendChild(el('span','tag','time-lapse'));}
-    else{const img=el('img');img.loading='lazy';img.src=m.image||'';img.alt=m.alt||m.cap||'';fig.appendChild(img);fig.appendChild(el('div','play','<span></span>'));fig.appendChild(el('span','tag','time-lapse'));}
+    else{const img=el('img');img.loading='lazy';img.decoding='async';img.classList.add('ph');img.src=m.image||'';img.alt=m.alt||m.cap||'';fig.appendChild(img);fig.appendChild(el('div','play','<span></span>'));fig.appendChild(el('span','tag','time-lapse'));}
     if(m.duration)fig.appendChild(el('span','dur',esc(m.duration)));
-  }else{const img=el('img');img.loading='lazy';img.src=m.image||'';img.alt=m.alt||m.cap||'';fig.appendChild(img);}
+  }else{const img=el('img');img.loading='lazy';img.decoding='async';img.classList.add('ph');img.src=m.image||'';img.alt=m.alt||m.cap||'';fig.appendChild(img);}
   if(m.cap)fig.appendChild(el('figcaption',null,esc(m.cap)));
   return fig;
 }
@@ -936,6 +954,8 @@ function wireScope(root){
   root.querySelectorAll('.plate video').forEach(v=>vio.observe(v));
   const rio=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');rio.unobserve(en.target);}}),{threshold:.12});
   root.querySelectorAll('.reveal').forEach(x=>rio.observe(x));
+  root.querySelectorAll('img.ph').forEach(img=>{if(img.dataset.ph)return;img.dataset.ph='1';if(img.complete&&img.naturalWidth)img.classList.add('on');else{img.addEventListener('load',()=>img.classList.add('on'),{once:true});img.addEventListener('error',()=>img.classList.add('on'),{once:true});}});
+  setTimeout(()=>root.querySelectorAll('img.ph:not(.on)').forEach(i=>i.classList.add('on')),2500);
 }
 const home=document.getElementById('home'),cv=document.getElementById('country-view');
 function showHome(scrollTo){document.title='Journey Lens — 旅をしよう。レンズ越しの、世界へ。';home.classList.remove('hidden');cv.classList.add('hidden');cv.innerHTML='';
