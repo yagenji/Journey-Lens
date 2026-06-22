@@ -97,6 +97,7 @@ collections:
         fields:
           - { label: ポートレート写真, name: portrait, widget: image, required: false, hint: "縦位置の写真がおすすめ。未設定ならサンプルが表示されます" }
           - { label: 写真の説明（alt・任意）, name: portraitAlt, widget: string, required: false }
+          - { label: 肩書き（名前の上・任意）, name: role, widget: string, required: false, default: "旅する人", hint: "名前の上に小さく出る肩書き。例: 旅する人。空にすると非表示" }
           - { label: 名前（日本語）, name: nameJa, widget: string }
           - { label: 名前（ローマ字）, name: nameEn, widget: string, required: false }
           - { label: 冒頭の一文（大きく表示される引用）, name: pullquote, widget: string, required: false }
