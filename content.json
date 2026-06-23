@@ -573,7 +573,7 @@
           "video": "",
           "duration": "",
           "cap": "Gentoo Penguin",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -585,19 +585,7 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC09298_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -610,6 +598,18 @@
           "duration": "",
           "cap": "Orcas",
           "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09298_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -633,6 +633,18 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06959_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gentoo Penguin",
           "size": "md",
           "shape": "land"
         },
@@ -674,18 +686,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC06959_result.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Gentoo Penguin",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC08977_result.jpg",
           "cover": false,
           "mode": "feature",
@@ -693,6 +693,18 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07461_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Orcas",
           "size": "md",
           "shape": "land"
         },
@@ -706,18 +718,6 @@
           "duration": "",
           "cap": "Gentoo Penguin",
           "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC07461_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Orcas",
-          "size": "md",
           "shape": "land"
         },
         {
@@ -754,6 +754,18 @@
           "duration": "",
           "cap": "Drift Ice",
           "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07739.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Orcas",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -813,19 +825,7 @@
           "video": "",
           "duration": "",
           "cap": "Gentoo Penguin",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC07739.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Orcas",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -837,7 +837,7 @@
           "video": "",
           "duration": "",
           "cap": "Rainbow",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         }
       ]
