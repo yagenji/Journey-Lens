@@ -18,6 +18,18 @@
       "media": [
         {
           "type": "photo",
+          "image": "/uploads/DSC03465_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Crabeater Seal",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC02304_result.jpg",
           "cover": false,
           "mode": "",
@@ -85,6 +97,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC03221_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC02653_result.jpg",
           "cover": false,
           "mode": "",
@@ -121,6 +145,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC03329_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC03013_result.jpg",
           "cover": false,
           "mode": "",
@@ -133,18 +169,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03221_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC03262_result.jpg",
           "cover": false,
           "mode": "feature",
@@ -152,18 +176,6 @@
           "video": "",
           "duration": "",
           "cap": "Crabeater Seal",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03329_result.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
           "size": "md",
           "shape": "land"
         },
@@ -200,18 +212,6 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03465_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Crabeater Seal",
           "size": "md",
           "shape": "land"
         },
