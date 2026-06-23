@@ -861,7 +861,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09853_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
