@@ -18,18 +18,6 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/DSC03465_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Crabeater Seal",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC02304_result.jpg",
           "cover": false,
           "mode": "",
@@ -37,6 +25,18 @@
           "video": "",
           "duration": "",
           "cap": "Chinstrap Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03465_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Crabeater Seal",
           "size": "md",
           "shape": "land"
         },
@@ -64,17 +64,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02363_result.jpg",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "Chinstrap Penguin",
-          "size": "md",
-          "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC02513_result.jpg",
           "cover": false,
           "videoUrl": "",
@@ -86,7 +75,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02333_result.jpg",
+          "image": "/uploads/DSC02363_result.jpg",
           "cover": false,
           "videoUrl": "",
           "duration": "",
@@ -133,15 +122,14 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02817_result.jpg",
-          "cover": true,
-          "mode": "",
+          "image": "/uploads/DSC02333_result.jpg",
+          "cover": false,
           "videoUrl": "",
-          "video": "",
           "duration": "",
           "cap": "Chinstrap Penguin",
           "size": "md",
-          "shape": "land"
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
           "type": "photo",
@@ -157,6 +145,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC02817_result.jpg",
+          "cover": true,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chinstrap Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC03013_result.jpg",
           "cover": false,
           "mode": "",
@@ -164,6 +164,18 @@
           "video": "",
           "duration": "",
           "cap": "Chinstrap Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03832_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
           "size": "md",
           "shape": "land"
         },
@@ -224,18 +236,6 @@
           "video": "",
           "duration": "",
           "cap": "Antarctic Shag",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03832_result.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
           "size": "md",
           "shape": "land"
         },
