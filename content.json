@@ -1107,7 +1107,7 @@
       "placeJa": "",
       "year": "2026",
       "continent": "namerica",
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-20",
       "lat": 10.32,
       "lon": -83.94,
@@ -1182,7 +1182,7 @@
           "video": "",
           "duration": "",
           "cap": "Rufous-tailed Jacamar",
-          "size": "md",
+          "size": "full",
           "shape": "land"
         },
         {
