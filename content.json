@@ -30,15 +30,14 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03465_result.jpg",
+          "image": "/uploads/DSC02513_result.jpg",
           "cover": false,
-          "mode": "",
           "videoUrl": "",
-          "video": "",
           "duration": "",
-          "cap": "Crabeater Seal",
+          "cap": "Chinstrap Penguin",
           "size": "md",
-          "shape": "land"
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
           "type": "photo",
@@ -53,18 +52,19 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02237_result.jpg",
+          "image": "/uploads/DSC03465_result.jpg",
           "cover": false,
+          "mode": "",
           "videoUrl": "",
+          "video": "",
           "duration": "",
-          "cap": "Chinstrap Penguin",
+          "cap": "Crabeater Seal",
           "size": "md",
-          "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+          "shape": "land"
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02513_result.jpg",
+          "image": "/uploads/DSC02237_result.jpg",
           "cover": false,
           "videoUrl": "",
           "duration": "",
@@ -122,53 +122,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02333_result.jpg",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "Chinstrap Penguin",
-          "size": "sm",
-          "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03329_result.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03013_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chinstrap Penguin",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC02817_result.jpg",
-          "cover": true,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chinstrap Penguin",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC03832_result.jpg",
           "cover": false,
           "mode": "",
@@ -181,14 +134,37 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03262_result.jpg",
+          "image": "/uploads/DSC02333_result.jpg",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "Chinstrap Penguin",
+          "size": "sm",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03108のコピー.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Crabeater Seal",
-          "size": "md",
+          "cap": "Gentoo Penguin",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03329_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -200,6 +176,30 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02817_result.jpg",
+          "cover": true,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chinstrap Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03262_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Crabeater Seal",
           "size": "md",
           "shape": "land"
         },
@@ -241,14 +241,14 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03108のコピー.jpg",
+          "image": "/uploads/DSC03013_result.jpg",
           "cover": false,
-          "mode": "feature",
+          "mode": "",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Gentoo Penguin",
-          "size": "full",
+          "cap": "Chinstrap Penguin",
+          "size": "sm",
           "shape": "land"
         }
       ],
