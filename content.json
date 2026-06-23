@@ -263,8 +263,8 @@
       "continent": "antarctica",
       "featured": true,
       "publishedAt": "2026-06-23",
-      "lat": 65.05,
-      "lon": 63.09,
+      "lat": -65.05,
+      "lon": -63.09,
       "standfirst": "雪と霧の海を進むたび、命の気配が近づいてきた。",
       "essay": "南極の朝は、細かな雪に包まれて始まった。船のまわりには冷たい空気が降りていて、ゾディアックで出られるのか少し気になっていた。それでも予定は少しだけ変わり、私たちは白く霞む海へ出ていった。\n\n雪と霧の中を滑るように進む時間は、どこか夢の中にいるようだった。凍った海の静けさの先で、突然クジラの背が現れる。ザトウクジラはゆっくり近づき、大きな体で水面を割った。その気配だけで、海の重さが変わるようだった。\n\n船に戻ってからも、クジラは近くにいた。甲板から眺めていると、数頭が水中から泡の輪を描き、息を合わせるように浮かび上がった。白い飛沫と黒い背中が一瞬だけ重なり、自然がこちらの想像を静かに越えていった。\n\n午後のフランドル湾でも、海は命で満ちていた。クジラが泳ぎ、ペンギンたちは水に飛び込み、氷山の上へ上がろうとしては滑り落ちていた。最後に、氷の上で眠る若いヒョウアザラシを見た。風が強くなる頃、体の冷たさとともに、その一日の濃さが残った。",
       "pullquote": "霧の海で、命は静かに姿を現した。",
@@ -273,7 +273,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC06172_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -453,7 +453,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05478_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -521,8 +521,8 @@
       "continent": "antarctica",
       "featured": true,
       "publishedAt": "2026-06-23",
-      "lat": 65.06,
-      "lon": 64.01,
+      "lat": -65.06,
+      "lon": -64.01,
       "standfirst": "氷の海峡を越えた先で、シャチの影が船に寄り添った。",
       "essay": "早朝のレメール海峡には、まだ眠りの名残のような緊張があった。船橋へ向かうと、海峡をふさぐように大きな氷山が浮かんでいる。それでも船はゆっくり氷のあいだを進み、両側には氷河が迫っていた。白い息が、冷たい窓に薄く残った。\n\n海峡を抜けると、目の前には無数の氷山が浮かぶ湾が広がった。けれど、その美しさはそのまま危うさでもあった。船は安全のため北へ戻ることになり、南極では計画よりも天候と氷がすべてを決めるのだと感じた。その判断の重さも、景色の一部だった。\n\n予定が変わり、次の行き先も難しくなった頃、突然シャチの姿が現れた。大きな群れが船のすぐ横を進み、数頭は船首の近くで遊ぶように泳いだ。写真や映像では届かない近さで、黒い背と白い模様が海面を切っていった。船内の空気まで一気に変わった。\n\n午後には天気が持ち直し、小さな島へ上陸した。そこにはジェンツーペンギンの大きな営巣地があり、腹を空かせた雛たちが親を追いかけていた。陽が差す雪の上で、命の忙しさだけが静かに動いていた。近づきすぎない距離が、この場所への礼儀のようだった。\n\n夕方、船はノイマイヤー海峡を進んだ。氷と山と海が重なり、南極の景色はまた別の顔を見せていた。予定が崩れても、その隙間から思いがけない瞬間が現れる。そんな一日だった。冷えた体の奥に、まだ海の揺れと興奮が残っていた。",
       "pullquote": "氷に閉ざされた海で、黒い背が静かに現れた。",
@@ -531,7 +531,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09574_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -651,7 +651,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09388_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -705,19 +705,7 @@
           "video": "",
           "duration": "",
           "cap": "Gentoo Penguin",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06725_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
-          "size": "md",
+          "size": "full",
           "shape": "land"
         },
         {
@@ -782,6 +770,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC06725_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC07134_result.jpg",
           "cover": false,
           "mode": "",
@@ -789,7 +789,7 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -825,7 +825,7 @@
           "video": "",
           "duration": "",
           "cap": "Oscar",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
