@@ -69,8 +69,8 @@
           "videoUrl": "",
           "duration": "",
           "cap": "Chinstrap Penguin",
-          "size": "md",
-          "shape": "land",
+          "size": "full",
+          "shape": "wide",
           "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
@@ -98,18 +98,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC02925_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Weddell Seal",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC02653_result.jpg",
           "cover": false,
           "mode": "",
@@ -117,6 +105,18 @@
           "video": "",
           "duration": "",
           "cap": "Chinstrap Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02925_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Weddell Seal",
           "size": "md",
           "shape": "land"
         },
