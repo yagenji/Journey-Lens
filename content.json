@@ -261,7 +261,7 @@
       "placeJa": "Flandres Bay",
       "year": "2026",
       "continent": "antarctica",
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-23",
       "lat": 65.05,
       "lon": 63.09,
