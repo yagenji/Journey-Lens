@@ -273,7 +273,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC06172_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
