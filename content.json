@@ -729,7 +729,7 @@
           "video": "",
           "duration": "",
           "cap": "Iceberg",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -837,7 +837,7 @@
           "video": "",
           "duration": "",
           "cap": "Rainbow",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         }
       ]
