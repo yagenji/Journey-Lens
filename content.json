@@ -513,6 +513,168 @@
       ]
     },
     {
+      "id": "antarctica",
+      "en": "ANTARCTICA",
+      "jp": "南極",
+      "placeJa": "Lemaire Channel",
+      "year": "2026",
+      "continent": "antarctica",
+      "featured": true,
+      "publishedAt": "2026-06-23",
+      "lat": 65.06,
+      "lon": 64.01,
+      "standfirst": "氷の海峡を越えた先で、シャチの影が船に寄り添った。",
+      "essay": "早朝のレメール海峡には、まだ眠りの名残のような緊張があった。船橋へ向かうと、海峡をふさぐように大きな氷山が浮かんでいる。それでも船はゆっくり氷のあいだを進み、両側には氷河が迫っていた。白い息が、冷たい窓に薄く残った。\n\n海峡を抜けると、目の前には無数の氷山が浮かぶ湾が広がった。けれど、その美しさはそのまま危うさでもあった。船は安全のため北へ戻ることになり、南極では計画よりも天候と氷がすべてを決めるのだと感じた。その判断の重さも、景色の一部だった。\n\n予定が変わり、次の行き先も難しくなった頃、突然シャチの姿が現れた。大きな群れが船のすぐ横を進み、数頭は船首の近くで遊ぶように泳いだ。写真や映像では届かない近さで、黒い背と白い模様が海面を切っていった。船内の空気まで一気に変わった。\n\n午後には天気が持ち直し、小さな島へ上陸した。そこにはジェンツーペンギンの大きな営巣地があり、腹を空かせた雛たちが親を追いかけていた。陽が差す雪の上で、命の忙しさだけが静かに動いていた。近づきすぎない距離が、この場所への礼儀のようだった。\n\n夕方、船はノイマイヤー海峡を進んだ。氷と山と海が重なり、南極の景色はまた別の顔を見せていた。予定が崩れても、その隙間から思いがけない瞬間が現れる。そんな一日だった。冷えた体の奥に、まだ海の揺れと興奮が残っていた。",
+      "pullquote": "氷に閉ざされた海で、黒い背が静かに現れた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09574_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07496_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Orcas",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08024_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gentoo Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06688_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06936_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09298_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07752.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Oscar",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07935_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gentoo Penguin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07173_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08677_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Iceberg",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09388_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sunset",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07883_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gentoo Penguin",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
+    },
+    {
       "id": "iceland",
       "en": "ICELAND",
       "jp": "アイスランド",
@@ -957,36 +1119,6 @@
         }
       ],
       "num": "05"
-    },
-    {
-      "id": "antarctica",
-      "en": "ANTARCTICA",
-      "jp": "南極",
-      "placeJa": "Lemaire Channel",
-      "year": "2026",
-      "continent": "antarctica",
-      "featured": true,
-      "publishedAt": "2026-06-23",
-      "lat": 65.06,
-      "lon": 64.01,
-      "standfirst": "氷の海峡を越えた先で、シャチの影が船に寄り添った。",
-      "essay": "早朝のレメール海峡には、まだ眠りの名残のような緊張があった。船橋へ向かうと、海峡をふさぐように大きな氷山が浮かんでいる。それでも船はゆっくり氷のあいだを進み、両側には氷河が迫っていた。白い息が、冷たい窓に薄く残った。\n\n海峡を抜けると、目の前には無数の氷山が浮かぶ湾が広がった。けれど、その美しさはそのまま危うさでもあった。船は安全のため北へ戻ることになり、南極では計画よりも天候と氷がすべてを決めるのだと感じた。その判断の重さも、景色の一部だった。\n\n予定が変わり、次の行き先も難しくなった頃、突然シャチの姿が現れた。大きな群れが船のすぐ横を進み、数頭は船首の近くで遊ぶように泳いだ。写真や映像では届かない近さで、黒い背と白い模様が海面を切っていった。船内の空気まで一気に変わった。\n\n午後には天気が持ち直し、小さな島へ上陸した。そこにはジェンツーペンギンの大きな営巣地があり、腹を空かせた雛たちが親を追いかけていた。陽が差す雪の上で、命の忙しさだけが静かに動いていた。近づきすぎない距離が、この場所への礼儀のようだった。\n\n夕方、船はノイマイヤー海峡を進んだ。氷と山と海が重なり、南極の景色はまた別の顔を見せていた。予定が崩れても、その隙間から思いがけない瞬間が現れる。そんな一日だった。冷えた体の奥に、まだ海の揺れと興奮が残っていた。",
-      "pullquote": "氷に閉ざされた海で、黒い背が静かに現れた。",
-      "noteUrl": "",
-      "media": [
-        {
-          "type": "photo",
-          "image": "/uploads/DSC09574_result.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iceberg",
-          "size": "full",
-          "shape": "land"
-        }
-      ]
     }
   ]
 }
