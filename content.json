@@ -1973,6 +1973,93 @@
       "num": "04"
     },
     {
+      "id": "chile1",
+      "en": "Chile",
+      "jp": "チリ",
+      "placeJa": "Torres del Paine / Puerto Natales",
+      "year": "2026",
+      "continent": "samerica",
+      "featured": false,
+      "publishedAt": "2026-06-24",
+      "lat": -51,
+      "lon": -73,
+      "standfirst": "強い風の先に、Torres del Paineの岩峰が立っていた。",
+      "essay": "Punta Arenasは、少し不思議な街だった。Torres del Paineへ向かう前に滞在したその街には、どこか強いメッセージのようなものが漂っていた。南へ来たのだという感覚が、街の空気の中にあった。\n\nTorres del Paineは、本来なら数日かけて歩く場所なのだと思う。けれど、直前に日程を決める旅では、宿泊場所を前もって押さえるのが難しかった。結局、日帰りでトレッキングへ向かうことにした。\n\n歩き始めると、やはりきつかった。けれど道中の景色は開けていて、立ち止まるたびに遠くまで見えた。風を受けながら進んでいくと、少しずつ岩峰の存在が大きくなっていく。\n\n近くで見るTorres del Paineは、威厳があった。鋭く、重く、簡単には近づけないもののように見えた。それでも目の前にあるという感覚が強く、疲れながらも、ここまで来てよかったと思った。",
+      "pullquote": "開けた道の先に、岩峰が迫っていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/66D0E23A-AEB0-4CFD-84CF-021310B30C6B_1_102_o.jpeg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "ta",
+          "size": "md",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-2/1500/1000",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "PL.02 · グアナコ",
+          "size": "md",
+          "shape": "port",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-3/1500/1000",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "PL.03 · 氷河湖",
+          "size": "md",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "video",
+          "image": "https://picsum.photos/seed/pat-tl1/1500/950",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "video": "",
+          "duration": "0:36",
+          "cap": "TL.01 · 尖塔を流れる雲",
+          "size": "sm",
+          "shape": "sq"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-4/1500/1000",
+          "cover": false,
+          "videoUrl": "",
+          "cap": "PL.04 · レンガの森",
+          "size": "lg",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "https://picsum.photos/seed/pat-5/1500/1000",
+          "cover": true,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "PL.05 · 最初の光",
+          "size": "full",
+          "shape": "wide",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        }
+      ],
+      "num": "04"
+    },
+    {
       "id": "tajikistan",
       "en": "TAJIKISTAN",
       "jp": "タジキスタン",
