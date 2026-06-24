@@ -165,12 +165,14 @@ a{color:inherit;text-decoration:none}
 /* about/contact */
 .about{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,5vw,72px);align-items:start}
+.about-grid>*{min-width:0}
 .portrait{border:1px solid var(--line)}.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .portrait .cap{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;color:var(--ink-soft);padding:10px 2px 0}
 .about-id{text-align:center}
 .about-role{font-family:var(--sans);font-weight:500;font-size:.82rem;letter-spacing:.26em;color:var(--ink-soft);margin:20px 0 0}
 .about-name{font-family:var(--mincho);font-weight:600;font-size:clamp(1.5rem,3vw,2rem);letter-spacing:.08em;line-height:1.3;margin:6px 0 0}
 .about-name-en{display:block;font-family:var(--latin);font-weight:500;font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-soft);margin-top:7px}
+.about-style{font-family:var(--sans);font-size:.92rem;line-height:1.85;color:var(--ink-soft);margin:20px 0 0;text-align:left;text-wrap:pretty}
 .social{list-style:none;display:flex;justify-content:center;gap:14px;padding:0;margin:18px 0 0}
 .social a{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:color .25s,border-color .25s,transform .25s}
 .social a:hover{color:var(--trail);border-color:var(--trail);transform:translateY(-2px)}
@@ -345,6 +347,7 @@ a{color:inherit;text-decoration:none}
           <div class="portrait"><img id="aboutPortrait" src="https://picsum.photos/seed/jl-portrait/700/875" alt="八源寺 誠 のポートレート"></div>
           <p class="about-role" id="aboutRole">旅する人</p>
           <p class="about-name" id="aboutName">八源寺 誠<span class="about-name-en">Makoto Yagenji</span></p>
+          <p class="about-style" id="aboutStyle">休みができれば、身軽に行きたい場所へ。街より自然が好きで、美しい景色ではタイムラプスを回す。宿や移動は質素に、その土地のビールやワイン、温泉は楽しむ。猫や鳥を撮りつつ、サッカー好きでスタジアムにも寄る。もとは一人旅、最近は妻とふたりが多い。</p>
           <ul class="social" aria-label="SNS">
             <li><a id="socialFb" href="https://www.facebook.com/makoto.yagenji" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.3h2.45l.37-2.85H13.5V9.04c0-.82.23-1.38 1.4-1.38h1.5V5.11c-.26-.03-1.15-.11-2.18-.11-2.16 0-3.64 1.32-3.64 3.74v2.09H8.13v2.85h2.45V21h2.92z"/></svg></a></li>
             <li><a id="socialIg" href="https://instagram.com/makoto_yagenji" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4.6"/><circle cx="12" cy="12" r="3.5"/><circle cx="16.5" cy="7.5" r="1" fill="currentColor" stroke="none"/></svg></a></li>
@@ -375,7 +378,7 @@ a{color:inherit;text-decoration:none}
 
 <footer class="colophon"><div class="colophon-grid">
   <div class="mark">Journey Lens</div>
-  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br>© 2026 Makoto Yagenji · All rights reserved</div>
+  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br>© 2026 Makoto Yagenji · All rights reserved<br>掲載の写真・映像の無断使用・転載を禁じます。</div>
 </div></footer>
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="拡大表示">
@@ -772,6 +775,7 @@ function buildAbout(p){if(!p)return;
   const img=document.getElementById('aboutPortrait');if(img&&p.portrait){img.src=p.portrait;if(p.portraitAlt)img.alt=p.portraitAlt;}
   const rl=document.getElementById('aboutRole');if(rl&&p.role!==undefined){if(p.role){rl.textContent=p.role;rl.style.display='';}else{rl.style.display='none';}}
   const nm=document.getElementById('aboutName');if(nm){nm.innerHTML=esc(p.nameJa||'')+(p.nameEn?'<span class="about-name-en">'+esc(p.nameEn)+'</span>':'');}
+  const sy=document.getElementById('aboutStyle');if(sy&&p.travelStyle!==undefined){if(p.travelStyle){sy.textContent=p.travelStyle;sy.style.display='';}else{sy.style.display='none';}}
   const bw=document.getElementById('aboutBioWrap');if(bw){let h='';if(p.pullquote)h+='<p class="pullquote">'+esc(p.pullquote)+'</p>';if(Array.isArray(p.bio))h+=p.bio.map(t=>'<p>'+esc(t)+'</p>').join('');if(h)bw.innerHTML=h;}
   const st=document.getElementById('aboutStats');if(st&&Array.isArray(p.stats)&&p.stats.length){st.innerHTML=p.stats.map(s=>'<div class="stat"><span class="stat-num">'+esc(s.num)+'</span><span class="stat-label">'+esc(s.label)+'</span></div>').join('');}
   const sm={facebook:'socialFb',instagram:'socialIg',x:'socialX',note:'socialNote'};if(p.social){for(const k in sm){const a=document.getElementById(sm[k]);if(a){const u=p.social[k];if(u){a.href=u;a.style.display='';}else{a.style.display='none';}}}}
