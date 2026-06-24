@@ -2258,7 +2258,7 @@
           "videoUrl": "",
           "duration": "",
           "cap": "Magellanic Penguins",
-          "size": "lg",
+          "size": "md",
           "shape": "land",
           "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
@@ -2343,7 +2343,7 @@
           "video": "",
           "duration": "",
           "cap": "Punta Arenas",
-          "size": "md",
+          "size": "full",
           "shape": "land"
         },
         {
@@ -2386,7 +2386,7 @@
           "type": "photo",
           "image": "/uploads/DSC05360_Arenas.jpg",
           "cover": false,
-          "mode": "feature",
+          "mode": "",
           "videoUrl": "",
           "video": "",
           "duration": "",
