@@ -1423,7 +1423,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02942_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "duration": "",
@@ -1487,7 +1487,7 @@
           "duration": "",
           "cap": "River Along the Trek",
           "size": "md",
-          "shape": "port",
+          "shape": "land",
           "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
