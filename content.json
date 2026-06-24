@@ -2398,6 +2398,180 @@
       "num": "04"
     },
     {
+      "id": "namibia1",
+      "en": "NAMIBIA",
+      "jp": "ナミビア",
+      "placeJa": "Namib-Naukluft National Park",
+      "year": "2026",
+      "continent": "africa",
+      "featured": true,
+      "publishedAt": "2026-06-24",
+      "lat": -24.7274,
+      "lon": 15.3424,
+      "standfirst": "オレンジ色の砂丘の奥に、白い大地と黒い木々が立っていた。",
+      "essay": "Sossusvleiの砂漠は、朝も夕方も、光の角度でまったく違う場所に見えた。Dune 45のあたりでは、砂丘の稜線が柔らかく伸び、風がつくった細い模様が足元に残っていた。見渡す限り、世界がオレンジ色に染まっていた。\n\n夕暮れの砂漠は、驚くほど静かだった。風の音さえ遠くなり、砂の色だけが少しずつ深くなっていく。空が暗くなる前の短い時間、熱を含んだ大地がゆっくり冷えていくようで、ただそこに立っているだけでよかった。\n\nDeadvleiへ向かう砂漠の道では、少し不安になった。どこまで進んでも同じような景色が続き、このまま方向を失ってしまうのではないかと思った。けれど、その先に突然、白い大地と黒い木々が現れた。\n\nなぜこんな場所に木が立っているのだろう。枯れているはずなのに、そこには強い存在感があった。砂丘のオレンジ、地面の白、木の黒。その不思議な組み合わせは、現実の風景というより、長い時間がそのまま形になったもののようだった。",
+      "pullquote": "砂漠の道は、静けさの中へ続いていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05606_result.jpg",
+          "cover": true,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Deadvlei",
+          "size": "full",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04790_result.jpg",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "Dune 45",
+          "size": "md",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04801_result.jpg",
+          "cover": false,
+          "videoUrl": "",
+          "duration": "",
+          "cap": "Dune 45",
+          "size": "md",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "video",
+          "image": "/uploads/DSC04777_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dune",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04959_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "duration": "",
+          "cap": "Dune 45",
+          "size": "md",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05094_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "duration": "",
+          "cap": "Sunset",
+          "size": "full",
+          "shape": "land",
+          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05253_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Big Daddy Dune",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05321_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Deadvlei",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05350_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Deadvlei",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05817_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dune 40",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05763_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dune",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05490_result.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Deadvlei",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05805_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Big Daddy Dune",
+          "size": "md",
+          "shape": "land"
+        }
+      ],
+      "num": "05"
+    },
+    {
       "id": "tajikistan",
       "en": "TAJIKISTAN",
       "jp": "タジキスタン",
@@ -2483,91 +2657,6 @@
         }
       ],
       "num": "04"
-    },
-    {
-      "id": "namibia",
-      "en": "NAMIBIA",
-      "jp": "ナミビア",
-      "placeJa": "",
-      "year": "2026",
-      "continent": "africa",
-      "featured": true,
-      "publishedAt": "",
-      "lat": -22.55,
-      "lon": 17.08,
-      "standfirst": "砂の夕暮れに、道も空も静かに染まっていった。",
-      "essay": "ナミビアの旅は、車にすべてを積み込むところから始まった。食材も、テントも、水も、眠るための道具も、これから必要になるものを自分たちで抱えて走る。舗装されていない道に入ると、旅は少しずつ日常から離れていった。\n\n三千キロの未舗装道路は、ただ移動するための道ではなかった。窓の外には、岩が剥き出しになった大地と、どこまでも乾いた空が続いていた。ハンドルを握っているあいだ、景色は途切れることなく、静かに形を変えていった。\n\n砂漠の夕暮れは、これまで見たどの夕暮れとも違っていた。砂は深いオレンジ色を帯び、風の音まで柔らかく沈んでいく。美しいという言葉だけでは足りないほど、そこには広さと静けさがあった。デッドフレイの白い大地も、不思議な夢の跡のように残っている。\n\nエトーシャでは、自分で車を走らせながら動物の気配を探した。遠くの影が動くたびに、胸が少し高鳴る。誰かに案内されるのではなく、自分の目で見つける時間。砂と光と生きものの気配が、旅の記憶をゆっくり濃くしていった。",
-      "pullquote": "砂漠の道は、静けさの中へ続いていた。",
-      "noteUrl": "",
-      "media": [
-        {
-          "type": "photo",
-          "image": "https://picsum.photos/seed/ant-1/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "PL.01 · 氷の崖",
-          "size": "full",
-          "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        },
-        {
-          "type": "photo",
-          "image": "https://picsum.photos/seed/ant-2/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "PL.02 · 孤高の氷山",
-          "size": "md",
-          "shape": "port",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        },
-        {
-          "type": "photo",
-          "image": "https://picsum.photos/seed/ant-3/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "PL.03 · カニクイアザラシ",
-          "size": "md",
-          "shape": "land",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        },
-        {
-          "type": "video",
-          "image": "https://picsum.photos/seed/ant-tl1/1500/950",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
-          "video": "",
-          "duration": "1:12",
-          "cap": "TL.01 · 流氷",
-          "size": "lg",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "https://picsum.photos/seed/ant-4/1500/1000",
-          "cover": true,
-          "videoUrl": "",
-          "cap": "PL.04 · 青いクレバス",
-          "size": "sm",
-          "shape": "sq",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        },
-        {
-          "type": "photo",
-          "image": "https://picsum.photos/seed/ant-5/1500/1000",
-          "cover": false,
-          "videoUrl": "",
-          "duration": "",
-          "cap": "PL.05 · 半島の光",
-          "size": "full",
-          "shape": "wide",
-          "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
-        }
-      ],
-      "num": "05"
     }
   ]
 }
