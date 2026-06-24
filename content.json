@@ -1643,6 +1643,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC01201_result.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Unknown Snow-Capped Mountain",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC01252_result.jpg",
           "cover": false,
           "mode": "",
