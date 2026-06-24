@@ -794,7 +794,7 @@ function featuredList(){const f=COUNTRIES.filter(c=>c.featured);const rest=COUNT
 const NEW_DAYS=30;
 const RECENT_COUNT=5;
 function pdate(c){if(!c||!c.publishedAt)return null;const t=Date.parse(c.publishedAt);return isNaN(t)?null:t;}
-function isNew(c){const t=pdate(c);if(t==null)return false;const age=Date.now()-t;return age>=0&&age<=NEW_DAYS*86400000;}
+function isNew(c){const t=pdate(c);if(t==null)return false;const day=86400000,age=Date.now()-t;return age>=-1.5*day&&age<=NEW_DAYS*day;}
 function newBadge(c){return isNew(c)?'<span class="badge-new">NEW</span>':'';}
 function fmtYM(t){const d=new Date(t);return d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0');}
 function recentList(n){return COUNTRIES.filter(c=>pdate(c)!=null).sort((a,b)=>pdate(b)-pdate(a)).slice(0,n||3);}
