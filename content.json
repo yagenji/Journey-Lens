@@ -2449,7 +2449,7 @@
           "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
-          "type": "video",
+          "type": "photo",
           "image": "/uploads/DSC04777_result.jpg",
           "cover": false,
           "mode": "",
