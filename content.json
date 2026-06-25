@@ -5262,6 +5262,18 @@
           "cap": "Sopu-Korgon",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04847.JPG",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chyrchyk Pass",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
