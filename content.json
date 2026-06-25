@@ -4653,6 +4653,18 @@
       "media": [
         {
           "type": "photo",
+          "image": "/uploads/DSC02873_karakul.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Karakul Lake",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC02899_karakul.jpg",
           "cover": false,
           "mode": "",
@@ -4660,7 +4672,7 @@
           "video": "",
           "duration": "",
           "cap": "Karakul Lake",
-          "size": "full",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -4678,18 +4690,6 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02947_karakul.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Karakul Lake",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC02873_karakul.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
