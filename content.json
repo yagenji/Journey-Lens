@@ -3762,6 +3762,18 @@
           "cap": "Blue wildebeest",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09254_ngoro.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ngorongoro Crater",
+          "size": "full",
+          "shape": "land"
         }
       ]
     }
