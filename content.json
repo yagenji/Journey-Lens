@@ -4130,6 +4130,180 @@
           "shape": "port"
         }
       ]
+    },
+    {
+      "id": "Tajikistan",
+      "en": "TAJIKISTAN",
+      "jp": "タジキスタン",
+      "placeJa": "Wakhan Corridor",
+      "year": "2025",
+      "continent": "asia",
+      "featured": false,
+      "publishedAt": "2026-06-25",
+      "lat": 37,
+      "lon": 73,
+      "standfirst": "右手にアフガニスタンを見ながら、Pamir Highwayを進んだ。",
+      "essay": "Dushanbeを出て、Pamir Highwayを進んでいく。進行方向の右側には、ずっとアフガニスタンがあった。地図で見ていたWakhan Corridorが、川の向こうの村や山の形になって続いている。時折、タリバンの旗も見えた。\n\n途中には、アフガニスタンのマーケットもあった。近いようで簡単には渡れない場所を、車窓から見ている。標高は三千メートル近くまで上がり、空気は少しずつ薄くなった。景色は荒々しく、道の先に何があるのか、ずっと目を離せなかった。\n\n渓谷の村まで歩いたり、四千メートルほどある渓谷をトレッキングしたりした。ここまで来ると、さすがに息が続かない。少し登るだけで呼吸が浅くなる。それでも顔を上げるたび、岩と川と山が重なる景色が待っていた。\n\n驚くほど観光客はいなかった。絶景に次ぐ絶景なのに、ほとんど誰にも会わない。その分、自分たちだけで景色を見ているような感覚があった。静かすぎる道の中で、遠くまで来たことを何度も思った。",
+      "pullquote": "川の向こうに、アフガニスタンの村が続いていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01525_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Engels Peak",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00080_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bartang Valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00299_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bartang Valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01009_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Yamchun Fort",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01187_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Engels Peak",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00107_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bartang Valley",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00068_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bartang Valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09990_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bartang Valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09540_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Yamchun Fort",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01835_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Engels Peak",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09534_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pamir Highway",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09584_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "I.R. AFGHANISTAN",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09751_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bartang Valley",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
