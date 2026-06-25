@@ -2697,7 +2697,7 @@
           "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
         },
         {
-          "type": "video",
+          "type": "photo",
           "image": "/uploads/DSC06455_spi.jpg",
           "cover": false,
           "mode": "",
@@ -2787,7 +2787,7 @@
           "video": "",
           "duration": "",
           "cap": "Spitzkoppe",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -2799,7 +2799,7 @@
           "video": "",
           "duration": "",
           "cap": "Spitzkoppe",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -2811,7 +2811,7 @@
           "video": "",
           "duration": "",
           "cap": "Spitzkoppe",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -2830,7 +2830,7 @@
           "type": "photo",
           "image": "/uploads/DSC07165_spi.jpg",
           "cover": false,
-          "mode": "feature",
+          "mode": "",
           "videoUrl": "",
           "video": "",
           "duration": "",
