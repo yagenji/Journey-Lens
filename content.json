@@ -5085,7 +5085,7 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/IMG_3989.jpeg",
+          "image": "/uploads/IMG_3989_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5097,7 +5097,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_3878.jpeg",
+          "image": "/uploads/IMG_3878_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5109,7 +5109,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04607.JPG",
+          "image": "/uploads/DSC04607_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5121,7 +5121,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04525.JPG",
+          "image": "/uploads/DSC04525_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5133,7 +5133,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04537.JPG",
+          "image": "/uploads/DSC04537_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5145,7 +5145,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_3975.jpeg",
+          "image": "/uploads/IMG_3975_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5157,7 +5157,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04683.JPG",
+          "image": "/uploads/IMG_3923_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5169,7 +5169,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04591.JPG",
+          "image": "/uploads/DSC04591_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5181,7 +5181,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04583.JPG",
+          "image": "/uploads/DSC04583_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5193,7 +5193,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04564.JPG",
+          "image": "/uploads/DSC04564_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5205,7 +5205,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04533.JPG",
+          "image": "/uploads/DSC04563_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5217,7 +5217,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04577.JPG",
+          "image": "/uploads/DSC04609_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5229,19 +5229,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04609.JPG",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Sary Mogol",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_4019.jpeg",
+          "image": "/uploads/IMG_4019_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5253,7 +5241,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC04791.JPG",
+          "image": "/uploads/DSC04791_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5265,7 +5253,19 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_3923.jpeg",
+          "image": "/uploads/IMG_3943_renin.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "UAZ-452",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04767_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5277,13 +5277,13 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_3943.jpeg",
+          "image": "/uploads/IMG_4039_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "UAZ-452",
+          "cap": "Apples",
           "size": "md",
           "shape": "land"
         },
