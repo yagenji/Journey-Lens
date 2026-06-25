@@ -3448,7 +3448,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09295_sere.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -4396,7 +4396,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02618_pamir.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
