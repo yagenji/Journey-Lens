@@ -2909,6 +2909,18 @@
           "cap": "Damaraland",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07606_spi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chacma Baboons",
+          "size": "full",
+          "shape": "land"
         }
       ],
       "num": "04"
