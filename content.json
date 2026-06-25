@@ -5142,18 +5142,6 @@
           "cap": "Cows",
           "size": "md",
           "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_3975.jpeg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "LADA 4x4",
-          "size": "full",
-          "shape": "land"
         }
       ]
     }
