@@ -3944,6 +3944,120 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "paraguay",
+      "en": "PARAGUAY",
+      "jp": "パラグアイ",
+      "placeJa": "Colonia Yguazú",
+      "year": "2026",
+      "continent": "samerica",
+      "featured": false,
+      "publishedAt": "2026-06-25",
+      "lat": -25.45,
+      "lon": -55,
+      "standfirst": "南米の旅の途中に、日本があった。",
+      "essay": "Colonia Yguazúには、日本だった。定食屋、ラーメン屋、道の駅、お寺、農協。町を歩いていると、日本語の看板が自然に目に入ってくる。南米を旅しているはずなのに、ふと日本の地方にいるような感覚になった。\n\n長く南米を移動してきたあとだったので、この場所では少し肩の力が抜けた。有名なペンション園田と民宿小林にもお世話になった。日本語が通じること、日本食が食べられること、安心して眠れること。その一つひとつが、旅の途中では思っている以上にありがたかった。\n\n今でこそ開けた町に見えるが、昔はジャングルだったという。この土地を日本人移民の方々が切り開き、暮らしをつくってきた。どれほど厳しい環境だったのか、今の景色からすべてを想像することはできない。それでも、ここに町があり、日本語が残っていることに、ただ頭が下がる思いがした。\n\nIguazú Fallsまで来たなら、Colonia Yguazúにも立ち寄ってほしい。滝の迫力とはまったく違うけれど、ここには旅人の体と気持ちを休ませてくれる空気がある。南米の中にある、少し不思議で、温かいオアシスのような場所だった。",
+      "pullquote": "南米の町に、日本語の看板が並んでいた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03420_para.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Red Dirt Road",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03392_para.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Soybean Field",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03396_para.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Red Dirt Road",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03565_para.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Red Dirt Road",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03416_para.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sunset",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03472_para.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pteroglossus Castanotis",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03408_para.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Rainbow",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03529_para.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dogs",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
