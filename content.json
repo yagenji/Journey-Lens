@@ -3906,6 +3906,18 @@
           "cap": "Thomson's Gazelles",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01049_ngoro.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African Elephant",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
