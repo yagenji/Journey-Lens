@@ -4376,6 +4376,84 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "tajikistan3",
+      "en": "TAJIKISTAN",
+      "jp": "タジキスタン",
+      "placeJa": "Pamir Plateau",
+      "year": "2025",
+      "continent": "asia",
+      "featured": false,
+      "publishedAt": "2026-06-25",
+      "lat": 39,
+      "lon": 72,
+      "standfirst": "山深い高原に入ると、岩と砂の大地が果てなく続いていた。",
+      "essay": "アフガニスタンとの国境を離れると、景色はさらに山深いものへ変わっていった。Pamir Plateauに入ると、木々はほとんどなくなり、岩と砂の大地がどこまでも続いていた。空は広く、遠くの山まで遮るものがなかった。\n\nこのあたりまで来ると、ネットの電波も入らなくなった。外の世界から切り離されたような場所だった。車の揺れと、窓の外に続く荒々しい山々だけが、長い時間を埋めていく。人の気配は少なく、ただ大地の大きさだけが迫ってきた。\n\n標高四千五百メートルほどの場所でトレッキングをした。少し歩いただけで息が上がり、体が重くなる。けれど、立ち止まって見渡す景色は圧倒的だった。苦しいのに、もう少し先まで行きたくなる。そういう場所だった。\n\n標高が上がるにつれて、気温も一気に下がった。秋の旅だったはずなのに、そこにはもう冬が来ていた。風は冷たく、山の色も空気も鋭く感じた。Pamir Plateauは、どこか人を寄せつけないようで、それでも目を離せない場所だった。",
+      "pullquote": "岩と砂の高原に、冬が来ていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02618_pamir.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pamir Highway",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02433_pamir.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tuz Kul",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02629_pamir.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Yak",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02665_pamir.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Alichur River",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02584_pamir.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ak-Balryk",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
