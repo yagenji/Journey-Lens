@@ -5238,6 +5238,42 @@
           "cap": "Sary Mogol",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4019.jpeg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Taldyk Pass",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04791.JPG",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sopu-Korgon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04847.JPG",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chyrchyk Pass",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
