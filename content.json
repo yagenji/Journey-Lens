@@ -5286,18 +5286,6 @@
           "cap": "Apples",
           "size": "md",
           "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_3954.jpeg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Sary Mogol",
-          "size": "md",
-          "shape": "land"
         }
       ]
     }
