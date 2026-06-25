@@ -5212,7 +5212,7 @@
           "video": "",
           "duration": "",
           "cap": "Sary Mogol",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -5224,7 +5224,19 @@
           "video": "",
           "duration": "",
           "cap": "Sary Mogol",
-          "size": "md",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3943_renin.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "UAZ-452",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -5253,13 +5265,13 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_3943_renin.jpg",
+          "image": "/uploads/DSC04847_renin.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "UAZ-452",
+          "cap": "Chyrchyk Pass",
           "size": "md",
           "shape": "land"
         },
