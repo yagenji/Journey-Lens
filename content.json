@@ -4634,6 +4634,84 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "tajikistan4",
+      "en": "TAJIKISTAN",
+      "jp": "タジキスタン",
+      "placeJa": "Karakul Lake",
+      "year": "2025",
+      "continent": "asia",
+      "featured": false,
+      "publishedAt": "2026-06-25",
+      "lat": 39.0597,
+      "lon": 73.3681,
+      "standfirst": "国境近くの高地に、深い青の湖が静かに広がっていた。",
+      "essay": "Karakul Lakeは、キルギスとの国境に近い場所にあった。標高は四千メートルほど。大昔に隕石の衝突でできた湖だという話を聞いて、こんな場所にそんな時間が眠っているのかと思った。水の色は、深い青だった。\n\nここまで来ると、とにかく寒かった。持っている服をほとんど全部着込んだ。それでも風が体の中に入ってくる。十月の頭でこの寒さなら、この先の冬はどれほど厳しいのだろうと思った。\n\nホームステイで出されたお茶が、体に染みた。外の冷たさが強かった分、湯気のある茶碗を持つだけで少し安心した。電気や暖房の便利さではなく、人の家に入れてもらうことそのものが、ありがたかった。\n\n湖のまわりには木々がなく、無骨な大地が広がっていた。けれど、その先には山々が囲むように立っている。青い湖、茶色い大地、雪をまとい始めた山。ここまで来なければ見られない景色が、ただ静かに広がっていた。",
+      "pullquote": "持っている服を、全部着るほど寒かった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02899_karakul.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Karakul Lake",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02893_karakul.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Karakul Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02947_karakul.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Karakul Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02873_karakul.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Karakul Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02863_karakul.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Karakul Lake",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
