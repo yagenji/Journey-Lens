@@ -5274,6 +5274,18 @@
           "cap": "Chyrchyk Pass",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3923.jpeg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sary Mogol",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
