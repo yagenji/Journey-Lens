@@ -2416,7 +2416,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05606_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
