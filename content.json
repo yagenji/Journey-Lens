@@ -4870,7 +4870,7 @@
       ]
     },
     {
-      "id": "kyrgyz",
+      "id": "kyrgyz1",
       "en": "KYRGYZ",
       "jp": "キルギス",
       "placeJa": "Lenin Peak",
@@ -5062,6 +5062,48 @@
           "video": "",
           "duration": "",
           "cap": "Road to Lenin Peak Base Camp",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
+    },
+    {
+      "id": "kyrgyz2",
+      "en": "KYRGYZ",
+      "jp": "キルギス",
+      "placeJa": "Sary Mogul to Osh",
+      "year": "2025",
+      "continent": "asia",
+      "featured": false,
+      "publishedAt": "2026-06-25",
+      "lat": 39.6758,
+      "lon": 72.884,
+      "standfirst": "雪山に囲まれた小さな街から、Oshへの道を進んだ。",
+      "essay": "Lenin Peakの麓にあるSary Mogulは、雪山に囲まれた小さな街だった。大きな建物があるわけではない。けれど、平野には牛やロバがいて、子どもがロバに乗っていた。その景色には、素朴という言葉がよく似合った。\n\n街を歩くと、子どもたちが笑顔を向けてくれた。少し照れたような、人なつこいような表情だった。旅の途中で通り過ぎるだけの場所なのに、その短い時間の中に、妙に懐かしい手触りが残った。\n\nそこから、Pamirの最終地点としてOshへ向かった。道中の景色は、それまでと少し違っていた。武骨な山々に囲まれた道を進むうち、少しずつ木々が増えていく。荒々しい高地から、暮らしのある土地へ戻っていくようだった。\n\n何より印象に残ったのは、道がしっかり舗装されていたことだった。タジキスタンから荒れた道を越えてきたあとだったので、それだけで少し安心した。途中には、りんごを売る人たちも多くいた。旅の景色が、少しずつ日常に近づいていった。",
+      "pullquote": "子どもがロバに乗って、平野を進んでいた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3989.jpeg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sary Mogul",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3878.jpeg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Donkey Rider",
           "size": "md",
           "shape": "land"
         }
