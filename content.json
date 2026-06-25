@@ -273,7 +273,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC06172_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -861,7 +861,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09853_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -1119,7 +1119,7 @@
         {
           "type": "photo",
           "image": "/uploads/tucan.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "duration": "",
@@ -1423,7 +1423,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02942_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "duration": "",
@@ -1620,7 +1620,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC01386_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -1991,7 +1991,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC04901_Natares.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -3214,7 +3214,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09168_tala.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -4210,7 +4210,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC00107_waha.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -4408,7 +4408,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02433_pamir.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -5158,7 +5158,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_3923_renin.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
