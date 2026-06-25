@@ -31,7 +31,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02513_result.jpg",
-          "cover": true,
+          "cover": false,
           "videoUrl": "",
           "duration": "",
           "cap": "Chinstrap Penguin",
