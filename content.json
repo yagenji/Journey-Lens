@@ -3686,6 +3686,36 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "tanzania3",
+      "en": "TANZANIA",
+      "jp": "タンザニア",
+      "placeJa": "Ngorongoro Crater",
+      "year": "2026",
+      "continent": "africa",
+      "featured": false,
+      "publishedAt": "2026-06-25",
+      "lat": -3.1667,
+      "lon": 35.5833,
+      "standfirst": "外輪山を下ると、クレーターの底に動物の楽園が広がっていた。",
+      "essay": "Ngorongoro Craterは、クレーターの中にある動物の楽園のようだった。外から下りていくと、少しずつ景色が開けていく。その底に、たくさんの動物たちがいた。周囲を囲まれた場所だからか、ほかのサファリとは空気が少し違っていた。\n\n不思議だったのは、動物たちがみんな座ってくつろいでいるように見えたことだ。治安がいいのか、食事を終えて満腹なのか。理由はわからない。ただ、どの動物も慌てておらず、見ているこちらまで少し気が抜けてしまうほどだった。\n\n花も咲いていて、その中にいる動物たちは、ほかの場所よりも少し可愛らしく見えた。強い自然というより、穏やかな日常をのぞいているようだった。サファリなのに緊張よりも、幸せそうだなという感覚が先に残った。",
+      "pullquote": "花のそばで、動物たちは急ぐ様子もなく座っていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00685_ngoro.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Black Rhinoceros",
+          "size": "full",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
