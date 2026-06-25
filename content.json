@@ -3858,6 +3858,18 @@
           "cap": "Ngorongoro Crater",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00642_ngoro.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African Buffaloes",
+          "size": "full",
+          "shape": "land"
         }
       ]
     }
