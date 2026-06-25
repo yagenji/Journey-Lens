@@ -4350,6 +4350,30 @@
           "cap": "Panj River",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00919_waha.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Yamchun Fort",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01647_waha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Engels Peak",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
