@@ -100,7 +100,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02363_result.jpg",
-          "cover": false,
+          "cover": true,
           "videoUrl": "",
           "duration": "",
           "cap": "Chinstrap Penguins",
@@ -663,7 +663,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09388_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -1758,7 +1758,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03772_el.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -2265,7 +2265,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05600_Arenas.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "duration": "",
