@@ -64,7 +64,7 @@ collections:
                     widget: select
                     default: photo
                     options: [ { label: 写真, value: photo }, { label: タイムラプス（動画）, value: video } ]
-                  - { label: "画像（写真本体／動画のサムネ）", name: image, widget: image }
+                  - { label: "画像（写真本体／動画のサムネ）", name: image, widget: image, required: false, hint: "写真は必須。動画はサムネ任意（未設定ならYouTubeのサムネを自動表示）" }
                   - { label: "表紙に出す", name: cover, widget: boolean, default: false, hint: "ONの写真だけトップのモザイクに出ます（写真のみ）" }
                   - label: 動画の表示方法
                     name: mode
