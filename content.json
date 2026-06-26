@@ -5372,6 +5372,144 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "tajikistan4",
+      "en": "TAJIKISTAN",
+      "jp": "タジキスタン",
+      "placeJa": "Dushanbe",
+      "year": "2025",
+      "continent": "asia",
+      "featured": false,
+      "publishedAt": "2026-06-26",
+      "lat": 38.5358,
+      "lon": 68.7791,
+      "standfirst": "Pamirへ向かう前に、無骨で華やかな首都を歩いた。",
+      "essay": "Dushanbeは、Pamirへ向かう前に立ち寄った首都だった。これから山深い道へ入るとは思えないほど、街には広い通りと大きな建物が並んでいた。\n\n建物には、旧ソ連の雰囲気を感じる無骨さがあった。大きく、重く、少し威厳がある。その一方で、夜になると街は色とりどりの光で照らされる。旧ソ連の建物に派手な夜景が重なったような、不思議な眺めだった。\n\nNavruz Palaceも印象に残っている。内部は想像以上に豪華で、細かな装飾が見事だった。Dushanbeは見どころが多い街というより、Pamirへの入口として記憶に残る場所だった。\n\nこのあと向かう岩と砂の高地とは、まったく違う空気があった。だからこそ、旅の始まりにこの首都を歩いた時間もよく覚えている。",
+      "pullquote": "旧ソ連様式の建物が、派手な色で光っていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09246_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Istiqlol Square",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09344_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Parliament Building of Tajikistan",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09414_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Rudaki Avenue",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09292_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tajikistan Government Palace",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/download.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Navruz Palace",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09120_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Navruz Palace",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09022_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Navruz Palace",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08951_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ismoil Somoni Monument",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08968_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "National Library of Tajikistan",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08964_dus.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Rudaki Monument",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
