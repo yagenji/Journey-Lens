@@ -787,6 +787,9 @@ function parseVideo(u){if(!u)return null;let m;
   if(m=u.match(/vimeo\.com\/(?:video\/)?(\d+)/))return{kind:'embed',embed:'https://player.vimeo.com/video/'+m[1]+'?autoplay=1'};
   return{kind:'file',src:u};}
 function firstPhoto(c){return (c.media||[]).find(m=>m.type==='photo')||{};}
+function ytId(u){const m=(u||'').match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);return m?m[1]:'';}
+function videoThumb(m){if(m&&m.image)return m.image;const id=ytId(vsrc(m||{}));return id?'https://img.youtube.com/vi/'+id+'/hqdefault.jpg':'';}
+function entryThumb(c){return c.heroImage||firstPhoto(c).image||videoThumb((c.media||[]).find(m=>m.type==='video')||{})||'';}
 
 /* cover */
 function coverTiles(){let t=[];COUNTRIES.forEach(c=>(c.media||[]).forEach(m=>{if(m.type==='photo'&&m.cover)t.push({img:m.image,c:c});}));
@@ -805,7 +808,7 @@ function buildRecent(){const sec=document.getElementById('recent'),ul=document.g
     a.innerHTML='<span class="recent-date">'+fmtYM(pdate(c))+'</span><span class="recent-name">'+nameHTML(c)+'</span>'+newBadge(c)+'<span class="recent-go">見る →</span>';
     ul.appendChild(el('li',null,'')).appendChild(a);});sec.hidden=false;}
 function buildFeatured(){const w=document.getElementById('featuredRows');if(!w)return;w.innerHTML='';
-  featuredList().forEach(c=>{const hero=(c.heroImage||firstPhoto(c).image||'');
+  featuredList().forEach(c=>{const hero=entryThumb(c);
     const a=el('a','feat-row');a.href='#/'+c.id;
     a.innerHTML='<div class="feat-media"><img class="ph" decoding="async" loading="lazy" src="'+hero+'" alt="'+esc(c.jp)+'"></div>'+
       '<div class="feat-text"><div class="feat-folio">'+esc(c.en)+(c.year?' · '+esc(c.year):'')+newBadge(c)+'</div>'+
@@ -918,10 +921,10 @@ function doSearch(q){
 /* media + country pages */
 function mediaFigure(m){
   const fig=el('figure','plate '+(sizeMap[m.size]||'f-3')+' '+(shapeMap[m.shape]||'r-land'));fig.tabIndex=0;fig.dataset.cap=m.cap||'';
-  if(m.type==='video'){const src=vsrc(m),info=parseVideo(src);fig.dataset.video=src;fig.dataset.poster=m.image||'';
+  if(m.type==='video'){const src=vsrc(m),info=parseVideo(src);fig.dataset.video=src;fig.dataset.poster=videoThumb(m);
     const ambient=(m.mode==='loop')&&info&&info.kind==='file';
-    if(ambient){const v=el('video');v.muted=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.preload='metadata';if(m.image)v.poster=m.image;const s=el('source');s.src=info.src;v.appendChild(s);fig.appendChild(v);fig.appendChild(el('span','tag','time-lapse'));}
-    else{const img=el('img');img.loading='lazy';img.decoding='async';img.classList.add('ph');img.src=m.image||'';img.alt=m.alt||m.cap||'';fig.appendChild(img);fig.appendChild(el('div','play','<span></span>'));fig.appendChild(el('span','tag','time-lapse'));}
+    if(ambient){const v=el('video');v.muted=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.preload='metadata';const pv=videoThumb(m);if(pv)v.poster=pv;const s=el('source');s.src=info.src;v.appendChild(s);fig.appendChild(v);fig.appendChild(el('span','tag','time-lapse'));}
+    else{const img=el('img');img.loading='lazy';img.decoding='async';img.classList.add('ph');img.src=videoThumb(m);img.alt=m.alt||m.cap||'';fig.appendChild(img);fig.appendChild(el('div','play','<span></span>'));fig.appendChild(el('span','tag','time-lapse'));}
     if(m.duration)fig.appendChild(el('span','dur',esc(m.duration)));
   }else{const img=el('img');img.loading='lazy';img.decoding='async';img.classList.add('ph');img.src=m.image||'';img.alt=m.alt||m.cap||'';fig.appendChild(img);}
   if(m.cap)fig.appendChild(el('figcaption',null,esc(m.cap)));
@@ -929,7 +932,7 @@ function mediaFigure(m){
 }
 function buildCountry(c){
   const idx=COUNTRIES.indexOf(c),next=COUNTRIES[(idx+1)%COUNTRIES.length];
-  const hero=(c.heroImage||firstPhoto(c).image||'');
+  const hero=entryThumb(c);
   const paras=(c.essay||'').split(/\n\n+/).map(p=>'<p>'+esc(p)+'</p>');
   let essay=paras[0]||'';if(c.pullquote)essay+='<blockquote class="pullquote">'+esc(c.pullquote)+'</blockquote>';essay+=paras.slice(1).join('');
   const noteLink=c.noteUrl?'<div class="cview-note"><a href="'+esc(c.noteUrl)+'" target="_blank" rel="noopener"><svg class="note-mark" viewBox="111 111 270 270" fill="currentColor" aria-hidden="true"><path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/></svg><span>noteで読む</span><span class="note-arrow">→</span></a></div>':'';
