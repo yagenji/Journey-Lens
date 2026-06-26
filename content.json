@@ -5580,6 +5580,18 @@
           "cap": "Apples",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/XT2p30W2c-k?si=0G_YFnJKtw7W9Xaq",
+          "video": "",
+          "duration": "0:31",
+          "cap": "Sary Mogul",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
