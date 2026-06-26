@@ -5100,6 +5100,30 @@
           "cap": "Pamir Highway",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/KpZxqrGKFRI?si=YUGnwPj6fQJ9Avnu",
+          "video": "",
+          "duration": "0:19",
+          "cap": "Pamir Highway",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/o342m9H4KRc?si=E0iP5Sw79Lpk5XWX",
+          "video": "",
+          "duration": "0:18",
+          "cap": "Pamir Highway",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
