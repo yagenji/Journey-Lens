@@ -1645,6 +1645,18 @@
           "cap": "Morning Glow of Fitz Roy",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/9T6_Y5b5koI?si=-nDhHU7R11rJS3Ue",
+          "video": "",
+          "duration": "0:24",
+          "cap": "Driving along Ruta23",
+          "size": "md",
+          "shape": "land"
         }
       ],
       "num": "02"
