@@ -2196,6 +2196,18 @@
           "cap": "Punta Arenas",
           "size": "lg",
           "shape": "port"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/PR6fBMDwVPg?si=rjxiArnWdBsMBQpz",
+          "video": "",
+          "duration": "",
+          "cap": "Torres del Paine in Sunlight",
+          "size": "full",
+          "shape": "land"
         }
       ],
       "num": "04"
