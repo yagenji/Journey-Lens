@@ -839,6 +839,18 @@
           "cap": "Sunset",
           "size": "full",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/h6oXKNrwcko?si=CrQsj7l7Jwa3vzTQ",
+          "video": "",
+          "duration": "0:28",
+          "cap": "Sailing to Southern Ocean",
+          "size": "full",
+          "shape": "land"
         }
       ]
     },
