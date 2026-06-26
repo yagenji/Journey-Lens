@@ -17,6 +17,8 @@ locale: ja
 collections:
   - name: site
     label: サイト内容
+    editor:
+      preview: false
     files:
       - name: content
         label: 国（旅先）・写真・タイムラプス
@@ -89,6 +91,8 @@ collections:
 
   - name: profile
     label: プロフィール（自己紹介）
+    editor:
+      preview: false
     files:
       - name: about
         label: 自己紹介
