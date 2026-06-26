@@ -1597,6 +1597,18 @@
           "cap": "The Townscape of El Chaltén",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "/uploads/fitzroy-time.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/0MYBsRaziA0?si=qmfEzNX-crxi7fHp",
+          "video": "",
+          "duration": "",
+          "cap": "Morning Glow of Fitz Roy",
+          "size": "full",
+          "shape": "land"
         }
       ],
       "num": "02"
