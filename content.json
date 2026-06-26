@@ -5322,6 +5322,30 @@
           "cap": "Road to Lenin Peak Base Camp",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/MfDQ56nFiYM?si=O_CxOrOvUJuWpfcb",
+          "video": "",
+          "duration": "0:25",
+          "cap": "Lenin Peak",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/fMsriv5Ssoo?si=GIDWveeKxzp0vsY0",
+          "video": "",
+          "duration": "0:34",
+          "cap": "Lenin Peak",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
