@@ -2016,6 +2016,18 @@
           "cap": "Guard Dog",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/H2rGct1pDcw?si=gAFi1WbsNUtkAWSu",
+          "video": "",
+          "duration": "0:35",
+          "cap": "Rainbow on Perito Moreno Glacier",
+          "size": "md",
+          "shape": "land"
         }
       ],
       "num": "04"
