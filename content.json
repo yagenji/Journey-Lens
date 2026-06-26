@@ -844,11 +844,35 @@
           "type": "video",
           "image": "",
           "cover": false,
-          "mode": "feature",
+          "mode": "loop",
           "videoUrl": "https://youtu.be/h6oXKNrwcko?si=CrQsj7l7Jwa3vzTQ",
           "video": "",
           "duration": "0:28",
           "cap": "Sailing to Southern Ocean",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/3gsjSH49440?si=-S8PwEPUy8Ro-tM6",
+          "video": "",
+          "duration": "0:37",
+          "cap": "Sailing to Booth Island",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/t5d7njevvbE?si=4vlGqFyDoPtQ31Jg",
+          "video": "",
+          "duration": "0:21",
+          "cap": "Sailing to Doumer Island",
           "size": "full",
           "shape": "land"
         }
