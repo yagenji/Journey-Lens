@@ -849,7 +849,7 @@
           "video": "",
           "duration": "0:28",
           "cap": "Sailing to Southern Ocean",
-          "size": "full",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -861,7 +861,7 @@
           "video": "",
           "duration": "0:37",
           "cap": "Sailing to Booth Island",
-          "size": "full",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -873,7 +873,7 @@
           "video": "",
           "duration": "0:21",
           "cap": "Sailing to Doumer Island",
-          "size": "full",
+          "size": "md",
           "shape": "land"
         }
       ]
@@ -1638,12 +1638,12 @@
           "type": "video",
           "image": "",
           "cover": false,
-          "mode": "feature",
+          "mode": "loop",
           "videoUrl": "https://youtu.be/0MYBsRaziA0?si=qmfEzNX-crxi7fHp",
           "video": "",
-          "duration": "",
+          "duration": "0:33",
           "cap": "Morning Glow of Fitz Roy",
-          "size": "full",
+          "size": "md",
           "shape": "land"
         }
       ],
