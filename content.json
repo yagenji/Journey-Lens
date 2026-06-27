@@ -6550,6 +6550,64 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "kazakhstan3",
+      "en": "KAZAKHSTAN",
+      "jp": "カザフスタン",
+      "placeJa": "Kaindy Lake / Kolsai Lake / Charyn Canyon",
+      "year": "2025",
+      "continent": "asia",
+      "region": "central-asia",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-27",
+      "lat": 43.5,
+      "lon": 79.2,
+      "standfirst": "Almatyの郊外には、湖の静けさと峡谷の迫力が並んでいた。",
+      "essay": "Almatyの郊外には見どころが多い。日帰りで詰め込んで回るツアーもあるようだが、せっかくなら少しゆっくり見た方がいいと思った。湖も峡谷も、それぞれ空気が違っていて、急いで通り過ぎるには少し惜しい景色だった。\n\nKaindy Lakeは、水の澄んだ美しい湖だった。いちばん印象に残ったのは、水の中から立ち上がる木々だった。静かな湖面に、沈んだ木の幹だけが残っている景色は少し不思議で、ただきれいというだけではない強さがあった。\n\nKolsai Lakeは、山の中の静かな湖という言葉がよく似合った。派手な景色ではないけれど、山に抱かれるように湖があり、その静けさが心地よかった。湖畔に立っていると、景色の中に音が吸い込まれていくような感覚があった。\n\nそしてCharyn Canyonは、かなりの迫力だった。いろいろな国でcanyonの名のつく景色を見てきたけれど、ここは本物だと思った。乾いた大地が深く裂け、その中に重なる岩の色と形が続いていく。湖の静けさとはまったく違う、地形そのものの強さがあった。",
+      "pullquote": "静かな湖のあとに見た峡谷は、なおさら深く大きく見えた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07296_kolsai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kaindy Lake",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07386_kolsai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kaindy Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07327_kolsai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kaindy Lake",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
