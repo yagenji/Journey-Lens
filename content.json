@@ -6284,6 +6284,18 @@
           "video": "",
           "duration": "",
           "cap": "Almaty",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_5955_almaty.jpg",
+          "cover": false,
+          "mode": "",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Apple City",
           "size": "md",
           "shape": "land"
         },
@@ -6296,7 +6308,7 @@
           "video": "",
           "duration": "",
           "cap": "Teleut Squirrel",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -6368,7 +6380,7 @@
           "video": "",
           "duration": "",
           "cap": "View from Kok Tobe",
-          "size": "md",
+          "size": "sm",
           "shape": "port"
         },
         {
@@ -6380,8 +6392,20 @@
           "video": "",
           "duration": "",
           "cap": "Ascension Cathedral",
-          "size": "md",
+          "size": "sm",
           "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_5927_almaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ascension Cathedral",
+          "size": "sm",
+          "shape": "land"
         },
         {
           "type": "video",
