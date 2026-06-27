@@ -6024,6 +6024,42 @@
           "cap": "Ala Archa National Park",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05743_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05650_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05557_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
