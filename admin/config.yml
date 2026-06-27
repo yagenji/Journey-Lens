@@ -47,6 +47,21 @@ collections:
                   - { label: 南アメリカ, value: samerica }
                   - { label: オセアニア, value: oceania }
                   - { label: 南極, value: antarctica }
+              - label: 地域（アジア・ヨーロッパの細分・任意）
+                name: region
+                widget: select
+                required: false
+                hint: "アジア・ヨーロッパは多いので地域で細分。該当する旅先のみ選択（他の大陸は空でOK）"
+                options:
+                  - { label: 東アジア, value: east-asia }
+                  - { label: 東南アジア, value: southeast-asia }
+                  - { label: 南アジア, value: south-asia }
+                  - { label: 中央アジア, value: central-asia }
+                  - { label: 西アジア, value: west-asia }
+                  - { label: 西ヨーロッパ, value: west-europe }
+                  - { label: 南ヨーロッパ, value: south-europe }
+                  - { label: 北ヨーロッパ, value: north-europe }
+                  - { label: 東ヨーロッパ, value: east-europe }
               - label: カテゴリ（複数選択可・任意）
                 name: categories
                 widget: select
