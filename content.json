@@ -3312,6 +3312,18 @@
           "cap": "A mud-splattered 4x4 after a long drive",
           "size": "md",
           "shape": "port"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "Sunset at Okaukuejo",
+          "video": "",
+          "duration": "0:30",
+          "cap": "Sunset at Okaukuejo",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
