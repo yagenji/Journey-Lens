@@ -6132,6 +6132,54 @@
           "cap": "Ala Archa National Park",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06402_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06333_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4814_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06310_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "sm",
+          "shape": "land"
         }
       ]
     }
