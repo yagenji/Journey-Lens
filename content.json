@@ -6072,6 +6072,30 @@
           "cap": "Eurasian Red Squirrel",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06008_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06096_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
