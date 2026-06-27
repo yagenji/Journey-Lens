@@ -6382,6 +6382,18 @@
           "cap": "Ascension Cathedral",
           "size": "md",
           "shape": "port"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/lRWjVaekQrY?si=laU7hQl1i-K0LbfW",
+          "video": "",
+          "duration": "0:27",
+          "cap": "Sunset in Almaty",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
