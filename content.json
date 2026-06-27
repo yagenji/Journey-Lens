@@ -6396,6 +6396,124 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "kazafstan2",
+      "en": "KAZAFSTAN",
+      "jp": "カザフスタン",
+      "placeJa": "Big Almaty Lake",
+      "year": "2025",
+      "continent": "asia",
+      "region": "central-asia",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-27",
+      "lat": 43.0446,
+      "lon": 76.9851,
+      "standfirst": "Almatyから日帰りで行ける高地に、冷たい色の湖が静かに広がっていた。",
+      "essay": "Big Almaty Lakeは、Almatyから日帰りで行ける場所だった。たくさんのカザフの人たちがピクニックに来ていて、地元の人にとっては気軽に来る場所なのだろうと思った。けれど、実際に向かってみると、湖までは思っていたより遠く、しっかり登る感じがあった。\n\n面白かったのは、パイプの上を歩くことだった。一応は禁止されているようだったが、どうやらそれが近道らしい。みんなが当たり前のように進んでいくので、こちらもついていく。少し危なっかしいのに、どこかこの場所らしい歩き方にも思えた。\n\nたどり着いた湖は、エメラルドグリーンに近い美しい色をしていた。Big Almaty Lakeは氷河の水による湖で、季節や光によって色が変わることで知られているが、その日は天気が完璧ではなかったにもかかわらず、十分にきれいだった。\n\n秋の終わりの冷たい空気の中で見る湖は、ただ鮮やかなだけではなく、少し張りつめたような美しさがあった。気軽な遠足のような場所に見えて、たどり着いた先にはちゃんと高地の景色が待っていた。",
+      "pullquote": "曇り空の下でも、湖の色だけははっきりと美しかった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06644_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Big Almaty Lake",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07014_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Big Almaty Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06592_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Big Almaty Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4998_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Road to the Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06535_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Road to the Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06474_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Road to the Lake",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07093_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Road to the Lake",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06511_bigalmaty.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Road to the Lake",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
