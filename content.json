@@ -5741,6 +5741,137 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "kyrgyz3",
+      "en": "KYRGYZ",
+      "jp": "キルギス",
+      "placeJa": "Osh to Bishkek",
+      "year": "2025",
+      "continent": "asia",
+      "region": "central-asia",
+      "categories": [
+        "cities",
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-27",
+      "lat": 42.882,
+      "lon": 74.5827,
+      "standfirst": "Pamirを越えた先で、街の音と旧ソ連の名残に出会った。",
+      "essay": "パミールから旅してくると、Oshは何でも揃う街に見えた。荒々しい高地の道を抜けてきたあとだったから、街の明かりや店の多さだけでも、ずいぶん遠くまで戻ってきたような気がした。\n\nちょうどOshでは大きなイベントがあり、街の中心にあるスタジアムでコンサートが開かれていた。無料だったので行ってみると、パミール高原を走る車の中で何度も聴いていたキルギスポップの歌手たちが歌っていた。知らない国の音楽だったはずなのに、旅の時間と結びついていて、少し感動した。\n\nOshからBishkekへは、車をチャーターして移動した。道中の景色がきれいだと聞いていたからだ。もちろん美しかった。けれど、パミールハイウェイを越えてきたあとでは、驚くほどではなかった。旅の順番によって、景色の見え方は変わるのだと思った。\n\nBishkekは、銅像の多い街だった。旧ソ連圏の街にはよくあることかもしれないが、なぜこんなに銅像が多いのだろうと思う。そこには、Lenin像もまだ残っていた。国立博物館の表から裏へ移されたらしい。\n\n訪れた時間帯、ちょうどその像の手に光が当たっていた。まるで何かの力を発しているようにも見えた。高地の自然から始まったキルギスの旅は、最後に旧ソ連の気配が残る街へ戻ってきた。",
+      "pullquote": "車の中で聴いていた歌が、Oshのスタジアムで流れていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05266_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lenin Statue in Bishkek",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05191_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05224_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05256_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05270_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05248_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "/uploads/DSC05286_oshto.jpg",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05332_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05360_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bishkek",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
