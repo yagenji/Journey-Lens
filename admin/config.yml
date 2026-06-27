@@ -47,6 +47,17 @@ collections:
                   - { label: 南アメリカ, value: samerica }
                   - { label: オセアニア, value: oceania }
                   - { label: 南極, value: antarctica }
+              - label: カテゴリ（複数選択可・任意）
+                name: categories
+                widget: select
+                multiple: true
+                required: false
+                hint: "当てはまるものを複数選べます（例: 氷河で動物を撮った → Nature と Wildlife）"
+                options:
+                  - { label: "Nature（自然｜山・海・砂漠・氷河・湖・空）", value: nature }
+                  - { label: "Cities（街｜建物・路地・生活風景）", value: cities }
+                  - { label: "Heritage（遺跡｜歴史・宗教・文化的建造物）", value: heritage }
+                  - { label: "Wildlife（生きもの｜動物・鳥・海洋生物）", value: wildlife }
               - { label: 特集に出す（トップの特集に表示）, name: featured, widget: boolean, default: false, required: false }
               - { label: 公開日（任意・最近の更新に使用）, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false, hint: "この旅先を追加・公開した日。入れると「最近追加した旅先」に出て、30日間は NEW マークが付きます。空なら何も出ません" }
               - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
