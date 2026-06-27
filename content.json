@@ -3017,6 +3017,30 @@
           "cap": "Chacma Baboons",
           "size": "full",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/G8lgi3c5ChY?si=aQHdRjx5HdpSOSDQ",
+          "video": "",
+          "duration": "0:35",
+          "cap": "Sunrise at Spitzkoppe",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/uFuXsKSFoK4?si=uxea-hyW7-U-P8xQ",
+          "video": "",
+          "duration": "0:35",
+          "cap": "Sunset in Damaraland",
+          "size": "md",
+          "shape": "land"
         }
       ],
       "num": "04"
