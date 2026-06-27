@@ -7,6 +7,10 @@
       "placeJa": "Hydrurga Rocks",
       "year": "2026",
       "continent": "antarctica",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-23",
       "lat": -64.12,
@@ -261,6 +265,10 @@
       "placeJa": "Flandres Bay",
       "year": "2026",
       "continent": "antarctica",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-23",
       "lat": -65.05,
@@ -519,6 +527,10 @@
       "placeJa": "Lemaire Channel",
       "year": "2026",
       "continent": "antarctica",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-23",
       "lat": -65.06,
@@ -885,6 +897,10 @@
       "placeJa": "Palaver Point",
       "year": "2026",
       "continent": "antarctica",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": true,
       "publishedAt": "2026-06-23",
       "lat": -64.08,
@@ -1143,6 +1159,9 @@
       "placeJa": "Los Quetzales / Sarapiqui",
       "year": "2026",
       "continent": "namerica",
+      "categories": [
+        "wildlife"
+      ],
       "featured": true,
       "publishedAt": "2026-06-20",
       "lat": 10.32,
@@ -1447,6 +1466,9 @@
       "placeJa": "Fitz Roy / El Chaltén",
       "year": "2026",
       "continent": "samerica",
+      "categories": [
+        "nature"
+      ],
       "featured": true,
       "publishedAt": "2026-06-24",
       "lat": -49.2694,
@@ -1668,6 +1690,10 @@
       "placeJa": "Ushuaia",
       "year": "2026",
       "continent": "samerica",
+      "categories": [
+        "nature",
+        "cities"
+      ],
       "featured": false,
       "publishedAt": "2026-06-24",
       "lat": -54.8019,
@@ -1806,6 +1832,9 @@
       "placeJa": "Perito Moreno Glacier / El Calafate",
       "year": "2026",
       "continent": "samerica",
+      "categories": [
+        "nature"
+      ],
       "featured": false,
       "publishedAt": "2026-06-24",
       "lat": -50.4711,
@@ -2051,6 +2080,10 @@
       "placeJa": "Torres del Paine / Puerto Natales",
       "year": "2026",
       "continent": "samerica",
+      "categories": [
+        "nature",
+        "cities"
+      ],
       "featured": false,
       "publishedAt": "2026-06-24",
       "lat": -51,
@@ -2267,6 +2300,10 @@
       "placeJa": "Punta Arenas / Magdalena Island",
       "year": "2026",
       "continent": "samerica",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-24",
       "lat": -53.1548,
@@ -2476,6 +2513,10 @@
       "placeJa": "Namib-Naukluft National Park",
       "year": "2026",
       "continent": "africa",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": true,
       "publishedAt": "2026-06-25",
       "lat": -24.7274,
@@ -2746,6 +2787,10 @@
       "placeJa": "Sandwich Harbour / Spitzkoppe / Damaraland",
       "year": "2026",
       "continent": "africa",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-25",
       "lat": -21.825,
@@ -3052,6 +3097,10 @@
       "placeJa": "Etosha National Park",
       "year": "2026",
       "continent": "africa",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-25",
       "lat": -18.979,
@@ -3334,6 +3383,9 @@
       "placeJa": "Tarangire National Park",
       "year": "2026",
       "continent": "africa",
+      "categories": [
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-25",
       "lat": -3.8333,
@@ -3568,6 +3620,9 @@
       "placeJa": "Serengeti National Park",
       "year": "2026",
       "continent": "africa",
+      "categories": [
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-25",
       "lat": -2.3333,
@@ -3826,6 +3881,9 @@
       "placeJa": "Ngorongoro Crater",
       "year": "2026",
       "continent": "africa",
+      "categories": [
+        "wildlife"
+      ],
       "featured": false,
       "publishedAt": "2026-06-25",
       "lat": -3.1667,
