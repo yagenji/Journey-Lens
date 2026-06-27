@@ -6284,7 +6284,7 @@
           "video": "",
           "duration": "",
           "cap": "Almaty",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -6308,7 +6308,7 @@
           "video": "",
           "duration": "",
           "cap": "Teleut Squirrel",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -6344,7 +6344,7 @@
           "video": "",
           "duration": "",
           "cap": "View from Kok Tobe",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -6355,8 +6355,8 @@
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Ascension Cathedral",
-          "size": "sm",
+          "cap": "View from Kok Tobe",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -6368,7 +6368,7 @@
           "video": "",
           "duration": "",
           "cap": "The Beatles",
-          "size": "sm",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -6405,7 +6405,7 @@
           "duration": "",
           "cap": "Ascension Cathedral",
           "size": "sm",
-          "shape": "land"
+          "shape": "port"
         },
         {
           "type": "video",
