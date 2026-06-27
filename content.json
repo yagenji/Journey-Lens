@@ -5930,6 +5930,42 @@
           "cap": "On the Road from Osh to Bishkek",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04943_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Osh",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04966_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Osh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04903_oshto.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Osh",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
