@@ -2711,6 +2711,30 @@
           "cap": "Ostrich",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/Z01K6tASHAo?si=J87oixToMad8fLaO",
+          "video": "",
+          "duration": "0:33",
+          "cap": "Golden Hour at Dune 45",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/S9snwJUzL6g?si=vYekqb1aErs8B4rp",
+          "video": "",
+          "duration": "0:26",
+          "cap": "Sunrise at Deadvlei",
+          "size": "md",
+          "shape": "land"
         }
       ],
       "num": "05"
