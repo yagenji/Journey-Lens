@@ -7012,6 +7012,42 @@
           "cap": "Gljúfrabúi",
           "size": "md",
           "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09432_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Urriðafoss",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09745_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Skógafoss",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00001_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sunset",
+          "size": "sm",
+          "shape": "land"
         }
       ]
     }
