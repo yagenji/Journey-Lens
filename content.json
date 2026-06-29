@@ -6776,6 +6776,88 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "iceland1",
+      "en": "ICELAND",
+      "jp": "アイスランド",
+      "placeJa": "Reykjavik to Vik",
+      "year": "2025",
+      "continent": "europe",
+      "region": "north-europe",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-29",
+      "lat": 63.4186,
+      "lon": -19.006,
+      "standfirst": "Reykjavikを離れたその日から、滝と風の国が始まっていた。",
+      "essay": "アイスランド8日間のロードトリップは、Reykjavikから始まった。初日は昼に到着したこともあり、無理はせずLaugarvatnまでの移動にした。それでも、そこへ向かう道のりですでに景色は十分すぎるほど美しく、この先の旅への期待ばかりが膨らんでいった。\n\nただ、天気はあまりよくなかった。4月中旬だったが、想定していたよりも寒かった。風も強く、体感温度はさらに低かったように思う。それでもアイスランドの景色は不思議と弱くならない。広い空の下に、荒々しい大地と水の気配があり、車を走らせているだけで、ここはやはり特別な島なのだと思わされた。\n\n二日目はVikまで進んだ。途中では温泉に立ち寄り、いくつもの滝を見た。滝の裏へ入れる場所が多いのも、この国の面白さのひとつだろう。水の裏側に回り込むと、ただ眺めるのとは違う迫力があった。\n\nけれど、風はかなり強かった。滝に近づけば水しぶきでびしょ濡れになる。立っているだけでも押されるような風の中で、これまで見たことのない個性的な滝を次々に見た。一生分くらいの滝を、たった二日で見たような気持ちになった。",
+      "pullquote": "滝の裏に回り込むたび、風と水しぶきに包まれた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09238_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Brúarfoss",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08892_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Church",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08940_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hrafnagjá",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_0638_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Thingvellir",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09081_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Black-Headed Gull",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
