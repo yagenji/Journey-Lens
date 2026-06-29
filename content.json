@@ -4764,7 +4764,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02618_pam.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -6896,7 +6896,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_0861_ice1.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
