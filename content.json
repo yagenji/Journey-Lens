@@ -4550,7 +4550,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC00107_waha.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
