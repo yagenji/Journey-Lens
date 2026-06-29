@@ -11,7 +11,7 @@
         "nature",
         "wildlife"
       ],
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-23",
       "lat": -64.12,
       "lon": -61.33,
@@ -104,7 +104,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02363_result.jpg",
-          "cover": true,
+          "cover": false,
           "videoUrl": "",
           "duration": "",
           "cap": "Chinstrap Penguins",
@@ -901,7 +901,7 @@
         "nature",
         "wildlife"
       ],
-      "featured": true,
+      "featured": false,
       "publishedAt": "2026-06-23",
       "lat": -64.08,
       "lon": -61.46,
