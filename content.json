@@ -4776,7 +4776,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02433_pamir.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
