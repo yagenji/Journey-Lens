@@ -5587,7 +5587,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_3923_renin.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
