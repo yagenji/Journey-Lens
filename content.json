@@ -6903,7 +6903,7 @@
           "duration": "",
           "cap": "Seljalandsfoss",
           "size": "md",
-          "shape": "land"
+          "shape": "port"
         },
         {
           "type": "photo",
@@ -6915,7 +6915,103 @@
           "duration": "",
           "cap": "Kvernufoss",
           "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09369_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gullfoss",
+          "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09703_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Skógafoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09923_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09282_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Strokkur Geyser",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09657_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Rútshellir",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09974_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dyrhólaey",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09330_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gullfoss",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09554_ice1.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gljúfrabúi",
+          "size": "md",
+          "shape": "port"
         }
       ]
     }
