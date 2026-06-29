@@ -281,7 +281,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC06172_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -461,7 +461,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05478_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -949,7 +949,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02115_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
