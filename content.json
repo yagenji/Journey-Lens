@@ -7560,6 +7560,30 @@
           "cap": "Somewhere Along the Way",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/tPKKYTPPiHQ?si=QMRfS6HdGJV_tZE2",
+          "video": "",
+          "duration": "0:17",
+          "cap": "Cute Puffins",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/YowPnbWdmVM?si=plmfe7cryvtiFKb5",
+          "video": "",
+          "duration": "0:21",
+          "cap": "Cute Puffins",
+          "size": "md",
+          "shape": "land"
         }
       ],
       "region": "north-europe"
