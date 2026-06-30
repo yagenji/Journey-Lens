@@ -114,6 +114,7 @@ a{color:inherit;text-decoration:none}
 .st-body p{margin:0;text-wrap:balance}
 .st-body p+p{margin-top:1.5em}
 .nm-place{color:var(--ink-soft);font-weight:400;font-size:.6em;letter-spacing:.02em;margin-left:.15em}
+.nm-place::before{content:"｜"}
 .corr-lead{font-family:var(--mincho);font-size:clamp(1rem,1.8vw,1.15rem);color:var(--ink);margin:0 0 clamp(20px,3vh,32px)}
 
 /* atlas */
@@ -213,7 +214,9 @@ a{color:inherit;text-decoration:none}
 .cview-hero-inner{position:relative;z-index:2;padding:0 clamp(18px,5vw,80px) clamp(34px,6vh,64px);max-width:1240px;margin:0 auto;width:100%}
 .cview-folio{font-family:var(--mono);font-size:.78rem;letter-spacing:.2em;color:var(--trail);margin-bottom:8px}
 .cview-title{font-family:var(--mincho);font-weight:600;font-size:clamp(2.6rem,10vw,6.5rem);line-height:.95;margin:0}
-@media(max-width:620px){.cview-title .nm-place{display:block;font-size:.5em;margin:.5em 0 0;line-height:1.3;letter-spacing:.04em}}
+.cview-title .nm-place{display:block;font-size:.34em;margin:.4em 0 0;line-height:1.2;letter-spacing:.02em;font-weight:400}
+.cview-title .nm-place::before{content:none}
+@media(max-width:620px){.cview-title .nm-place{font-size:.5em;margin:.5em 0 0;line-height:1.3}}
 .cview-standfirst{font-family:var(--mincho);font-size:clamp(1.05rem,2.4vw,1.5rem);max-width:32ch;line-height:1.6;margin:14px 0 0;color:var(--ink)}
 .cview-essay{max-width:62ch;margin:clamp(48px,8vh,96px) auto;padding:0 clamp(18px,5vw,40px)}
 .cview-essay p{font-family:var(--mincho);font-size:clamp(1.05rem,2vw,1.28rem);line-height:2.05;margin:0 0 1.6em;color:var(--ink)}
@@ -768,7 +771,7 @@ const CONTINENTS=[
 let COUNTRIES=[];
 function el(t,c,h){const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e;}
 function esc(s){return (s==null?'':String(s)).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));}
-function nameHTML(c){return esc(c.jp||c.en)+(c.placeJa?'<span class="nm-place">｜'+esc(c.placeJa)+'</span>':'');}
+function nameHTML(c){return esc(c.jp||c.en)+(c.placeJa?'<span class="nm-place">'+esc(c.placeJa)+'</span>':'');}
 async function loadContent(){try{const r=await fetch('content.json',{cache:'no-store'});if(r.ok)return await r.json();}catch(e){}return FALLBACK;}
 async function loadProfile(){try{const r=await fetch('about.json',{cache:'no-store'});if(r.ok)return await r.json();}catch(e){}return null;}
 function buildAbout(p){if(!p)return;
