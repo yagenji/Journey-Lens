@@ -7562,6 +7562,195 @@
         }
       ],
       "region": "north-europe"
+    },
+    {
+      "id": "iceland",
+      "en": "ICELAND",
+      "jp": "アイスランド",
+      "placeJa": "Möðrudalur to Varmahlíð",
+      "year": "2025",
+      "continent": "europe",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 65.5531,
+      "lon": -19.443,
+      "standfirst": "吹雪の道を越えた夜、空には美しいオーロラが現れた。",
+      "essay": "5日目はVarmahlíðまで向かった。日中は、運転が怖くなるほどの雪だった。車を降りるのもためらうくらいの吹雪で、外に出れば風と雪が一気に体に当たる。南部にいるころからずっと風は強かったが、北部に入ってからは、さらに冬の中を走っている感覚が強くなった。\n\n道中では、雪の中の滝も見た。晴れた日の滝とはまったく違い、白い景色の中に水が落ちている。その姿はそれはそれで美しかった。けれど視界は悪く、ずっと雪に包まれていて、景色を楽しむ余裕よりも、無事に進むことの方が大きかった。\n\n山を越えて下っていくと、急に雪がなくなった。さっきまで吹雪の中にいたのが嘘のようだった。ようやく西側に出てきたのかもしれない。道路の先に見える景色が一気に変わり、別世界に来たような感覚があった。\n\nその夜は晴れていた。そして、この旅で一番美しいオーロラが見えた夜になった。日中の吹雪があったからこそ、夜空に揺れる光が余計に印象に残った。厳しい一日の終わりに、アイスランドは思いがけない景色を見せてくれた。",
+      "pullquote": "吹雪の一日の終わりに、空でオーロラが揺れていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03002_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03032_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03114_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03035_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03019_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02723_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Goðafoss",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02464_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dettifoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02508_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Selfoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02770_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Goðafoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02785_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Akureyri",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02355_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02556_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02381_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
