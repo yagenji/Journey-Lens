@@ -7324,6 +7324,100 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "iceland3",
+      "en": "ICELAND",
+      "jp": "アイスランド",
+      "placeJa": "Höfn to Möðrudalur / Borgarfjarðarhöfn",
+      "year": "2025",
+      "continent": "europe",
+      "region": "north-europe",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 65.3525,
+      "lon": -15.7796,
+      "standfirst": "春にはまだ早い北東部で、ようやくパフィンに出会った。",
+      "essay": "4日目はMöðrudalurへ向かった。この旅では、どうしてもパフィンを見たかった。ただ、4月半ばはまだ時期が早い。夏になれば見られると言われている場所をこれまでいくつか通ってきたが、パフィンの姿はまったく見えなかった。\n\nそれでもGoogle Mapに投稿があった場所を見つけ、Borgarfjarðarhöfnへ向かった。まだ春とも言えないような時期だったのに、そこにはパフィンがいた。見つけたときの嬉しさは、言葉にしきれない。結局、この旅の終わりまで、パフィンを見られたのはここだけだった。\n\nこのあたりから、旅は北部に入っていった。景色はさらに荒々しくなり、運転は吹雪の中になった。4月半ばでも、こんなに雪が降るのかと思った。春を探していたはずなのに、道路の先にはまだ冬が残っていた。\n\nパフィンに出会えた喜びと、吹雪の中を進む緊張感。その両方が、この日の記憶になっている。アイスランドは、季節の境目を簡単には見せてくれない場所だった。",
+      "pullquote": "まだ冬の残る海辺で、ようやくパフィンを見つけた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02285_ice3.jpg",
+          "cover": true,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Puffin",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01992_ice3.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Puffin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02045_ice3.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Puffin",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01903_ice3.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Puffins",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02126_ice3.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Puffins",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01766_ice3.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Fulmarus Glacialis",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
