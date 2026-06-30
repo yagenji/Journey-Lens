@@ -4332,7 +4332,6 @@
       "placeJa": "Dushanbe",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "cities"
       ],
@@ -4465,7 +4464,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "Tajikistan2",
@@ -4474,7 +4474,6 @@
       "placeJa": "Wakhan Corridor",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -4739,7 +4738,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "tajikistan3",
@@ -4748,7 +4748,6 @@
       "placeJa": "Pamir Plateau",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -5001,7 +5000,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "tajikistan4",
@@ -5010,7 +5010,6 @@
       "placeJa": "Karakul Lake",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -5263,7 +5262,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kyrgyz1",
@@ -5272,7 +5272,6 @@
       "placeJa": "Lenin Peak",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -5489,7 +5488,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kyrgyz2",
@@ -5498,7 +5498,6 @@
       "placeJa": "Sary Mogul to Osh",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature",
         "cities"
@@ -5740,7 +5739,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kyrgyz3",
@@ -5749,7 +5749,6 @@
       "placeJa": "Osh to Bishkek",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "cities",
         "nature"
@@ -5967,7 +5966,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kyrgyz",
@@ -5976,7 +5976,6 @@
       "placeJa": "Ala Archa National Park / Chon-Kemin",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -6181,7 +6180,8 @@
           "size": "sm",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kazakfstan1",
@@ -6190,7 +6190,6 @@
       "placeJa": "Almaty",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "cities"
       ],
@@ -6419,7 +6418,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kazakfstan2",
@@ -6428,7 +6428,6 @@
       "placeJa": "Big Almaty Lake",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -6549,7 +6548,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "kazakhstan3",
@@ -6558,7 +6558,6 @@
       "placeJa": "Kaindy Lake / Kolsai Lake / Charyn Canyon",
       "year": "2025",
       "continent": "asia",
-      "region": "central-asia",
       "categories": [
         "nature"
       ],
@@ -6775,7 +6774,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "central-asia"
     },
     {
       "id": "iceland1",
@@ -6784,7 +6784,6 @@
       "placeJa": "Reykjavik to Vik",
       "year": "2025",
       "continent": "europe",
-      "region": "north-europe",
       "categories": [
         "nature"
       ],
@@ -7049,7 +7048,8 @@
           "size": "sm",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "north-europe"
     },
     {
       "id": "iceland2",
@@ -7058,7 +7058,6 @@
       "placeJa": "Vik to Höfn",
       "year": "2025",
       "continent": "europe",
-      "region": "north-europe",
       "categories": [
         "nature"
       ],
@@ -7323,7 +7322,8 @@
           "size": "sm",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "north-europe"
     },
     {
       "id": "iceland3",
@@ -7332,7 +7332,6 @@
       "placeJa": "Höfn to Möðrudalur / Borgarfjarðarhöfn",
       "year": "2025",
       "continent": "europe",
-      "region": "north-europe",
       "categories": [
         "nature"
       ],
@@ -7534,7 +7533,7 @@
           "video": "",
           "duration": "",
           "cap": "Somewhere Along the Way",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -7546,10 +7545,23 @@
           "video": "",
           "duration": "",
           "cap": "Somewhere Along the Way",
-          "size": "md",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_1994_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
           "shape": "land"
         }
-      ]
+      ],
+      "region": "north-europe"
     }
   ]
 }
