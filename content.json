@@ -8569,7 +8569,7 @@
         },
         {
           "type": "photo",
-          "image": "",
+          "image": "/uploads/DSC07910_leh.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -8641,18 +8641,6 @@
         },
         {
           "type": "photo",
-          "image": "",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Leh",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC00049_leh.jpg",
           "cover": false,
           "mode": "feature",
@@ -8702,6 +8690,18 @@
         {
           "type": "photo",
           "image": "/uploads/DSC00394_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08049_leh.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
