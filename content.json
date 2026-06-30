@@ -8499,6 +8499,231 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "india1",
+      "en": "INDIA",
+      "jp": "インド",
+      "placeJa": "Leh",
+      "year": "2025",
+      "continent": "asia",
+      "categories": [
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 34.1526,
+      "lon": 77.577,
+      "standfirst": "標高約3,500mの街で、高地の静けさとLadakhの山々に出会った。",
+      "essay": "Lehは、標高約3,500mにある街だった。飛行機で着くと、まずは高地順応が必要になる。急に動き回ることはできず、少し休んでから、高台にあるお寺までゆっくり歩いて行った。\n\n坂を上がるだけでも、平地とはまったく違う。息が上がりやすく、体が高度を意識しているのがわかった。それでも上まで行くと、Lehの街と、その向こうに広がる山々が見渡せた。乾いた大地と澄んだ空気の中に、静かな街があった。\n\nここは本当にインドなのだろうかと思った。あの賑やかなインドの空気は、ここにはあまり感じられない。人も街もどこか落ち着いていて、山に囲まれた別の国に来たようだった。",
+      "pullquote": "高台から見下ろすLehは、インドとは思えないほど静かだった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00151_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Namgyal Tsemo Monastery",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00364_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Namgyal Tsemo Monastery",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00081_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Namgyal Tsemo Monastery",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00141_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Namgyal Tsemo Monastery",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00303_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00345_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07875_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh Palace",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00145_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00281_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00049_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00288_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC07998_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00259_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00394_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08049_leh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Leh",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
