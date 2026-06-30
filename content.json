@@ -7835,6 +7835,171 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "iceland5",
+      "en": "ICELAND5",
+      "jp": "アイスランド",
+      "placeJa": "Varmahlíð to Grundarfjörður",
+      "year": "2025",
+      "continent": "europe",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 64.9243,
+      "lon": -23.2631,
+      "standfirst": "天気の冴えない道を走り、Snæfellsnes Peninsulaへ入っていった。",
+      "essay": "6日目は、Grundarfjörðurまで向かった。いよいよSnæfellsnes Peninsulaまで来たが、天気はあまりよくなかった。空は重く、光も弱い。前日のような劇的な天気の変化やオーロラの余韻とは違い、この日は淡々と走る時間が長かった。\n\n道中では、滝やアシカを見に寄り道もした。けれど、大きなハイライトが次々に現れるというより、目的地へ向かって距離を進める一日だった。アイスランドのロードトリップには、こういう移動の日もある。\n\nSnæfellsnes Peninsulaへ向かう道は、未舗装だった。舗装された道とは違い、車の揺れや路面の感触が旅の時間を少し長くする。天気がよければ印象も変わったのかもしれないが、この日は景色よりも、道そのものを走っていた感覚が強かった。\n\nそれでも、半島へ近づいているというだけで少し気持ちは高まった。アイスランドの西側まで来た。そんな実感が、曇った空の下でも確かにあった。",
+      "pullquote": "天気の重い道を、Snæfellsnes Peninsulaへ向かって走った。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03809_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03346_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03158_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Víðimýrarkirkja",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03121_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Icelandic sheeps",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03391_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Grey Seal",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03506_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Grey Seals",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03696_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Common Eiders",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03844_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03790_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03906_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Grundarfjörður",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2370_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kolugljúfur Canyon",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03320_ice5.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kolugljúfur Canyon",
+          "size": "md",
+          "shape": "port"
+        }
+      ]
     }
   ]
 }
