@@ -7728,18 +7728,6 @@
         },
         {
           "type": "photo",
-          "image": "",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Somewhere Along the Way",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC02381_ice4.jpg",
           "cover": false,
           "mode": "feature",
@@ -7825,6 +7813,18 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02963_ice4.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02799_ice4.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
