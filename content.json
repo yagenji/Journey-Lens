@@ -8973,6 +8973,171 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "india3",
+      "en": "INDIA",
+      "jp": "インド",
+      "placeJa": "Pangong Lake",
+      "year": "2025",
+      "continent": "asia",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-01",
+      "lat": 33.7525,
+      "lon": 78.6682,
+      "standfirst": "映画で見た湖は、光が差すと驚くほど澄んだ青を見せた。",
+      "essay": "Pangong Lakeは、映画『3 Idiots』で知った湖だった。湖のそばには、映画にちなんだモニュメントのようなものもあり、いまだにこれで人を集められるのだから、すごい映画だと思った。私たちも、お決まりのポーズをして写真を撮った。\n\nけれど、やはり主役は湖そのものだった。晴れて光が入ると、水の透明感が一気に際立つ。青く澄んだ湖面の向こうに山が続き、乾いた大地の中に、こんなにも美しい水があることが不思議だった。\n\nPangong Lakeは、インド側だけでなく中国側にも広がる湖だという。その大きさを思うと、目の前に見えている景色も、湖の一部でしかないのだと感じた。高地の冷たい空気の中で見るその水の色は、長く記憶に残る美しさだった。",
+      "pullquote": "映画で見た湖は、光を受けると本当に美しかった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09534_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09428_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09539_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09111_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09115_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09180_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09635_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09650_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09347_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09354_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6198_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2960_pangon.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "3 idiots",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
