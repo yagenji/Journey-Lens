@@ -8071,6 +8071,18 @@
           "cap": "Kolugljúfur Canyon",
           "size": "md",
           "shape": "port"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/hWGZadRVmaE?si=ZHFzIIZ2g1qK9fdm",
+          "video": "",
+          "duration": "0:26",
+          "cap": "Driving through Iceland",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
