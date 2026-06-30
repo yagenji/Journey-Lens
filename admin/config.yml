@@ -32,8 +32,8 @@ collections:
             summary: "{{fields.en}}"
             fields:
               - { label: "ID（英小文字・記号なし）", name: id, widget: string, hint: "例: iceland。URL/アンカーに使用" }
-              - { label: 国名（英）, name: en, widget: string }
-              - { label: 国名（日・任意）, name: jp, widget: string, required: false }
+              - { label: 国名（英）, name: en, widget: string, hint: "国でまとめる単位。同じ国は毎回同じ表記で（例: JAPAN）" }
+              - { label: 国名（日）, name: jp, widget: string, hint: "国でまとめる単位（必須）。同じ国は毎回同じ表記で（例: 日本）" }
               - { label: 場所（都市・地域・任意。国名｜場所で表示）, name: placeJa, widget: string, required: false }
               - { label: 撮影年（任意。例 2022 / 2018–2019）, name: year, widget: string, required: false }
               - label: 大陸
@@ -47,21 +47,6 @@ collections:
                   - { label: 南アメリカ, value: samerica }
                   - { label: オセアニア, value: oceania }
                   - { label: 南極, value: antarctica }
-              - label: 地域（アジア・ヨーロッパの細分・任意）
-                name: region
-                widget: select
-                required: false
-                hint: "アジア・ヨーロッパは多いので地域で細分。該当する旅先のみ選択（他の大陸は空でOK）"
-                options:
-                  - { label: 東アジア, value: east-asia }
-                  - { label: 東南アジア, value: southeast-asia }
-                  - { label: 南アジア, value: south-asia }
-                  - { label: 中央アジア, value: central-asia }
-                  - { label: 西アジア, value: west-asia }
-                  - { label: 西ヨーロッパ, value: west-europe }
-                  - { label: 南ヨーロッパ, value: south-europe }
-                  - { label: 北ヨーロッパ, value: north-europe }
-                  - { label: 東ヨーロッパ, value: east-europe }
               - label: カテゴリ（複数選択可・任意）
                 name: categories
                 widget: select
