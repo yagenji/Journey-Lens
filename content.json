@@ -7609,7 +7609,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03114_ice4.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
