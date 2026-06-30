@@ -7858,6 +7858,42 @@
           "cap": "Somewhere Along the Way",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/ERmJ4rfscn4?si=zVz0V0D9dZI17GsV",
+          "video": "",
+          "duration": "0:27",
+          "cap": "Driving through Iceland",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/DkYtx9Aba4E?si=DV7Zgwd-28Whk1sU",
+          "video": "",
+          "duration": "0:31",
+          "cap": "Aurora Day 5",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/lwIJ6ehT1ys?si=6Twdr2vHlAsFDWh_",
+          "video": "",
+          "duration": "0:24",
+          "cap": "Aurora Day 5",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
