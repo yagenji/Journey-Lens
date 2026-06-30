@@ -8309,6 +8309,195 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "iceland7",
+      "en": "ICELAND",
+      "jp": "アイスランド",
+      "placeJa": "Reykjavik / Blue Lagoon",
+      "year": "2025",
+      "continent": "europe",
+      "categories": [
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "standfirst": "ロードトリップの最後にReykjavikを歩き、旅の終わりを少しずつ感じた。",
+      "essay": "8日目はReykjavikを観光し、そのあとBlue Lagoonへ向かった。Reykjavikは、街としての雰囲気はあるものの、見どころが多い場所というより、短い時間で歩いて回るくらいがちょうどよかった。\n\nそのぶん、Blue Lagoonではゆっくり過ごした。8日間のロードトリップで、風に吹かれ、雪の中を走り、何度も水しぶきに濡れた体には、温かい湯がありがたかった。旅の疲れを流すには、これ以上ない場所だった。\n\nその夜は、空港近くの宿に泊まった。翌日の出発を前に、旅が終わっていく実感が少しずつ出てきた。長かったようで、振り返るとあっという間の8日間だった。\n\nそして最後の夜にも、オーロラが見えた。まるでアイスランドが、最後にもう一度だけ空を見上げさせてくれたようだった。強風、吹雪、滝、氷河、青空、そして夜空の光。旅の記憶が、静かにひとつにつながっていった。",
+      "pullquote": "最後の夜、別れを告げるようにオーロラが現れた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06123_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View from Perlan",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06383_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View from Perlan",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06285_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Fríkirkjan í Reykjavík",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06084_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View from Perlan",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06463_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hallgrímskirkja",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06490_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Monument to the Unknown Bureaucrat",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06260_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Polar Bear vs. Puffin Mural",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06493_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Mallards",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06308_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Skólavörðustígur",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3279_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Blue Lagoon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06610_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06605_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3343_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06601_ice7.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Northern Lights",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
