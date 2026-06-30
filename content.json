@@ -1902,7 +1902,7 @@
       "categories": [
         "nature"
       ],
-      "featured": true,
+      "featured": false,
       "publishedAt": "2026-06-24",
       "lat": -49.2694,
       "lon": -73.0393,
@@ -7333,7 +7333,8 @@
       "year": "2025",
       "continent": "europe",
       "categories": [
-        "nature"
+        "nature",
+        "wildlife"
       ],
       "featured": false,
       "publishedAt": "2026-06-30",
@@ -8023,7 +8024,7 @@
       "categories": [
         "nature"
       ],
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-30",
       "lat": 64.3218,
       "lon": -22.0749,
