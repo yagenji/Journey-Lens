@@ -1153,7 +1153,7 @@
       ]
     },
     {
-      "id": "costarica",
+      "id": "costarica1",
       "en": "COSTARICA",
       "jp": "コスタリカ",
       "placeJa": "Los Quetzales / Sarapiqui",
@@ -4468,7 +4468,7 @@
       "region": "central-asia"
     },
     {
-      "id": "Tajikistan2",
+      "id": "tajikistan2",
       "en": "TAJIKISTAN",
       "jp": "タジキスタン",
       "placeJa": "Wakhan Corridor",
@@ -5970,7 +5970,7 @@
       "region": "central-asia"
     },
     {
-      "id": "kyrgyz",
+      "id": "kyrgyz4",
       "en": "KYRGYZ",
       "jp": "キルギス",
       "placeJa": "Ala Archa National Park / Chon-Kemin",
@@ -6184,7 +6184,7 @@
       "region": "central-asia"
     },
     {
-      "id": "kazakfstan1",
+      "id": "kazakhstan1",
       "en": "KAZAKFSTAN",
       "jp": "カザフスタン",
       "placeJa": "Almaty",
@@ -6422,7 +6422,7 @@
       "region": "central-asia"
     },
     {
-      "id": "kazakfstan2",
+      "id": "kazakhstan2",
       "en": "KAZAKFSTAN",
       "jp": "カザフスタン",
       "placeJa": "Big Almaty Lake",
@@ -7565,7 +7565,7 @@
       "region": "north-europe"
     },
     {
-      "id": "iceland",
+      "id": "iceland4",
       "en": "ICELAND",
       "jp": "アイスランド",
       "placeJa": "Möðrudalur to Varmahlíð",
