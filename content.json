@@ -7838,7 +7838,7 @@
     },
     {
       "id": "iceland5",
-      "en": "ICELAND5",
+      "en": "ICELAND",
       "jp": "アイスランド",
       "placeJa": "Varmahlíð to Grundarfjörður",
       "year": "2025",
@@ -8010,6 +8010,171 @@
           "cap": "Kolugljúfur Canyon",
           "size": "md",
           "shape": "port"
+        }
+      ]
+    },
+    {
+      "id": "iceland6",
+      "en": "ICELAND",
+      "jp": "アイスランド",
+      "placeJa": "Snæfellsnes Peninsula to Akranes",
+      "year": "2025",
+      "continent": "europe",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 64.3218,
+      "lon": -22.0749,
+      "standfirst": "青空のSnæfellsnes Peninsulaを回り、旅の終わりへ少しずつ近づいた。",
+      "essay": "7日目はSnæfellsnes Peninsulaをぐるっと回り、Reykjavikの手前にあるAkranesまで進んだ。この区間は見どころが多く、Reykjavikからの日帰り観光の範囲でもある。そのためか、観光客の数が一気に増えた。\n\n同じ国なのかと思うほど、天気もよかった。空は青く、風もほとんどなく、気温もこれまでより暖かく感じた。南部の強風や北部の吹雪を思うと、まるで別の季節に入ったようだった。\n\nSnæfellsnes Peninsulaの景色は素晴らしかった。海、山、岩場、広い空が近い距離にまとまっていて、車を止めるたびに違う景色が現れる。アイスランドのいろいろな表情が、この半島に集まっているようにも感じた。\n\n夜には、この旅でまたオーロラを見ることができた。晴れた一日の終わりに、空に光が現れる。厳しい天気に振り回されてきたロードトリップだったからこそ、この穏やかな一日と夜空の景色が、余計にありがたく感じられた。",
+      "pullquote": "青空の半島を走った夜、またオーロラが空に現れた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04140_ice6.jpg",
+          "cover": true,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kirkjufell",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04549_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04428_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bæjarfoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04207_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kirkjufell",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04350_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ólafsvík",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05197_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04399_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ólafsvík",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04511_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Svöðufoss",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04464_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Svöðufoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04601_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Saxhóll Crater",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05240_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Budir Church",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05887_ice6.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
