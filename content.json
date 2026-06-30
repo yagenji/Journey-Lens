@@ -7050,6 +7050,88 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "iceland2",
+      "en": "ICELAND",
+      "jp": "アイスランド",
+      "placeJa": "Vik to Höfn",
+      "year": "2025",
+      "continent": "europe",
+      "region": "north-europe",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-06-30",
+      "lat": 64.2539,
+      "lon": -15.2082,
+      "standfirst": "黒い氷の洞窟を抜け、氷河と大地の景色を追いながら東へ進んだ。",
+      "essay": "3日目は、午前中にKatla Ice Caveのツアーに参加した。火山灰と氷河が重なり、黒と白の層を作っている洞窟は、これまで見た氷の景色とはまったく違っていた。きれいというだけではなく、アイスランドらしい荒々しさがそのまま氷の中に閉じ込められているようだった。\n\nVikからHöfnまでの道中には、滝や氷河など見どころが多かった。ただ、前日までの滝を次々に見ていく時間とは少し違い、この日は氷河や大地の形そのものが印象に残った。車を走らせるたびに、地形が少しずつ変わっていく。\n\n4月のアイスランドは、サンセットが21時ごろになる。そのおかげで、遅い時間まで観光を続けることができた。気づけば宿に着いたのは22時を過ぎていた。それでも、まだ見たい景色が先にあるような気がしていた。\n\nこの日の道は、アイスランドの大きさを強く感じる時間だった。滝、氷河、火山灰、黒い大地。ひとつの場所を見るというより、島そのものの成り立ちを車でなぞっているような一日だった。",
+      "pullquote": "黒と白の氷の層に、火山と氷河の国を見た。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "/uploads/DSC00934_ice2.jpg",
+          "duration": "",
+          "cap": "Svínafellsjökull",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00911_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Svínafellsjökull",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00576_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Fossálar Waterfall",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00661_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Svartifoss",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00139_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Vik",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
