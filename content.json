@@ -7238,6 +7238,90 @@
           "cap": "Breiðamerkursandur",
           "size": "full",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01115_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Breiðamerkursandur",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01045_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Jökulsárlón",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01297_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Breiðamerkursandur",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00892_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Vatnajökull",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00126のコピー_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Vik",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01198_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Breiðamerkursandur",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01373_ice2.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Somewhere Along the Way",
+          "size": "sm",
+          "shape": "land"
         }
       ]
     }
