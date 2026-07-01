@@ -217,7 +217,7 @@ a{color:inherit;text-decoration:none}
 .cview-title .nm-place{display:block;font-size:.34em;margin:.4em 0 0;line-height:1.2;letter-spacing:.02em;font-weight:400}
 .cview-title .nm-place::before{content:none}
 @media(max-width:620px){.cview-title .nm-place{font-size:.5em;margin:.5em 0 0;line-height:1.3}}
-.cview-standfirst{font-family:var(--mincho);font-size:clamp(1.05rem,2.4vw,1.5rem);max-width:52ch;line-height:1.7;margin:14px 0 0;color:var(--ink);word-break:auto-phrase;text-wrap:pretty}
+.cview-standfirst{font-family:var(--mincho);font-size:clamp(1.05rem,2.4vw,1.5rem);max-width:52ch;line-height:1.7;margin:14px 0 0;color:var(--ink);text-wrap:pretty}
 .cview-essay{max-width:62ch;margin:clamp(48px,8vh,96px) auto;padding:0 clamp(18px,5vw,40px)}
 .cview-essay p{font-family:var(--mincho);font-size:clamp(1.05rem,2vw,1.28rem);line-height:2.05;margin:0 0 1.6em;color:var(--ink)}
 .cview-essay .pullquote{font-size:clamp(1.5rem,3.6vw,2.3rem);margin:1.4em 0;padding-left:.7em;line-height:1.5}
@@ -272,6 +272,37 @@ a{color:inherit;text-decoration:none}
 }
 @media(max-width:620px){.plates{grid-template-columns:repeat(2,1fr);gap:8px}.f-2,.f-3,.f-4,.f-6{grid-column:span 2}.r-wide{aspect-ratio:16/9}.kit{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+
+/* --- Stories 一覧（主役） --- */
+.jl-bar{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;margin-bottom:34px}
+.jl-group{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.jl-lab{font-family:var(--mono);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);margin-right:2px}
+.jl-chip{font-family:var(--sans);font-size:.82rem;letter-spacing:.04em;color:var(--ink-soft);padding:6px 14px;border:1px solid var(--line);border-radius:999px;transition:.2s;white-space:nowrap}
+.jl-chip:hover{color:var(--ink);border-color:var(--ink-soft)}
+.jl-chip.on{color:var(--bg);background:var(--trail);border-color:var(--trail);font-weight:500}
+.jl-chip .n{opacity:.6;font-size:.9em;margin-left:3px}
+.jl-search{margin-left:auto;position:relative}
+.jl-search input{font-family:var(--sans);font-size:.82rem;color:var(--ink);background:var(--bg-2);border:1px solid var(--line);border-radius:999px;padding:8px 16px 8px 34px;width:190px;transition:.2s}
+.jl-search input:focus{outline:none;border-color:var(--trail);width:220px}
+.jl-search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--ink-soft);fill:none}
+.jl-country{margin-bottom:52px}
+.jl-chead{display:flex;align-items:baseline;gap:14px;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.jl-cname{font-family:var(--mincho);font-weight:600;font-size:clamp(1.3rem,3vw,1.9rem);color:var(--ink);margin:0}
+.jl-cen{font-family:var(--latin);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft)}
+.jl-ccont{font-family:var(--mono);font-size:.6rem;letter-spacing:.2em;color:var(--trail);margin-left:auto}
+.jl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.jl-card{display:block;position:relative;border-radius:6px;overflow:hidden;background:var(--panel);aspect-ratio:3/2;transition:.3s}
+.jl-card img{width:100%;height:100%;object-fit:cover;opacity:.9;transition:.5s}
+.jl-card:hover img{opacity:1;transform:scale(1.04)}
+.jl-card .cap{position:absolute;left:0;right:0;bottom:0;padding:36px 16px 14px;background:linear-gradient(transparent,rgba(10,11,8,.82));color:var(--ink)}
+.jl-place{font-family:var(--sans);font-size:.9rem;font-weight:500;letter-spacing:.02em;margin:0}
+.jl-year{font-family:var(--mono);font-size:.64rem;letter-spacing:.16em;color:var(--ink-soft);margin-top:3px}
+.jl-more{margin-top:16px;text-align:center}
+.jl-more button{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:8px 22px;transition:.2s}
+.jl-more button:hover{color:var(--ink);border-color:var(--ink-soft)}
+.jl-empty{color:var(--ink-soft);font-family:var(--mincho);padding:40px 0;text-align:center}
+@media(max-width:820px){.jl-grid{grid-template-columns:repeat(2,1fr)}.jl-search{margin-left:0;width:100%}.jl-search input{width:100%}}
+@media(max-width:520px){.jl-grid{grid-template-columns:1fr}}
 </style>
 
 <header class="nav" id="nav">
@@ -302,10 +333,9 @@ a{color:inherit;text-decoration:none}
 
   <section class="featured" id="featured">
     <div class="wrap">
-      <div class="sec-head"><div><h2 class="sec-en">Stories</h2><span class="sec-ja">旅の物語</span></div><span class="idx"></span></div>
-      <p class="feat-lead">特に心に残った旅を、いくつか。</p>
-      <div class="feat-rows" id="featuredRows"></div>
-      <a class="feat-more" href="#atlas">すべての旅先を地図で見る →</a>
+      <div class="sec-head"><div><h2 class="sec-en">Stories</h2><span class="sec-ja">旅の物語</span></div><span class="idx" id="jlCount"></span></div>
+      <div class="jl-bar" id="jlBar"></div>
+      <div id="jlList"></div>
     </div>
   </section>
 
@@ -806,12 +836,12 @@ function fmtYM(t){const d=new Date(t);return d.getFullYear()+'.'+String(d.getMon
 function recentList(n){return COUNTRIES.filter(c=>pdate(c)!=null).sort((a,b)=>pdate(b)-pdate(a)).slice(0,n||3);}
 function buildRecent(){const sec=document.getElementById('recent'),ul=document.getElementById('recentList');if(!sec||!ul)return;
   const items=recentList(RECENT_COUNT);if(!items.length){sec.hidden=true;return;}
-  ul.innerHTML='';items.forEach(c=>{const a=el('a',null,'');a.href='#/'+c.id;
+  ul.innerHTML='';items.forEach(c=>{const a=el('a',null,'');a.href='/'+c.id+'/';
     a.innerHTML='<span class="recent-date">'+fmtYM(pdate(c))+'</span><span class="recent-name">'+nameHTML(c)+'</span>'+newBadge(c)+'<span class="recent-go">見る →</span>';
     ul.appendChild(el('li',null,'')).appendChild(a);});sec.hidden=false;}
 function buildFeatured(){const w=document.getElementById('featuredRows');if(!w)return;w.innerHTML='';
   featuredList().forEach(c=>{const hero=entryThumb(c);
-    const a=el('a','feat-row');a.href='#/'+c.id;
+    const a=el('a','feat-row');a.href='/'+c.id+'/';
     a.innerHTML='<div class="feat-media"><img class="ph" decoding="async" loading="lazy" src="'+hero+'" alt="'+esc(c.jp)+'"></div>'+
       '<div class="feat-text"><div class="feat-folio">'+esc(c.en)+(c.year?' · '+esc(c.year):'')+newBadge(c)+'</div>'+
       '<h3 class="feat-title">'+nameHTML(c)+'</h3>'+
@@ -819,10 +849,11 @@ function buildFeatured(){const w=document.getElementById('featuredRows');if(!w)r
       '<span class="feat-read">読む →</span></div>';
     w.appendChild(a);});}
 function buildCover(){const w=document.getElementById('coverMosaic');w.innerHTML='';
-  coverTiles().forEach(t=>{const a=el('a','cover-tile');a.href='#/'+t.c.id;a.innerHTML='<img decoding="async" src="'+t.img+'" alt="'+esc(t.c.en)+'"><span class="cover-tile-label">'+esc(t.c.en)+'</span>';w.appendChild(a);});}
+  coverTiles().forEach(t=>{const a=el('a','cover-tile');a.href='/'+t.c.id+'/';a.innerHTML='<img decoding="async" src="'+t.img+'" alt="'+esc(t.c.en)+'"><span class="cover-tile-label">'+esc(t.c.en)+'</span>';w.appendChild(a);});}
 
 /* atlas: continent-first */
 const wm=document.getElementById('worldmap');
+let atlasState={level:'world',cid:null,country:null};
 let view={x:0,y:0,w:360,h:180},viewR=2,viewMaxW=360;
 const mapFrame=document.querySelector('.map-frame');let zoomOn=false;
 function setZoom(on){zoomOn=on;if(mapFrame)mapFrame.classList.toggle('zoom-on',on);}
@@ -836,7 +867,8 @@ function sizeMarkers(){const W=view.w;
     if(lab){lab.setAttribute('font-size',(0.0139*W).toFixed(3));lab.setAttribute('y',(-0.0139*W).toFixed(3));}});}
 function applyView(){wm.setAttribute('viewBox',view.x.toFixed(2)+' '+view.y.toFixed(2)+' '+view.w.toFixed(2)+' '+view.h.toFixed(2));const cr=document.getElementById('viewClipRect');if(cr){cr.setAttribute('x',view.x.toFixed(2));cr.setAttribute('y',view.y.toFixed(2));cr.setAttribute('width',view.w.toFixed(2));cr.setAttribute('height',view.h.toFixed(2));}sizeMarkers();}
 function clampXY(){view.x=Math.max(0,Math.min(view.x,Math.max(0,360-view.w)));view.y=Math.max(0,Math.min(view.y,Math.max(0,180-view.h)));}
-function setBox(b){view={x:b[0],y:b[1],w:b[2],h:b[3]};viewR=b[2]/b[3];viewMaxW=b[2];clampXY();applyView();}
+function fitBox(b){var cx=b[0]+b[2]/2,cy=b[1]+b[3]/2,w=b[2],hh=b[3];if(w/hh<2){w=hh*2;}else{hh=w/2;}w=Math.min(w,360);hh=Math.min(hh,180);return [cx-w/2,cy-hh/2,w,hh];}
+function setBox(b){b=fitBox(b);view={x:b[0],y:b[1],w:b[2],h:b[3]};viewR=b[2]/b[3];viewMaxW=b[2];clampXY();applyView();}
 function zoomAt(fx,fy,k){const mx=view.x+fx*view.w,my=view.y+fy*view.h;let nw=Math.max(6,Math.min(viewMaxW,view.w*k));view.w=nw;view.h=nw/viewR;view.x=mx-fx*view.w;view.y=my-fy*view.h;clampXY();applyView();}
 function mapScale(r){return Math.min(r.width/view.w,r.height/view.h);}
 function relFrac(cx,cy){const r=wm.getBoundingClientRect();const sc=mapScale(r);const rw=view.w*sc,rh=view.h*sc;const ox=(r.width-rw)/2,oy=(r.height-rh)/2;let fx=(cx-r.left-ox)/rw,fy=(cy-r.top-oy)/rh;return [Math.max(0,Math.min(1,fx)),Math.max(0,Math.min(1,fy))];}
@@ -856,6 +888,7 @@ function clearMap(){document.getElementById('conts').innerHTML='';document.getEl
 function svgNode(tag,attrs,html){const n=document.createElementNS(SVGNS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(html!=null)n.innerHTML=html;return n;}
 
 function showWorld(){
+  atlasState={level:'world',cid:null,country:null};
   setBox([0,0,360,180]);clearMap();
   const g=document.getElementById('conts');
   CONTINENTS.forEach(ct=>{const n=countIn(ct.id);
@@ -867,29 +900,71 @@ function showWorld(){
   renderList(CONTINENTS.map(ct=>({cont:ct,n:countIn(ct.id)})),'cont');
   wireAtlasClicks();sizeMarkers();setZoom(false);
 }
+function avgPos(items){let sx=0,sy=0;items.forEach(c=>{sx+=(+c.lon)+180;sy+=90-(+c.lat);});return {x:sx/items.length,y:sy/items.length};}
+function focusBox(stories){
+  if(!stories.length)return [0,0,360,180];
+  let minX=1e9,maxX=-1e9,minY=1e9,maxY=-1e9;
+  stories.forEach(c=>{const x=(+c.lon)+180,y=90-(+c.lat);minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);});
+  let cx=(minX+maxX)/2,cy=(minY+maxY)/2;
+  let w=Math.max((maxX-minX)*2.2,26),hh=Math.max((maxY-minY)*2.2,13);
+  if(w/hh<2)w=hh*2;else hh=w/2;
+  w=Math.min(w,360);hh=Math.min(hh,180);
+  return [cx-w/2,cy-hh/2,w,hh];
+}
+function countriesIn(cid){
+  const stories=COUNTRIES.filter(c=>c.continent===cid);const seen={},out=[];
+  stories.forEach(c=>{const k=c.jp||'';if(!seen[k]){seen[k]={jp:k,en:c.en,cid:cid,items:[]};out.push(seen[k]);}seen[k].items.push(c);});
+  out.sort((a,b)=>b.items.length-a.items.length);return out;
+}
 function showContinent(cid){
   const ct=CONTINENTS.find(x=>x.id===cid);if(!ct){showWorld();return;}
+  atlasState={level:'continent',cid:cid,country:null};
   setBox(ct.box);clearMap();
-  const places=COUNTRIES.filter(c=>c.continent===cid);
+  const countries=countriesIn(cid);
   const g=document.getElementById('pins');
-  places.forEach(c=>{const x=(+c.lon)+180,y=90-(+c.lat);
-    const grp=svgNode('g',{class:'pin',transform:'translate('+x+','+y+')',role:'button',tabindex:'0','data-go':c.id,'aria-label':c.jp});
-    grp.innerHTML='<circle class="pin-halo"></circle><circle class="pin-dot"></circle><text class="pin-label" x="0">'+esc(c.jp)+'</text>';
+  countries.forEach(co=>{const p=avgPos(co.items);
+    const grp=svgNode('g',{class:'pin',transform:'translate('+p.x+','+p.y+')',role:'button',tabindex:'0','data-country':co.jp,'data-cid':cid,'aria-label':co.jp});
+    grp.innerHTML='<circle class="pin-halo"></circle><circle class="pin-dot"></circle><text class="pin-label" x="0">'+esc(co.jp)+' ('+co.items.length+')</text>';
     g.appendChild(grp);});
   document.getElementById('atlasHere').textContent=ct.jp+' / '+ct.en;
-  document.getElementById('atlasBack').classList.remove('hidden');
-  renderList(places,'place');
+  const bk=document.getElementById('atlasBack');bk.classList.remove('hidden');bk.textContent='← 世界へ戻る';
+  renderList(countries,'country',cid);
   wireAtlasClicks();sizeMarkers();setZoom(true);
 }
-function renderList(items,kind){
+function atlasCountry(cid,jp){
+  const ct=CONTINENTS.find(x=>x.id===cid);
+  atlasState={level:'country',cid:cid,country:jp};
+  const stories=COUNTRIES.filter(c=>c.continent===cid&&(c.jp||'')===jp);
+  clearMap();
+  const g=document.getElementById('pins');
+  stories.forEach(c=>{const x=(+c.lon)+180,y=90-(+c.lat);
+    const grp=svgNode('g',{class:'pin',transform:'translate('+x+','+y+')',role:'button',tabindex:'0','data-go':c.id,'aria-label':c.jp});
+    grp.innerHTML='<circle class="pin-halo"></circle><circle class="pin-dot"></circle><text class="pin-label" x="0">'+esc(c.placeJa||c.jp)+'</text>';
+    g.appendChild(grp);});
+  setBox(focusBox(stories));
+  document.getElementById('atlasHere').textContent=(ct?ct.jp:'')+' › '+jp;
+  const bk=document.getElementById('atlasBack');bk.classList.remove('hidden');bk.textContent='← '+(ct?ct.jp:'大陸')+'へ戻る';
+  renderList(stories,'place');
+  wireAtlasClicks();sizeMarkers();setZoom(true);
+}
+function atlasBack(){const s=document.getElementById('atlasSearch');
+  if(atlasState.level==='country'){showContinent(atlasState.cid);}
+  else{if(s)s.value='';showWorld();}
+}
+function renderList(items,kind,cid){
   const ul=document.getElementById('alist');ul.innerHTML='';
   if(kind==='cont'){
     items.forEach((it,i)=>{const a=el('a',null,'');a.href='#';a.dataset.cont=it.cont.id;
       a.innerHTML='<span class="a-name">'+esc(it.cont.jp)+' <i>'+esc(it.cont.en)+'</i></span><span class="a-go">'+(it.n?it.n+'件 →':'準備中')+'</span>';
       ul.appendChild(el('li',null,'')).appendChild(a);});
-  }else{
+  }else if(kind==='country'){
     if(!items.length){ul.appendChild(el('li','a-empty','この大陸の旅先はまだありません。'));return;}
-    items.forEach(c=>{const a=el('a',null,'');a.href='#/'+c.id;a.dataset.go=c.id;
+    items.forEach(co=>{const a=el('a',null,'');a.href='#';a.dataset.country=co.jp;a.dataset.cid=cid;
+      a.innerHTML='<span class="a-name">'+esc(co.jp)+' <i>'+esc(co.en)+'</i></span><span class="a-go">'+co.items.length+'件 →</span>';
+      ul.appendChild(el('li',null,'')).appendChild(a);});
+  }else{
+    if(!items.length){ul.appendChild(el('li','a-empty','この国の旅先はまだありません。'));return;}
+    items.forEach(c=>{const a=el('a',null,'');a.href='/'+c.id+'/';a.dataset.go=c.id;
       a.innerHTML='<span class="a-name">'+nameHTML(c)+newBadge(c)+'</span><span class="a-go">見る →</span>';
       ul.appendChild(el('li',null,'')).appendChild(a);});
   }
@@ -900,7 +975,10 @@ function wireAtlasClicks(){
   document.querySelectorAll('[data-cont]').forEach(x=>{const go=()=>showContinent(x.dataset.cont);
     x.addEventListener('click',e=>{e.preventDefault();go();});
     x.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});
-  document.querySelectorAll('[data-go]').forEach(x=>{const go=()=>{location.hash='#/'+x.dataset.go;};
+  document.querySelectorAll('[data-country]').forEach(x=>{const go=()=>atlasCountry(x.dataset.cid||atlasState.cid,x.dataset.country);
+    x.addEventListener('click',e=>{e.preventDefault();go();});
+    x.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});
+  document.querySelectorAll('[data-go]').forEach(x=>{const go=()=>{location.href='/'+x.dataset.go+'/';};
     x.addEventListener('click',e=>{if(x.tagName==='A')e.preventDefault();go();});
     x.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
     x.addEventListener('mouseenter',()=>hot(x.dataset.go,true));x.addEventListener('mouseleave',()=>hot(x.dataset.go,false));});
@@ -908,6 +986,7 @@ function wireAtlasClicks(){
 function doSearch(q){
   q=q.trim().toLowerCase();
   if(!q){showWorld();return;}
+  atlasState={level:'search',cid:null,country:null};
   const res=COUNTRIES.filter(c=>((c.jp||'')+' '+(c.en||'')).toLowerCase().includes(q));
   setBox([0,0,360,180]);clearMap();
   const g=document.getElementById('pins');
@@ -975,12 +1054,53 @@ function router(){const h=location.hash;
   if(h.indexOf('#/')===0){const id=decodeURIComponent(h.slice(2));const c=COUNTRIES.find(x=>x.id===id);if(c){showCountry(c);return;}}
   if(h==='#featured'||h==='#atlas'||h==='#about'){showHome(h);return;}showHome();}
 
+
+/* --- Stories 一覧（主役）--- */
+const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
+const JL_CONT_ORDER=['asia','europe','africa','namerica','samerica','oceania','antarctica'];
+const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
+const JL_PER=6;let jlCat='',jlCont='',jlQ='';const jlExp={};
+function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
+function jlMatch(c){if(jlCat&&!(c.categories||[]).includes(jlCat))return false;if(jlCont&&c.continent!==jlCont)return false;if(jlQ){var s=((c.jp||'')+(c.en||'')+(c.placeJa||'')).toLowerCase();if(!s.includes(jlQ.toLowerCase()))return false;}return true;}
+function jlBar(){
+  var cats=['nature','cities','heritage','wildlife'].filter(k=>COUNTRIES.some(c=>(c.categories||[]).includes(k)));
+  var conts=JL_CONT_ORDER.filter(k=>COUNTRIES.some(c=>c.continent===k));
+  function grp(lab,items,attr){var h='<div class="jl-group"><span class="jl-lab">'+lab+'</span><button class="jl-chip on" data-'+attr+'="">すべて</button>';items.forEach(function(it){h+='<button class="jl-chip" data-'+attr+'="'+it[0]+'">'+it[1]+'<span class="n">'+it[2]+'</span></button>';});return h+'</div>';}
+  var catItems=cats.map(k=>[k,JL_CAT_JA[k],COUNTRIES.filter(c=>(c.categories||[]).includes(k)).length]);
+  var contItems=conts.map(k=>[k,JL_CONT_JA[k],COUNTRIES.filter(c=>c.continent===k).length]);
+  var bar=grp('Theme',catItems,'cat')+grp('Region',contItems,'cont')+'<div class="jl-search"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="jlq" type="search" placeholder="旅先を検索…" autocomplete="off"></div>';
+  document.getElementById('jlBar').innerHTML=bar;
+  document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',x===b));jlRender();});
+  document.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;document.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',x===b));jlRender();});
+  document.getElementById('jlq').oninput=e=>{jlQ=e.target.value;jlRender();};
+}
+function jlRender(){
+  var list=COUNTRIES.filter(jlMatch);var el=document.getElementById('jlList');
+  var cnt=document.getElementById('jlCount');if(cnt)cnt.textContent='全 '+COUNTRIES.length+' 話';
+  if(!list.length){el.innerHTML='<p class="jl-empty">該当する物語がありません。</p>';return;}
+  var groups={},order=[];
+  list.forEach(function(c){var k=c.continent+'|'+(c.jp||'');if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(c);});
+  order.sort(function(a,b){var ca=JL_CONT_ORDER.indexOf(a.split('|')[0]),cb=JL_CONT_ORDER.indexOf(b.split('|')[0]);if(ca!==cb)return ca-cb;return groups[b].length-groups[a].length;});
+  var html='';
+  order.forEach(function(k){
+    var arr=groups[k],cont=k.split('|')[0],jp=arr[0].jp||'',en=arr[0].en||'',open=jlExp[k],show=open?arr:arr.slice(0,JL_PER);
+    html+='<div class="jl-country"><div class="jl-chead"><h3 class="jl-cname">'+jp+'</h3><span class="jl-cen">'+en+'</span><span class="jl-ccont">'+(JL_CONT_JA[cont]||'')+' · '+arr.length+'</span></div><div class="jl-grid">';
+    show.forEach(function(c){html+='<a class="jl-card" href="/'+c.id+'/"><img loading="lazy" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'"><div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(c.year||'')+'</div></div></a>';});
+    html+='</div>';
+    if(arr.length>JL_PER)html+='<div class="jl-more"><button data-k="'+k+'">'+(open?'閉じる':'もっと見る（残り'+(arr.length-JL_PER)+'）')+'</button></div>';
+    html+='</div>';
+  });
+  el.innerHTML=html;
+  el.querySelectorAll('.jl-more button').forEach(b=>b.onclick=()=>{jlExp[b.dataset.k]=!jlExp[b.dataset.k];jlRender();});
+}
+function buildStories(){jlBar();jlRender();}
+
 (async function init(){
   const data=await loadContent();COUNTRIES=data.locations||[];
-  buildCover();buildFeatured();buildRecent();showWorld();wireScope(home);loadProfile().then(buildAbout);
+  buildCover();buildStories();buildRecent();showWorld();wireScope(home);loadProfile().then(buildAbout);
   addEventListener('hashchange',router);router();
   const search=document.getElementById('atlasSearch');search.addEventListener('input',()=>doSearch(search.value));
-  document.getElementById('atlasBack').addEventListener('click',e=>{e.preventDefault();search.value='';showWorld();});
+  document.getElementById('atlasBack').addEventListener('click',e=>{e.preventDefault();atlasBack();});
   const nav=document.getElementById('nav');
   addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>innerHeight*0.6),{passive:true});
   const tgl=document.getElementById('navToggle'),links=document.getElementById('navLinks');
