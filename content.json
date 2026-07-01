@@ -8854,6 +8854,30 @@
           "cap": "Leh",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/NX3eyR-W-H4?si=THuUvraiFmpOqXoK",
+          "video": "",
+          "duration": "0:25",
+          "cap": "Leh Town",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/KTB2ABCABIw?si=VHeqse_xO49QYlbI",
+          "video": "",
+          "duration": "0:25",
+          "cap": "Leh Town",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
