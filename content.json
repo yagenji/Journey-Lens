@@ -9661,6 +9661,195 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "guatemala3",
+      "en": "GUATEMALA",
+      "jp": "グアテマラ",
+      "placeJa": "Acatenango / Fuego Volcano",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-01",
+      "lat": 14.4763,
+      "lon": -90.8763,
+      "standfirst": "Acatenangoのキャンプから、Fuego Volcanoの噴火を夜通し見ていた。",
+      "essay": "Fuego Volcanoを見るために、Acatenango Volcanoに登った。これが思っていた以上にきつかった。標高を上げながら歩き続ける道はなかなか大変で、登山スティックは借りた方がいい。間違っても木の棒で済ませるものではないと思った。\n\nキャンプに着くと、目の前にFuego Volcanoがあった。初めて見る噴火だった。山が音を立て、赤い光を吐き出す。そのたびに、地球の力を感じずにはいられなかった。素晴らしく、力強く、ただ見ているしかない景色だった。\n\nこの時期はかなり寒く、夜は0度を下回るような冷え込みだった。寝袋に入ってもほとんど温まらず、防寒を甘く見る場所ではなかった。それでも外に出ると、Fuego Volcanoは何度も噴火していた。\n\n近くまで行くこともできたようだが、山の中腹には雲がかかっていた。キャンプからでも十分きれいに見えていたので、私は行かなかった。あとで行った人に聞くと、雲であまり見えなかったらしい。無理に近づかなくても、この場所から見た噴火だけで十分だった。",
+      "pullquote": "闇の中で噴火する山に、地球の力を見た。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05746_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05685_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05699_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05804_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05655_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05806_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05498_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05879_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05900_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05369_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05291_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06073_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View of the Town from Acatenango Base Camp",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05863_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View of the Town from Acatenango Base Camp",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05722_fuego.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View of the Town from Acatenango Base Camp",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
