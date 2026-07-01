@@ -229,6 +229,10 @@ a{color:inherit;text-decoration:none}
 .cview-gallery{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px);max-width:1440px;margin:0 auto}
 .cview-foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);max-width:1240px;margin:0 auto;padding:28px clamp(18px,5vw,40px);font-family:var(--mono);font-size:.76rem;letter-spacing:.1em}
 .cview-foot a:hover{color:var(--trail)}
+.cview-more{max-width:1240px;margin:0 auto;padding:clamp(44px,7vh,84px) clamp(18px,5vw,40px) 0;border-top:1px solid var(--line)}
+.cview-more-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.cview-more .more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:.01em;color:var(--ink);margin:0}
+.cview-more .more-ja{font-family:var(--sans);font-size:.78rem;letter-spacing:.2em;color:var(--ink-soft)}
 
 /* plates */
 .plates{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(8px,1.1vw,15px);grid-auto-flow:dense}
@@ -266,6 +270,7 @@ a{color:inherit;text-decoration:none}
   .cover-mosaic{grid-template-columns:repeat(2,1fr)}
   .atlas-grid{grid-template-columns:1fr}
   .about-grid,.contact-grid{grid-template-columns:1fr}
+  .about-style{text-align:center}
   .nav-links{position:absolute;top:100%;right:0;left:0;flex-direction:column;align-items:flex-start;gap:0;background:rgba(19,21,15,.96);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .35s}
   .nav-links.open{max-height:60vh}.nav-links a{width:100%;padding:14px clamp(18px,4vw,52px);border-top:1px solid var(--line)}
   .nav-toggle{display:block}
@@ -1013,6 +1018,8 @@ function mediaFigure(m){
 }
 function buildCountry(c){
   const idx=COUNTRIES.indexOf(c),next=COUNTRIES[(idx+1)%COUNTRIES.length];
+  const kin=COUNTRIES.filter(x=>x.continent===c.continent&&(x.jp||'')===(c.jp||'')&&x.id!==c.id).slice(0,6);
+  const moreHtml=kin.length?('<section class="cview-more"><div class="cview-more-head"><h2 class="more-en">More from '+esc(c.en)+'</h2><span class="more-ja">'+esc(c.jp||c.en)+'の他の旅</span></div><div class="jl-grid">'+kin.map(function(s){return '<a class="jl-card" href="#/'+esc(s.id)+'"><img loading="lazy" src="'+esc(entryThumb(s))+'" alt="'+esc(s.placeJa||s.jp||'')+'"><div class="cap"><p class="jl-place">'+esc(s.placeJa||s.jp||'')+'</p><div class="jl-year">'+esc(s.year||'')+'</div></div></a>';}).join('')+'</div></section>'):'';
   const hero=entryThumb(c);
   const paras=(c.essay||'').split(/\n\n+/).map(p=>'<p>'+esc(p)+'</p>');
   let essay=paras[0]||'';if(c.pullquote)essay+='<blockquote class="pullquote">'+esc(c.pullquote)+'</blockquote>';essay+=paras.slice(1).join('');
@@ -1024,8 +1031,8 @@ function buildCountry(c){
     '<h1 class="cview-title">'+nameHTML(c)+'</h1>'+
     (c.standfirst?'<p class="cview-standfirst">'+esc(c.standfirst)+'</p>':'')+'</div></header>'+
     '<div class="cview-essay">'+essay+'</div>'+noteLink+
-    '<div class="cview-gallery"><div class="plates" id="cplates"></div></div>'+
-    '<nav class="cview-foot"><a href="#atlas">← 地図へ戻る</a><a href="#/'+esc(next.id)+'">次へ — '+esc(next.jp||next.en)+' →</a></nav>';
+    '<div class="cview-gallery"><div class="plates" id="cplates"></div></div>'+moreHtml+
+    '<nav class="cview-foot"><a href="#atlas">← 地図へ戻る</a><a href="#/'+esc(next.id)+'">次へ — '+esc(next.placeJa||next.jp||next.en)+' →</a></nav>';
   const grid=art.querySelector('#cplates');(c.media||[]).forEach(m=>grid.appendChild(mediaFigure(m)));
   return art;
 }
