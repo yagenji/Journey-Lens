@@ -7622,7 +7622,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03032_ice4.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -7634,7 +7634,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03114_ice4.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -9720,7 +9720,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05804_fuego.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -9768,7 +9768,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05879_fuego.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
