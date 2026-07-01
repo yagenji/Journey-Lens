@@ -245,3 +245,18 @@ a{color:inherit;text-decoration:none}
 }
 @media(max-width:620px){.plates{grid-template-columns:repeat(2,1fr);gap:8px}.f-2,.f-3,.f-4,.f-6{grid-column:span 2}.r-wide{aspect-ratio:16/9}.kit{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+
+/* --- 同じ国の他の旅（物語ページ下部） --- */
+.cview-more{max-width:1100px;margin:clamp(48px,8vh,88px) auto 0;padding:clamp(28px,5vh,56px) clamp(18px,5vw,80px) 0;border-top:1px solid var(--line)}
+.more-head{display:flex;align-items:baseline;gap:14px;margin-bottom:24px}
+.more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.1rem,2.4vw,1.5rem);letter-spacing:.01em;color:var(--ink)}
+.more-ja{font-family:var(--sans);font-size:.78rem;letter-spacing:.2em;color:var(--ink-soft)}
+.sib-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.sib-card{display:block;position:relative;border-radius:6px;overflow:hidden;background:var(--panel);aspect-ratio:3/2;transition:.3s}
+.sib-card img{width:100%;height:100%;object-fit:cover;opacity:.88;transition:.5s}
+.sib-card:hover img{opacity:1;transform:scale(1.04)}
+.sib-cap{position:absolute;left:0;right:0;bottom:0;padding:32px 14px 12px;background:linear-gradient(transparent,rgba(10,11,8,.82));color:var(--ink)}
+.sib-place{font-family:var(--sans);font-size:.86rem;font-weight:500;letter-spacing:.02em;margin:0}
+.sib-year{font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;color:var(--ink-soft);margin-top:3px}
+@media(max-width:760px){.sib-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.sib-grid{grid-template-columns:1fr}}
