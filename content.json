@@ -9472,6 +9472,195 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "guatemala2",
+      "en": "GUATEMALA",
+      "jp": "グアテマラ",
+      "placeJa": "Antigua",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-01",
+      "lat": 14.5611,
+      "lon": -90.7344,
+      "standfirst": "カラフルな街の向こうで、Fuego Volcanoが何度も煙を上げていた。",
+      "essay": "Antiguaは、グアテマラを代表する観光都市だけあって、人が多かった。一方で治安もよく、街はカラフルで歩きやすい。石畳の道や古い建物の色合いに、観光地らしい華やかさがあった。\n\n街では、グアテマラコーヒーも飲んだ。私には少し酸味が強く感じられた。コーヒーを飲みながら街を歩いていると、遠くにFuego Volcanoが見える。そして見るたびに、山は噴火していた。\n\nちょうどAntigua FCの優勝パレードも行われていた。街はサポーターでごった返し、いつもの観光地の空気とは少し違う熱気に包まれていた。カラフルで、にぎやかで、山は煙を上げている。Antiguaは、思っていた以上に動きのある街だった。",
+      "pullquote": "街の向こうで、Fuego Volcanoは見るたびに噴火していた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06262_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06285_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06237_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05018_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06256_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06250_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eruption of Volcán de Fuego",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06427_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06307_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05056_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6040_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Antigua GFC Victory Parade",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06402_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Streets of Antigua",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06139_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Cerro de La Cruz",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06104_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Cerro de La Cruz",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06127_antigua.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Cerro de La Cruz",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
