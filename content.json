@@ -8617,6 +8617,30 @@
           "cap": "Northern Lights",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/OyhjWV1t83A?si=Z64iK0MbASV5ZHPK",
+          "video": "",
+          "duration": "0:25",
+          "cap": "Aurora",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/MFMq4oyH6lk?si=TXeXjcyOoRhnbIv6",
+          "video": "",
+          "duration": "0:22",
+          "cap": "Aurora",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
