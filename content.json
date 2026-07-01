@@ -9139,6 +9139,18 @@
           "cap": "Hunder Sand Dunes",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/dblxZkR1PtU?si=z3exV9BCWVr6nCXL",
+          "video": "",
+          "duration": "0:09",
+          "cap": "Herd of Goats on the Move",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
