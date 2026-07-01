@@ -9318,6 +9318,160 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "guatemala1",
+      "en": "GUATEMALA",
+      "jp": "グアテマラ",
+      "placeJa": "Tikal / Flores",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "heritage",
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-01",
+      "lat": 17.2219,
+      "lon": -89.6236,
+      "standfirst": "霧のジャングルの奥に、Tikalの遺跡が静かに立っていた。",
+      "essay": "Tikalへは、Floresから朝6時のバスで向かった。遺跡はかなり奥深いジャングルの中にあり、着いてからも森の中を歩いていく。想像していたよりも広く、かつてここに大きな都市があったことを感じる場所だった。\n\nただ、この日は終始、霧と曇り、ときどき雨だった。蚊にも大量に刺され、痒みに耐えながら歩くことになった。森の中からは物騒な鳴き声がずっと聞こえていて、少しびびりながらの散策でもあった。\n\nそれでも、霧の中に立つ遺跡にはなんとも言えない存在感があった。晴れた日の見通しのよい遺跡とは違い、先の見えない白い空気の中に石造りの建物が浮かび上がる。その姿は、ジャングルに飲み込まれかけた時間そのもののようだった。\n\n拠点にしたFloresは、湖に浮かぶ島のような街で、橋で本土とつながっていた。小さくて歩きやすく、居心地のよい町だった。Tikalの重たい森を歩いたあとに戻ってくるには、ちょうどいい場所だった。",
+      "pullquote": "霧の中に立つ遺跡は、静かなのに強い存在感があった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04709_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04848_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04773_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04682_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04781_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04756_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04769_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04748_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tikal Ruins",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04943_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Flores Island",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04878_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Flores Island",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04890_tilal.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Flores Island",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
