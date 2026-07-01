@@ -8380,6 +8380,54 @@
           "cap": "Northern Lights",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/-cHxKdIPxMc?si=biGfLP7CGZPfuEBk",
+          "video": "",
+          "duration": "0:25",
+          "cap": "Seals on Snæfellsnes Peninsula",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "0:18",
+          "cap": "https://youtu.be/OB2c2D6DJzQ?si=2XzLoLyQJ1mZyPHY",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/PjjqlJsLTPo?si=V2xLgXn3yzuzAf7q",
+          "video": "",
+          "duration": "0:31",
+          "cap": "Aurora",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "loop",
+          "videoUrl": "https://youtu.be/lwIJ6ehT1ys?si=xLvGfAay5e4Mix1i",
+          "video": "",
+          "duration": "0:25",
+          "cap": "Aurora",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
