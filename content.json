@@ -9850,6 +9850,135 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "guatemala4",
+      "en": "GUATEMALA",
+      "jp": "グアテマラ",
+      "placeJa": "Lake Atitlán",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "nature"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-01",
+      "lat": 14.7131,
+      "lon": -91.2037,
+      "standfirst": "火山を背にした湖には、美しさと暮らしの気配が並んでいた。",
+      "essay": "Lake Atitlánは、世界一美しい湖とも言われるらしい。最初に見たときの感想は、なんだか河口湖みたいで懐かしい、というものだった。世界一かどうかは、しっかり議論の余地がある。\n\nそれでも、湖が美しいことは間違いなかった。青い空の下に青い湖が広がり、背後には円錐形の火山が立っている。火山が背景にあると、湖には一気に風格が出るのだと思った。\n\n湖畔には、生活の気配もあった。湖の中には洗濯台のような場所が並び、住民がそこで洗濯をしていた。観光地としての美しさだけではなく、ここで暮らす人たちの日常が水辺にある。その風景が印象に残った。\n\nきれいな湖を見に来たはずだったが、記憶に残っているのは、火山の形と、湖で洗濯をする人たちの姿だった。Lake Atitlánは、絶景という言葉だけでは少し足りない場所だった。",
+      "pullquote": "火山を背にした湖で、人々が洗濯をしていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05130_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lake Atitlán",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05120_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lake Atitlán",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05164_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lake Atitlán",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05118_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lake Atitlán",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05234_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Santiago Apóstol Church",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05161_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Locals Doing Laundry",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05254_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Locals Doing Laundry",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05229_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Santiago Atitlán",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05216_attilan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "San Juan La Laguna",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
