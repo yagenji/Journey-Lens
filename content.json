@@ -1949,7 +1949,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03042_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -1961,7 +1961,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03420_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "duration": "",
@@ -2564,7 +2564,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC04777_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -2636,7 +2636,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05817_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -8501,7 +8501,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC06463_ice7.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
