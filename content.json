@@ -9316,6 +9316,30 @@
           "cap": "3 idiots",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/piZdPozDGEc?si=Oy16Kjkutw0QYlWi",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/0dBHrVCLPi0?si=phRc2w96hr2-NnNN",
+          "video": "",
+          "duration": "",
+          "cap": "Pangong Lake",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
