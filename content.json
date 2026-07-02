@@ -9979,6 +9979,39 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "brazil1",
+      "en": "BRAZIL",
+      "jp": "ブラジル",
+      "placeJa": "りお",
+      "year": "2026",
+      "continent": "samerica",
+      "categories": [
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-02",
+      "lat": 52,
+      "lon": 52,
+      "standfirst": "お",
+      "essay": "p",
+      "pullquote": "p",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "p",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
