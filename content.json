@@ -2065,13 +2065,13 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/DSC07986_etosha.jpg",
+          "image": "/uploads/DSC08012_etosha.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Sunset",
+          "cap": "Giraffe",
           "size": "full",
           "shape": "land"
         },
@@ -2185,13 +2185,13 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC08012_etosha.jpg",
+          "image": "/uploads/DSC07986_etosha.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Giraffe",
+          "cap": "Sunset",
           "size": "sm",
           "shape": "land"
         },
