@@ -96,6 +96,8 @@ a{color:inherit;text-decoration:none}
 .feat-row:hover .feat-read{color:var(--trail-hi);letter-spacing:.2em}
 @media(max-width:760px){.feat-row,.feat-row:nth-child(even){grid-template-columns:1fr;gap:16px}.feat-row:nth-child(even) .feat-media{order:0}}
 .badge-new{display:inline-block;font-family:var(--mono);font-size:.58rem;font-weight:600;letter-spacing:.14em;color:var(--bg);background:var(--trail);padding:2px 7px;border-radius:999px;vertical-align:middle;margin-left:10px}
+.jl-card{position:relative}
+.jl-card>.badge-new{position:absolute;top:10px;left:10px;margin:0;z-index:2}
 .recent{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px)}
 .recent-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;flex-wrap:wrap}
 .rec-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.3rem,3vw,1.9rem);margin:0;line-height:1;color:var(--ink)}
@@ -336,18 +338,18 @@ a{color:inherit;text-decoration:none}
     </div>
   </section>
 
+  <section class="recent" id="recent" hidden>
+    <div class="wrap">
+      <div class="recent-head"><h3 class="rec-en">Recently Added</h3><span class="rec-ja">最近追加した旅先</span></div>
+      <ul class="recent-list" id="recentList"></ul>
+    </div>
+  </section>
+
   <section class="featured" id="featured">
     <div class="wrap">
       <div class="sec-head"><div><h2 class="sec-en">Stories</h2><span class="sec-ja">旅の物語</span></div><span class="idx" id="jlCount"></span></div>
       <div class="jl-bar" id="jlBar"></div>
       <div id="jlList"></div>
-    </div>
-  </section>
-
-  <section class="recent" id="recent" hidden>
-    <div class="wrap">
-      <div class="recent-head"><h3 class="rec-en">Recently Added</h3><span class="rec-ja">最近追加した旅先</span></div>
-      <ul class="recent-list" id="recentList"></ul>
     </div>
   </section>
 
@@ -1066,7 +1068,7 @@ function router(){const h=location.hash;
 const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
 const JL_CONT_ORDER=['asia','europe','africa','namerica','samerica','oceania','antarctica'];
 const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
-const JL_PER=6;let jlCat='',jlCont='',jlQ='';const jlExp={};
+const JL_PER=3;let jlCat='',jlCont='',jlQ='';const jlExp={};
 function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
 function jlMatch(c){if(jlCat&&!(c.categories||[]).includes(jlCat))return false;if(jlCont&&c.continent!==jlCont)return false;if(jlQ){var s=((c.jp||'')+(c.en||'')+(c.placeJa||'')).toLowerCase();if(!s.includes(jlQ.toLowerCase()))return false;}return true;}
 function jlBar(){
@@ -1090,9 +1092,9 @@ function jlRender(){
   order.sort(function(a,b){var ca=JL_CONT_ORDER.indexOf(a.split('|')[0]),cb=JL_CONT_ORDER.indexOf(b.split('|')[0]);if(ca!==cb)return ca-cb;return groups[b].length-groups[a].length;});
   var html='';
   order.forEach(function(k){
-    var arr=groups[k],cont=k.split('|')[0],jp=arr[0].jp||'',en=arr[0].en||'',open=jlExp[k],show=open?arr:arr.slice(0,JL_PER);
+    var arr=(function(g){var f=g.filter(function(x){return x.featured;}),r=g.filter(function(x){return !x.featured;});return f.concat(r);})(groups[k]),cont=k.split('|')[0],jp=arr[0].jp||'',en=arr[0].en||'',open=jlExp[k],show=open?arr:arr.slice(0,JL_PER);
     html+='<div class="jl-country"><div class="jl-chead"><h3 class="jl-cname">'+jp+'</h3><span class="jl-cen">'+en+'</span><span class="jl-ccont">'+(JL_CONT_JA[cont]||'')+' · '+arr.length+'</span></div><div class="jl-grid">';
-    show.forEach(function(c){html+='<a class="jl-card" href="/'+c.id+'/"><img loading="lazy" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'"><div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(c.year||'')+'</div></div></a>';});
+    show.forEach(function(c){html+='<a class="jl-card" href="/'+c.id+'/"><img loading="lazy" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'">'+newBadge(c)+'<div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(pdate(c)!=null?fmtYM(pdate(c)):(c.year||''))+'</div></div></a>';});
     html+='</div>';
     if(arr.length>JL_PER)html+='<div class="jl-more"><button data-k="'+k+'">'+(open?'閉じる':'もっと見る（残り'+(arr.length-JL_PER)+'）')+'</button></div>';
     html+='</div>';
