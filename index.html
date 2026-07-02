@@ -338,18 +338,18 @@ a{color:inherit;text-decoration:none}
     </div>
   </section>
 
-  <section class="recent" id="recent" hidden>
-    <div class="wrap">
-      <div class="recent-head"><h3 class="rec-en">Recently Added</h3><span class="rec-ja">最近追加した旅先</span></div>
-      <ul class="recent-list" id="recentList"></ul>
-    </div>
-  </section>
-
   <section class="featured" id="featured">
     <div class="wrap">
       <div class="sec-head"><div><h2 class="sec-en">Stories</h2><span class="sec-ja">旅の物語</span></div><span class="idx" id="jlCount"></span></div>
       <div class="jl-bar" id="jlBar"></div>
       <div id="jlList"></div>
+    </div>
+  </section>
+
+  <section class="recent" id="recent" hidden>
+    <div class="wrap">
+      <div class="recent-head"><h3 class="rec-en">Recently Added</h3><span class="rec-ja">最近追加した旅先</span></div>
+      <ul class="recent-list" id="recentList"></ul>
     </div>
   </section>
 
@@ -839,8 +839,8 @@ const RECENT_COUNT=5;
 function pdate(c){if(!c||!c.publishedAt)return null;const t=Date.parse(c.publishedAt);return isNaN(t)?null:t;}
 function isNew(c){const t=pdate(c);if(t==null)return false;const day=86400000,age=Date.now()-t;return age>=-1.5*day&&age<=NEW_DAYS*day;}
 function newBadge(c){return isNew(c)?'<span class="badge-new">NEW</span>':'';}
-function fmtYM(t){const d=new Date(t);return d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0');}
-function recentList(n){return COUNTRIES.filter(c=>pdate(c)!=null).sort((a,b)=>pdate(b)-pdate(a)).slice(0,n||3);}
+function fmtYM(t){const d=new Date(t);return d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');}
+function recentList(n){return COUNTRIES.map(function(c,i){return {c:c,i:i};}).filter(function(o){return pdate(o.c)!=null;}).sort(function(a,b){var d=pdate(b.c)-pdate(a.c);return d!==0?d:(b.i-a.i);}).slice(0,n||3).map(function(o){return o.c;});}
 function buildRecent(){const sec=document.getElementById('recent'),ul=document.getElementById('recentList');if(!sec||!ul)return;
   const items=recentList(RECENT_COUNT);if(!items.length){sec.hidden=true;return;}
   ul.innerHTML='';items.forEach(c=>{const a=el('a',null,'');a.href='/'+c.id+'/';
