@@ -1231,7 +1231,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC09047.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -1949,7 +1949,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03042_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -7348,7 +7348,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC02285_ice3.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
