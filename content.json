@@ -1961,7 +1961,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC03420_result.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "",
           "videoUrl": "",
           "duration": "",
@@ -2139,7 +2139,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC01386_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
