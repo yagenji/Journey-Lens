@@ -5275,7 +5275,7 @@
       "categories": [
         "nature"
       ],
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-25",
       "lat": 39.3388,
       "lon": 72.8732,
@@ -5979,7 +5979,7 @@
       "categories": [
         "nature"
       ],
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-27",
       "lat": 42.565,
       "lon": 74.4861,
