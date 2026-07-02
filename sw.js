@@ -1,5 +1,5 @@
-/* JOURNEY LENS — simple service worker */
-const CACHE = 'jl-v1';
+/* JOURNEY LENS — service worker (network-first, offline fallback) */
+const CACHE = 'jl-v2';
 const SHELL = [
   '/',
   '/index.html',
@@ -31,25 +31,20 @@ self.addEventListener('fetch', function (e) {
   var req = e.request;
   if (req.method !== 'GET') return;
   var url = new URL(req.url);
-  if (url.origin !== location.origin) return; // fonts, youtube thumbs, etc. -> network
+  if (url.origin !== location.origin) return;
 
-  // Navigations: network first, fall back to cache, then offline page
-  if (req.mode === 'navigate') {
-    e.respondWith(
-      fetch(req)
-        .then(function (r) { var cp = r.clone(); caches.open(CACHE).then(function (c) { c.put(req, cp); }); return r; })
-        .catch(function () { return caches.match(req).then(function (r) { return r || caches.match('/offline.html'); }); })
-    );
-    return;
-  }
-
-  // Static assets: cache first, update in background
   e.respondWith(
-    caches.match(req).then(function (cached) {
-      return cached || fetch(req).then(function (r) {
+    fetch(req)
+      .then(function (r) {
         if (r && r.ok) { var cp = r.clone(); caches.open(CACHE).then(function (c) { c.put(req, cp); }); }
         return r;
-      }).catch(function () { return cached; });
-    })
+      })
+      .catch(function () {
+        return caches.match(req).then(function (cached) {
+          if (cached) return cached;
+          if (req.mode === 'navigate') return caches.match('/offline.html');
+          return Response.error();
+        });
+      })
   );
 });
