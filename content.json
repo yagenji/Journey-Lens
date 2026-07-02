@@ -10369,6 +10369,111 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "brazil3",
+      "en": "BRAZIL",
+      "jp": "ブラジル",
+      "placeJa": "São Paulo",
+      "year": "2026",
+      "continent": "samerica",
+      "categories": [
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-02",
+      "lat": -23.5338,
+      "lon": -46.6253,
+      "standfirst": "São Pauloでは、移民の歴史を伝える博物館が強く印象に残った。",
+      "essay": "São Pauloは、あまり見どころが多い街ではないように感じた。そこで、Museu da Imigraçãoへ行くことにした。ここは想像以上に展示が充実していて、移民の歴史をじっくり見ることができる場所だった。\n\nパラグアイのColonia Yguazúに続いて、ここでも移民の方々への尊敬の念を抱いた。海を越え、言葉も環境も違う土地で暮らしを築いていく。その大変さは、今の展示を見ただけで簡単にわかるものではない。けれど、残された資料や写真から、その重みは伝わってきた。\n\nブラジルの日系コミュニティは、パラグアイよりもかなり大きいように感じた。展示を見に来ている人も思ったより多く、それにも驚いた。移民の歴史が、ただ過去の話としてではなく、今も多くの人に見られていることが素晴らしいと思った。\n\nSão Pauloの街そのものより、この博物館の印象が強く残っている。旅の中で華やかな景色を見るだけでなく、人がどう移動し、どう根を張ってきたのかを知る時間も大切だと思った。",
+      "pullquote": "海を越えて暮らしを築いた人たちの記録が、静かに残されていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04515_saopau.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Museu da Imigração",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04516_saopau.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Museu da Imigração",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04492_saopau.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "São Paulo See Cathedral",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "/uploads/IMG_4484_saopau.jpg",
+          "duration": "",
+          "cap": "Liberdade",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Liberdade",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4491_saopau.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Liberdade",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4492_saopau.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Liberdade",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
