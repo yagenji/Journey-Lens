@@ -531,7 +531,7 @@
         "nature",
         "wildlife"
       ],
-      "featured": false,
+      "featured": true,
       "publishedAt": "2026-06-23",
       "lat": -65.06,
       "lon": -64.01,
@@ -901,7 +901,7 @@
         "nature",
         "wildlife"
       ],
-      "featured": true,
+      "featured": false,
       "publishedAt": "2026-06-23",
       "lat": -64.08,
       "lon": -61.46,
