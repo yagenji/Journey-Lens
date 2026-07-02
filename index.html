@@ -1101,7 +1101,7 @@ function jlRender(){
   order.forEach(function(k){
     var arr=(function(g){var f=g.filter(function(x){return x.featured;}),r=g.filter(function(x){return !x.featured;});return f.concat(r);})(groups[k]),cont=k.split('|')[0],jp=arr[0].jp||'',en=arr[0].en||'',open=jlExp[k],show=open?arr:arr.slice(0,JL_PER);
     html+='<div class="jl-country"><div class="jl-chead"><h3 class="jl-cname">'+jp+'</h3><span class="jl-cen">'+en+'</span><span class="jl-ccont">'+(JL_CONT_JA[cont]||'')+' · '+arr.length+'</span></div><div class="jl-grid">';
-    show.forEach(function(c){html+='<a class="jl-card" href="/'+c.id+'/"><img loading="lazy" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'">'+newBadge(c)+'<div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(pdate(c)!=null?fmtYM(pdate(c)):(c.year||''))+'</div></div></a>';});
+    show.forEach(function(c){html+='<a class="jl-card" href="/'+c.id+'/"><img loading="lazy" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'">'+newBadge(c)+'<div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(c.year||'')+'</div></div></a>';});
     html+='</div>';
     if(arr.length>JL_PER)html+='<div class="jl-more"><button data-k="'+k+'">'+(open?'閉じる':'もっと見る（残り'+(arr.length-JL_PER)+'）')+'</button></div>';
     html+='</div>';

@@ -31,8 +31,9 @@ self.addEventListener('fetch', function (e) {
   var req = e.request;
   if (req.method !== 'GET') return;
   var url = new URL(req.url);
-  if (url.origin !== location.origin) return;
+  if (url.origin !== location.origin) return; // fonts, youtube thumbs, etc. -> straight to network
 
+  // Network first: always try the latest, cache it, fall back to cache only when offline.
   e.respondWith(
     fetch(req)
       .then(function (r) {
