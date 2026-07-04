@@ -1,0 +1,346 @@
+#!/usr/bin/env python3
+# JOURNEY LENS — static story page generator (/id/index.html)
+import json, re, os, shutil, html
+
+import glob
+SRC_HTML = "index.html"     # repo root homepage (template source)
+OUT      = "."              # repo root (in-place)
+DOMAIN   = "https://journey.yagenji.com"
+
+PWA_HEAD = (
+'<link rel="apple-touch-icon" href="/icons/icon-180.png">\n'
+'<meta name="theme-color" content="#13150F">\n'
+'<meta name="apple-mobile-web-app-capable" content="yes">\n'
+'<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">\n'
+'<meta name="apple-mobile-web-app-title" content="JOURNEY LENS">\n'
+'<link rel="manifest" href="/manifest.json">\n'
+'<link rel="alternate" type="application/rss+xml" title="JOURNEY LENS" href="/rss.xml">'
+)
+SW_REG = "<script>if('serviceWorker'in navigator){addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
+
+src = open(SRC_HTML, encoding="utf-8").read()
+
+# --- combine per-story files (content/stories/*.json) via content/order.json ---
+_raw = json.load(open("content/order.json", encoding="utf-8")).get("countryOrder", [])
+_order = [(x.get("name") if isinstance(x, dict) else x) for x in _raw]
+_oidx = {k: i for i, k in enumerate(_order)}
+def _tail_int(x):
+    m = re.search(r"(\d+)$", x or ""); return int(m.group(1)) if m else 0
+def _wkey(c):
+    o = c.get("order"); eff = float(o) if o not in (None, "") else _tail_int(c.get("id")); return (eff, c.get("id") or "")
+def _ckey(c):
+    jp = c.get("jp"); return (_oidx.get(jp, len(_order) + 1), jp or "")
+LOCS = [json.load(open(f, encoding="utf-8")) for f in glob.glob("content/stories/*.json")]
+LOCS.sort(key=lambda c: (_ckey(c), _wkey(c)))
+json.dump({"locations": LOCS}, open("content.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+# ---------- extract reusable chunks from the source homepage ----------
+def between(s, a, b, inc=True):
+    i = s.index(a); j = s.index(b, i) + len(b)
+    return s[i:j] if inc else s[i+len(a):j-len(b)]
+
+CSS = between(src, "<style>", "</style>", inc=False)
+FAVICON = re.search(r'<link rel="icon"[^>]*>', src).group(0)
+PRECONNECT = "".join(re.findall(r'<link rel="preconnect"[^>]*>', src))
+FONTS = re.search(r'<link href="https://fonts\.googleapis\.com/css2[^>]*>', src).group(0)
+NAV = between(src, '<header class="nav"', "</header>")
+COLOPHON = between(src, '<footer class="colophon">', "</footer>")
+LIGHTBOX = between(src, '<div class="lightbox"', '<p class="lb-cap" id="lbCap"></p>')
+
+# fix nav links to work from a /id/ subpage back to the homepage sections
+NAV = ('<header class="nav"' + NAV.split('<header class="nav"',1)[1]) if '<header class="nav"' in NAV else NAV
+NAV = NAV.replace('href="#"', 'href="/"') \
+         .replace('href="#featured"', 'href="/#featured"') \
+         .replace('href="#atlas"', 'href="/#atlas"') \
+         .replace('href="#about"', 'href="/#about"')
+
+# extra CSS for the "More from" section (not present in source homepage)
+MORE_CSS = (
+".cview-more{max-width:1240px;margin:0 auto;padding:clamp(44px,7vh,84px) clamp(18px,5vw,40px) 0;border-top:1px solid var(--line)}\n"
+".cview-more-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:22px}\n"
+".cview-more .more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:.01em;color:var(--ink);margin:0}\n"
+".cview-more .more-ja{font-family:var(--sans);font-size:.78rem;letter-spacing:.2em;color:var(--ink-soft)}\n"
+)
+
+# ---------- helpers mirroring the site JS ----------
+def esc(s):
+    s = "" if s is None else str(s)
+    return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")
+
+def vsrc(m): return m.get("videoUrl") or m.get("video") or ""
+def ytId(u):
+    mm = re.search(r'(?:youtube\.com/(?:watch\?v=|shorts/|embed/)|youtu\.be/)([\w-]{11})', u or "")
+    return mm.group(1) if mm else ""
+def videoThumb(m):
+    if m and m.get("image"): return m["image"]
+    i = ytId(vsrc(m or {}))
+    return "https://img.youtube.com/vi/%s/hqdefault.jpg" % i if i else ""
+def firstPhoto(c):
+    for m in (c.get("media") or []):
+        if m.get("type")=="photo": return m
+    return {}
+def entryThumb(c):
+    if c.get("heroImage"): return c["heroImage"]
+    fp = firstPhoto(c).get("image")
+    if fp: return fp
+    v = next((m for m in (c.get("media") or []) if m.get("type")=="video"), {})
+    return videoThumb(v) or ""
+def nameHTML(c):
+    out = esc(c.get("jp") or c.get("en"))
+    if c.get("placeJa"): out += '<span class="nm-place">'+esc(c["placeJa"])+'</span>'
+    return out
+
+SIZE = {"sm":"f-2","md":"f-3","lg":"f-4","full":"f-6"}
+SHAPE= {"land":"r-land","port":"r-port","sq":"r-sq","wide":"r-wide"}
+
+def media_figure(m):
+    cls = "plate %s %s" % (SIZE.get(m.get("size"),"f-3"), SHAPE.get(m.get("shape"),"r-land"))
+    attrs = ' class="%s" tabindex="0" data-cap="%s"' % (cls, esc(m.get("cap") or ""))
+    inner = ""
+    if m.get("type")=="video":
+        src_u = vsrc(m); thumb = videoThumb(m)
+        attrs += ' data-video="%s" data-poster="%s"' % (esc(src_u), esc(thumb))
+        # all sources here resolve to embeds (YouTube/Vimeo) -> poster + play button
+        inner += '<img class="ph" loading="lazy" decoding="async" src="%s" alt="%s">' % (esc(thumb), esc(m.get("cap") or ""))
+        inner += '<div class="play"><span></span></div>'
+        inner += '<span class="tag">time-lapse</span>'
+        if m.get("duration"): inner += '<span class="dur">%s</span>' % esc(m["duration"])
+    else:
+        inner += '<img class="ph" loading="lazy" decoding="async" src="%s" alt="%s">' % (esc(m.get("image") or ""), esc(m.get("cap") or ""))
+    if m.get("cap"): inner += '<figcaption>%s</figcaption>' % esc(m["cap"])
+    return "<figure%s>%s</figure>" % (attrs, inner)
+
+def essay_html(c):
+    paras = [p for p in re.split(r'\n\n+', c.get("essay") or "") if p!=""]
+    parts = []
+    if paras: parts.append('<p>'+esc(paras[0])+'</p>')
+    if c.get("pullquote"): parts.append('<blockquote class="pullquote">'+esc(c["pullquote"])+'</blockquote>')
+    for p in paras[1:]: parts.append('<p>'+esc(p)+'</p>')
+    return "".join(parts)
+
+def more_from(c):
+    kin = [x for x in LOCS if x.get("continent")==c.get("continent")
+           and (x.get("jp") or "")==(c.get("jp") or "") and x["id"]!=c["id"]][:6]
+    if not kin: return ""
+    cards = ""
+    for s in kin:
+        place = s.get("placeJa") or s.get("jp") or ""
+        cards += ('<a class="jl-card" href="/%s/"><img loading="lazy" src="%s" alt="%s">'
+                  '<div class="cap"><p class="jl-place">%s</p><div class="jl-year">%s</div></div></a>'
+                  % (esc(s["id"]), esc(entryThumb(s)), esc(place), esc(place), esc(s.get("year") or "")))
+    return ('<section class="cview-more"><div class="cview-more-head">'
+            '<h2 class="more-en">More from %s</h2>'
+            '<span class="more-ja">%sの他の旅</span></div>'
+            '<div class="jl-grid">%s</div></section>'
+            % (esc(c.get("en")), esc(c.get("jp") or c.get("en")), cards))
+
+def meta_desc(c):
+    d = (c.get("standfirst") or "").strip()
+    if not d:
+        first = re.split(r'\n\n+', c.get("essay") or "")[0].strip()
+        d = (first[:110] + "…") if len(first) > 110 else first
+    if not d:
+        d = "旅をしながら撮りためた、世界の風景・街・人の写真とタイムラプス。"
+    return d.replace("\n"," ").strip()
+
+def page(c, prv, nxt):
+    hero = entryThumb(c)
+    hero_abs = DOMAIN + hero if hero.startswith("/") else hero
+    canonical = "%s/%s/" % (DOMAIN, c["id"])
+    place = c.get("placeJa") or c.get("jp") or ""
+    title_plain = (("%s｜%s" % (c["placeJa"], c.get("jp"))) if c.get("placeJa") else (c.get("jp") or c.get("en")))
+    title = title_plain + " — JOURNEY LENS"
+    desc = meta_desc(c)
+    figures = "".join(media_figure(m) for m in (c.get("media") or []))
+    note = ""
+    if c.get("noteUrl"):
+        note = ('<div class="cview-note"><a href="%s" target="_blank" rel="noopener">'
+                '<svg class="note-mark" viewBox="111 111 270 270" fill="currentColor" aria-hidden="true">'
+                '<path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/>'
+                '</svg><span>noteで読む</span><span class="note-arrow">→</span></a></div>' % esc(c["noteUrl"]))
+    next_label = esc(nxt.get("placeJa") or nxt.get("jp") or nxt.get("en"))
+    prev_label = esc(prv.get("placeJa") or prv.get("jp") or prv.get("en"))
+    ld = {
+        "@context":"https://schema.org","@type":"Article",
+        "headline": title_plain, "description": desc, "image": hero_abs,
+        "url": canonical, "inLanguage":"ja",
+        "datePublished": c.get("publishedAt",""),
+        "author":{"@type":"Person","name":"Makoto Yagenji"},
+        "publisher":{"@type":"Organization","name":"JOURNEY LENS"},
+        "isPartOf":{"@type":"WebSite","name":"JOURNEY LENS","url":DOMAIN+"/"}
+    }
+    ld_json = json.dumps(ld, ensure_ascii=False)
+
+    head = f'''<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(desc)}">
+<link rel="canonical" href="{canonical}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="JOURNEY LENS">
+<meta property="og:title" content="{esc(title_plain)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:image" content="{esc(hero_abs)}">
+<meta property="og:url" content="{canonical}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title_plain)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{esc(hero_abs)}">
+{FAVICON}
+{PWA_HEAD}
+{PRECONNECT}
+{FONTS}
+<link rel="stylesheet" href="/assets/story.css">
+<script type="application/ld+json">{ld_json}</script>
+</head>
+<body>
+{NAV}
+<main id="country-view">
+<article class="cview">
+<header class="cview-hero" style="background-image:url({esc(hero)})">
+<a class="cview-back" href="/#atlas">← 地図へ戻る</a>
+<div class="cview-hero-inner"><div class="cview-folio">{esc(c.get("en"))}{(" · "+esc(c["year"])) if c.get("year") else ""}</div>
+<h1 class="cview-title">{nameHTML(c)}</h1>
+{('<p class="cview-standfirst">'+esc(c["standfirst"])+'</p>') if c.get("standfirst") else ""}</div></header>
+<div class="cview-essay">{essay_html(c)}</div>{note}
+<div class="cview-gallery"><div class="plates">{figures}</div></div>
+{more_from(c)}
+<nav class="cview-foot"><a href="/{esc(prv["id"])}/">← 前へ — {prev_label}</a><a href="/#atlas">地図へ戻る</a><a href="/{esc(nxt["id"])}/">次へ — {next_label} →</a></nav>
+</article>
+</main>
+{COLOPHON}
+{LIGHTBOX}</div>
+<script src="/assets/story.js" defer></script>
+{SW_REG}
+</body>
+</html>
+'''
+    return head
+
+# ---------- write assets ----------
+os.makedirs(OUT+"/assets", exist_ok=True)
+open(OUT+"/assets/story.css","w",encoding="utf-8").write(CSS if ".cview-more{" in CSS else CSS + "\n" + MORE_CSS)
+
+STORY_JS = r'''(function(){
+  function el(t,c){var e=document.createElement(t);if(c)e.className=c;return e;}
+  function ytId(u){var m=(u||'').match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);return m?m[1]:'';}
+  function parseVideo(u){if(!u)return null;var m;
+    if(m=u.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/))return{kind:'embed',embed:'https://www.youtube.com/embed/'+m[1]+'?autoplay=1&rel=0'};
+    if(m=u.match(/vimeo\.com\/(?:video\/)?(\d+)/))return{kind:'embed',embed:'https://player.vimeo.com/video/'+m[1]+'?autoplay=1'};
+    return{kind:'file',src:u};}
+  var lb=document.getElementById('lightbox');
+  function openLb(fig){var slot=document.getElementById('lbSlot');slot.innerHTML='';
+    if(fig.dataset.video){var info=parseVideo(fig.dataset.video);
+      if(info&&info.kind==='embed'){var f=el('iframe');f.src=info.embed;f.allow='autoplay; fullscreen; encrypted-media';f.allowFullscreen=true;slot.appendChild(f);}
+      else{var v=el('video');v.controls=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.setAttribute('playsinline','');if(fig.dataset.poster)v.poster=fig.dataset.poster;var s=el('source');s.src=info?info.src:fig.dataset.video;v.appendChild(s);slot.appendChild(v);}
+    }else{var im=fig.querySelector('img');var i=el('img');i.src=im.src;i.alt=im.alt;slot.appendChild(i);}
+    var cap=document.getElementById('lbCap');if(cap)cap.textContent=fig.dataset.cap||'';
+    if(lb)lb.classList.add('open');}
+  function closeLb(){if(lb){lb.classList.remove('open');}var s=document.getElementById('lbSlot');if(s)s.innerHTML='';}
+  document.querySelectorAll('.plate').forEach(function(f){
+    f.addEventListener('click',function(){openLb(f);});
+    f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();openLb(f);}});
+  });
+  var lc=document.getElementById('lbClose');if(lc)lc.addEventListener('click',closeLb);
+  if(lb)lb.addEventListener('click',function(e){if(e.target===lb)closeLb();});
+  addEventListener('keydown',function(e){if(e.key==='Escape')closeLb();});
+  function fade(img){if(img.dataset.ph)return;img.dataset.ph='1';
+    if(img.complete&&img.naturalWidth)img.classList.add('on');
+    else{img.addEventListener('load',function(){img.classList.add('on');},{once:true});
+         img.addEventListener('error',function(){img.classList.add('on');},{once:true});}}
+  document.querySelectorAll('img.ph').forEach(fade);
+  setTimeout(function(){document.querySelectorAll('img.ph:not(.on)').forEach(function(i){i.classList.add('on');});},2500);
+  var nav=document.getElementById('nav');
+  if(nav){var onScroll=function(){nav.classList.toggle('solid',scrollY>innerHeight*0.6);};
+    addEventListener('scroll',onScroll,{passive:true});onScroll();}
+  var tgl=document.getElementById('navToggle'),links=document.getElementById('navLinks');
+  if(tgl&&links)tgl.addEventListener('click',function(){var o=links.classList.toggle('open');
+    tgl.setAttribute('aria-expanded',o);tgl.textContent=o?'閉じる ×':'メニュー ＋';});
+})();'''
+open(OUT+"/assets/story.js","w",encoding="utf-8").write(STORY_JS)
+
+# ---------- write story pages ----------
+n = len(LOCS)
+for i,c in enumerate(LOCS):
+    nxt = LOCS[(i+1) % n]  # wrap-around, array order (matches homepage)
+    prv = LOCS[(i-1) % n]
+    d = OUT + "/" + c["id"]
+    os.makedirs(d, exist_ok=True)
+    open(d+"/index.html","w",encoding="utf-8").write(page(c, prv, nxt))
+
+# ---------- sitemap.xml (homepage + all story pages) ----------
+urls = ['<url><loc>%s/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>' % DOMAIN]
+for c in LOCS:
+    lm = c.get("publishedAt","")
+    lmt = ("<lastmod>%s</lastmod>" % lm) if lm else ""
+    urls.append('<url><loc>%s/%s/</loc>%s<changefreq>monthly</changefreq><priority>0.8</priority></url>' % (DOMAIN, c["id"], lmt))
+sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + "\n".join(urls) + "\n</urlset>\n")
+open(OUT+"/sitemap.xml","w",encoding="utf-8").write(sitemap)
+
+# ---------- (manifest / sw / offline / icons are committed static files; not touched) ----------
+import datetime as _dt
+
+# ---------- RSS feed (newest first) ----------
+_MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+_DOW = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+def rfc822(s):
+    try: d = _dt.date.fromisoformat(s)
+    except Exception: return ""
+    return "%s, %02d %s %04d 00:00:00 +0900" % (_DOW[d.weekday()], d.day, _MON[d.month-1], d.year)
+def xesc(s):
+    return ("" if s is None else str(s)).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+
+feed_items = [(i, c) for i, c in enumerate(LOCS) if c.get("publishedAt")]
+# publishedAt desc, tie-break by array index desc (later added = newer), matches site "recently added"
+feed_items.sort(key=lambda t: (t[1]["publishedAt"], t[0]), reverse=True)
+rows = []
+for i, c in feed_items:
+    place = c.get("placeJa") or ""
+    title = (c.get("jp") or c.get("en") or "") + (("｜" + place) if place else "")
+    link = "%s/%s/" % (DOMAIN, c["id"])
+    desc = (c.get("standfirst") or "").strip()
+    rows.append(
+        "<item>\n"
+        "<title>%s</title>\n"
+        "<link>%s</link>\n"
+        "<guid isPermaLink=\"true\">%s</guid>\n"
+        "<pubDate>%s</pubDate>\n"
+        "<description>%s</description>\n"
+        "</item>" % (xesc(title), link, link, rfc822(c["publishedAt"]), xesc(desc))
+    )
+now822 = _dt.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0900")
+rss = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+       '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+       '<channel>\n'
+       '<title>JOURNEY LENS</title>\n'
+       '<link>%s/</link>\n'
+       '<atom:link href="%s/rss.xml" rel="self" type="application/rss+xml"/>\n'
+       '<description>旅の風景・街・人の写真とタイムラプス。</description>\n'
+       '<language>ja</language>\n'
+       '<lastBuildDate>%s</lastBuildDate>\n'
+       '%s\n'
+       '</channel>\n</rss>\n' % (DOMAIN, DOMAIN, now822, "\n".join(rows)))
+open(OUT + "/rss.xml", "w", encoding="utf-8").write(rss)
+
+print("PWA + RSS written (", len(rows), "feed items )")
+# ---------- remove stale story dirs (deleted stories only) ----------
+_valid = set(c["id"] for c in LOCS)
+_protected = {"assets","icons","content",".github","uploads","node_modules",".git","_generator"}
+for _name in os.listdir(OUT):
+    _p = os.path.join(OUT, _name)
+    if (not os.path.isdir(_p)) or _name in _protected: continue
+    _idx = os.path.join(_p, "index.html")
+    if _name not in _valid and os.path.isfile(_idx):
+        try:
+            if '<article class="cview">' in open(_idx, encoding="utf-8").read():
+                shutil.rmtree(_p)
+        except Exception:
+            pass
+
+print("generated", n, "story pages")
+print("dirs:", ", ".join(sorted(os.listdir(OUT))[:6]), "...")

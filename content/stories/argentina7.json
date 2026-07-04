@@ -1,0 +1,82 @@
+{
+  "id": "argentina7",
+  "en": "ARGENTINA",
+  "jp": "アルゼンチン",
+  "placeJa": "Salta",
+  "year": "2026",
+  "continent": "samerica",
+  "categories": [
+    "cities"
+  ],
+  "featured": false,
+  "publishedAt": "2026-07-04",
+  "lat": -24.7829,
+  "lon": -65.4122,
+  "standfirst": "教会の美しさと整った街並みが印象に残る、穏やかな街だった。",
+  "essay": "Saltaは、これまで訪れたアルゼンチンの街の中でも、いちばん整然としているように感じた。道にはゴミもあまり落ちておらず、街全体に落ち着いた空気があった。\n\n印象に残ったのは、街にある教会の美しさだった。大きく派手な観光地というより、広場の周りに教会や建物が整い、街並みの中に自然に美しさがある。歩いていて、ふと足を止めたくなるような場所だった。\n\nこれといって強い見どころが多い街ではない。けれど、歩いていて疲れない。観光地らしい派手さよりも、広場や通りに流れる穏やかな時間の方が印象に残っている。\n\nアルゼンチンの旅では、雄大な自然やサッカーの熱、荒々しい風景に出会うことが多かった。その中でSaltaは、少し立ち止まるような街だった。教会の美しさと街の整い方が、静かに記憶に残っている。",
+  "pullquote": "広場のそばに立つ教会が、街の静けさによく似合っていた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02707_salta.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Streets of Salta",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02693_salta.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Salta Cathedral",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_3040_salta.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Salta Cathedral",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02714_salta.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Church of San Francisco",
+      "size": "md",
+      "shape": "port"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_3044_salta.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cat",
+      "size": "md",
+      "shape": "land"
+    }
+  ],
+  "region": "central-asia"
+}
