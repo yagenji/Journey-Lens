@@ -10723,6 +10723,148 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "argentina5",
+      "en": "ARGENTINA",
+      "jp": "アルゼンチン",
+      "placeJa": "Humahuaca / Hornocal",
+      "year": "2026",
+      "continent": "samerica",
+      "categories": [
+        "nature",
+        "cities"
+      ],
+      "featured": false,
+      "publishedAt": "2026-07-04",
+      "lat": -23.204,
+      "lon": -65.3486,
+      "standfirst": "カーニバル前夜のHumahuacaから、14色の山肌が広がるHornocalへ向かった。",
+      "essay": "Humahuacaには、14色の丘として知られるHornocalがある。標高約4,350mに位置する展望スポットで、地殻変動と浸食によって生まれた山肌が、いくつもの色の層になって広がっている。\n\nこの日は、太陽の光が強く当たっているわけではなかった。それでも、目の前に広がる山肌は十分に不思議で美しかった。赤、白、緑、茶色のような色が山の斜面に斜めに重なり、自然にできたものとは思えない模様を作っていた。\n\nHumahuacaに滞在した日は、ちょうどカーニバルの前日だった。街には人が溢れ、翌日に向けた熱気がすでに立ち上がっていた。残念ながらカーニバル当日は移動日で見ることができなかったが、前夜祭の空気だけでも十分に楽しかった。\n\n高地の静かな絶景と、祭りを前にした街のざわめき。その両方が、この場所の記憶になっている。Hornocalの山肌も、Humahuacaの夜の人混みも、どこか現実離れした景色だった。",
+      "pullquote": "祭りの前夜、14色の山肌が高地に広がっていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02176_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Mirador de los 14 Colores",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02402_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Mirador de los 14 Colores",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02170_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Mirador de los 14 Colores",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02526_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Mirador de los 14 Colores",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02463_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Mirador de los 14 Colores",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2989_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Humahuaca",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02660_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Humahuaca",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02678_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Humahuaca",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2944_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Humahuaca",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02657_humahu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Humahuaca",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ]
 }
