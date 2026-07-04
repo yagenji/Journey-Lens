@@ -1026,7 +1026,7 @@ function mediaFigure(m){
   return fig;
 }
 function buildCountry(c){
-  const idx=COUNTRIES.indexOf(c),next=COUNTRIES[(idx+1)%COUNTRIES.length];
+  const idx=COUNTRIES.indexOf(c),next=COUNTRIES[(idx+1)%COUNTRIES.length];const prev=COUNTRIES[(idx-1+COUNTRIES.length)%COUNTRIES.length];
   const kin=COUNTRIES.filter(x=>x.continent===c.continent&&(x.jp||'')===(c.jp||'')&&x.id!==c.id).slice(0,6);
   const moreHtml=kin.length?('<section class="cview-more"><div class="cview-more-head"><h2 class="more-en">More from '+esc(c.en)+'</h2><span class="more-ja">'+esc(c.jp||c.en)+'の他の旅</span></div><div class="jl-grid">'+kin.map(function(s){return '<a class="jl-card" href="#/'+esc(s.id)+'"><img loading="lazy" src="'+esc(entryThumb(s))+'" alt="'+esc(s.placeJa||s.jp||'')+'"><div class="cap"><p class="jl-place">'+esc(s.placeJa||s.jp||'')+'</p><div class="jl-year">'+esc(s.year||'')+'</div></div></a>';}).join('')+'</div></section>'):'';
   const hero=entryThumb(c);
@@ -1041,7 +1041,7 @@ function buildCountry(c){
     (c.standfirst?'<p class="cview-standfirst">'+esc(c.standfirst)+'</p>':'')+'</div></header>'+
     '<div class="cview-essay">'+essay+'</div>'+noteLink+
     '<div class="cview-gallery"><div class="plates" id="cplates"></div></div>'+moreHtml+
-    '<nav class="cview-foot"><a href="#atlas">← 地図へ戻る</a><a href="#/'+esc(next.id)+'">次へ — '+esc(next.placeJa||next.jp||next.en)+' →</a></nav>';
+    '<nav class="cview-foot"><a href="#/'+esc(prev.id)+'">← 前へ — '+esc(prev.placeJa||prev.jp||prev.en)+'</a><a href="#atlas">地図へ戻る</a><a href="#/'+esc(next.id)+'">次へ — '+esc(next.placeJa||next.jp||next.en)+' →</a></nav>';
   const grid=art.querySelector('#cplates');(c.media||[]).forEach(m=>grid.appendChild(mediaFigure(m)));
   return art;
 }
