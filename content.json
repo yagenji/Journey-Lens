@@ -10623,7 +10623,8 @@
       "year": "2026",
       "continent": "samerica",
       "categories": [
-        "nature"
+        "nature",
+        "cities"
       ],
       "featured": false,
       "publishedAt": "2026-07-02",
