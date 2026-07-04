@@ -31,6 +31,12 @@ def _wkey(c):
 def _ckey(c):
     jp = c.get("jp"); return (_oidx.get(jp, len(_order) + 1), jp or "")
 LOCS = [json.load(open(f, encoding="utf-8")) for f in glob.glob("content/stories/*.json")]
+# 新しい国（order.json に未登録の jp）は末尾へ自動追加して保存する
+_missing = sorted({c.get("jp") for c in LOCS if c.get("jp")} - set(_order))
+if _missing:
+    _order = _order + _missing
+    _oidx = {k: i for i, k in enumerate(_order)}
+    json.dump({"countryOrder": _order}, open("content/order.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 LOCS.sort(key=lambda c: (_ckey(c), _wkey(c)))
 json.dump({"locations": LOCS}, open("content.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
