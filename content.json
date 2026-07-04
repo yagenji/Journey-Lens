@@ -4655,126 +4655,6 @@
           "cap": "Hornocal’s 14-Color Mountains",
           "size": "md",
           "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC09584_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "I.R. AFGHANISTAN",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC09751_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Bartang Valley",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC00442_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Khorogh",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC00910_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Yamchun Fort",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC00651_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ishkashim Fortress",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC09714_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Panj River",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC00919_waha.jpg",
-          "cover": false,
-          "mode": "",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Yamchun Fort",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC01647_waha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Engels Peak",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "video",
-          "image": "",
-          "cover": false,
-          "mode": "loop",
-          "videoUrl": "https://youtu.be/-d1FIwCCeAg?si=jVoCD8S-R7utq3Tm",
-          "video": "",
-          "duration": "0:29",
-          "cap": "Engels Peak",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "video",
-          "image": "",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "https://youtu.be/yL-wB0p9fMg?si=jxVCPInxY5ZhPMS-",
-          "video": "",
-          "duration": "0:34",
-          "cap": "Engels Peak",
-          "size": "md",
-          "shape": "land"
         }
       ],
       "region": "central-asia"
@@ -12778,7 +12658,7 @@
       "jp": "ウルグアイ",
       "placeJa": "Colonia del Sacramento",
       "year": "2026",
-      "continent": "namerica",
+      "continent": "samerica",
       "categories": [
         "cities"
       ],
