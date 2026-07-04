@@ -10378,66 +10378,6 @@
           "cap": "Cerro de La Cruz",
           "size": "md",
           "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC04472_lio.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Escadaria Selarón",
-          "size": "md",
-          "shape": "port"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_4391_lio.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Metropolitan Cathedral of Saint Sebastian",
-          "size": "md",
-          "shape": "port"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_4365_lio.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Royal Portuguese Cabinet of Reading",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_4237_lio.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Maracanã Stadium",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC04364_lio.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Maracanã Stadium",
-          "size": "md",
-          "shape": "land"
         }
       ]
     },
