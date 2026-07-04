@@ -1,105 +1,124 @@
 # ============================================================
-#  Journey Lens — Sveltia CMS 設定（Decap 互換）
-#  YOUR_... を自分のものに置換。認証は Sveltia 公式手順に従う:
-#  https://github.com/sveltia/sveltia-cms#readme
+#  Journey Lens — Sveltia CMS 設定（分割版・1物語=1ファイル）
+#  変更点:
+#   - site(content.json) を廃止し、stories(content/stories/{id}.json) の
+#     フォルダ型コレクションに変更（CMSは1物語ずつ読み書き＝軽い）
+#   - 各物語に「並び順(order)」フィールドを追加（空なら id の番号順）
+#   - 国の並び順を管理する order.json コレクションを追加
+#   - profile(about.json) は変更なし
 # ============================================================
 backend:
   name: github
-  repo: yagenji/Journey-Lens   # 例: yourname/journey-lens
+  repo: yagenji/Journey-Lens
   branch: main
-  # ログインは GitHub の個人用トークン(PAT)方式を使用。認証ワーカーは不要です。
-  # （将来「Login with GitHub」ボタンにしたい場合のみ、認証ワーカーのURLを base_url に設定）
 
 media_folder: "uploads"
 public_folder: "/uploads"
 locale: ja
 
 collections:
-  - name: site
-    label: サイト内容
+  # ---------- 物語（1物語 = 1ファイル） ----------
+  - name: stories
+    label: 物語（旅先）
+    label_singular: 物語
+    folder: content/stories
+    format: json
+    extension: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    create: true
+    summary: "{{fields.en}} · {{fields.placeJa}}"
+    sortable_fields: [id, en, jp, publishedAt, order]
+    editor:
+      preview: false
+    fields:
+      - { label: "ID（英小文字・記号なし）", name: id, widget: string, hint: "URL/ファイル名になります。公開後は変えないでください。例: iceland3" }
+      - { label: "並び順（任意・空なら番号順）", name: order, widget: number, required: false, value_type: float, step: 0.1, hint: "同じ国の中の並び順。空なら id の番号順（iceland1→2→3…）。途中に差し込みたいときだけ数値を入れる（例: 3.5）" }
+      - { label: 国名（英）, name: en, widget: string, hint: "国でまとめる単位。同じ国は毎回同じ表記で（例: JAPAN）" }
+      - { label: 国名（日）, name: jp, widget: string, hint: "国でまとめる単位（必須）。同じ国は毎回同じ表記で（例: 日本）。地図・並びはこの表記で束ねます" }
+      - { label: 場所（都市・地域・任意。国名｜場所で表示）, name: placeJa, widget: string, required: false }
+      - { label: 撮影年（任意。例 2022 / 2018–2019）, name: year, widget: string, required: false }
+      - label: 大陸
+        name: continent
+        widget: select
+        options:
+          - { label: アジア, value: asia }
+          - { label: ヨーロッパ, value: europe }
+          - { label: アフリカ, value: africa }
+          - { label: 北アメリカ, value: namerica }
+          - { label: 南アメリカ, value: samerica }
+          - { label: オセアニア, value: oceania }
+          - { label: 南極, value: antarctica }
+      - label: カテゴリ（複数選択可・任意）
+        name: categories
+        widget: select
+        multiple: true
+        required: false
+        hint: "当てはまるものを複数選べます（例: 氷河で動物を撮った → Nature と Wildlife）"
+        options:
+          - { label: "Nature（自然｜山・海・砂漠・氷河・湖・空）", value: nature }
+          - { label: "Cities（街｜建物・路地・生活風景）", value: cities }
+          - { label: "Heritage（遺跡｜歴史・宗教・文化的建造物）", value: heritage }
+          - { label: "Wildlife（生きもの｜動物・鳥・海洋生物）", value: wildlife }
+      - { label: 特集に出す（トップの特集に表示）, name: featured, widget: boolean, default: false, required: false }
+      - { label: 公開日（任意・最近の更新に使用）, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false, hint: "この旅先を追加・公開した日。入れると「最近追加した旅先」に出て、30日間は NEW マークが付きます。空なら何も出ません" }
+      - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
+      - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
+      - { label: 導入文（standfirst・1行）, name: standfirst, widget: string }
+      - { label: 体験エッセイ（本文）, name: essay, widget: text, hint: "段落は空行で区切る。1段落目の後に引用が大きく入ります" }
+      - { label: 引用（pull quote）, name: pullquote, widget: string, required: false }
+      - { label: note記事URL（任意）, name: noteUrl, widget: string, required: false, hint: "この旅先に対応するnote記事のURL。入れると本文の後に「noteで読む」リンクが出ます。空なら非表示" }
+      - label: 写真・タイムラプス
+        name: media
+        widget: list
+        label_singular: メディア
+        summary: "{{fields.type}} · {{fields.cap}}"
+        fields:
+          - label: 種類
+            name: type
+            widget: select
+            default: photo
+            options: [ { label: 写真, value: photo }, { label: タイムラプス（動画）, value: video } ]
+          - { label: "画像（写真本体／動画のサムネ）", name: image, widget: image, required: false, hint: "写真は必須。動画はサムネ任意（未設定ならYouTubeのサムネを自動表示）" }
+          - { label: "表紙に出す", name: cover, widget: boolean, default: false, hint: "ONの写真だけトップのモザイクに出ます（写真のみ）" }
+          - label: 動画の表示方法
+            name: mode
+            widget: select
+            required: false
+            default: feature
+            options: [ { label: "クリックで再生（30秒以上の長尺向き）", value: feature }, { label: "自動ループ（短い無音クリップ向き）", value: loop } ]
+          - { label: "動画URL（YouTube / Vimeo / MP4直リンク）", name: videoUrl, widget: string, required: false, hint: "長尺はこちら推奨" }
+          - { label: "動画ファイル（短いMP4・任意）", name: video, widget: file, required: false, hint: "自動ループはこの方式のみ対応" }
+          - { label: "長さ（任意）", name: duration, widget: string, required: false, hint: "例: 1:12" }
+          - { label: キャプション, name: cap, widget: string, hint: "例: PL.01 · Glacier tongue" }
+          - label: 大きさ
+            name: size
+            widget: select
+            default: md
+            options: [ { label: 小, value: sm }, { label: 中, value: md }, { label: 大, value: lg }, { label: 全幅, value: full } ]
+          - label: 形
+            name: shape
+            widget: select
+            default: land
+            options: [ { label: 横長, value: land }, { label: 縦長, value: port }, { label: 正方形, value: sq }, { label: ワイド, value: wide } ]
+
+  # ---------- 国の並び順 ----------
+  - name: settings
+    label: 並び・設定
     editor:
       preview: false
     files:
-      - name: content
-        label: 国（旅先）・写真・タイムラプス
-        file: content.json
+      - name: order
+        label: 国の並び順
+        file: content/order.json
         format: json
         fields:
-          - label: 国（旅先）
-            name: locations
+          - label: 国の並び順（ドラッグで入れ替え・国名は「国名（日）」と同じ表記で）
+            name: countryOrder
             widget: list
-            label_singular: 国
-            summary: "{{fields.en}}"
-            fields:
-              - { label: "ID（英小文字・記号なし）", name: id, widget: string, hint: "例: iceland。URL/アンカーに使用" }
-              - { label: 国名（英）, name: en, widget: string, hint: "国でまとめる単位。同じ国は毎回同じ表記で（例: JAPAN）" }
-              - { label: 国名（日）, name: jp, widget: string, hint: "国でまとめる単位（必須）。同じ国は毎回同じ表記で（例: 日本）" }
-              - { label: 場所（都市・地域・任意。国名｜場所で表示）, name: placeJa, widget: string, required: false }
-              - { label: 撮影年（任意。例 2022 / 2018–2019）, name: year, widget: string, required: false }
-              - label: 大陸
-                name: continent
-                widget: select
-                options:
-                  - { label: アジア, value: asia }
-                  - { label: ヨーロッパ, value: europe }
-                  - { label: アフリカ, value: africa }
-                  - { label: 北アメリカ, value: namerica }
-                  - { label: 南アメリカ, value: samerica }
-                  - { label: オセアニア, value: oceania }
-                  - { label: 南極, value: antarctica }
-              - label: カテゴリ（複数選択可・任意）
-                name: categories
-                widget: select
-                multiple: true
-                required: false
-                hint: "当てはまるものを複数選べます（例: 氷河で動物を撮った → Nature と Wildlife）"
-                options:
-                  - { label: "Nature（自然｜山・海・砂漠・氷河・湖・空）", value: nature }
-                  - { label: "Cities（街｜建物・路地・生活風景）", value: cities }
-                  - { label: "Heritage（遺跡｜歴史・宗教・文化的建造物）", value: heritage }
-                  - { label: "Wildlife（生きもの｜動物・鳥・海洋生物）", value: wildlife }
-              - { label: 特集に出す（トップの特集に表示）, name: featured, widget: boolean, default: false, required: false }
-              - { label: 公開日（任意・最近の更新に使用）, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false, hint: "この旅先を追加・公開した日。入れると「最近追加した旅先」に出て、30日間は NEW マークが付きます。空なら何も出ません" }
-              - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
-              - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
-              - { label: 導入文（standfirst・1行）, name: standfirst, widget: string }
-              - { label: 体験エッセイ（本文）, name: essay, widget: text, hint: "段落は空行で区切る。1段落目の後に引用が大きく入ります" }
-              - { label: 引用（pull quote）, name: pullquote, widget: string, required: false }
-              - { label: note記事URL（任意）, name: noteUrl, widget: string, required: false, hint: "この旅先に対応するnote記事のURL。入れると本文の後に「noteで読む」リンクが出ます。空なら非表示" }
-              - label: 写真・タイムラプス
-                name: media
-                widget: list
-                label_singular: メディア
-                summary: "{{fields.type}} · {{fields.cap}}"
-                fields:
-                  - label: 種類
-                    name: type
-                    widget: select
-                    default: photo
-                    options: [ { label: 写真, value: photo }, { label: タイムラプス（動画）, value: video } ]
-                  - { label: "画像（写真本体／動画のサムネ）", name: image, widget: image, required: false, hint: "写真は必須。動画はサムネ任意（未設定ならYouTubeのサムネを自動表示）" }
-                  - { label: "表紙に出す", name: cover, widget: boolean, default: false, hint: "ONの写真だけトップのモザイクに出ます（写真のみ）" }
-                  - label: 動画の表示方法
-                    name: mode
-                    widget: select
-                    required: false
-                    default: feature
-                    options: [ { label: "クリックで再生（30秒以上の長尺向き）", value: feature }, { label: "自動ループ（短い無音クリップ向き）", value: loop } ]
-                  - { label: "動画URL（YouTube / Vimeo / MP4直リンク）", name: videoUrl, widget: string, required: false, hint: "長尺はこちら推奨" }
-                  - { label: "動画ファイル（短いMP4・任意）", name: video, widget: file, required: false, hint: "自動ループはこの方式のみ対応" }
-                  - { label: "長さ（任意）", name: duration, widget: string, required: false, hint: "例: 1:12" }
-                  - { label: キャプション, name: cap, widget: string, hint: "例: PL.01 · Glacier tongue" }
-                  - label: 大きさ
-                    name: size
-                    widget: select
-                    default: md
-                    options: [ { label: 小, value: sm }, { label: 中, value: md }, { label: 大, value: lg }, { label: 全幅, value: full } ]
-                  - label: 形
-                    name: shape
-                    widget: select
-                    default: land
-                    options: [ { label: 横長, value: land }, { label: 縦長, value: port }, { label: 正方形, value: sq }, { label: ワイド, value: wide } ]
+            hint: "トップと地図での国の登場順。ここに無い国は末尾に回ります。各国の中の物語順は各物語の「並び順(order)」で決まります"
 
+  # ---------- プロフィール（変更なし） ----------
   - name: profile
     label: プロフィール（自己紹介）
     editor:
@@ -112,10 +131,10 @@ collections:
         fields:
           - { label: ポートレート写真, name: portrait, widget: image, required: false, hint: "縦位置の写真がおすすめ。未設定ならサンプルが表示されます" }
           - { label: 写真の説明（alt・任意）, name: portraitAlt, widget: string, required: false }
-          - { label: 肩書き（名前の上・任意）, name: role, widget: string, required: false, default: "旅する人", hint: "名前の上に小さく出る肩書き。例: 旅する人。空にすると非表示" }
+          - { label: 肩書き（名前の上・任意）, name: role, widget: string, required: false, default: "旅する人" }
           - { label: 名前（日本語）, name: nameJa, widget: string }
           - { label: 名前（ローマ字）, name: nameEn, widget: string, required: false }
-          - { label: 旅のスタイル（名前の下・任意）, name: travelStyle, widget: text, required: false, default: "休みができれば、身軽に行きたい場所へ。街より自然が好きで、美しい景色ではタイムラプスを回す。宿や移動は質素に、その土地のビールやワイン、温泉は楽しむ。猫や鳥を撮りつつ、サッカー好きでスタジアムにも寄る。もとは一人旅、最近は妻とふたりが多い。", hint: "名前の下に出る紹介文。空にすると非表示" }
+          - { label: 旅のスタイル（名前の下・任意）, name: travelStyle, widget: text, required: false }
           - { label: 冒頭の一文（大きく表示される引用）, name: pullquote, widget: string, required: false }
           - { label: 本文（＋で段落を追加）, name: bio, widget: list, field: { label: 段落, name: p, widget: text } }
           - label: 数字（データ・3つが綺麗です）
