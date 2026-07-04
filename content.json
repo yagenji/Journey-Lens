@@ -4928,78 +4928,6 @@
           "cap": "Cat",
           "size": "md",
           "shape": "port"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03007_karakul.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Karakul Lake",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC02734_karakul.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ak-Baital Valley",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC02801_karakul.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ak-Baital Valley",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC02726_karakul.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Pamir Highway",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "video",
-          "image": "",
-          "cover": false,
-          "mode": "loop",
-          "videoUrl": "https://youtu.be/KpZxqrGKFRI?si=YUGnwPj6fQJ9Avnu",
-          "video": "",
-          "duration": "0:19",
-          "cap": "Pamir Highway",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "video",
-          "image": "",
-          "cover": false,
-          "mode": "loop",
-          "videoUrl": "https://youtu.be/o342m9H4KRc?si=E0iP5Sw79Lpk5XWX",
-          "video": "",
-          "duration": "0:18",
-          "cap": "Pamir Highway",
-          "size": "md",
-          "shape": "land"
         }
       ],
       "region": "central-asia"
@@ -7253,42 +7181,6 @@
           "duration": "0:27",
           "cap": "Sunset in Almaty",
           "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC00126のコピー_ice2.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Vik",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC01198_ice2.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Breiðamerkursandur",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC01373_ice2.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Somewhere Along the Way",
-          "size": "sm",
           "shape": "land"
         }
       ],
@@ -11683,42 +11575,6 @@
           "duration": "",
           "cap": "Liberdade",
           "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03248_iguazA.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Great Dusky Swift",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03239_iguazA.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Iguazú Falls",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03205_iguazA.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Tropidurus catalanensis",
-          "size": "md",
           "shape": "land"
         }
       ]
