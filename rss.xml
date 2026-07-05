@@ -6,20 +6,13 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 05 Jul 2026 11:02:43 +0900</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 11:07:58 +0900</lastBuildDate>
 <item>
 <title>アルゼンチン｜Salta</title>
 <link>https://journey.yagenji.com/argentina7/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina7/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
 <description>教会の美しさと整った街並みが印象に残る、穏やかな街だった。</description>
-</item>
-<item>
-<title>アルゼンチン｜Humahuaca / Hornocal</title>
-<link>https://journey.yagenji.com/argentina6/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/argentina6/</guid>
-<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-<description>カーニバル前夜のHumahuacaから、14色の山肌が広がるHornocalへ向かった。</description>
 </item>
 <item>
 <title>アルゼンチン｜Iguazú Falls</title>
@@ -34,6 +27,13 @@
 <guid isPermaLink="true">https://journey.yagenji.com/argentina4/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
 <description>ヨーロッパのような街角に、サッカーの国らしい熱があった。</description>
+</item>
+<item>
+<title>アルゼンチン｜Humahuaca / Hornocal</title>
+<link>https://journey.yagenji.com/argentina6/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/argentina6/</guid>
+<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<description>カーニバル前夜のHumahuacaから、14色の山肌が広がるHornocalへ向かった。</description>
 </item>
 <item>
 <title>ウルグアイ｜Colonia del Sacramento</title>
@@ -323,18 +323,18 @@
 <description>強い風の先に、Torres del Paineの岩峰が立っていた。</description>
 </item>
 <item>
-<title>アルゼンチン｜Perito Moreno Glacier / El Calafate</title>
-<link>https://journey.yagenji.com/argentina3/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/argentina3/</guid>
-<pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
-<description>雨上がりの氷河に、虹がかかった。</description>
-</item>
-<item>
 <title>アルゼンチン｜Ushuaia</title>
 <link>https://journey.yagenji.com/argentina2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina2/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
 <description>南極へ向かう船を眺めながら、南の果ての街を歩いた。</description>
+</item>
+<item>
+<title>アルゼンチン｜Perito Moreno Glacier / El Calafate</title>
+<link>https://journey.yagenji.com/argentina3/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/argentina3/</guid>
+<pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<description>雨上がりの氷河に、虹がかかった。</description>
 </item>
 <item>
 <title>アルゼンチン｜Fitz Roy / El Chaltén</title>
