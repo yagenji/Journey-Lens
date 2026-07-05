@@ -1,0 +1,57 @@
+name: Build JOURNEY LENS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/stories/**'
+      - 'content/order.json'
+      - 'index.html'
+      - 'build.py'
+  workflow_dispatch:
+
+# 新しい push が来たら、実行中の古いビルドは自動キャンセル（競合を減らす）
+concurrency:
+  group: build-journey-lens
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build & commit (retry on push conflict)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 build.py
+            git add -A
+            if git diff --cached --quiet; then
+              echo "No changes — already up to date."
+              exit 0
+            fi
+            git commit -m "build: regenerate content.json + pages [skip ci]"
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i). Rebuilding on latest and retrying..."
+            sleep $((i * 3))
+          done
+          echo "Push failed after retries."
+          exit 1
