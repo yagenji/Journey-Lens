@@ -21,7 +21,9 @@ SW_REG = "<script>if('serviceWorker'in navigator){addEventListener('load',functi
 src = open(SRC_HTML, encoding="utf-8").read()
 
 # --- combine per-story files (content/stories/*.json) via content/order.json ---
-_raw = json.load(open("content/order.json", encoding="utf-8")).get("countryOrder", [])
+_od = json.load(open("content/order.json", encoding="utf-8"))
+_raw = _od.get("countryOrder", [])
+_newdays = _od.get("newDays", 30)
 _order = [(x.get("name") if isinstance(x, dict) else x) for x in _raw]
 _oidx = {k: i for i, k in enumerate(_order)}
 def _tail_int(x):
@@ -36,9 +38,9 @@ _missing = sorted({c.get("jp") for c in LOCS if c.get("jp")} - set(_order))
 if _missing:
     _order = _order + _missing
     _oidx = {k: i for i, k in enumerate(_order)}
-    json.dump({"countryOrder": _order}, open("content/order.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump({"countryOrder": _order, "newDays": _newdays}, open("content/order.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 LOCS.sort(key=lambda c: (_ckey(c), _wkey(c)))
-json.dump({"locations": LOCS}, open("content.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+json.dump({"locations": LOCS, "newDays": _newdays}, open("content.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # ---------- extract reusable chunks from the source homepage ----------
 def between(s, a, b, inc=True):

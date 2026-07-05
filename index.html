@@ -1,3 +1,4 @@
+<!doctype html>
 <!-- ============================================================
      JOURNEY LENS — 旅をしよう。レンズ越しの、世界へ。
      データ駆動（content.json / 管理画面 admin）
@@ -6,6 +7,7 @@
      ・国ページ＝雑誌特集（扉＋体験エッセイ＋写真/タイムラプス）
      ・固定文言（サイト名/プロフィール等）は本ファイル内テキストを編集
      ============================================================ -->
+<html lang="ja">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Journey Lens — 旅をしよう。レンズ越しの、世界へ。</title>
@@ -103,6 +105,7 @@ a{color:inherit;text-decoration:none}
 .feat-row:hover .feat-read{color:var(--trail-hi);letter-spacing:.2em}
 @media(max-width:760px){.feat-row,.feat-row:nth-child(even){grid-template-columns:1fr;gap:16px}.feat-row:nth-child(even) .feat-media{order:0}}
 .badge-new{display:inline-block;font-family:var(--mono);font-size:.58rem;font-weight:600;letter-spacing:.14em;color:var(--bg);background:var(--trail);padding:2px 7px;border-radius:999px;vertical-align:middle;margin-left:10px}
+.atlas-new{fill:var(--trail-hi);font-weight:700;font-size:.8em;letter-spacing:.12em}
 .jl-card{position:relative}
 .jl-card>.badge-new{position:absolute;top:10px;left:10px;margin:0;z-index:2}
 .recent{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px)}
@@ -841,11 +844,13 @@ function entryThumb(c){return c.heroImage||firstPhoto(c).image||videoThumb((c.me
 function coverTiles(){let t=[];COUNTRIES.forEach(c=>(c.media||[]).forEach(m=>{if(m.type==='photo'&&m.cover)t.push({img:m.image,c:c});}));
   if(!t.length)COUNTRIES.forEach(c=>{const m=firstPhoto(c);if(m.image)t.push({img:m.image,c:c});});return t.slice(0,8);}
 function featuredList(){const f=COUNTRIES.filter(c=>c.featured);const rest=COUNTRIES.filter(c=>!c.featured);return f.concat(rest).slice(0,5);}
-const NEW_DAYS=30;
+let NEW_DAYS=30;
 const RECENT_COUNT=5;
 function pdate(c){if(!c||!c.publishedAt)return null;const t=Date.parse(c.publishedAt);return isNaN(t)?null:t;}
 function isNew(c){const t=pdate(c);if(t==null)return false;const day=86400000,age=Date.now()-t;return age>=-1.5*day&&age<=NEW_DAYS*day;}
 function newBadge(c){return isNew(c)?'<span class="badge-new">NEW</span>':'';}
+function contHasNew(cid){return COUNTRIES.some(function(c){return c.continent===cid&&isNew(c);});}
+function countryHasNew(cid,jp){return COUNTRIES.some(function(c){return c.continent===cid&&(c.jp||'')===jp&&isNew(c);});}
 function fmtYM(t){const d=new Date(t);return d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');}
 function recentList(n){return COUNTRIES.map(function(c,i){return {c:c,i:i};}).filter(function(o){return pdate(o.c)!=null;}).sort(function(a,b){var d=pdate(b.c)-pdate(a.c);return d!==0?d:(b.i-a.i);}).slice(0,n||3).map(function(o){return o.c;});}
 function buildRecent(){const sec=document.getElementById('recent'),ul=document.getElementById('recentList');if(!sec||!ul)return;
@@ -907,7 +912,7 @@ function showWorld(){
   const g=document.getElementById('conts');
   CONTINENTS.forEach(ct=>{const n=countIn(ct.id);
     const grp=svgNode('g',{class:'cont',transform:'translate('+ct.cx+','+ct.cy+')','data-cont':ct.id,role:'button',tabindex:'0','aria-label':ct.jp});
-    grp.innerHTML='<circle class="cont-dot"></circle><text class="cont-label">'+esc(ct.en)+(n?' ('+n+')':'')+'</text>';
+    grp.innerHTML='<circle class="cont-dot"></circle><text class="cont-label">'+esc(ct.en)+(n?' ('+n+')':'')+(contHasNew(ct.id)?'<tspan class="atlas-new"> NEW</tspan>':'')+'</text>';
     g.appendChild(grp);});
   document.getElementById('atlasHere').textContent='大陸を選ぶ';
   document.getElementById('atlasBack').classList.add('hidden');
@@ -938,7 +943,7 @@ function showContinent(cid){
   const g=document.getElementById('pins');
   countries.forEach(co=>{const p=avgPos(co.items);
     const grp=svgNode('g',{class:'pin',transform:'translate('+p.x+','+p.y+')',role:'button',tabindex:'0','data-country':co.jp,'data-cid':cid,'aria-label':co.jp});
-    grp.innerHTML='<circle class="pin-halo"></circle><circle class="pin-dot"></circle><text class="pin-label" x="0">'+esc(co.jp)+' ('+co.items.length+')</text>';
+    grp.innerHTML='<circle class="pin-halo"></circle><circle class="pin-dot"></circle><text class="pin-label" x="0">'+esc(co.jp)+' ('+co.items.length+')'+(countryHasNew(cid,co.jp)?'<tspan class="atlas-new"> NEW</tspan>':'')+'</text>';
     g.appendChild(grp);});
   document.getElementById('atlasHere').textContent=ct.jp+' / '+ct.en;
   const bk=document.getElementById('atlasBack');bk.classList.remove('hidden');bk.textContent='← 世界へ戻る';
@@ -969,12 +974,12 @@ function renderList(items,kind,cid){
   const ul=document.getElementById('alist');ul.innerHTML='';
   if(kind==='cont'){
     items.forEach((it,i)=>{const a=el('a',null,'');a.href='#';a.dataset.cont=it.cont.id;
-      a.innerHTML='<span class="a-name">'+esc(it.cont.jp)+' <i>'+esc(it.cont.en)+'</i></span><span class="a-go">'+(it.n?it.n+'件 →':'準備中')+'</span>';
+      a.innerHTML='<span class="a-name">'+esc(it.cont.jp)+' <i>'+esc(it.cont.en)+'</i>'+(contHasNew(it.cont.id)?'<span class="badge-new">NEW</span>':'')+'</span><span class="a-go">'+(it.n?it.n+'件 →':'準備中')+'</span>';
       ul.appendChild(el('li',null,'')).appendChild(a);});
   }else if(kind==='country'){
     if(!items.length){ul.appendChild(el('li','a-empty','この大陸の旅先はまだありません。'));return;}
     items.forEach(co=>{const a=el('a',null,'');a.href='#';a.dataset.country=co.jp;a.dataset.cid=cid;
-      a.innerHTML='<span class="a-name">'+esc(co.jp)+' <i>'+esc(co.en)+'</i></span><span class="a-go">'+co.items.length+'件 →</span>';
+      a.innerHTML='<span class="a-name">'+esc(co.jp)+' <i>'+esc(co.en)+'</i>'+(countryHasNew(cid,co.jp)?'<span class="badge-new">NEW</span>':'')+'</span><span class="a-go">'+co.items.length+'件 →</span>';
       ul.appendChild(el('li',null,'')).appendChild(a);});
   }else{
     if(!items.length){ul.appendChild(el('li','a-empty','この国の旅先はまだありません。'));return;}
@@ -1084,7 +1089,7 @@ function jlBar(){
   function grp(lab,items,attr){var h='<div class="jl-group"><span class="jl-lab">'+lab+'</span><button class="jl-chip on" data-'+attr+'="">すべて</button>';items.forEach(function(it){h+='<button class="jl-chip" data-'+attr+'="'+it[0]+'">'+it[1]+'<span class="n">'+it[2]+'</span></button>';});return h+'</div>';}
   var catItems=cats.map(k=>[k,JL_CAT_JA[k],COUNTRIES.filter(c=>(c.categories||[]).includes(k)).length]);
   var contItems=conts.map(k=>[k,JL_CONT_JA[k],COUNTRIES.filter(c=>c.continent===k).length]);
-  var bar=grp('Theme',catItems,'cat')+grp('Region',contItems,'cont')+'<div class="jl-search"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="jlq" type="search" placeholder="旅先を検索…" autocomplete="off"></div>';
+  var bar=grp('Theme',catItems,'cat')+grp('Continents',contItems,'cont')+'<div class="jl-search"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="jlq" type="search" placeholder="旅先を検索…" autocomplete="off"></div>';
   document.getElementById('jlBar').innerHTML=bar;
   document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',x===b));jlRender();});
   document.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;document.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',x===b));jlRender();});
@@ -1112,7 +1117,7 @@ function jlRender(){
 function buildStories(){jlBar();jlRender();}
 
 (async function init(){
-  const data=await loadContent();COUNTRIES=data.locations||[];
+  const data=await loadContent();COUNTRIES=data.locations||[];NEW_DAYS=(data&&+data.newDays>0)?+data.newDays:30;
   buildCover();buildStories();buildRecent();showWorld();wireScope(home);loadProfile().then(buildAbout);
   addEventListener('hashchange',router);router();
   const search=document.getElementById('atlasSearch');search.addEventListener('input',()=>doSearch(search.value));
