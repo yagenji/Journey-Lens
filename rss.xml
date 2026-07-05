@@ -6,35 +6,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 05 Jul 2026 01:40:55 +0900</lastBuildDate>
-<item>
-<title>ウルグアイ｜Colonia del Sacramento</title>
-<link>https://journey.yagenji.com/uruguay2/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/uruguay2/</guid>
-<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-<description>石畳の道と高い街路樹が残る、静かに歩きたくなる港町だった。</description>
-</item>
-<item>
-<title>ウルグアイ｜Montevideo</title>
-<link>https://journey.yagenji.com/uruguay1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/uruguay1/</guid>
-<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-<description>落ち着いた首都の中に、第1回ワールドカップの記憶が残っていた。</description>
-</item>
-<item>
-<title>パナマ｜Panama City / Panama Canal</title>
-<link>https://journey.yagenji.com/panama1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/panama1/</guid>
-<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-<description>Panama Cityでは、旧市街の街並みと、世界をつなぐPanama Canalの大きさを見た。</description>
-</item>
-<item>
-<title>ベリーズ｜Caye Caulker / Great Blue Hole / Belize City</title>
-<link>https://journey.yagenji.com/belize1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/belize1/</guid>
-<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-<description>Belize Cityを足早に抜けた先で、Caye Caulkerの海の青さに出会った。</description>
-</item>
+<lastBuildDate>Sun, 05 Jul 2026 03:01:01 +0900</lastBuildDate>
 <item>
 <title>アルゼンチン｜Salta</title>
 <link>https://journey.yagenji.com/argentina7/</link>
@@ -62,6 +34,34 @@
 <guid isPermaLink="true">https://journey.yagenji.com/argentina4/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
 <description>ヨーロッパのような街角に、サッカーの国らしい熱があった。</description>
+</item>
+<item>
+<title>ウルグアイ｜Colonia del Sacramento</title>
+<link>https://journey.yagenji.com/uruguay2/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/uruguay2/</guid>
+<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<description>石畳の道と高い街路樹が残る、静かに歩きたくなる港町だった。</description>
+</item>
+<item>
+<title>ウルグアイ｜Montevideo</title>
+<link>https://journey.yagenji.com/uruguay1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/uruguay1/</guid>
+<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<description>落ち着いた首都の中に、第1回ワールドカップの記憶が残っていた。</description>
+</item>
+<item>
+<title>パナマ｜Panama City / Panama Canal</title>
+<link>https://journey.yagenji.com/panama1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/panama1/</guid>
+<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<description>Panama Cityでは、旧市街の街並みと、世界をつなぐPanama Canalの大きさを見た。</description>
+</item>
+<item>
+<title>ベリーズ｜Caye Caulker / Great Blue Hole / Belize City</title>
+<link>https://journey.yagenji.com/belize1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/belize1/</guid>
+<pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<description>Belize Cityを足早に抜けた先で、Caye Caulkerの海の青さに出会った。</description>
 </item>
 <item>
 <title>ブラジル｜São Paulo</title>
@@ -127,13 +127,6 @@
 <description>5,000mを超える峠を越え、砂埃の舞う道をPangong Lakeへ向かった。</description>
 </item>
 <item>
-<title>インド｜Leh</title>
-<link>https://journey.yagenji.com/india1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/india1/</guid>
-<pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
-<description>標高約3,500mの街で、高地の静けさとLadakhの山々に出会った。</description>
-</item>
-<item>
 <title>アイスランド｜Reykjavik / Blue Lagoon</title>
 <link>https://journey.yagenji.com/iceland7/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland7/</guid>
@@ -174,6 +167,13 @@
 <guid isPermaLink="true">https://journey.yagenji.com/iceland2/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
 <description>黒い氷の洞窟を抜け、氷河と大地の景色を追いながら東へ進んだ。</description>
+</item>
+<item>
+<title>インド｜Leh</title>
+<link>https://journey.yagenji.com/india1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/india1/</guid>
+<pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<description>標高約3,500mの街で、高地の静けさとLadakhの山々に出会った。</description>
 </item>
 <item>
 <title>アイスランド｜Reykjavik to Vik</title>
@@ -225,6 +225,55 @@
 <description>Pamirへ向かう前に、無骨で華やかな首都を歩いた。</description>
 </item>
 <item>
+<title>パラグアイ｜Colonia Yguazú</title>
+<link>https://journey.yagenji.com/paraguay1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/paraguay1/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>南米の旅の途中に、日本があった。</description>
+</item>
+<item>
+<title>ナミビア｜Etosha National Park</title>
+<link>https://journey.yagenji.com/namibia3/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/namibia3/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>広い大地の先に、野生の姿を探しながら走った。</description>
+</item>
+<item>
+<title>ナミビア｜Sandwich Harbour / Spitzkoppe / Damaraland</title>
+<link>https://journey.yagenji.com/namibia2/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/namibia2/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>海に迫る砂丘から、剥き出しの岩の大地へ走った。</description>
+</item>
+<item>
+<title>ナミビア｜Namib-Naukluft National Park</title>
+<link>https://journey.yagenji.com/namibia1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/namibia1/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>オレンジ色の砂丘の奥に、白い大地と黒い木々が立っていた。</description>
+</item>
+<item>
+<title>タンザニア｜Ngorongoro Crater</title>
+<link>https://journey.yagenji.com/tanzania3/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/tanzania3/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>外輪山を下ると、クレーターの底に動物の楽園が広がっていた。</description>
+</item>
+<item>
+<title>タンザニア｜Serengeti National Park</title>
+<link>https://journey.yagenji.com/tanzania2/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/tanzania2/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>草原の先まで、動物たちの時間が続いていた。</description>
+</item>
+<item>
+<title>タンザニア｜Tarangire National Park</title>
+<link>https://journey.yagenji.com/tanzania1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/tanzania1/</guid>
+<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<description>最初のサファリで、木の上のヒョウを間近に見た。</description>
+</item>
+<item>
 <title>キルギス｜Sary Mogul to Osh</title>
 <link>https://journey.yagenji.com/kyrgyz2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kyrgyz2/</guid>
@@ -260,53 +309,18 @@
 <description>右手にアフガニスタンを見ながら、Pamir Highwayを進んだ。</description>
 </item>
 <item>
-<title>パラグアイ｜Colonia Yguazú</title>
-<link>https://journey.yagenji.com/paraguay1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/paraguay1/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>南米の旅の途中に、日本があった。</description>
+<title>チリ｜Punta Arenas / Magdalena Island</title>
+<link>https://journey.yagenji.com/chile2/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/chile2/</guid>
+<pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<description>Strait of Magellanの風の中に、南へ向かう旅の気配があった。</description>
 </item>
 <item>
-<title>タンザニア｜Ngorongoro Crater</title>
-<link>https://journey.yagenji.com/tanzania3/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/tanzania3/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>外輪山を下ると、クレーターの底に動物の楽園が広がっていた。</description>
-</item>
-<item>
-<title>タンザニア｜Serengeti National Park</title>
-<link>https://journey.yagenji.com/tanzania2/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/tanzania2/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>草原の先まで、動物たちの時間が続いていた。</description>
-</item>
-<item>
-<title>タンザニア｜Tarangire National Park</title>
-<link>https://journey.yagenji.com/tanzania1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/tanzania1/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>最初のサファリで、木の上のヒョウを間近に見た。</description>
-</item>
-<item>
-<title>ナミビア｜Etosha National Park</title>
-<link>https://journey.yagenji.com/namibia3/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/namibia3/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>広い大地の先に、野生の姿を探しながら走った。</description>
-</item>
-<item>
-<title>ナミビア｜Sandwich Harbour / Spitzkoppe / Damaraland</title>
-<link>https://journey.yagenji.com/namibia2/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/namibia2/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>海に迫る砂丘から、剥き出しの岩の大地へ走った。</description>
-</item>
-<item>
-<title>ナミビア｜Namib-Naukluft National Park</title>
-<link>https://journey.yagenji.com/namibia1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/namibia1/</guid>
-<pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-<description>オレンジ色の砂丘の奥に、白い大地と黒い木々が立っていた。</description>
+<title>チリ｜Torres del Paine / Puerto Natales</title>
+<link>https://journey.yagenji.com/chile1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/chile1/</guid>
+<pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<description>強い風の先に、Torres del Paineの岩峰が立っていた。</description>
 </item>
 <item>
 <title>アルゼンチン｜Perito Moreno Glacier / El Calafate</title>
@@ -328,20 +342,6 @@
 <guid isPermaLink="true">https://journey.yagenji.com/argentina1/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
 <description>午前一時に歩き始め、朝のFitz Royを待った。</description>
-</item>
-<item>
-<title>チリ｜Punta Arenas / Magdalena Island</title>
-<link>https://journey.yagenji.com/chile2/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/chile2/</guid>
-<pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
-<description>Strait of Magellanの風の中に、南へ向かう旅の気配があった。</description>
-</item>
-<item>
-<title>チリ｜Torres del Paine / Puerto Natales</title>
-<link>https://journey.yagenji.com/chile1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/chile1/</guid>
-<pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
-<description>強い風の先に、Torres del Paineの岩峰が立っていた。</description>
 </item>
 <item>
 <title>南極｜Palaver Point</title>
