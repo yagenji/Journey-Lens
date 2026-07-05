@@ -70,6 +70,7 @@ a{color:inherit;text-decoration:none}
 .feat-row:hover .feat-read{color:var(--trail-hi);letter-spacing:.2em}
 @media(max-width:760px){.feat-row,.feat-row:nth-child(even){grid-template-columns:1fr;gap:16px}.feat-row:nth-child(even) .feat-media{order:0}}
 .badge-new{display:inline-block;font-family:var(--mono);font-size:.58rem;font-weight:600;letter-spacing:.14em;color:var(--bg);background:var(--trail);padding:2px 7px;border-radius:999px;vertical-align:middle;margin-left:10px}
+.atlas-new{fill:var(--trail-hi);font-weight:700;font-size:.8em;letter-spacing:.12em}
 .jl-card{position:relative}
 .jl-card>.badge-new{position:absolute;top:10px;left:10px;margin:0;z-index:2}
 .recent{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px)}
