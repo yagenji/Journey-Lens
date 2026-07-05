@@ -113,6 +113,7 @@ collections:
         file: content/order.json
         format: json
         fields:
+          - { label: "NEWを表示する日数", name: newDays, widget: number, default: 30, value_type: int, min: 1, hint: "公開日から何日間 NEW マークを出すか。例: 30 なら30日間。短くすると新着だけに絞られます" }
           - label: 国の並び順（ドラッグで入れ替え・国名は「国名（日）」と同じ表記で）
             name: countryOrder
             widget: list
