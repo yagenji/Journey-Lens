@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://journey.yagenji.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://journey.yagenji.com/antarctica1/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://journey.yagenji.com/antarctica2/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://journey.yagenji.com/antarctica3/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://journey.yagenji.com/antarctica4/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://journey.yagenji.com/tajikistan1/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://journey.yagenji.com/tajikistan2/</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://journey.yagenji.com/tajikistan3/</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -50,8 +54,4 @@
 <url><loc>https://journey.yagenji.com/argentina7/</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://journey.yagenji.com/chile1/</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://journey.yagenji.com/chile2/</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://journey.yagenji.com/antarctica1/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://journey.yagenji.com/antarctica2/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://journey.yagenji.com/antarctica3/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://journey.yagenji.com/antarctica4/</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
