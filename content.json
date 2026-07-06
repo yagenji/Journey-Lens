@@ -7828,6 +7828,7 @@
     },
     {
       "id": "belize1",
+      "order": null,
       "en": "BELIZE",
       "jp": "ベリーズ",
       "placeJa": "Caye Caulker / Great Blue Hole / Belize City",
@@ -7861,7 +7862,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC04416_belize.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
