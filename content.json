@@ -3621,6 +3621,7 @@
     },
     {
       "id": "india1",
+      "order": null,
       "en": "INDIA",
       "jp": "インド",
       "placeJa": "Leh",
@@ -3701,7 +3702,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC00303_leh.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
