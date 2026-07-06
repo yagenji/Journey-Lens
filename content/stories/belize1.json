@@ -34,7 +34,7 @@
     {
       "type": "photo",
       "image": "/uploads/DSC04416_belize.jpg",
-      "cover": true,
+      "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
