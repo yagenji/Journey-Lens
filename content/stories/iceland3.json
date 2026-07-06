@@ -22,7 +22,7 @@
     {
       "type": "photo",
       "image": "/uploads/DSC02285_ice3.jpg",
-      "cover": true,
+      "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
