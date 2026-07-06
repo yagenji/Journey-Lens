@@ -2365,7 +2365,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_3878_renin.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
