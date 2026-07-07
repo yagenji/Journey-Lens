@@ -10,7 +10,7 @@
 <html lang="ja">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Journey Lens — 旅をしよう。レンズ越しの、世界へ。</title>
+<title>JOURNEY LENS — 旅をしよう。レンズ越しの、世界へ。</title>
 <meta name="description" content="旅をしながら撮りためた、世界の風景・街・人の写真とタイムラプス。まだ知らない場所へ行ってみたくなる、旅の記録です。">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="JOURNEY LENS">
@@ -329,7 +329,7 @@ a{color:inherit;text-decoration:none}
 </style>
 
 <header class="nav" id="nav">
-  <a class="brand" href="#">Journey Lens</a>
+  <a class="brand" href="#">JOURNEY LENS</a>
   <button class="nav-toggle" id="navToggle" aria-expanded="false">メニュー ＋</button>
   <nav class="nav-links" id="navLinks"><a href="#featured">Stories</a><a href="#atlas">Atlas</a><a href="#about">About</a></nav>
 </header>
@@ -339,7 +339,7 @@ a{color:inherit;text-decoration:none}
     <div class="cover-mosaic" id="coverMosaic"></div>
     <div class="cover-overlay"><div class="cover-inner">
       <span class="eyebrow cover-eyebrow">A photographic journey</span>
-      <h1 class="cover-title">Journey Lens</h1>
+      <h1 class="cover-title">JOURNEY LENS</h1>
       <p class="cover-tag">旅をしよう。レンズ越しの、世界へ。</p>
       <a class="cover-cue" href="#atlas">地図を見る ↓</a>
     </div></div>
@@ -400,7 +400,7 @@ a{color:inherit;text-decoration:none}
       <div class="sec-head"><div><h2 class="sec-en">About</h2><span class="sec-ja">自己紹介</span></div><span class="idx"></span></div>
       <div class="about-grid">
         <div class="about-id">
-          <div class="portrait"><img id="aboutPortrait" src="https://picsum.photos/seed/jl-portrait/700/875" alt="八源寺 誠 のポートレート"></div>
+          <div class="portrait"><img id="aboutPortrait" src="/uploads/IMG_9759_Pro.jpg" alt="八源寺 誠 のポートレート"></div>
           <p class="about-role" id="aboutRole">旅する人</p>
           <p class="about-name" id="aboutName">八源寺 誠<span class="about-name-en">Makoto Yagenji</span></p>
           <p class="about-style" id="aboutStyle">休みができれば、身軽に行きたい場所へ。街より自然が好きで、美しい景色ではタイムラプスを回す。宿や移動は質素に、その土地のビールやワイン、温泉は楽しむ。猫や鳥を撮りつつ、サッカー好きでスタジアムにも寄る。もとは一人旅、最近は妻とふたりが多い。</p>
@@ -433,7 +433,7 @@ a{color:inherit;text-decoration:none}
 <main id="country-view" class="hidden"></main>
 
 <footer class="colophon"><div class="colophon-grid">
-  <div class="mark">Journey Lens</div>
+  <div class="mark">JOURNEY LENS</div>
   <div class="meta">旅をしよう。レンズ越しの、世界へ。<br>© 2026 Makoto Yagenji · 無断使用・転載を禁じます<br><span class="meta-note">写真とことばは、旅の記憶にもとづく個人的な記録です。</span></div>
 </div></footer>
 
@@ -1074,7 +1074,7 @@ function wireScope(root){
   setTimeout(()=>root.querySelectorAll('img.ph:not(.on)').forEach(i=>i.classList.add('on')),2500);
 }
 const home=document.getElementById('home'),cv=document.getElementById('country-view');
-function showHome(scrollTo){document.title='Journey Lens — 旅をしよう。レンズ越しの、世界へ。';home.classList.remove('hidden');cv.classList.add('hidden');cv.innerHTML='';
+function showHome(scrollTo){document.title='JOURNEY LENS — 旅をしよう。レンズ越しの、世界へ。';home.classList.remove('hidden');cv.classList.add('hidden');cv.innerHTML='';
   if(scrollTo){const t=document.querySelector(scrollTo);if(t){t.scrollIntoView({block:'start'});return;}}window.scrollTo(0,0);}
 function showCountry(c){document.title=(c.jp||c.en)+' — JOURNEY LENS';cv.innerHTML='';cv.appendChild(buildCountry(c));home.classList.add('hidden');cv.classList.remove('hidden');window.scrollTo(0,0);wireScope(cv);}
 function router(){const h=location.hash;
@@ -1095,7 +1095,7 @@ function jlBar(){
   function grp(lab,items,attr){var h='<div class="jl-group"><span class="jl-lab">'+lab+'</span><button class="jl-chip on" data-'+attr+'="">すべて</button>';items.forEach(function(it){h+='<button class="jl-chip" data-'+attr+'="'+it[0]+'">'+it[1]+'<span class="n">'+it[2]+'</span></button>';});return h+'</div>';}
   var catItems=cats.map(k=>[k,JL_CAT_JA[k],COUNTRIES.filter(c=>(c.categories||[]).includes(k)).length]);
   var contItems=conts.map(k=>[k,JL_CONT_JA[k],COUNTRIES.filter(c=>c.continent===k).length]);
-  var bar=grp('Theme',catItems,'cat')+grp('Continents',contItems,'cont')+'<div class="jl-search"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="jlq" type="search" placeholder="旅先を検索…" autocomplete="off"></div>';
+  var bar=grp('Theme',catItems,'cat')+grp('Region',contItems,'cont')+'<div class="jl-search"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="jlq" type="search" placeholder="旅先を検索…" autocomplete="off"></div>';
   document.getElementById('jlBar').innerHTML=bar;
   document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',x===b));jlRender();});
   document.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;document.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',x===b));jlRender();});
