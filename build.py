@@ -133,7 +133,7 @@ def more_from(c):
     cards = ""
     for s in kin:
         place = s.get("placeJa") or s.get("jp") or ""
-        cards += ('<a class="jl-card" href="/%s/"><img loading="lazy" src="%s" alt="%s">'
+        cards += ('<a class="jl-card" href="/%s/"><img loading="lazy" decoding="async" src="%s" alt="%s">'
                   '<div class="cap"><p class="jl-place">%s</p><div class="jl-year">%s</div></div></a>'
                   % (esc(s["id"]), esc(entryThumb(s)), esc(place), esc(place), esc(s.get("year") or "")))
     return ('<section class="cview-more"><div class="cview-more-head">'
@@ -168,15 +168,21 @@ def page(c, prv, nxt):
                 '</svg><span>noteで読む</span><span class="note-arrow">→</span></a></div>' % esc(c["noteUrl"]))
     next_label = esc(nxt.get("placeJa") or nxt.get("jp") or nxt.get("en"))
     prev_label = esc(prv.get("placeJa") or prv.get("jp") or prv.get("en"))
-    ld = {
-        "@context":"https://schema.org","@type":"Article",
-        "headline": title_plain, "description": desc, "image": hero_abs,
-        "url": canonical, "inLanguage":"ja",
-        "datePublished": c.get("publishedAt",""),
-        "author":{"@type":"Person","name":"Makoto Yagenji"},
-        "publisher":{"@type":"Organization","name":"JOURNEY LENS"},
-        "isPartOf":{"@type":"WebSite","name":"JOURNEY LENS","url":DOMAIN+"/"}
-    }
+    ld = {"@context":"https://schema.org","@graph":[
+        {"@type":"Article",
+         "headline": title_plain, "description": desc, "image": hero_abs,
+         "url": canonical, "inLanguage":"ja",
+         "datePublished": c.get("publishedAt",""),
+         "author":{"@type":"Person","name":"八源寺 誠"},
+         "publisher":{"@type":"Organization","name":"JOURNEY LENS"},
+         "isPartOf":{"@type":"WebSite","name":"JOURNEY LENS","url":DOMAIN+"/"}},
+        {"@type":"ImageObject",
+         "contentUrl": hero_abs,
+         "creator":{"@type":"Person","name":"八源寺 誠"},
+         "creditText":"JOURNEY LENS / Makoto Yagenji",
+         "copyrightNotice":"© JOURNEY LENS",
+         "license": DOMAIN+"/#about"}
+    ]}
     ld_json = json.dumps(ld, ensure_ascii=False)
 
     head = f'''<!doctype html>
@@ -187,6 +193,7 @@ def page(c, prv, nxt):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
+<link rel="preload" as="image" href="{esc(hero)}" fetchpriority="high">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="JOURNEY LENS">
 <meta property="og:title" content="{esc(title_plain)}">
@@ -352,3 +359,22 @@ for _name in os.listdir(OUT):
 
 print("generated", n, "story pages")
 print("dirs:", ", ".join(sorted(os.listdir(OUT))[:6]), "...")
+
+
+# ---------- T2: bake static story cards into index.html (#jlList) for SEO / no-JS ----------
+def _jl_thumb(c):
+    ms=[m for m in (c.get("media") or []) if m.get("type")=="photo" and m.get("image")]
+    for m in ms:
+        if m.get("cover"): return m["image"]
+    return ms[0]["image"] if ms else ""
+def _jl_card(c):
+    place=esc(c.get("placeJa") or c.get("jp") or "")
+    return ('<a class="jl-card" href="/'+esc(c["id"])+'/"><img loading="lazy" decoding="async" src="'
+            +esc(_jl_thumb(c))+'" alt="'+place+'"><div class="cap"><p class="jl-place">'+place
+            +'</p><div class="jl-year">'+esc(c.get("year") or "")+'</div></div></a>')
+_jl_cards="".join(_jl_card(c) for c in LOCS)
+_idx=open("index.html",encoding="utf-8").read()
+_idx=re.sub(r"<!--JLSTATIC-->.*?<!--/JLSTATIC-->",
+            lambda m:"<!--JLSTATIC-->"+_jl_cards+"<!--/JLSTATIC-->", _idx, flags=re.S)
+open("index.html","w",encoding="utf-8").write(_idx)
+print("baked", len(LOCS), "static story cards into index.html")
