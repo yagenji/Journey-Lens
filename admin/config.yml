@@ -118,6 +118,27 @@ collections:
             name: countryOrder
             widget: list
             hint: "トップと地図での国の登場順。ここに無い国は末尾に回ります。各国の中の物語順は各物語の「並び順(order)」で決まります"
+      - name: atlas_order
+        label: Atlas / REGION の大陸並び
+        file: content/settings.json
+        format: json
+        fields:
+          - label: 大陸の表示順（ドラッグで並べ替え）
+            name: continentOrder
+            widget: list
+            hint: "トップのREGIONタグと地図の大陸見出しの順。南極を上に置くと最初に出ます"
+            field:
+              name: continent
+              label: 大陸
+              widget: select
+              options:
+                - { label: 南極, value: antarctica }
+                - { label: アジア, value: asia }
+                - { label: ヨーロッパ, value: europe }
+                - { label: アフリカ, value: africa }
+                - { label: 北アメリカ, value: namerica }
+                - { label: 南アメリカ, value: samerica }
+                - { label: オセアニア, value: oceania }
 
   # ---------- プロフィール（変更なし） ----------
   - name: profile
