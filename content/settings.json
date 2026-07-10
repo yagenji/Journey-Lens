@@ -1,3 +1,11 @@
 {
-  "continentOrder": ["antarctica", "asia", "europe", "africa", "namerica", "samerica", "oceania"]
+  "continentOrder": [
+    "antarctica",
+    "europe",
+    "asia",
+    "africa",
+    "namerica",
+    "samerica",
+    "oceania"
+  ]
 }
