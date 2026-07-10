@@ -1,13 +1,14 @@
 {
   "id": "paraguay1",
+  "order": null,
   "en": "PARAGUAY",
   "jp": "パラグアイ",
   "placeJa": "Colonia Yguazú",
   "year": "2026",
   "continent": "samerica",
   "categories": [
-    "nature",
-    "cities"
+    "cities",
+    "wildlife"
   ],
   "featured": false,
   "publishedAt": "2026-06-25",
