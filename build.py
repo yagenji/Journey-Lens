@@ -378,3 +378,19 @@ _idx=re.sub(r"<!--JLSTATIC-->.*?<!--/JLSTATIC-->",
             lambda m:"<!--JLSTATIC-->"+_jl_cards+"<!--/JLSTATIC-->", _idx, flags=re.S)
 open("index.html","w",encoding="utf-8").write(_idx)
 print("baked", len(LOCS), "static story cards into index.html")
+
+# ---------- T3: Atlas/REGION の大陸順を content/settings.json から反映 ----------
+_VALID_CONT = {"asia","europe","africa","namerica","samerica","oceania","antarctica"}
+_DEFAULT_CONT = ["asia","europe","africa","namerica","samerica","oceania","antarctica"]
+try:
+    _st = json.load(open("content/settings.json", encoding="utf-8"))
+    _co = [x for x in (_st.get("continentOrder") or []) if x in _VALID_CONT]
+    _seen = set(); _co = [x for x in _co if not (x in _seen or _seen.add(x))]
+    _co = _co + [x for x in _DEFAULT_CONT if x not in _co]
+except Exception:
+    _co = _DEFAULT_CONT
+_arr = "[" + ",".join("'%s'" % x for x in _co) + "]"
+_idx = open("index.html", encoding="utf-8").read()
+_idx = re.sub(r"const JL_CONT_ORDER=\[[^\]]*\];", "const JL_CONT_ORDER=%s;" % _arr, _idx, count=1)
+open("index.html", "w", encoding="utf-8").write(_idx)
+print("applied continentOrder:", _co)
