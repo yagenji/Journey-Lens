@@ -400,3 +400,24 @@ _idx = open("index.html", encoding="utf-8").read()
 _idx = re.sub(r"const JL_CONT_ORDER=\[[^\]]*\];", "const JL_CONT_ORDER=%s;" % _arr, _idx, count=1)
 open("index.html", "w", encoding="utf-8").write(_idx)
 print("applied continentOrder:", _co)
+
+# ---------- T4: トップに出す「おすすめの国」を content/settings.json から反映 ----------
+def _rec_val(x):
+    # 文字列でも {"recommendedCountries":"日本"} のような形でも受ける
+    if isinstance(x, str): return x
+    if isinstance(x, dict):
+        for v in x.values():
+            if isinstance(v, str): return v
+    return None
+try:
+    _st2 = json.load(open("content/settings.json", encoding="utf-8"))
+    _rec = [_rec_val(x) for x in (_st2.get("recommendedCountries") or [])]
+    _rec = [x for x in _rec if isinstance(x, str) and x.strip()]
+    _seen2 = set(); _rec = [x for x in _rec if not (x in _seen2 or _seen2.add(x))]
+except Exception:
+    _rec = []
+_recarr = "[" + ",".join(json.dumps(x, ensure_ascii=False) for x in _rec) + "]"
+_idx2 = open("index.html", encoding="utf-8").read()
+_idx2 = re.sub(r"const JL_REC_COUNTRIES=\[[^\]]*\];", "const JL_REC_COUNTRIES=%s;" % _recarr, _idx2, count=1)
+open("index.html", "w", encoding="utf-8").write(_idx2)
+print("applied recommendedCountries:", _rec)
