@@ -119,7 +119,7 @@ collections:
             widget: list
             hint: "トップと地図での国の登場順。ここに無い国は末尾に回ります。各国の中の物語順は各物語の「並び順(order)」で決まります"
       - name: atlas_order
-        label: Atlas / REGION の大陸並び
+        label: トップ設定（大陸並び・おすすめの国）
         file: content/settings.json
         format: json
         fields:
@@ -139,6 +139,11 @@ collections:
                 - { label: 北アメリカ, value: namerica }
                 - { label: 南アメリカ, value: samerica }
                 - { label: オセアニア, value: oceania }
+          - label: おすすめの国（トップに出す国・ドラッグで並べ替え）
+            name: recommendedCountries
+            widget: list
+            required: false
+            hint: "トップページの初期表示に出す国。「国名（日）」と同じ表記で入れる（例: 南極 / アイスランド）。空ならすべての国を表示します。REGIONタグ・検索・Atlasからは常に全件見られます"
 
   # ---------- プロフィール（変更なし） ----------
   - name: profile
