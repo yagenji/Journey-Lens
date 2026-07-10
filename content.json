@@ -2809,13 +2809,15 @@
     },
     {
       "id": "kyrgyz4",
+      "order": null,
       "en": "KYRGYZ",
       "jp": "キルギス",
       "placeJa": "Ala Archa National Park / Chon-Kemin",
       "year": "2025",
       "continent": "asia",
       "categories": [
-        "nature"
+        "nature",
+        "wildlife"
       ],
       "featured": true,
       "publishedAt": "2026-06-27",
