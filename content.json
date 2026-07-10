@@ -9229,14 +9229,14 @@
     },
     {
       "id": "brazil1",
+      "order": null,
       "en": "BRAZIL",
       "jp": "ブラジル",
       "placeJa": "Iguaçu Falls",
       "year": "2026",
       "continent": "samerica",
       "categories": [
-        "nature",
-        "cities"
+        "nature"
       ],
       "featured": false,
       "publishedAt": "2026-07-02",
