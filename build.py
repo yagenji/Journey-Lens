@@ -382,9 +382,15 @@ print("baked", len(LOCS), "static story cards into index.html")
 # ---------- T3: Atlas/REGION の大陸順を content/settings.json から反映 ----------
 _VALID_CONT = {"asia","europe","africa","namerica","samerica","oceania","antarctica"}
 _DEFAULT_CONT = ["asia","europe","africa","namerica","samerica","oceania","antarctica"]
+def _cont_val(x):
+    # CMSの保存形式ゆれに対応: "antarctica" でも {"continent":"antarctica"} でも受ける
+    if isinstance(x, str): return x
+    if isinstance(x, dict): return x.get("continent") or next(iter(x.values()), None)
+    return None
 try:
     _st = json.load(open("content/settings.json", encoding="utf-8"))
-    _co = [x for x in (_st.get("continentOrder") or []) if x in _VALID_CONT]
+    _co = [_cont_val(x) for x in (_st.get("continentOrder") or [])]
+    _co = [x for x in _co if x in _VALID_CONT]
     _seen = set(); _co = [x for x in _co if not (x in _seen or _seen.add(x))]
     _co = _co + [x for x in _DEFAULT_CONT if x not in _co]
 except Exception:
