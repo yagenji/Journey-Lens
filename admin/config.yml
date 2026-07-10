@@ -139,11 +139,16 @@ collections:
                 - { label: 北アメリカ, value: namerica }
                 - { label: 南アメリカ, value: samerica }
                 - { label: オセアニア, value: oceania }
-          - label: おすすめの国（トップに出す国・ドラッグで並べ替え）
+          - label: おすすめの国（一覧から選ぶ・複数可）
             name: recommendedCountries
-            widget: list
+            widget: relation
+            collection: stories
+            value_field: jp
+            display_fields: [jp]
+            search_fields: [jp, en]
+            multiple: true
             required: false
-            hint: "トップページの初期表示に出す国。「国名（日）」と同じ表記で入れる（例: 南極 / アイスランド）。空ならすべての国を表示します。REGIONタグ・検索・Atlasからは常に全件見られます"
+            hint: "物語のある国から選べます（手入力不要）。選んだ国だけトップの初期表示に出ます。空ならすべて表示。REGIONタグ・検索・Atlasからは常に全件見られます。※物語が複数ある国は候補に複数回出ますが、1つ選べばOKです"
 
   # ---------- プロフィール（変更なし） ----------
   - name: profile
