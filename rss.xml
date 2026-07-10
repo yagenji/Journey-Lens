@@ -6,7 +6,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 10 Jul 2026 12:47:15 +0900</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 12:52:04 +0900</lastBuildDate>
 <item>
 <title>チリ｜Santiago</title>
 <link>https://journey.yagenji.com/chile3/</link>
@@ -141,6 +141,13 @@
 <description>5,000mを超える峠を越え、砂埃の舞う道をPangong Lakeへ向かった。</description>
 </item>
 <item>
+<title>インド｜Leh</title>
+<link>https://journey.yagenji.com/india1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/india1/</guid>
+<pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<description>標高約3,500mの街で、高地の静けさとLadakhの山々に出会った。</description>
+</item>
+<item>
 <title>アイスランド｜Reykjavik / Blue Lagoon</title>
 <link>https://journey.yagenji.com/iceland7/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland7/</guid>
@@ -181,13 +188,6 @@
 <guid isPermaLink="true">https://journey.yagenji.com/iceland2/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
 <description>黒い氷の洞窟を抜け、氷河と大地の景色を追いながら東へ進んだ。</description>
-</item>
-<item>
-<title>インド｜Leh</title>
-<link>https://journey.yagenji.com/india1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/india1/</guid>
-<pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
-<description>標高約3,500mの街で、高地の静けさとLadakhの山々に出会った。</description>
 </item>
 <item>
 <title>アイスランド｜Reykjavik to Vik</title>
