@@ -281,7 +281,6 @@ a{color:inherit;text-decoration:none}
 .jl-card{display:block;position:relative;border-radius:6px;overflow:hidden;background:var(--panel);aspect-ratio:3/2;transition:.3s}
 .jl-card img{width:100%;height:100%;object-fit:cover;opacity:.9;transition:.5s}
 .jl-card.jl-extra{display:none}.jl-country.jl-open .jl-card.jl-extra{display:block}
-.jl-card.jl-hide,.jl-more.jl-hide,.jl-country.jl-off{display:none}
 .jl-card:hover img{opacity:1;transform:scale(1.04)}
 .jl-card .cap{position:absolute;left:0;right:0;bottom:0;padding:36px 16px 14px;background:linear-gradient(transparent,rgba(10,11,8,.82));color:var(--ink)}
 .jl-place{font-family:var(--sans);font-size:.9rem;font-weight:500;letter-spacing:.02em;margin:0}
