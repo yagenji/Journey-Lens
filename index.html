@@ -308,7 +308,7 @@ a{color:inherit;text-decoration:none}
 .jl-search input{font-family:var(--sans);font-size:.82rem;color:var(--ink);background:var(--bg-2);border:1px solid var(--line);border-radius:999px;padding:8px 16px 8px 34px;width:190px;transition:.2s}
 .jl-search input:focus{outline:none;border-color:var(--trail);width:220px}
 .jl-search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--ink-soft);fill:none}
-.jl-country{margin-bottom:52px;content-visibility:auto;contain-intrinsic-size:auto 480px}
+.jl-country{margin-bottom:52px}
 .jl-chead{display:flex;align-items:baseline;gap:14px;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--line)}
 .jl-cname{font-family:var(--mincho);font-weight:600;font-size:clamp(1.3rem,3vw,1.9rem);color:var(--ink);margin:0}
 .jl-cen{font-family:var(--latin);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft)}
@@ -316,6 +316,7 @@ a{color:inherit;text-decoration:none}
 .jl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .jl-card{display:block;position:relative;border-radius:6px;overflow:hidden;background:var(--panel);aspect-ratio:3/2;transition:.3s}
 .jl-card img{width:100%;height:100%;object-fit:cover;opacity:.9;transition:.5s}
+.jl-card.jl-extra{display:none}.jl-country.jl-open .jl-card.jl-extra{display:block}
 .jl-card:hover img{opacity:1;transform:scale(1.04)}
 .jl-card .cap{position:absolute;left:0;right:0;bottom:0;padding:36px 16px 14px;background:linear-gradient(transparent,rgba(10,11,8,.82));color:var(--ink)}
 .jl-place{font-family:var(--sans);font-size:.9rem;font-weight:500;letter-spacing:.02em;margin:0}
@@ -1118,15 +1119,15 @@ function jlRender(){
   order.sort(function(a,b){var ca=JL_CONT_ORDER.indexOf(a.split('|')[0]),cb=JL_CONT_ORDER.indexOf(b.split('|')[0]);if(ca!==cb)return ca-cb;return groups[b].length-groups[a].length;});
   var html='';
   order.forEach(function(k){
-    var arr=(function(g){var f=g.filter(function(x){return x.featured;}),r=g.filter(function(x){return !x.featured;});return f.concat(r);})(groups[k]),cont=k.split('|')[0],jp=arr[0].jp||'',en=arr[0].en||'',open=jlExp[k],show=open?arr:arr.slice(0,JL_PER);
-    html+='<div class="jl-country"><div class="jl-chead"><h3 class="jl-cname">'+jp+'</h3><span class="jl-cen">'+en+'</span><span class="jl-ccont">'+(JL_CONT_JA[cont]||'')+' · '+arr.length+'</span></div><div class="jl-grid">';
-    show.forEach(function(c){html+='<a class="jl-card" href="/'+c.id+'/"><img loading="lazy" decoding="async" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'">'+newBadge(c)+'<div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(c.year||'')+'</div></div></a>';});
+    var arr=(function(g){var f=g.filter(function(x){return x.featured;}),r=g.filter(function(x){return !x.featured;});return f.concat(r);})(groups[k]),cont=k.split('|')[0],jp=arr[0].jp||'',en=arr[0].en||'',open=jlExp[k];
+    html+='<div class="jl-country'+(open?' jl-open':'')+'"><div class="jl-chead"><h3 class="jl-cname">'+jp+'</h3><span class="jl-cen">'+en+'</span><span class="jl-ccont">'+(JL_CONT_JA[cont]||'')+' · '+arr.length+'</span></div><div class="jl-grid">';
+    arr.forEach(function(c,i){html+='<a class="jl-card'+(i>=JL_PER?' jl-extra':'')+'" href="/'+c.id+'/"><img loading="lazy" decoding="async" src="'+jlThumb(c)+'" alt="'+((c.placeJa||c.jp||'').replace(/"/g,'&quot;'))+'">'+newBadge(c)+'<div class="cap"><p class="jl-place">'+(c.placeJa||c.jp||'')+'</p><div class="jl-year">'+(c.year||'')+'</div></div></a>';});
     html+='</div>';
     if(arr.length>JL_PER)html+='<div class="jl-more"><button data-k="'+k+'">'+(open?'閉じる':'もっと見る（残り'+(arr.length-JL_PER)+'）')+'</button></div>';
     html+='</div>';
   });
   el.innerHTML=html;
-  el.querySelectorAll('.jl-more button').forEach(b=>b.onclick=()=>{jlExp[b.dataset.k]=!jlExp[b.dataset.k];jlRender();});
+  el.querySelectorAll('.jl-more button').forEach(function(b){b.onclick=function(){var box=b.closest('.jl-country');if(!box)return;var open=!box.classList.contains('jl-open');jlExp[b.dataset.k]=open;box.classList.toggle('jl-open',open);b.textContent=open?'閉じる':'もっと見る（残り'+box.querySelectorAll('.jl-extra').length+'）';};});
 }
 function buildStories(){jlBar();jlRender();}
 
