@@ -401,23 +401,23 @@ _idx = re.sub(r"const JL_CONT_ORDER=\[[^\]]*\];", "const JL_CONT_ORDER=%s;" % _a
 open("index.html", "w", encoding="utf-8").write(_idx)
 print("applied continentOrder:", _co)
 
-# ---------- T4: トップに出す「おすすめの国」を content/settings.json から反映 ----------
-def _rec_val(x):
-    # 文字列でも {"recommendedCountries":"日本"} のような形でも受ける
-    if isinstance(x, str): return x
-    if isinstance(x, dict):
-        for v in x.values():
-            if isinstance(v, str): return v
-    return None
+# ---------- T4: 「トップに出す国」を content/top_countries.json で維持し index.html へ反映 ----------
+# 全ての国(jp)を order.json の並びで列挙。既存のON/OFFは保持し、新しい国は show=True で自動追加。
+_existing_jp = {c.get("jp") for c in LOCS if c.get("jp")}
+_all_countries = [jp for jp in _order if jp in _existing_jp]
 try:
-    _st2 = json.load(open("content/settings.json", encoding="utf-8"))
-    _rec = [_rec_val(x) for x in (_st2.get("recommendedCountries") or [])]
-    _rec = [x for x in _rec if isinstance(x, str) and x.strip()]
-    _seen2 = set(); _rec = [x for x in _rec if not (x in _seen2 or _seen2.add(x))]
+    _tc = json.load(open("content/top_countries.json", encoding="utf-8")).get("countries", [])
 except Exception:
-    _rec = []
-_recarr = "[" + ",".join(json.dumps(x, ensure_ascii=False) for x in _rec) + "]"
-_idx2 = open("index.html", encoding="utf-8").read()
-_idx2 = re.sub(r"const JL_REC_COUNTRIES=\[[^\]]*\];", "const JL_REC_COUNTRIES=%s;" % _recarr, _idx2, count=1)
-open("index.html", "w", encoding="utf-8").write(_idx2)
-print("applied recommendedCountries:", _rec)
+    _tc = []
+_show_map = {}
+for _it in _tc:
+    if isinstance(_it, dict) and _it.get("jp"):
+        _show_map[_it["jp"]] = bool(_it.get("show", True))
+_tc_new = [{"jp": jp, "show": _show_map.get(jp, True)} for jp in _all_countries]
+json.dump({"countries": _tc_new}, open("content/top_countries.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+_hidden = [x["jp"] for x in _tc_new if not x["show"]]
+_harr = "[" + ",".join(json.dumps(x, ensure_ascii=False) for x in _hidden) + "]"
+_idxh = open("index.html", encoding="utf-8").read()
+_idxh = re.sub(r"const JL_HIDDEN=\[[^\]]*\];", "const JL_HIDDEN=%s;" % _harr, _idxh, count=1)
+open("index.html", "w", encoding="utf-8").write(_idxh)
+print("applied hidden countries:", _hidden)
