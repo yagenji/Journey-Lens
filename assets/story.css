@@ -288,5 +288,6 @@ a{color:inherit;text-decoration:none}
 .jl-more button{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:8px 22px;transition:.2s}
 .jl-more button:hover{color:var(--ink);border-color:var(--ink-soft)}
 .jl-empty{color:var(--ink-soft);font-family:var(--mincho);padding:40px 0;text-align:center}
+@media(min-width:821px){.jl-bar{flex-direction:column;align-items:flex-start;gap:12px}.jl-search{margin-left:0}}
 @media(max-width:820px){.jl-grid{grid-template-columns:repeat(2,1fr)}.jl-search{margin-left:0;width:100%}.jl-search input{width:100%}}
 @media(max-width:520px){.jl-grid{grid-template-columns:1fr}}
