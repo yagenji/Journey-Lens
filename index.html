@@ -1099,12 +1099,14 @@ function jlBar(){
   var contItems=conts.map(k=>[k,JL_CONT_JA[k],COUNTRIES.filter(c=>c.continent===k).length]);
   var recg='<div class="jl-group"><button class="jl-chip'+(jlRec?' on':'')+'" data-rec="1">おすすめ</button></div>';
   var bar=recg+grp('Theme',catItems,'cat')+grp('Region',contItems,'cont')+'<div class="jl-search"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="jlq" type="search" placeholder="旅先を検索…" autocomplete="off"></div>';
-  document.getElementById('jlBar').innerHTML=bar;
-  var recBtn=document.querySelector('[data-rec]');
-  document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;jlRec=false;document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',x===b));if(recBtn)recBtn.classList.remove('on');jlRender();});
-  document.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;jlRec=false;document.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',x===b));if(recBtn)recBtn.classList.remove('on');jlRender();});
-  document.getElementById('jlq').oninput=e=>{jlQ=e.target.value;jlRec=false;if(recBtn)recBtn.classList.remove('on');jlRender();};
-  if(recBtn)recBtn.onclick=()=>{jlRec=true;jlCat='';jlCont='';jlQ='';var q=document.getElementById('jlq');if(q)q.value='';document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',x.dataset.cat===''));document.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',x.dataset.cont===''));recBtn.classList.add('on');jlRender();};
+  var barEl=document.getElementById('jlBar');barEl.innerHTML=bar;
+  var recBtn=barEl.querySelector('[data-rec]');
+  function jlSync(){if(recBtn)recBtn.classList.toggle('on',jlRec);barEl.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',!jlRec&&x.dataset.cat===jlCat));barEl.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',!jlRec&&x.dataset.cont===jlCont));}
+  barEl.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;jlRec=false;jlSync();jlRender();});
+  barEl.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;jlRec=false;jlSync();jlRender();});
+  barEl.querySelector('#jlq').oninput=e=>{jlQ=e.target.value;jlRec=false;jlSync();jlRender();};
+  if(recBtn)recBtn.onclick=()=>{jlRec=true;jlCat='';jlCont='';jlQ='';var q=barEl.querySelector('#jlq');if(q)q.value='';jlSync();jlRender();};
+  jlSync();
 }
 function jlRender(){
   var el=document.getElementById('jlList');
