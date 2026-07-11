@@ -1092,6 +1092,8 @@ const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生き
 const JL_PER=3;let jlCat='',jlCont='',jlQ='',jlRec=true;const jlExp={};
 function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
 function jlMatch(c){if(jlCat&&!(c.categories||[]).includes(jlCat))return false;if(jlCont&&c.continent!==jlCont)return false;if(jlQ){var s=((c.jp||'')+(c.en||'')+(c.placeJa||'')).toLowerCase();if(!s.includes(jlQ.toLowerCase()))return false;}return true;}
+var jlRT,jlSig='\x00';
+function jlRenderD(){clearTimeout(jlRT);jlRT=setTimeout(function(){var sig=(jlRec?'R':'')+'|'+jlCat+'|'+jlCont+'|'+jlQ;if(sig!==jlSig)jlRender();},120);}
 function jlBar(){
   var cats=['nature','cities','heritage','wildlife'].filter(k=>COUNTRIES.some(c=>(c.categories||[]).includes(k)));
   var conts=JL_CONT_ORDER.filter(k=>COUNTRIES.some(c=>c.continent===k));
@@ -1103,16 +1105,17 @@ function jlBar(){
   var barEl=document.getElementById('jlBar');barEl.innerHTML=bar;
   var recBtn=barEl.querySelector('[data-rec]');
   function jlSync(){if(recBtn)recBtn.classList.toggle('on',jlRec);barEl.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('on',!jlRec&&x.dataset.cat===jlCat));barEl.querySelectorAll('[data-cont]').forEach(x=>x.classList.toggle('on',!jlRec&&x.dataset.cont===jlCont));}
-  barEl.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;jlRec=false;jlSync();jlRender();});
-  barEl.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;jlRec=false;jlSync();jlRender();});
-  barEl.querySelector('#jlq').oninput=e=>{jlQ=e.target.value;jlRec=false;jlSync();jlRender();};
-  if(recBtn)recBtn.onclick=()=>{jlRec=true;jlCat='';jlCont='';jlQ='';var q=barEl.querySelector('#jlq');if(q)q.value='';jlSync();jlRender();};
+  barEl.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{jlCat=b.dataset.cat;jlRec=false;jlSync();jlRenderD();});
+  barEl.querySelectorAll('[data-cont]').forEach(b=>b.onclick=()=>{jlCont=b.dataset.cont;jlRec=false;jlSync();jlRenderD();});
+  barEl.querySelector('#jlq').oninput=e=>{jlQ=e.target.value;jlRec=false;jlSync();jlRenderD();};
+  if(recBtn)recBtn.onclick=()=>{jlRec=true;jlCat='';jlCont='';jlQ='';var q=barEl.querySelector('#jlq');if(q)q.value='';jlSync();jlRenderD();};
   jlSync();
 }
 function jlRender(){
   var el=document.getElementById('jlList');
   var list=jlRec?COUNTRIES.filter(function(c){return JL_HIDDEN.indexOf(c.jp||'')<0;}):COUNTRIES.filter(jlMatch);
   var cnt=document.getElementById('jlCount');if(cnt)cnt.textContent='全 '+COUNTRIES.length+' 話';
+  jlSig=(jlRec?'R':'')+'|'+jlCat+'|'+jlCont+'|'+jlQ;
   if(!list.length){el.innerHTML='<p class="jl-empty">該当する物語がありません。</p>';return;}
   var groups={},order=[];
   list.forEach(function(c){var k=c.continent+'|'+(c.jp||'');if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(c);});
