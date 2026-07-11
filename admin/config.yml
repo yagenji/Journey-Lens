@@ -60,7 +60,7 @@ collections:
           - { label: "Cities（街｜建物・路地・生活風景）", value: cities }
           - { label: "Heritage（遺跡｜歴史・宗教・文化的建造物）", value: heritage }
           - { label: "Wildlife（生きもの｜動物・鳥・海洋生物）", value: wildlife }
-      - { label: 特集に出す（トップの特集に表示）, name: featured, widget: boolean, default: false, required: false }
+      - { label: "トップから外す（この国をトップに表示しない）", name: hideTop, widget: boolean, default: false, required: false, hint: "通常はOFFのままにしてください（全ての国がトップに出ます）。トップに出したくない国だけ、その国の物語のどれか1つをONにすると、その国がトップから消えます。REGIONタグ・検索・Atlasからは常に見られます" }
       - { label: 公開日（任意・最近の更新に使用）, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false, hint: "この旅先を追加・公開した日。入れると「最近追加した旅先」に出て、30日間は NEW マークが付きます。空なら何も出ません" }
       - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
       - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
@@ -139,16 +139,6 @@ collections:
                 - { label: 北アメリカ, value: namerica }
                 - { label: 南アメリカ, value: samerica }
                 - { label: オセアニア, value: oceania }
-          - label: おすすめの国（一覧から選ぶ・複数可）
-            name: recommendedCountries
-            widget: relation
-            collection: stories
-            value_field: jp
-            display_fields: [jp]
-            search_fields: [jp, en]
-            multiple: true
-            required: false
-            hint: "物語のある国から選べます（手入力不要）。選んだ国だけトップの初期表示に出ます。空ならすべて表示。REGIONタグ・検索・Atlasからは常に全件見られます。※物語が複数ある国は候補に複数回出ますが、1つ選べばOKです"
 
   # ---------- プロフィール（変更なし） ----------
   - name: profile
