@@ -6,6 +6,7 @@ on:
     paths:
       - 'content/stories/**'
       - 'content/order.json'
+      - 'content/top_countries.json'
       - 'index.html'
       - 'build.py'
   workflow_dispatch:
