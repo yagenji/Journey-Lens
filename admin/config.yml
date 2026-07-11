@@ -60,7 +60,6 @@ collections:
           - { label: "Cities（街｜建物・路地・生活風景）", value: cities }
           - { label: "Heritage（遺跡｜歴史・宗教・文化的建造物）", value: heritage }
           - { label: "Wildlife（生きもの｜動物・鳥・海洋生物）", value: wildlife }
-      - { label: "トップから外す（この国をトップに表示しない）", name: hideTop, widget: boolean, default: false, required: false, hint: "通常はOFFのままにしてください（全ての国がトップに出ます）。トップに出したくない国だけ、その国の物語のどれか1つをONにすると、その国がトップから消えます。REGIONタグ・検索・Atlasからは常に見られます" }
       - { label: 公開日（任意・最近の更新に使用）, name: publishedAt, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false, hint: "この旅先を追加・公開した日。入れると「最近追加した旅先」に出て、30日間は NEW マークが付きます。空なら何も出ません" }
       - { label: 緯度 (lat), name: lat, widget: number, value_type: float, step: 0.0001, hint: "北+ / 南−。地図のピン位置" }
       - { label: 経度 (lon), name: lon, widget: number, value_type: float, step: 0.0001, hint: "東+ / 西−" }
@@ -119,7 +118,7 @@ collections:
             widget: list
             hint: "トップと地図での国の登場順。ここに無い国は末尾に回ります。各国の中の物語順は各物語の「並び順(order)」で決まります"
       - name: atlas_order
-        label: トップ設定（大陸並び・おすすめの国）
+        label: Atlas / REGION の大陸並び
         file: content/settings.json
         format: json
         fields:
@@ -139,6 +138,22 @@ collections:
                 - { label: 北アメリカ, value: namerica }
                 - { label: 南アメリカ, value: samerica }
                 - { label: オセアニア, value: oceania }
+      - name: top_countries
+        label: トップに出す国（表示ON/OFF）
+        file: content/top_countries.json
+        format: json
+        create: false
+        fields:
+          - label: 国ごとの表示（新しい国は自動で追加・初期はON）
+            name: countries
+            label_singular: 国
+            widget: list
+            allow_add: false
+            summary: "{{fields.jp}}"
+            hint: "各国の「トップに出す」をOFFにすると、その国がトップの初期表示（おすすめ）から外れます。REGIONタグ・検索・Atlasからは常に見られます。新しい国は自動で追加され初期はONです。※「国」の欄は編集しないでください（自動管理）"
+            fields:
+              - { label: 国, name: jp, widget: string }
+              - { label: トップに出す, name: show, widget: boolean, default: true }
 
   # ---------- プロフィール（変更なし） ----------
   - name: profile
