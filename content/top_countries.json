@@ -1,0 +1,72 @@
+{
+  "countries": [
+    {
+      "jp": "南極",
+      "show": true
+    },
+    {
+      "jp": "アイスランド",
+      "show": true
+    },
+    {
+      "jp": "タジキスタン",
+      "show": true
+    },
+    {
+      "jp": "キルギス",
+      "show": true
+    },
+    {
+      "jp": "カザフスタン",
+      "show": true
+    },
+    {
+      "jp": "インド",
+      "show": true
+    },
+    {
+      "jp": "タンザニア",
+      "show": true
+    },
+    {
+      "jp": "ナミビア",
+      "show": true
+    },
+    {
+      "jp": "ベリーズ",
+      "show": true
+    },
+    {
+      "jp": "グアテマラ",
+      "show": true
+    },
+    {
+      "jp": "コスタリカ",
+      "show": true
+    },
+    {
+      "jp": "パナマ",
+      "show": true
+    },
+    {
+      "jp": "ブラジル",
+      "show": true
+    },
+    {
+      "jp": "パラグアイ",
+      "show": true
+    },
+    {
+      "jp": "ウルグアイ",
+      "show": true
+    },
+    {
+      "jp": "アルゼンチン",
+      "show": true
+    },
+    {
+      "jp": "チリ",
+      "show": true
+    }
+  ]
+}
