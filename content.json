@@ -12432,6 +12432,18 @@
           "cap": "Maletsunyane Falls",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/WPXotn82y7A?si=f0i7ILLTt_4Agh72",
+          "video": "",
+          "duration": "",
+          "cap": "Maletsunyane Falls",
+          "size": "md",
+          "shape": "land"
         }
       ]
     }
