@@ -92,7 +92,7 @@
     {
       "type": "photo",
       "image": "/uploads/P1030618_easter.jpg",
-      "cover": false,
+      "cover": true,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
@@ -176,7 +176,7 @@
     {
       "type": "photo",
       "image": "/uploads/P1030550_easter.jpg",
-      "cover": true,
+      "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
