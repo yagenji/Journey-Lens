@@ -1,0 +1,9 @@
+# Cloudflare Pages headers
+# データ系JSONはCMS/ビルドで更新されるため、古いキャッシュを配信しないよう毎回再検証させる。
+# （画像やCSS/JS等の静的アセットは従来通りキャッシュされます）
+
+/content.json
+  Cache-Control: no-cache
+
+/content/*
+  Cache-Control: no-cache
