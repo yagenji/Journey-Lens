@@ -11840,7 +11840,7 @@
         {
           "type": "photo",
           "image": "/uploads/P1030715_easter.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -11852,7 +11852,7 @@
         {
           "type": "photo",
           "image": "/uploads/P1030827_easter.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
