@@ -11805,7 +11805,6 @@
       "categories": [
         "heritage"
       ],
-      "featured": false,
       "publishedAt": "2026-07-10",
       "lat": -27.1127,
       "lon": -109.3497,
@@ -11973,7 +11972,7 @@
         {
           "type": "photo",
           "image": "/uploads/P1030550_easter.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -12030,7 +12029,8 @@
           "size": "md",
           "shape": "land"
         }
-      ]
+      ],
+      "featured": false
     },
     {
       "id": "chile3",
