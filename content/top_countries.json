@@ -33,6 +33,10 @@
       "show": true
     },
     {
+      "jp": "レソト",
+      "show": true
+    },
+    {
       "jp": "ベリーズ",
       "show": true
     },
@@ -66,10 +70,6 @@
     },
     {
       "jp": "チリ",
-      "show": true
-    },
-    {
-      "jp": "レソト",
       "show": true
     }
   ]
