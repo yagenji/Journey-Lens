@@ -10,7 +10,6 @@
     "nature",
     "cities"
   ],
-  "featured": false,
   "publishedAt": "2026-06-24",
   "lat": -54.8019,
   "lon": -68.303,
@@ -22,7 +21,7 @@
     {
       "type": "photo",
       "image": "/uploads/DSC01386_result.jpg",
-      "cover": true,
+      "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
@@ -139,5 +138,6 @@
       "size": "md",
       "shape": "land"
     }
-  ]
+  ],
+  "featured": false
 }
