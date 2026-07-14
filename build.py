@@ -363,10 +363,8 @@ print("dirs:", ", ".join(sorted(os.listdir(OUT))[:6]), "...")
 
 # ---------- T2: bake static story cards into index.html (#jlList) for SEO / no-JS ----------
 def _jl_thumb(c):
-    ms=[m for m in (c.get("media") or []) if m.get("type")=="photo" and m.get("image")]
-    for m in ms:
-        if m.get("cover"): return m["image"]
-    return ms[0]["image"] if ms else ""
+    # 一覧カードのサムネはSPA(jlThumb)/ヒーロー(entryThumb)と統一：heroImage→先頭写真→動画サムネ
+    return entryThumb(c)
 def _jl_card(c):
     place=esc(c.get("placeJa") or c.get("jp") or "")
     return ('<a class="jl-card" href="/'+esc(c["id"])+'/"><img loading="lazy" decoding="async" src="'
@@ -418,6 +416,6 @@ json.dump({"countries": _tc_new}, open("content/top_countries.json", "w", encodi
 _hidden = [x["jp"] for x in _tc_new if not x["show"]]
 _harr = "[" + ",".join(json.dumps(x, ensure_ascii=False) for x in _hidden) + "]"
 _idxh = open("index.html", encoding="utf-8").read()
-_idxh = re.sub(r"const JL_HIDDEN=\[[^\]]*\];", "const JL_HIDDEN=%s;" % _harr, _idxh, count=1)
+_idxh = re.sub(r"((?:const|let)\s+JL_HIDDEN=)\[[^\]]*\];", lambda m: m.group(1)+_harr+";", _idxh, count=1)
 open("index.html", "w", encoding="utf-8").write(_idxh)
 print("applied hidden countries:", _hidden)
