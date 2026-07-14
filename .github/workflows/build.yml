@@ -46,7 +46,7 @@ jobs:
               echo "No changes — already up to date."
               exit 0
             fi
-            git commit -m "build: regenerate content.json + pages [skip ci]"
+            git commit -m "build: regenerate content.json + pages [skip actions]"
             if git push origin HEAD:main; then
               echo "Pushed on attempt $i."
               exit 0
