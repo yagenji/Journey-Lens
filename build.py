@@ -422,3 +422,18 @@ _idxh = open("index.html", encoding="utf-8").read()
 _idxh = re.sub(r"((?:const|let)\s+JL_HIDDEN=)\[[^\]]*\];", lambda m: m.group(1)+_harr+";", _idxh, count=1)
 open("index.html", "w", encoding="utf-8").write(_idxh)
 print("applied hidden countries:", _hidden)
+
+# ---------- visited-countries map: color assets/world-base.svg by content/visited.json ----------
+try:
+    _vis = json.load(open("content/visited.json", encoding="utf-8")).get("countries", [])
+    _vset = set(str(c).lower() for c in _vis if c)
+    _base = open("assets/world-base.svg", encoding="utf-8").read()
+    _GOLD = "#D3A24A"
+    def _vcol(m):
+        code = m.group(1)
+        return '<g class="%s country"%s>' % (code, (' fill="%s"' % _GOLD) if code in _vset else "")
+    _vmap = re.sub(r'<g class="([a-z]{2}) country">', _vcol, _base)
+    open("visited-map.svg", "w", encoding="utf-8").write(_vmap)
+    print("visited map:", len(_vset), "countries")
+except Exception as _e:
+    print("visited map skipped:", _e)
