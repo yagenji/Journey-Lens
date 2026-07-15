@@ -1115,7 +1115,7 @@ function jlBar(){
 function jlRender(){
   var el=document.getElementById('jlList');
   var list=jlRec?COUNTRIES.filter(function(c){return JL_HIDDEN.indexOf(c.jp||'')<0;}):COUNTRIES.filter(jlMatch);
-  var cnt=document.getElementById('jlCount');if(cnt)cnt.textContent='全 '+COUNTRIES.length+' 話';
+  var cnt=document.getElementById('jlCount');if(cnt){var jlNC=new Set(COUNTRIES.map(function(c){return c.jp||'';})).size;cnt.textContent=jlNC+'の国と地域 · 全 '+COUNTRIES.length+' 話';}
   jlSig=(jlRec?'R':'')+'|'+jlCat+'|'+jlCont+'|'+jlQ;
   if(!list.length){el.innerHTML='<p class="jl-empty">該当する物語がありません。</p>';return;}
   var groups={},order=[];
