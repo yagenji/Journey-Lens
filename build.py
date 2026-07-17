@@ -166,8 +166,9 @@ def page(c, prv, nxt):
                 '<svg class="note-mark" viewBox="111 111 270 270" fill="currentColor" aria-hidden="true">'
                 '<path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/>'
                 '</svg><span>noteで読む</span><span class="note-arrow">→</span></a></div>' % esc(c["noteUrl"]))
-    next_label = esc(nxt.get("placeJa") or nxt.get("jp") or nxt.get("en"))
-    prev_label = esc(prv.get("placeJa") or prv.get("jp") or prv.get("en"))
+    prev_a = ('<a href="/%s/">← %s</a>' % (esc(prv["id"]), esc(prv.get("jp") or prv.get("en")))) if prv else ""
+    next_a = ('<a href="/%s/">%s →</a>' % (esc(nxt["id"]), esc(nxt.get("jp") or nxt.get("en")))) if nxt else ""
+    foot_nav = '<nav class="cview-foot">%s<a href="/#atlas">地図へ戻る</a>%s</nav>' % (prev_a, next_a)
     ld = {"@context":"https://schema.org","@graph":[
         {"@type":"Article",
          "headline": title_plain, "description": desc, "image": hero_abs,
@@ -223,7 +224,7 @@ def page(c, prv, nxt):
 <div class="cview-essay">{essay_html(c)}</div>{note}
 <div class="cview-gallery"><div class="plates">{figures}</div></div>
 {more_from(c)}
-<p class="follow-note">新しい旅は<a href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener">X</a>でお知らせしています。</p><nav class="cview-foot"><a href="/#atlas">地図へ戻る</a></nav>
+{foot_nav}
 </article>
 </main>
 {COLOPHON}
@@ -281,10 +282,18 @@ STORY_JS = r'''(function(){
 open(OUT+"/assets/story.js","w",encoding="utf-8").write(STORY_JS)
 
 # ---------- write story pages ----------
-n = len(LOCS)
-for i,c in enumerate(LOCS):
-    nxt = LOCS[(i+1) % n]  # wrap-around, array order (matches homepage)
-    prv = LOCS[(i-1) % n]
+# country-level nav: LOCS is already sorted by countryOrder, so walk distinct
+# countries in sequence, land on each country's first story, no wrap at the ends.
+_cseq, _cfirst = [], {}
+for _c in LOCS:
+    _j = _c.get("jp") or ""
+    if _j not in _cfirst:
+        _cfirst[_j] = _c; _cseq.append(_j)
+_cpos = {j: i for i, j in enumerate(_cseq)}
+for c in LOCS:
+    _pi = _cpos.get(c.get("jp") or "", -1)
+    prv = _cfirst[_cseq[_pi-1]] if _pi > 0 else None
+    nxt = _cfirst[_cseq[_pi+1]] if (0 <= _pi < len(_cseq)-1) else None
     d = OUT + "/" + c["id"]
     os.makedirs(d, exist_ok=True)
     open(d+"/index.html","w",encoding="utf-8").write(page(c, prv, nxt))
@@ -361,7 +370,7 @@ for _name in os.listdir(OUT):
         except Exception:
             pass
 
-print("generated", n, "story pages")
+print("generated", len(LOCS), "story pages")
 print("dirs:", ", ".join(sorted(os.listdir(OUT))[:6]), "...")
 
 

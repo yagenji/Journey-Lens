@@ -249,9 +249,6 @@ a{color:inherit;text-decoration:none}
 .cview-note .note-arrow{color:var(--trail)}
 .cview-gallery{padding:0 clamp(18px,5vw,80px) clamp(48px,8vh,96px);max-width:1440px;margin:0 auto}
 .cview-foot{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);max-width:1240px;margin:0 auto;padding:28px clamp(18px,5vw,40px);font-family:var(--mono);font-size:.76rem;letter-spacing:.1em}
-.follow-note{max-width:1240px;margin:0 auto;padding:34px clamp(18px,5vw,40px) 0;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink-soft);text-align:center}
-.follow-note a{color:var(--trail);border-bottom:1px solid transparent;transition:.2s;margin:0 .18em}
-.follow-note a:hover{border-bottom-color:var(--trail)}
 .rss-link{color:var(--ink-soft);border-bottom:1px solid transparent;transition:.2s}
 .rss-link:hover{color:var(--trail);border-bottom-color:var(--trail)}
 .cview-foot a:hover{color:var(--trail)}
@@ -444,7 +441,7 @@ a{color:inherit;text-decoration:none}
 
 <footer class="colophon"><div class="colophon-grid">
   <div class="mark">JOURNEY LENS</div>
-  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br>© 2026 Makoto Yagenji · 無断使用・転載を禁じます<br><span class="meta-note">写真とことばは、旅の記憶にもとづく個人的な記録です。</span><br><a class="rss-link" href="/rss.xml">RSS</a> · <a class="rss-link" href="/privacy/">プライバシー</a></div>
+  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br><span class="meta-note">写真とことばは、旅の記憶にもとづく個人的な記録です。</span><br>新しい旅の知らせは <a class="rss-link" href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener">X</a> と <a class="rss-link" href="/rss.xml">RSS</a> で。<br>© 2026 Makoto Yagenji · 無断使用・転載を禁じます · <a class="rss-link" href="/privacy/">プライバシー</a></div>
 </div></footer>
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="拡大表示">
@@ -1047,6 +1044,14 @@ function mediaFigure(m){
   if(m.cap)fig.appendChild(el('figcaption',null,esc(m.cap)));
   return fig;
 }
+function countryFootNav(c){
+  var seen={},seq=[];for(var k=0;k<COUNTRIES.length;k++){var j=COUNTRIES[k].jp||'';if(!(j in seen)){seen[j]=COUNTRIES[k];seq.push(j);}}
+  var ci=seq.indexOf(c.jp||'');
+  var p=ci>0?seen[seq[ci-1]]:null,nx=(ci>=0&&ci<seq.length-1)?seen[seq[ci+1]]:null;
+  var pa=p?'<a href="#/'+esc(p.id)+'">← '+esc(p.jp||p.en)+'</a>':'';
+  var na=nx?'<a href="#/'+esc(nx.id)+'">'+esc(nx.jp||nx.en)+' →</a>':'';
+  return '<nav class="cview-foot">'+pa+'<a href="#atlas">地図へ戻る</a>'+na+'</nav>';
+}
 function buildCountry(c){
   const idx=COUNTRIES.indexOf(c),next=COUNTRIES[(idx+1)%COUNTRIES.length];const prev=COUNTRIES[(idx-1+COUNTRIES.length)%COUNTRIES.length];
   const kin=COUNTRIES.filter(x=>x.continent===c.continent&&(x.jp||'')===(c.jp||'')&&x.id!==c.id).slice(0,6);
@@ -1063,7 +1068,7 @@ function buildCountry(c){
     (c.standfirst?'<p class="cview-standfirst">'+esc(c.standfirst)+'</p>':'')+'</div></header>'+
     '<div class="cview-essay">'+essay+'</div>'+noteLink+
     '<div class="cview-gallery"><div class="plates" id="cplates"></div></div>'+moreHtml+
-    '<p class="follow-note">新しい旅は<a href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener">X</a>でお知らせしています。</p><nav class="cview-foot"><a href="#atlas">地図へ戻る</a></nav>';
+    countryFootNav(c);
   const grid=art.querySelector('#cplates');(c.media||[]).forEach(m=>grid.appendChild(mediaFigure(m)));
   return art;
 }
