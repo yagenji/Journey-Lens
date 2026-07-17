@@ -37,6 +37,10 @@
       "show": false
     },
     {
+      "jp": "ジンバブエ",
+      "show": true
+    },
+    {
       "jp": "レソト",
       "show": true
     },
@@ -74,10 +78,6 @@
     },
     {
       "jp": "チリ",
-      "show": true
-    },
-    {
-      "jp": "ジンバブエ",
       "show": true
     }
   ]
