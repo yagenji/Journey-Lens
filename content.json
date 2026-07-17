@@ -13300,6 +13300,195 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "botsuwana1",
+      "order": 1,
+      "en": "BOTSUWANA",
+      "jp": "ボツワナ",
+      "placeJa": "Chobe National Park",
+      "year": "2019",
+      "continent": "africa",
+      "categories": [
+        "wildlife"
+      ],
+      "publishedAt": "2026-07-17",
+      "lat": -18.666667,
+      "lon": 24.5,
+      "standfirst": "チョベ川のほとりには、動物たちの穏やかな時間が、広い土地の上をゆっくりと流れていた。",
+      "essay": "チョベ国立公園には、川に沿って視界が遠くまでひらける場所があった。木々が密集した森とは違い、動物の姿は風景の中に点々と現れた。\n\nゾウは大きな体を揺らしながら歩き、カバは水辺に身を置いていた。離れた場所にはライオンの姿もあった。けれど、サファリで想像していたように、次々と動物が現れるわけではなかった。\n\n姿が少ないからこそ、一頭一頭のまわりには広い余白があった。急ぐものも、互いを追い立てるものもいないように見えた。動物たちは私たちに見られるためではなく、ただ、それぞれの時間を生きていた。\n\nチョベ川と開けた土地を眺めているうちに、動物を探していた目も、いつしか風景全体を見るようになった。そこにあったのは、野生の緊張よりも、暮らしの静けさだった。",
+      "pullquote": "一頭一頭のまわりに、広い時間が流れていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7804_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kobus ellipsiprymnus",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7527_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African elephants",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7593_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Giraffe",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7761_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African buffalos",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7316_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Egret",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7777_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African buffalos",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9176_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lion",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7633_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hippopotamus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7721_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kudus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7741_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Crocodile",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7476_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Nile monitor",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7368_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African fish eagle",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7432_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Impalas",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7422_botsuwana.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lilac-breasted roller",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
