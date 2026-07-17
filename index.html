@@ -334,9 +334,9 @@ a{color:inherit;text-decoration:none}
 .jl-elsewhere-head{margin-bottom:20px}
 .jl-elsewhere-en{font-family:var(--latin);font-weight:700;font-size:1.1rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
 .jl-elsewhere-ja{display:block;margin-top:6px;font-size:.86rem;color:var(--ink-soft);letter-spacing:.04em}
-.jl-elsewhere-list{display:flex;flex-wrap:wrap;gap:10px 22px}
-.jl-elsewhere-list a{font-family:var(--sans);font-size:.94rem;color:var(--ink-soft);border-bottom:1px solid transparent;transition:.2s}
-.jl-elsewhere-list a:hover{color:var(--ink);border-bottom-color:var(--ink-soft)}
+.jl-elsewhere-list{display:flex;flex-wrap:wrap;gap:10px}
+.jl-elsewhere-list a{font-family:var(--sans);font-size:.9rem;letter-spacing:.04em;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:8px 18px;transition:.2s}
+.jl-elsewhere-list a:hover{color:var(--ink);border-color:var(--ink-soft)}
 .jl-empty{color:var(--ink-soft);font-family:var(--mincho);padding:40px 0;text-align:center}
 @media(min-width:821px){.jl-bar{flex-direction:column;align-items:flex-start;gap:12px}.jl-search{margin-left:0}}
 @media(max-width:820px){.jl-grid{grid-template-columns:repeat(2,1fr)}.jl-search{margin-left:0;width:100%}.jl-search input{width:100%}}
@@ -1160,7 +1160,7 @@ function router(){const h=location.hash;
 /* --- Stories 一覧（主役）--- */
 const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
 const JL_CONT_ORDER=['antarctica','europe','asia','africa','namerica','samerica','oceania'];
-let JL_HIDDEN=["ベリーズ","パナマ","ブラジル","パラグアイ","ウルグアイ"];
+let JL_HIDDEN=[];
 const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
 const JL_PER=3;let jlCat='',jlCont='',jlQ='',jlRec=true;const jlExp={};
 function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
@@ -1208,7 +1208,7 @@ function jlRender(){
     COUNTRIES.forEach(function(c){var j=c.jp||'';if(j&&JL_HIDDEN.indexOf(j)>=0&&!seen[j]){seen[j]=1;items.push({jp:j,id:c.id});}});
     if(items.length){
       var ew=document.createElement('div');ew.className='jl-elsewhere';
-      ew.innerHTML='<div class="jl-elsewhere-head"><span class="jl-elsewhere-en">Elsewhere</span><span class="jl-elsewhere-ja">地図には、ほかの国もあります。</span></div><div class="jl-elsewhere-list">'+items.map(function(o){return '<a href="/'+o.id+'/">'+esc(o.jp)+'</a>';}).join('')+'</div>';
+      ew.innerHTML='<div class="jl-elsewhere-head"><span class="jl-elsewhere-en">Elsewhere</span><span class="jl-elsewhere-ja">ほかにも、旅の物語があります。</span></div><div class="jl-elsewhere-list">'+items.map(function(o){return '<a href="/'+o.id+'/">'+esc(o.jp)+'</a>';}).join('')+'</div>';
       el.appendChild(ew);
     }
   }
