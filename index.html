@@ -336,6 +336,14 @@ a{color:inherit;text-decoration:none}
 @media(max-width:520px){.jl-grid{grid-template-columns:1fr}}
 /* ---- Journey View / 世界を眺める ---- */
 .jv-enter{cursor:pointer}
+.jv-cue{margin-left:28px;cursor:pointer}
+.jvpromo{margin:clamp(10px,2.4vh,30px) 0}
+.jvpromo-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:clamp(26px,5vh,50px) 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);cursor:pointer;text-decoration:none;color:inherit;transition:border-color .25s}
+.jvpromo-inner:hover{border-color:var(--ink-soft)}
+.jvpromo-en{font-family:var(--latin);font-weight:700;font-size:clamp(1.4rem,3.4vw,2.1rem);letter-spacing:.14em;text-transform:uppercase;margin:0;line-height:1}
+.jvpromo-ja{display:block;margin-top:10px;color:var(--ink-soft);font-size:.95rem;letter-spacing:.04em}
+.jvpromo-cue{font-family:var(--mono);font-size:.72rem;letter-spacing:.22em;color:var(--trail);white-space:nowrap}
+@media(max-width:560px){.jv-cue{margin-left:0}.jvpromo-inner{flex-direction:column;align-items:flex-start;gap:14px}}
 .jv{position:fixed;inset:0;z-index:2000;background:#000;display:none}
 .jv.open{display:block}
 .jv.cursor-hidden{cursor:none}
@@ -364,7 +372,7 @@ a{color:inherit;text-decoration:none}
 <header class="nav" id="nav">
   <a class="brand" href="#">JOURNEY LENS</a>
   <button class="nav-toggle" id="navToggle" aria-expanded="false">メニュー ＋</button>
-  <nav class="nav-links" id="navLinks"><a href="#featured">Stories</a><a href="#atlas">Atlas</a><a href="#about">About</a><a class="jv-enter" id="jvOpen">世界を眺める</a></nav>
+  <nav class="nav-links" id="navLinks"><a href="#featured">Stories</a><a href="#atlas">Atlas</a><a href="#about">About</a><a class="jv-enter" id="jvOpen">Journey View</a></nav>
 </header>
 
 <main id="home">
@@ -375,6 +383,7 @@ a{color:inherit;text-decoration:none}
       <h1 class="cover-title">JOURNEY LENS</h1>
       <p class="cover-tag">旅をしよう。レンズ越しの、世界へ。</p>
       <a class="cover-cue" href="#atlas">地図を見る ↓</a>
+      <a class="cover-cue jv-cue" id="jvOpenHero" role="button" tabindex="0">世界を眺める →</a>
     </div></div>
   </section>
 
@@ -399,6 +408,15 @@ a{color:inherit;text-decoration:none}
     <div class="wrap">
       <div class="recent-head"><h3 class="rec-en">Recently Added</h3><span class="rec-ja">最近追加した旅先</span></div>
       <ul class="recent-list" id="recentList"></ul>
+    </div>
+  </section>
+
+  <section class="jvpromo" id="journeyview">
+    <div class="wrap">
+      <a class="jvpromo-inner" id="jvOpenSection" role="button" tabindex="0">
+        <div class="jvpromo-head"><h2 class="jvpromo-en">Journey View</h2><span class="jvpromo-ja">静かに世界の景色を流す。</span></div>
+        <span class="jvpromo-cue">世界を眺める →</span>
+      </a>
     </div>
   </section>
 
@@ -1312,7 +1330,8 @@ function buildStories(){jlBar();jlRender();}
     else if(e.key==='f'||e.key==='F')toggleFull();
   });
 
-  function wire(){var b=document.getElementById('jvOpen');if(b)b.addEventListener('click',function(e){e.preventDefault();open();});}
+  function bindOpen(b){if(!b)return;b.addEventListener('click',function(e){e.preventDefault();open();});b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});}
+  function wire(){['jvOpen','jvOpenHero','jvOpenSection'].forEach(function(id){bindOpen(document.getElementById(id));});}
   if(document.readyState!=='loading')wire();else addEventListener('DOMContentLoaded',wire);
 })();
 </script>
