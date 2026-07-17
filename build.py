@@ -223,7 +223,7 @@ def page(c, prv, nxt):
 <div class="cview-essay">{essay_html(c)}</div>{note}
 <div class="cview-gallery"><div class="plates">{figures}</div></div>
 {more_from(c)}
-<nav class="cview-foot"><a href="/{esc(prv["id"])}/">← 前へ — {prev_label}</a><a href="/#atlas">地図へ戻る</a><a href="/{esc(nxt["id"])}/">次へ — {next_label} →</a></nav>
+<p class="follow-note">新しい旅は <a href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener">X</a> でお知らせしています。</p><nav class="cview-foot"><a href="/{esc(prv["id"])}/">← 前へ — {prev_label}</a><a href="/#atlas">地図へ戻る</a><a href="/{esc(nxt["id"])}/">次へ — {next_label} →</a></nav>
 </article>
 </main>
 {COLOPHON}
