@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>JOURNEY LENS</title>
@@ -6,7 +7,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 17 Jul 2026 00:45:46 +0900</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 01:25:19 +0900</lastBuildDate>
 <item>
 <title>レソト｜Semonkong – Malealea Road Trip</title>
 <link>https://journey.yagenji.com/lesotho3/</link>
