@@ -485,6 +485,7 @@ a{color:inherit;text-decoration:none}
           </div>
           <figure class="visited-map"><img loading="lazy" decoding="async" src="/visited-map.svg" alt="Countries visited"></figure>
         </div>
+        <div class="about-body">
         <div class="bio" id="aboutBioWrap">
           <p class="pullquote">世界は、見に行くほどに近くなる。</p>
           <p>はじめて海外へ出たのは、22歳のときでした。大学生活の最後に出かけた、ヨーロッパ1カ月の旅。それから旅は少しずつ自分の中に根を下ろし、これまでに訪れた国は90カ国を超えました。</p>
@@ -492,7 +493,8 @@ a{color:inherit;text-decoration:none}
           <p>うまく言葉にできない瞬間ほど、あとから何度でも思い出します。だから、忘れたくない景色や人々の気配を、写真という形で少しずつ持ち帰ってきました。風景、街の表情、そこに生きる動植物。撮ることは、旅を続けるための小さな手段でした。</p>
           <p>JOURNEY LENS は、これまでの旅で出会った世界を、写真とともにたどるサイトです。ここにある写真が、まだ知らない場所へ行ってみたいと思うきっかけになれば嬉しく思います。</p>
           <p>写真では伝えきれないものが、旅先にはあります。だからこそ、ここにある一枚が、誰かにとって次の旅の入口になれば嬉しいです。</p>
-          <p class="about-contact">旅のこと、写真のことなど — <a id="jlMail" class="about-mail" role="button" tabindex="0">メールで連絡する</a></p>
+        </div>
+        <p class="about-contact">旅のこと、写真のことなど — <a id="jlMail" class="about-mail" role="button" tabindex="0">メールで連絡する</a></p>
         </div>
       </div>
     </div>
@@ -1166,7 +1168,7 @@ function router(){const h=location.hash;
 /* --- Stories 一覧（主役）--- */
 const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
 const JL_CONT_ORDER=['antarctica','europe','asia','africa','namerica','samerica','oceania'];
-let JL_HIDDEN=["ベリーズ","パナマ","ブラジル","パラグアイ","ウルグアイ"];
+let JL_HIDDEN=[];
 const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
 const JL_PER=3;let jlCat='',jlCont='',jlQ='',jlRec=true;const jlExp={};
 function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
