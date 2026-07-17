@@ -166,9 +166,9 @@ def page(c, prv, nxt):
                 '<svg class="note-mark" viewBox="111 111 270 270" fill="currentColor" aria-hidden="true">'
                 '<path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/>'
                 '</svg><span>noteで読む</span><span class="note-arrow">→</span></a></div>' % esc(c["noteUrl"]))
-    prev_a = ('<a href="/%s/">← %s</a>' % (esc(prv["id"]), esc(prv.get("jp") or prv.get("en")))) if prv else ""
-    next_a = ('<a href="/%s/">%s →</a>' % (esc(nxt["id"]), esc(nxt.get("jp") or nxt.get("en")))) if nxt else ""
-    foot_nav = '<nav class="cview-foot">%s<a href="/#atlas">地図へ戻る</a>%s</nav>' % (prev_a, next_a)
+    prev_a = ('<a class="cf-prev" href="/%s/">← %s</a>' % (esc(prv["id"]), esc(prv.get("jp") or prv.get("en")))) if prv else '<span class="cf-prev"></span>'
+    next_a = ('<a class="cf-next" href="/%s/">%s →</a>' % (esc(nxt["id"]), esc(nxt.get("jp") or nxt.get("en")))) if nxt else '<span class="cf-next"></span>'
+    foot_nav = '<nav class="cview-foot">%s<a class="cf-home" href="/#atlas">地図へ戻る</a>%s</nav>' % (prev_a, next_a)
     ld = {"@context":"https://schema.org","@graph":[
         {"@type":"Article",
          "headline": title_plain, "description": desc, "image": hero_abs,
