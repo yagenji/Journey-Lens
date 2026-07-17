@@ -331,9 +331,6 @@ a{color:inherit;text-decoration:none}
 .jl-more button{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:8px 22px;transition:.2s}
 .jl-more button:hover{color:var(--ink);border-color:var(--ink-soft)}
 .jl-guide{margin:14px 0 30px;font-size:.82rem;color:var(--ink-soft);letter-spacing:.04em}
-.about-contact{margin-top:30px;font-size:.92rem;color:var(--ink-soft)}
-.about-mail{color:var(--trail);border-bottom:1px solid transparent;cursor:pointer;transition:.2s}
-.about-mail:hover{border-bottom-color:var(--trail)}
 .jl-elsewhere{margin-top:8px;padding-top:40px;border-top:1px solid var(--line)}
 .jl-elsewhere-head{margin-bottom:20px}
 .jl-elsewhere-en{font-family:var(--latin);font-weight:700;font-size:1.1rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
@@ -485,7 +482,6 @@ a{color:inherit;text-decoration:none}
           </div>
           <figure class="visited-map"><img loading="lazy" decoding="async" src="/visited-map.svg" alt="Countries visited"></figure>
         </div>
-        <div class="about-body">
         <div class="bio" id="aboutBioWrap">
           <p class="pullquote">世界は、見に行くほどに近くなる。</p>
           <p>はじめて海外へ出たのは、22歳のときでした。大学生活の最後に出かけた、ヨーロッパ1カ月の旅。それから旅は少しずつ自分の中に根を下ろし、これまでに訪れた国は90カ国を超えました。</p>
@@ -493,8 +489,6 @@ a{color:inherit;text-decoration:none}
           <p>うまく言葉にできない瞬間ほど、あとから何度でも思い出します。だから、忘れたくない景色や人々の気配を、写真という形で少しずつ持ち帰ってきました。風景、街の表情、そこに生きる動植物。撮ることは、旅を続けるための小さな手段でした。</p>
           <p>JOURNEY LENS は、これまでの旅で出会った世界を、写真とともにたどるサイトです。ここにある写真が、まだ知らない場所へ行ってみたいと思うきっかけになれば嬉しく思います。</p>
           <p>写真では伝えきれないものが、旅先にはあります。だからこそ、ここにある一枚が、誰かにとって次の旅の入口になれば嬉しいです。</p>
-        </div>
-        <p class="about-contact">旅のこと、写真のことなど — <a id="jlMail" class="about-mail" role="button" tabindex="0">メールで連絡する</a></p>
         </div>
       </div>
     </div>
@@ -505,7 +499,7 @@ a{color:inherit;text-decoration:none}
 
 <footer class="colophon"><div class="colophon-grid">
   <div class="mark">JOURNEY LENS</div>
-  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br><span class="meta-note">写真とことばは、旅の記憶にもとづく個人的な記録です。</span><br>新しい旅の知らせは <a class="rss-link" href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener">X</a> と <a class="rss-link" href="/rss.xml">RSS</a> で。<br>© 2026 Makoto Yagenji · 無断使用・転載を禁じます · <a class="rss-link" href="/privacy/">プライバシー</a></div>
+  <div class="meta">旅をしよう。レンズ越しの、世界へ。<br><span class="meta-note">写真とことばは、旅の記憶にもとづく個人的な記録です。</span><br>新しい旅の知らせは <a class="rss-link" href="https://x.com/GlobeTrekkerM" target="_blank" rel="noopener">X</a> と <a class="rss-link" href="/rss.xml">RSS</a> で。<br>© 2026 Makoto Yagenji · 無断使用・転載を禁じます · <a class="rss-link" href="/privacy/">プライバシー</a> · <a class="rss-link" href="mailto:journeylensmy@gmail.com?subject=JOURNEY%20LENS%20%E3%81%B8%E3%81%AE%E3%81%94%E9%80%A3%E7%B5%A1">連絡</a></div>
 </div></footer>
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="拡大表示">
@@ -1168,7 +1162,7 @@ function router(){const h=location.hash;
 /* --- Stories 一覧（主役）--- */
 const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
 const JL_CONT_ORDER=['antarctica','europe','asia','africa','namerica','samerica','oceania'];
-let JL_HIDDEN=["ベリーズ","パナマ","ブラジル","パラグアイ","ウルグアイ"];
+let JL_HIDDEN=[];
 const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
 const JL_PER=3;let jlCat='',jlCont='',jlQ='',jlRec=true;const jlExp={};
 function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
@@ -1361,8 +1355,7 @@ function buildStories(){jlBar();jlRender();}
   function pickFullSrc(){var p=[];(COUNTRIES||[]).forEach(function(l){(l.media||[]).forEach(function(m){if(m&&m.type==='photo'&&m.image&&m.size==='full')p.push(m.image);});});return p.length?p[Math.floor(Math.random()*p.length)]:'';}
   function setPromoBg(tries){var bg=document.getElementById('jvPromoBg');if(!bg)return;var src=pickFullSrc();if(src){bg.style.backgroundImage='url("'+src.replace(/"/g,'%22')+'")';}else if((tries||0)<20){setTimeout(function(){setPromoBg((tries||0)+1);},300);}}
   function bindOpen(b){if(!b)return;b.addEventListener('click',function(e){e.preventDefault();open();});b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});}
-  function setMail(){var a=document.getElementById('jlMail');if(!a)return;var addr=['journeylensmy','gmail.com'].join('@');a.setAttribute('href','mailto:'+addr+'?subject='+encodeURIComponent('JOURNEY LENS へのご連絡'));}
-  function wire(){['jvOpen','jvOpenHero','jvOpenSection'].forEach(function(id){bindOpen(document.getElementById(id));});setPromoBg(0);setMail();}
+  function wire(){['jvOpen','jvOpenHero','jvOpenSection'].forEach(function(id){bindOpen(document.getElementById(id));});setPromoBg(0);}
   if(document.readyState!=='loading')wire();else addEventListener('DOMContentLoaded',wire);
 })();
 </script>
