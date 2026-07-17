@@ -38,7 +38,7 @@
     },
     {
       "jp": "ベリーズ",
-      "show": true
+      "show": false
     },
     {
       "jp": "グアテマラ",
@@ -50,19 +50,19 @@
     },
     {
       "jp": "パナマ",
-      "show": true
+      "show": false
     },
     {
       "jp": "ブラジル",
-      "show": true
+      "show": false
     },
     {
       "jp": "パラグアイ",
-      "show": true
+      "show": false
     },
     {
       "jp": "ウルグアイ",
-      "show": true
+      "show": false
     },
     {
       "jp": "アルゼンチン",
