@@ -302,11 +302,14 @@ a{color:inherit;text-decoration:none}
 .jv-enter{cursor:pointer}
 .jv-cue{margin-left:28px;cursor:pointer}
 .jvpromo{margin:clamp(10px,2.4vh,30px) 0}
-.jvpromo-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:clamp(26px,5vh,50px) 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);cursor:pointer;text-decoration:none;color:inherit;transition:border-color .25s}
-.jvpromo-inner:hover{border-color:var(--ink-soft)}
-.jvpromo-en{font-family:var(--latin);font-weight:700;font-size:clamp(1.4rem,3.4vw,2.1rem);letter-spacing:.14em;text-transform:uppercase;margin:0;line-height:1}
-.jvpromo-ja{display:block;margin-top:10px;color:var(--ink-soft);font-size:.95rem;letter-spacing:.04em}
-.jvpromo-cue{font-family:var(--mono);font-size:.72rem;letter-spacing:.22em;color:var(--trail);white-space:nowrap}
+.jvpromo-inner{position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;min-height:clamp(180px,26vh,260px);padding:clamp(24px,4vw,40px);cursor:pointer;text-decoration:none;color:var(--ink);background:#0c0d09}
+.jvpromo-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.46);transition:filter .5s,transform 1.1s cubic-bezier(.2,.7,.2,1);z-index:0}
+.jvpromo-inner:hover .jvpromo-bg{filter:brightness(.6);transform:scale(1.03)}
+.jvpromo-inner::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(12,13,9,.72),rgba(12,13,9,.28) 60%,rgba(12,13,9,.5))}
+.jvpromo-head,.jvpromo-cue{position:relative;z-index:2}
+.jvpromo-en{font-family:var(--latin);font-weight:700;font-size:clamp(1.5rem,3.6vw,2.3rem);letter-spacing:.14em;text-transform:uppercase;margin:0;line-height:1;text-shadow:0 1px 14px rgba(0,0,0,.55)}
+.jvpromo-ja{display:block;margin-top:10px;color:rgba(236,230,214,.82);font-size:.95rem;letter-spacing:.04em;text-shadow:0 1px 12px rgba(0,0,0,.6)}
+.jvpromo-cue{font-family:var(--mono);font-size:.72rem;letter-spacing:.22em;color:var(--trail-hi);white-space:nowrap;text-shadow:0 1px 12px rgba(0,0,0,.6)}
 @media(max-width:560px){.jv-cue{margin-left:0}.jvpromo-inner{flex-direction:column;align-items:flex-start;gap:14px}}
 .jv{position:fixed;inset:0;z-index:2000;background:#000;display:none}
 .jv.open{display:block}
