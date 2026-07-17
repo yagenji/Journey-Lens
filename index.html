@@ -346,6 +346,7 @@ a{color:inherit;text-decoration:none}
 .jv-cap.show{opacity:1}
 .jv-cap .jv-place{font-family:var(--sans);font-size:clamp(1.05rem,2.4vw,1.5rem);font-weight:600;letter-spacing:.02em}
 .jv-cap .jv-country{font-family:var(--mono);font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.74);margin-top:6px}
+.jv-cap .jv-text{font-family:var(--sans);font-size:clamp(.82rem,1.5vw,.98rem);line-height:1.65;color:rgba(255,255,255,.82);margin-top:10px;max-width:min(52ch,72vw)}
 .jv-ui{position:absolute;left:0;right:0;bottom:0;padding:clamp(14px,3vw,26px) clamp(14px,4vw,40px);display:flex;align-items:center;justify-content:center;gap:clamp(8px,1.6vw,18px);flex-wrap:wrap;background:linear-gradient(to top,rgba(0,0,0,.6),rgba(0,0,0,0));opacity:0;transition:opacity .45s ease;pointer-events:none}
 .jv-ui.show{opacity:1;pointer-events:auto}
 .jv-ui button,.jv-ui a.jv-link,.jv-ui select{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:#fff;background:transparent;border:1px solid rgba(255,255,255,.26);border-radius:999px;padding:8px 14px;cursor:pointer;transition:border-color .2s,background .2s;-webkit-appearance:none;appearance:none;line-height:1}
@@ -1199,8 +1200,8 @@ function buildStories(){jlBar();jlRender();}
 <script>
 /* ===== Journey View / 世界を眺める ===== */
 (function(){
-  var JV_TIMES=[10,15,30,60], DEF_MS=15000;
-  var jv,stage,layers,cap,capPlace,capCountry,ui,btnPP,segRandom,segRegion,segCountry,selScope,selTime,linkView;
+  var JV_TIMES=[5,10,15,30,60], DEF_MS=15000;
+  var jv,stage,layers,cap,capPlace,capCountry,capText,ui,btnPP,segAll,segRandom,segRegion,segCountry,selScope,selTime,linkView;
   var pool=[],order=[],pos=0,cur=0,playing=false,timer=null,capTimer=null,uiTimer=null,intervalMs=DEF_MS;
   var mode='random',regionVal='',countryVal='',built=false,curId='',lastSrc='';
 
@@ -1218,7 +1219,7 @@ function buildStories(){jlBar();jlRender();}
       (l.media||[]).forEach(function(m){
         if(!m||m.type!=='photo'||!m.image)return;               /* photos only, no time-lapse */
         if(mode==='random'&&!relaxFull&&m.size!=='full')return;  /* random = full-width only */
-        out.push({src:m.image,place:(l.placeJa||l.jp||''),cc:(l.en||''),id:l.id||''});
+        out.push({src:m.image,place:(l.placeJa||l.jp||''),cc:(l.en||''),cap:(m.cap||m.alt||''),id:l.id||''});
       });
     });
     return out;
@@ -1236,6 +1237,7 @@ function buildStories(){jlBar();jlRender();}
     back.classList.add('on');layers[cur].classList.remove('on');cur=cur^1;
     capPlace.textContent=it.place||'';
     capCountry.textContent=(it.cc&&it.cc!==it.place)?it.cc:'';
+    capText.textContent=it.cap||'';capText.style.display=it.cap?'block':'none';
     cap.classList.add('show');clearTimeout(capTimer);capTimer=setTimeout(function(){cap.classList.remove('show');},5000);
     preloadNext();
   }
@@ -1251,9 +1253,10 @@ function buildStories(){jlBar();jlRender();}
   function setMode(m){
     mode=m;
     segRandom.classList.toggle('active',m==='random');
+    segAll.classList.toggle('active',m==='all');
     segRegion.classList.toggle('active',m==='region');
     segCountry.classList.toggle('active',m==='country');
-    if(m==='random'){selScope.classList.add('jv-hide');}
+    if(m==='random'||m==='all'){selScope.classList.add('jv-hide');}
     else{
       selScope.classList.remove('jv-hide');selScope.innerHTML='';
       if(m==='region'){presentContinents().forEach(function(k){var o=ce('option');o.value=k;o.textContent=contLabel(k);selScope.appendChild(o);});regionVal=selScope.value=selScope.options.length?selScope.options[0].value:'';}
@@ -1269,17 +1272,17 @@ function buildStories(){jlBar();jlRender();}
   function build(){
     jv=ce('div','jv');jv.id='jv';jv.setAttribute('role','dialog');jv.setAttribute('aria-label','世界を眺める');
     stage=ce('div','jv-stage');layers=[ce('div','jv-img'),ce('div','jv-img')];stage.appendChild(layers[0]);stage.appendChild(layers[1]);
-    cap=ce('div','jv-cap');capPlace=ce('div','jv-place');capCountry=ce('div','jv-country');cap.appendChild(capPlace);cap.appendChild(capCountry);
+    cap=ce('div','jv-cap');capPlace=ce('div','jv-place');capCountry=ce('div','jv-country');capText=ce('div','jv-text');cap.appendChild(capPlace);cap.appendChild(capCountry);cap.appendChild(capText);
     ui=ce('div','jv-ui');
     var bPrev=ce('button','jv-ico','‹');bPrev.setAttribute('aria-label','前の写真');
     btnPP=ce('button','jv-ico','❚❚');btnPP.setAttribute('aria-label','一時停止');
     var bNext=ce('button','jv-ico','›');bNext.setAttribute('aria-label','次の写真');
     var scope=ce('div','jv-scope');
-    segRandom=ce('button','jv-seg active','ランダム');segRegion=ce('button','jv-seg','地域');segCountry=ce('button','jv-seg','国');
+    segRandom=ce('button','jv-seg active','ランダム');segAll=ce('button','jv-seg','全て');segRegion=ce('button','jv-seg','地域');segCountry=ce('button','jv-seg','国');
     selScope=ce('select','jv-hide');
-    scope.appendChild(segRandom);scope.appendChild(segRegion);scope.appendChild(segCountry);scope.appendChild(selScope);
+    scope.appendChild(segRandom);scope.appendChild(segAll);scope.appendChild(segRegion);scope.appendChild(segCountry);scope.appendChild(selScope);
     selTime=ce('select');JV_TIMES.forEach(function(s){var o=ce('option');o.value=s;o.textContent=s+'秒';if(s===15)o.selected=true;selTime.appendChild(o);});
-    linkView=ce('a','jv-link');linkView.textContent='この景色を見る';linkView.href='#';
+    linkView=ce('a','jv-link');linkView.textContent='この物語を見る';linkView.href='#';
     var bFull=ce('button','jv-ico','⛶');bFull.setAttribute('aria-label','全画面');
     var bClose=ce('button','jv-ico','✕');bClose.setAttribute('aria-label','閉じる');
     ui.appendChild(bPrev);ui.appendChild(btnPP);ui.appendChild(bNext);
@@ -1288,7 +1291,7 @@ function buildStories(){jlBar();jlRender();}
     jv.appendChild(stage);jv.appendChild(cap);jv.appendChild(ui);document.body.appendChild(jv);
 
     bPrev.onclick=function(){nav(-1);};bNext.onclick=function(){nav(1);};btnPP.onclick=togglePP;
-    segRandom.onclick=function(){setMode('random');showUI();};segRegion.onclick=function(){setMode('region');showUI();};segCountry.onclick=function(){setMode('country');showUI();};
+    segRandom.onclick=function(){setMode('random');showUI();};segAll.onclick=function(){setMode('all');showUI();};segRegion.onclick=function(){setMode('region');showUI();};segCountry.onclick=function(){setMode('country');showUI();};
     selScope.onchange=function(){if(mode==='region')regionVal=selScope.value;else if(mode==='country')countryVal=selScope.value;rebuild();showUI();};
     selTime.onchange=function(){intervalMs=(parseInt(selTime.value,10)||15)*1000;if(playing)schedule();showUI();};
     linkView.onclick=function(e){e.preventDefault();if(curId){var id=curId;close();location.hash='#/'+id;}};
