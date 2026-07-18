@@ -244,6 +244,9 @@ a{color:inherit;text-decoration:none}
 .colophon .mark{font-family:var(--latin);font-weight:700;letter-spacing:.3em;text-transform:uppercase;font-size:.95rem}
 .colophon .meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;line-height:2;color:var(--ink-soft);text-align:right}
 .colophon .meta-note{opacity:.58}
+.colophon .mark-tag{display:block;margin-top:10px;font-family:var(--mincho);font-weight:400;letter-spacing:.04em;text-transform:none;font-size:.86rem;color:var(--ink-soft)}
+.colophon .meta-links{display:inline-flex;gap:22px;justify-content:flex-end}
+@media(max-width:640px){.colophon .meta{text-align:left}.colophon .meta-links{justify-content:flex-start}}
 
 .lightbox{position:fixed;inset:0;z-index:90;background:rgba(10,11,8,.95);display:none;align-items:center;justify-content:center;padding:4vw;flex-direction:column;gap:14px}
 .lightbox.open{display:flex}
