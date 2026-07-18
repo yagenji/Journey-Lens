@@ -49,6 +49,10 @@
       "show": true
     },
     {
+      "jp": "南アフリカ",
+      "show": true
+    },
+    {
       "jp": "ベリーズ",
       "show": false
     },
@@ -82,10 +86,6 @@
     },
     {
       "jp": "チリ",
-      "show": true
-    },
-    {
-      "jp": "南アフリカ",
       "show": true
     }
   ]
