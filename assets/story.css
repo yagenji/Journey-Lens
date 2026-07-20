@@ -224,7 +224,7 @@ a{color:inherit;text-decoration:none}
 .cview-more .more-ja{font-family:var(--sans);font-size:.78rem;letter-spacing:.2em;color:var(--ink-soft)}
 
 /* plates */
-.plates{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(8px,1.1vw,15px);grid-auto-flow:dense}
+.plates{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(8px,1.1vw,15px)}
 .plate{position:relative;margin:0;overflow:hidden;background:var(--panel);cursor:zoom-in}
 .plate img,.plate video{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
 .plate:hover img,.plate:hover video{transform:scale(1.05)}
