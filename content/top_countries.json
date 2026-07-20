@@ -69,6 +69,10 @@
       "show": false
     },
     {
+      "jp": "ボリビア",
+      "show": true
+    },
+    {
       "jp": "ブラジル",
       "show": false
     },
@@ -86,10 +90,6 @@
     },
     {
       "jp": "チリ",
-      "show": true
-    },
-    {
-      "jp": "ボリビア",
       "show": true
     }
   ]
