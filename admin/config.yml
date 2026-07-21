@@ -108,15 +108,11 @@ collections:
       preview: false
     files:
       - name: order
-        label: 国の並び順
+        label: NEW表示の設定
         file: content/order.json
         format: json
         fields:
           - { label: "NEWを表示する日数", name: newDays, widget: number, default: 30, value_type: int, min: 1, hint: "公開日から何日間 NEW マークを出すか。例: 30 なら30日間。短くすると新着だけに絞られます" }
-          - label: 国の並び順（ドラッグで入れ替え・国名は「国名（日）」と同じ表記で）
-            name: countryOrder
-            widget: list
-            hint: "トップと地図での国の登場順。ここに無い国は末尾に回ります。各国の中の物語順は各物語の「並び順(order)」で決まります"
       - name: atlas_order
         label: Atlas / REGION の大陸並び
         file: content/settings.json
@@ -139,18 +135,18 @@ collections:
                 - { label: 南アメリカ, value: samerica }
                 - { label: オセアニア, value: oceania }
       - name: top_countries
-        label: トップに出す国（表示ON/OFF）
+        label: 国の並び順・トップに出す国
         file: content/top_countries.json
         format: json
         create: false
         fields:
-          - label: 国ごとの表示（新しい国は自動で追加・初期はON）
+          - label: 国の並び順と表示（ドラッグで入れ替え・新しい国は自動で追加）
             name: countries
             label_singular: 国
             widget: list
             allow_add: false
             summary: "{{fields.jp}}"
-            hint: "各国の「トップに出す」をOFFにすると、その国がトップの初期表示（おすすめ）から外れます。REGIONタグ・検索・Atlasからは常に見られます。新しい国は自動で追加され初期はONです。※「国」の欄は編集しないでください（自動管理）"
+            hint: "ドラッグで並べ替えると、トップの一覧・地図・物語ページの国送りの順番が変わります。「トップに出す」をOFFにすると、その国はトップの初期表示（おすすめ）から外れます（REGIONタグ・検索・Atlasからは常に見られます）。新しい国は自動で追加され初期はONです。※「国」の欄は編集しないでください（自動管理）"
             fields:
               - { label: 国, name: jp, widget: string }
               - { label: トップに出す, name: show, widget: boolean, default: true }
