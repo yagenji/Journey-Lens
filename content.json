@@ -11204,7 +11204,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC01904_uyui.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
