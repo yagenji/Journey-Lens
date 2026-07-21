@@ -7,10 +7,8 @@
   "year": "2026",
   "continent": "samerica",
   "categories": [
-    "nature",
-    "cities"
+    "nature"
   ],
-  "featured": false,
   "publishedAt": "2026-07-04",
   "lat": -25.6953,
   "lon": -54.4367,
@@ -140,5 +138,6 @@
       "shape": "land"
     }
   ],
+  "featured": false,
   "region": "central-asia"
 }
