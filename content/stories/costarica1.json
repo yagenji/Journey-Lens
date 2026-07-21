@@ -1,7 +1,7 @@
 {
   "id": "costarica1",
   "order": null,
-  "en": "COSTARICA",
+  "en": "COSTA RICA",
   "jp": "コスタリカ",
   "placeJa": "Los Quetzales / Sarapiqui",
   "year": "2026",
@@ -9,7 +9,6 @@
   "categories": [
     "wildlife"
   ],
-  "featured": true,
   "publishedAt": "2026-06-20",
   "lat": 10.32,
   "lon": -83.94,
@@ -304,5 +303,6 @@
       "shape": "land"
     }
   ],
-  "num": "03"
+  "num": "03",
+  "featured": true
 }
