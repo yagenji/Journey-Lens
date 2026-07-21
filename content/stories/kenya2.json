@@ -172,6 +172,102 @@
       "cap": "Masai Giraffes",
       "size": "md",
       "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02118_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Marabou Storks",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01989_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Lappet-faced Vulture",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02210_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Superb Starling",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01873_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Savanna Grasslands",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Nile Crocodile",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02130_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Savanna Grasslands",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02173_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "International Boundary",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC02093_masaimalatwo.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Safari",
+      "size": "md",
+      "shape": "land"
     }
   ]
 }
