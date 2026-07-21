@@ -1,5 +1,6 @@
 {
   "id": "kyrgyz3",
+  "order": 4,
   "en": "KYRGYZ",
   "jp": "キルギス",
   "placeJa": "Osh to Bishkek",
@@ -9,7 +10,6 @@
     "cities",
     "nature"
   ],
-  "featured": false,
   "publishedAt": "2026-06-27",
   "lat": 42.882,
   "lon": 74.5827,
@@ -223,5 +223,6 @@
       "shape": "land"
     }
   ],
+  "featured": false,
   "region": "central-asia"
 }
