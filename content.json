@@ -15130,6 +15130,183 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "kenya2",
+      "order": 2,
+      "en": "KENYA",
+      "jp": "ケニア",
+      "placeJa": "Maasai Mara / Kenya Tanzania Border",
+      "year": "2026",
+      "continent": "samerica",
+      "categories": [
+        "wildlife"
+      ],
+      "publishedAt": "2026-07-21",
+      "lat": -1.493,
+      "lon": 35.143,
+      "standfirst": "草原の奥まで進むと、国境は見えないまま、動物たちの世界だけが続いていた。",
+      "essay": "Maasai Maraを奥へ進んでいくと、やがてタンザニアとの国境に近づいた。その先はSerengetiの北部へと続いている。地図の上では国が分かれていても、目の前の草原には、境目らしいものはほとんど感じられなかった。\n\nもちろん、人間の側には国境という線が引かれている。けれど、その場所で暮らす動物たちには関係がないのだと思った。遠くまで見渡せるサバンナの中を、キリンが歩き、象が進み、ワニは水辺に身を置いていた。\n\nライオンの獲物にはハイエナたちが群がっていた。生きることと食べることが、そのまま風景の一部になっていた。残酷というより、それぞれがただ自分の役割を生きているように見えた。\n\n視界を遮るもののない広い土地を眺めていると、ここは動物たちにとって暮らしやすい場所なのだろうと思えた。人間が引いた線よりも、風の通り道や水のある場所の方が、この土地ではずっと確かな意味を持っているようだった。",
+      "pullquote": "国境よりも先に、この土地の広さだけが目に入った。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02220_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Defassa waterbuck",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02062_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African Bush Elephants",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02149_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Masai Giraffes",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02231_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Masai Ostriches",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01794_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Topi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02251_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Grey Crowned Crane",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02027_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lilac-breasted Roller",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02128_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Superb Starling",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02267_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Common Warthogs（Pumbaa）",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02303_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Olive Baboon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02015_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Spotted Hyenas",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01870_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "African Bush Elephants",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02157_masaimalatwo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Masai Giraffes",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
