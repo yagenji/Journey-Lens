@@ -11525,13 +11525,13 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/DSC06000_atakama.jpg",
+          "image": "/uploads/DSC06204_atakama.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Laguna Santa Rosa",
+          "cap": "Salar de Pedernales",
           "size": "full",
           "shape": "land"
         },
@@ -11609,13 +11609,13 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC06204_atakama.jpg",
+          "image": "/uploads/DSC06000_atakama.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Salar de Pedernales",
+          "cap": "Laguna Santa Rosa",
           "size": "full",
           "shape": "land"
         },
