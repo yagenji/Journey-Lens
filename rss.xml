@@ -7,7 +7,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 21 Jul 2026 00:05:02 +0900</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 00:11:08 +0900</lastBuildDate>
 <item>
 <title>ボリビア｜Atacama to Uyuni</title>
 <link>https://journey.yagenji.com/bolivia2/</link>
@@ -289,18 +289,18 @@
 <description>天山山脈を背にした街で、秋の終わりの夕景を見た。</description>
 </item>
 <item>
-<title>キルギス｜Ala Archa National Park / Chon-Kemin</title>
-<link>https://journey.yagenji.com/kyrgyz4/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/kyrgyz4/</guid>
-<pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
-<description>秋の終わりの山と高原で、鳥の軽さと紅葉の深さに出会った。</description>
-</item>
-<item>
 <title>キルギス｜Osh to Bishkek</title>
 <link>https://journey.yagenji.com/kyrgyz3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kyrgyz3/</guid>
 <pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
 <description>Pamirを越えた先で、街の音と旧ソ連の名残に出会った。</description>
+</item>
+<item>
+<title>キルギス｜Ala Archa National Park / Chon-Kemin</title>
+<link>https://journey.yagenji.com/kyrgyz4/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/kyrgyz4/</guid>
+<pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
+<description>秋の終わりの山と高原で、鳥の軽さと紅葉の深さに出会った。</description>
 </item>
 <item>
 <title>タジキスタン｜Dushanbe</title>

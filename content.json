@@ -3980,7 +3980,7 @@
     },
     {
       "id": "kyrgyz1",
-      "order": null,
+      "order": 1,
       "en": "KYRGYZ",
       "jp": "キルギス",
       "placeJa": "Lenin Peak",
@@ -3989,7 +3989,6 @@
       "categories": [
         "nature"
       ],
-      "featured": true,
       "publishedAt": "2026-06-25",
       "lat": 39.3388,
       "lon": 72.8732,
@@ -4203,11 +4202,12 @@
           "shape": "land"
         }
       ],
+      "featured": true,
       "region": "central-asia"
     },
     {
       "id": "kyrgyz2",
-      "order": null,
+      "order": 2,
       "en": "KYRGYZ",
       "jp": "キルギス",
       "placeJa": "Sary Mogul to Osh",
@@ -4218,7 +4218,6 @@
         "cities",
         "wildlife"
       ],
-      "featured": true,
       "publishedAt": "2026-06-25",
       "lat": 39.6758,
       "lon": 72.884,
@@ -4242,7 +4241,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_3878_renin.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -4456,10 +4455,228 @@
           "shape": "land"
         }
       ],
+      "featured": true,
+      "region": "central-asia"
+    },
+    {
+      "id": "kyrgyz4",
+      "order": 3,
+      "en": "KYRGYZ",
+      "jp": "キルギス",
+      "placeJa": "Ala Archa National Park / Chon-Kemin",
+      "year": "2025",
+      "continent": "asia",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
+      "publishedAt": "2026-06-27",
+      "lat": 42.565,
+      "lon": 74.4861,
+      "standfirst": "秋の終わりの山と高原で、鳥の軽さと紅葉の深さに出会った。",
+      "essay": "Ala Archa National Parkは、自然の豊かな国立公園だった。山道を歩いていると、リスや鳥たちがすぐ近くまでやってくる。鳥は、手に餌を乗せるとためらいなく飛んでくるのに、何も乗せていないと見向きもしない。よく見ているものだと、妙に感心した。\n\n山の上にはすでに雪が積もっていて、秋の終わりを感じる景色になっていた。さらに進んでたどり着いた滝は凍っていた。水が流れる場所のはずなのに、そこには静かな氷の形が残っている。空気の冷たさに、冬の訪れがはっきりと見えた気がした。\n\n一方のChon-Keminでは、馬に乗って高原を進んだ。秋晴れの空は淡い青で、山々はちょうど紅葉の盛りだった。黄色や赤に色づいた景色がどこまでも続き、馬の背に揺られながらその中を進んでいく時間が心地よかった。紅葉はやはり素晴らしい。キルギスの大きな自然の中で見る秋の色は、静かだけれど強く残る美しさだった。",
+      "pullquote": "凍った滝の冷たさと、高原を埋める紅葉が残っている。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05844_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05563_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05728_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05743_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05650_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05557_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05878_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Eurasian Red Squirrel",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06008_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06096_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05958_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Rufous-Vented Tit",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC05955_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Great Tit",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06090_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ala Archa National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06402_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06333_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4814_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06310_alaarcha.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chon-Kemin",
+          "size": "sm",
+          "shape": "land"
+        }
+      ],
+      "featured": true,
       "region": "central-asia"
     },
     {
       "id": "kyrgyz3",
+      "order": 4,
       "en": "KYRGYZ",
       "jp": "キルギス",
       "placeJa": "Osh to Bishkek",
@@ -4469,7 +4686,6 @@
         "cities",
         "nature"
       ],
-      "featured": false,
       "publishedAt": "2026-06-27",
       "lat": 42.882,
       "lon": 74.5827,
@@ -4683,222 +4899,7 @@
           "shape": "land"
         }
       ],
-      "region": "central-asia"
-    },
-    {
-      "id": "kyrgyz4",
-      "order": null,
-      "en": "KYRGYZ",
-      "jp": "キルギス",
-      "placeJa": "Ala Archa National Park / Chon-Kemin",
-      "year": "2025",
-      "continent": "asia",
-      "categories": [
-        "nature",
-        "wildlife"
-      ],
-      "featured": true,
-      "publishedAt": "2026-06-27",
-      "lat": 42.565,
-      "lon": 74.4861,
-      "standfirst": "秋の終わりの山と高原で、鳥の軽さと紅葉の深さに出会った。",
-      "essay": "Ala Archa National Parkは、自然の豊かな国立公園だった。山道を歩いていると、リスや鳥たちがすぐ近くまでやってくる。鳥は、手に餌を乗せるとためらいなく飛んでくるのに、何も乗せていないと見向きもしない。よく見ているものだと、妙に感心した。\n\n山の上にはすでに雪が積もっていて、秋の終わりを感じる景色になっていた。さらに進んでたどり着いた滝は凍っていた。水が流れる場所のはずなのに、そこには静かな氷の形が残っている。空気の冷たさに、冬の訪れがはっきりと見えた気がした。\n\n一方のChon-Keminでは、馬に乗って高原を進んだ。秋晴れの空は淡い青で、山々はちょうど紅葉の盛りだった。黄色や赤に色づいた景色がどこまでも続き、馬の背に揺られながらその中を進んでいく時間が心地よかった。紅葉はやはり素晴らしい。キルギスの大きな自然の中で見る秋の色は、静かだけれど強く残る美しさだった。",
-      "pullquote": "凍った滝の冷たさと、高原を埋める紅葉が残っている。",
-      "noteUrl": "",
-      "media": [
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05844_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05563_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05728_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05743_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05650_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05557_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05878_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Eurasian Red Squirrel",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06008_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06096_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05958_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Rufous-Vented Tit",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05955_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Great Tit",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06090_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Ala Archa National Park",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06402_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chon-Kemin",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06333_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chon-Kemin",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_4814_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chon-Kemin",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC06310_alaarcha.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chon-Kemin",
-          "size": "sm",
-          "shape": "land"
-        }
-      ],
+      "featured": false,
       "region": "central-asia"
     },
     {
