@@ -20,6 +20,18 @@
   "media": [
     {
       "type": "photo",
+      "image": "/uploads/DSC06438_atakama.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Andean flamingo",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC06204_atakama.jpg",
       "cover": false,
       "mode": "feature",
@@ -27,7 +39,7 @@
       "video": "",
       "duration": "",
       "cap": "Salar de Pedernales",
-      "size": "full",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -92,18 +104,6 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC05894_atakama.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Andes Mountains",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
       "image": "/uploads/DSC06000_atakama.jpg",
       "cover": false,
       "mode": "feature",
@@ -128,13 +128,13 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC06438_atakama.jpg",
+      "image": "/uploads/DSC05894_atakama.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
       "duration": "",
-      "cap": "Andean flamingo",
+      "cap": "Andes Mountains",
       "size": "md",
       "shape": "land"
     },
