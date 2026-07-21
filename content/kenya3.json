@@ -1,0 +1,117 @@
+{
+  "id": "kenya3",
+  "order": 3,
+  "en": "KENYA",
+  "jp": "ケニア",
+  "placeJa": "Nairobi",
+  "year": "2026",
+  "continent": "africa",
+  "categories": [
+    "cities"
+  ],
+  "publishedAt": "2026-07-21",
+  "lat": -1.2833,
+  "lon": 36.8167,
+  "standfirst": "あらゆるものが揃う大都会のすぐそばで、人々はそれぞれの夢を抱いて暮らしていた。",
+  "essay": "Nairobiは、想像していた以上の大都会だった。大きな建物が並び、人と車が絶えず行き交い、必要なものは何でも揃っているように見えた。\n\n一方で、街には大きな貧富の差があった。豊かさを感じる場所からそれほど離れていないところに、スラムが広がっていた。NGO団体を通してそこを訪れると、同じ都市の中にあるとは思えないほど、暮らしを取り巻く環境は違っていた。\n\nそこで暮らす人たちに、将来の夢を聞いた。\n\n返ってくる答えは、一人ひとり違っていた。置かれている環境だけを見れば、似たような暮らしに見えてしまう。けれど、話を聞けば、それぞれに望む未来があり、自分の人生を生きようとしていた。\n\n外から訪れた私の目には、最初に厳しい生活環境が映っていた。だが、言葉を交わすうちに、そこに暮らす人々の表情や夢の方が強く残るようになった。\n\n高層の建物も、密集した住居も、どちらもNairobiだった。その隔たりの大きさと、その中で未来を語る人々の姿を、簡単にひとつの言葉で理解することはできなかった。",
+  "pullquote": "街の豊かさだけでは、Nairobiのすべては見えなかった。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7357_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "KICC",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7280_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "KICC",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7330_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "KICC",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7258_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cathedral Basilica of the Holy Family",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7262_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cathedral Basilica of the Holy Family",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7014_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kibera Slum",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7027_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kibera Slum",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7002_nairobi.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kibera Slum",
+      "size": "md",
+      "shape": "land"
+    }
+  ]
+}

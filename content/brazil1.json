@@ -1,0 +1,142 @@
+{
+  "id": "brazil1",
+  "order": null,
+  "en": "BRAZIL",
+  "jp": "ブラジル",
+  "placeJa": "Iguaçu Falls",
+  "year": "2026",
+  "continent": "samerica",
+  "categories": [
+    "nature"
+  ],
+  "featured": false,
+  "publishedAt": "2026-07-02",
+  "lat": -25.6152,
+  "lon": -54.4792,
+  "standfirst": "ブラジル側から見るIguaçu Fallsは、水しぶきまで含めて迫力があった。",
+  "essay": "アルゼンチン側で見たIguaçu Fallsを、ブラジル側からも見に行った。アルゼンチン側ほど広く歩き回る感じではないが、こちらは滝を下から眺めるような位置に近い。そのぶん、水しぶきがすごかった。\n\n滝に近づくほど、体ごと水に包まれるようだった。遠くから全体を眺めるというより、滝の力の中に入っていく感覚がある。個人的には、迫力という意味でブラジル側の方が好きだった。\n\nIguaçu Fallsだけでなく、Niagara FallsもVictoria Fallsも、なぜ大きな滝は複数の国をまたぐのだろう。そんなことも気になった。水が国境を決めるのか、国境が水の迫力を際立たせるのか。滝を見ながら、そんなことを考えていた。",
+  "pullquote": "滝の音を浴びながら、国境のことを考えていた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03877_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03851_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03998_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03951_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03898_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03840_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_3513_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03885_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03819_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC03790_iguazB.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Iguaçu Falls",
+      "size": "md",
+      "shape": "land"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "uruguay1",
+  "en": "URUGUAY",
+  "jp": "ウルグアイ",
+  "placeJa": "Montevideo",
+  "year": "2026",
+  "continent": "samerica",
+  "categories": [
+    "cities"
+  ],
+  "featured": false,
+  "publishedAt": "2026-07-04",
+  "lat": -34.9011,
+  "lon": -56.1645,
+  "standfirst": "落ち着いた首都の中に、第1回ワールドカップの記憶が残っていた。",
+  "essay": "Montevideoは、見るところが少ないという話をよく見かけた。街そのものも、強い印象を残す観光地というより、落ち着いた首都という感じだった。何かを詰め込んで見るというより、少し歩いて、食べて、海沿いの空気を感じるくらいがちょうどよかった。\n\nけれど、サッカーが好きならEstadio Centenarioがある。ここは1930年、第1回ワールドカップの舞台となったスタジアムで、決勝も行われた場所だった。最新設備の整ったスタジアムが増える中で、ここには昔ながらの姿が残っていた。\n\nほとんど変わっていないように見える客席や構造に、サッカーの歴史を感じた。新しくて派手なスタジアムとは違い、ここには過去の時間がそのまま残っているようだった。\n\nMontevideoは派手な街ではない。けれど、古いスタジアムと穏やかな街の空気が重なって、ウルグアイらしい静かな時間が流れていた。",
+  "pullquote": "古い客席に、サッカーの時間が残っていた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7211_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Estadio Centenario",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7168_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Estadio Centenario",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7246_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Estadio Centenario",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC00326_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Plaza Independencia",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC00390_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Puerta de la Ciudadela",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC00340_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Palacio de Correos de Montevideo",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7267_monte.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Teatro Solís / Solís Theatre",
+      "size": "md",
+      "shape": "land"
+    }
+  ]
+}
