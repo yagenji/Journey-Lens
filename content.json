@@ -9813,7 +9813,7 @@
     {
       "id": "southafrica1",
       "order": 1,
-      "en": "SOUTHAFRICA",
+      "en": "SOUTH AFRICA",
       "jp": "南アフリカ",
       "placeJa": "Cape Peninsula / Cape of Good Hope",
       "year": "2020",
@@ -10051,7 +10051,7 @@
     {
       "id": "southafrica2",
       "order": 2,
-      "en": "SOUTHAFRICA",
+      "en": "SOUTH AFRICA",
       "jp": "南アフリカ",
       "placeJa": "Cape Town / Robben Island",
       "year": "2020",
@@ -11145,7 +11145,7 @@
     {
       "id": "costarica1",
       "order": null,
-      "en": "COSTARICA",
+      "en": "COSTA RICA",
       "jp": "コスタリカ",
       "placeJa": "Los Quetzales / Sarapiqui",
       "year": "2026",
@@ -11153,7 +11153,6 @@
       "categories": [
         "wildlife"
       ],
-      "featured": true,
       "publishedAt": "2026-06-20",
       "lat": 10.32,
       "lon": -83.94,
@@ -11448,7 +11447,8 @@
           "shape": "land"
         }
       ],
-      "num": "03"
+      "num": "03",
+      "featured": true
     },
     {
       "id": "panama1",
