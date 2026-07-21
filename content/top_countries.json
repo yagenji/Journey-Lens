@@ -25,6 +25,10 @@
       "show": true
     },
     {
+      "jp": "ケニア",
+      "show": true
+    },
+    {
       "jp": "タンザニア",
       "show": true
     },
@@ -90,10 +94,6 @@
     },
     {
       "jp": "チリ",
-      "show": true
-    },
-    {
-      "jp": "ケニア",
       "show": true
     }
   ]
