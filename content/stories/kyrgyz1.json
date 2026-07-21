@@ -1,6 +1,6 @@
 {
   "id": "kyrgyz1",
-  "order": null,
+  "order": 1,
   "en": "KYRGYZ",
   "jp": "キルギス",
   "placeJa": "Lenin Peak",
@@ -9,7 +9,6 @@
   "categories": [
     "nature"
   ],
-  "featured": true,
   "publishedAt": "2026-06-25",
   "lat": 39.3388,
   "lon": 72.8732,
@@ -223,5 +222,6 @@
       "shape": "land"
     }
   ],
+  "featured": true,
   "region": "central-asia"
 }
