@@ -11918,7 +11918,7 @@
         },
         {
           "type": "photo",
-          "image": "",
+          "image": "/uploads/P1020281_lapaz.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -11973,6 +11973,18 @@
           "video": "",
           "duration": "",
           "cap": "Hillside",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1020593_lapaz.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Plaza Mayor de San Francisco",
           "size": "md",
           "shape": "land"
         },
