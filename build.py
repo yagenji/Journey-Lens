@@ -20,11 +20,24 @@ SW_REG = "<script>if('serviceWorker'in navigator){addEventListener('load',functi
 
 src = open(SRC_HTML, encoding="utf-8").read()
 
-# --- combine per-story files (content/stories/*.json) via content/order.json ---
-_od = json.load(open("content/order.json", encoding="utf-8"))
-_raw = _od.get("countryOrder", [])
+# --- combine per-story files (content/stories/*.json) via content/top_countries.json ---
+# 国の並び順・表示ON/OFF は content/top_countries.json が唯一の管理元。
+# content/order.json は newDays（NEW表示日数）の保管のみに使用する。
+try:
+    _od = json.load(open("content/order.json", encoding="utf-8"))
+except Exception:
+    _od = {}
 _newdays = _od.get("newDays", 30)
-_order = [(x.get("name") if isinstance(x, dict) else x) for x in _raw]
+try:
+    _tc_raw = json.load(open("content/top_countries.json", encoding="utf-8")).get("countries", [])
+except Exception:
+    _tc_raw = []
+_order = [x.get("jp") for x in _tc_raw if isinstance(x, dict) and x.get("jp")]
+_show_map = {x["jp"]: bool(x.get("show", True)) for x in _tc_raw if isinstance(x, dict) and x.get("jp")}
+# 旧 order.json の countryOrder は、top_countries.json が空のときだけ初期値として引き継ぐ
+if not _order:
+    _legacy = _od.get("countryOrder", [])
+    _order = [(x.get("name") if isinstance(x, dict) else x) for x in _legacy]
 _oidx = {k: i for i, k in enumerate(_order)}
 def _tail_int(x):
     m = re.search(r"(\d+)$", x or ""); return int(m.group(1)) if m else 0
@@ -33,12 +46,11 @@ def _wkey(c):
 def _ckey(c):
     jp = c.get("jp"); return (_oidx.get(jp, len(_order) + 1), jp or "")
 LOCS = [json.load(open(f, encoding="utf-8")) for f in glob.glob("content/stories/*.json")]
-# 新しい国（order.json に未登録の jp）は末尾へ自動追加して保存する
+# 新しい国（top_countries.json に未登録の jp）は末尾へ自動追加
 _missing = sorted({c.get("jp") for c in LOCS if c.get("jp")} - set(_order))
 if _missing:
     _order = _order + _missing
     _oidx = {k: i for i, k in enumerate(_order)}
-    json.dump({"countryOrder": _order, "newDays": _newdays}, open("content/order.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 LOCS.sort(key=lambda c: (_ckey(c), _wkey(c)))
 json.dump({"locations": LOCS, "newDays": _newdays}, open("content.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
@@ -282,7 +294,7 @@ STORY_JS = r'''(function(){
 open(OUT+"/assets/story.js","w",encoding="utf-8").write(STORY_JS)
 
 # ---------- write story pages ----------
-# country-level nav: LOCS is already sorted by countryOrder, so walk distinct
+# country-level nav: LOCS is already sorted by the CMS country order, so walk distinct
 # countries in sequence, land on each country's first story, no wrap at the ends.
 _cseq, _cfirst = [], {}
 for _c in LOCS:
@@ -412,18 +424,10 @@ _idx = re.sub(r"const JL_CONT_ORDER=\[[^\]]*\];", "const JL_CONT_ORDER=%s;" % _a
 open("index.html", "w", encoding="utf-8").write(_idx)
 print("applied continentOrder:", _co)
 
-# ---------- T4: 「トップに出す国」を content/top_countries.json で維持し index.html へ反映 ----------
-# 全ての国(jp)を order.json の並びで列挙。既存のON/OFFは保持し、新しい国は show=True で自動追加。
+# ---------- T4: 「国の並び順・トップに出す国」を content/top_countries.json で維持し index.html へ反映 ----------
+# 並び順は CMS でドラッグした順（= _order）をそのまま保持。既存のON/OFFは保持し、新しい国は show=True で自動追加。
 _existing_jp = {c.get("jp") for c in LOCS if c.get("jp")}
 _all_countries = [jp for jp in _order if jp in _existing_jp]
-try:
-    _tc = json.load(open("content/top_countries.json", encoding="utf-8")).get("countries", [])
-except Exception:
-    _tc = []
-_show_map = {}
-for _it in _tc:
-    if isinstance(_it, dict) and _it.get("jp"):
-        _show_map[_it["jp"]] = bool(_it.get("show", True))
 _tc_new = [{"jp": jp, "show": _show_map.get(jp, True)} for jp in _all_countries]
 json.dump({"countries": _tc_new}, open("content/top_countries.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 _hidden = [x["jp"] for x in _tc_new if not x["show"]]
