@@ -15793,6 +15793,123 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "peru2",
+      "order": 2,
+      "en": "PERU",
+      "jp": "ペルー",
+      "placeJa": "Cusco",
+      "year": "2013",
+      "continent": "samerica",
+      "categories": [
+        "cities"
+      ],
+      "publishedAt": "2026-07-22",
+      "lat": -13.5294,
+      "lon": -71.985,
+      "standfirst": "斜面を覆う瓦屋根と石畳の路地が、Cuscoに流れてきた長い時間を映していた。",
+      "essay": "Cuscoでは、少し坂を上ると街を見下ろす場所に出た。斜面には赤茶色の瓦屋根が重なり、その先まで街が続いていた。高台から眺めると、建物の色が一つにつながり、街全体が長い時間をまとっているように見えた。\n\n坂を下りると、美しい広場があり、その周囲には人が集まっていた。活気のある路地を曲がると、その先には人通りの少ない静かな道があった。同じ街を歩いているのに、場所によって流れる時間が少しずつ違っていた。\n\n私は高台からCuscoを眺める時間が好きだった。瓦屋根の色や斜面に沿って続く家々を見ていると、建物の一つひとつよりも、街が積み重ねてきた年月の方が見えるような気がした。\n\n夜になると、街にはオレンジがかった光がともった。昼間は瓦の色でつながっていた斜面が、今度は無数の明かりで浮かび上がった。暗い山に囲まれた街は、底に光を集めた器のように見えた。",
+      "pullquote": "高台から見た街は、下へ降りるといくつもの表情に分かれた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/P1010330_csco.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Bell Tower",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1010364_csco.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Plaza De Armas",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1010368_csco.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Church Of The Society Of Jesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1010343_csco.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Alpaca",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Andean Women",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Twelve Angled Stone",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "San Blas Neighborhood",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hillside Houses",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
