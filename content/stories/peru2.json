@@ -67,7 +67,7 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/P1020157_csco.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -79,19 +79,19 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/P1010300_csco.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
       "duration": "",
       "cap": "Twelve Angled Stone",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/P1010305_csco.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -103,15 +103,99 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/P1010416_csco.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
       "duration": "",
       "cap": "Hillside Houses",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010585_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cusco Night View",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1020185_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "San Blas Streets",
       "size": "md",
       "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010414_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cusco Cityscape",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010553_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Inca Emperor Statue",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010463_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Sacsayhuaman",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010448_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cristo Blanco",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010331_csco.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "San Blas Neighborhood",
+      "size": "md",
+      "shape": "port"
     }
   ]
 }
