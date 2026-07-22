@@ -1,0 +1,117 @@
+{
+  "id": "peru3",
+  "order": 3,
+  "en": "PERU",
+  "jp": "ペルー",
+  "placeJa": "Lima",
+  "year": "2013",
+  "continent": "samerica",
+  "categories": [
+    "cities"
+  ],
+  "publishedAt": "2026-07-22",
+  "lat": -12.0464,
+  "lon": -77.0428,
+  "standfirst": "歴史ある建物が並ぶ街の向こうには海があり、Limaには凜とした明るさがあった。",
+  "essay": "Limaは、首都らしい大きさと落ち着きを持つ街だった。歴史を感じさせる建物が並び、広場や通りには、長い時間を経てきた都市の風格があった。華やかさを強く主張するのではなく、姿勢を崩さず立っているような街に見えた。\n\n街の近くには海があった。都市を歩いていた視線の先が突然ひらけ、建物の向こうに広い水面が現れた。歴史ある街並みと海が同じ場所にあることで、Limaの空気には少し軽やかさも加わっていた。\n\n海のある街では、魚介を食べる時間も楽しみになる。酸味のきいたセビーチェをはじめ、Limaで食べたシーフードは印象に残った。海に近い場所で食べる魚には、その街の景色まで含まれているような気がする。\n\n歴史ある建物も、海辺の風景もよかった。それでも最後に思い出すのは、料理の味かもしれない。シーフードがおいしい街は、それだけでかなり正義。",
+  "pullquote": "重厚な街並みの先には、潮の匂いが流れていた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/P1030994_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Plaza Mayor",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1040030_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Cathedral Of Lima",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1030963_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Palace Of Justice",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1040001_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Club De La Union",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Government Palace Of Peru",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1040075_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Costa Verde",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1040112_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Huaca Pucllana",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1040015_lima.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Jiron De La Union",
+      "size": "sm",
+      "shape": "land"
+    }
+  ]
+}
