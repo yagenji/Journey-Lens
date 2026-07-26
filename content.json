@@ -16363,7 +16363,7 @@
       ]
     },
     {
-      "id": "australia",
+      "id": "australia2",
       "order": 2,
       "en": "AUSTRALIA",
       "jp": "オーストラリア",
@@ -16644,6 +16644,171 @@
           "duration": "",
           "cap": "Rottnest Island Railway",
           "size": "sm",
+          "shape": "land"
+        }
+      ]
+    },
+    {
+      "id": "australia3",
+      "order": 3,
+      "en": "AUSTRALIA",
+      "jp": "オーストラリア",
+      "placeJa": "Lancelin / Hangover Bay / The Pinnacles",
+      "year": "2025",
+      "continent": "oceania",
+      "categories": [
+        "nature"
+      ],
+      "publishedAt": "2026-07-26",
+      "lat": -30.605,
+      "lon": 115.159,
+      "standfirst": "白い砂丘から青い海へ。そして夕暮れの砂漠へ。景色が変わるたび、この土地の広さを感じた。",
+      "essay": "Perthを出て北へ向かうと、景色は少しずつ姿を変えていった。最初に立ち寄ったLancelinでは、真っ白な砂丘がどこまでも広がっていた。風が描いた砂の模様は美しく、青い空とのコントラストが印象に残っている。\n\nさらに北へ進むとHangover Bayに着く。透き通った海と白い砂浜が広がり、人影も少ない。波の音だけが静かに響き、時間がゆっくり流れているようだった。西オーストラリアの海の美しさは、この場所で強く印象に残った。\n\n夕方にはThe Pinnaclesへ向かった。黄色い砂漠に何千もの石灰岩の柱が立ち並び、太陽が傾くにつれて影が長く伸びていく。昼間とは違う柔らかな光が砂漠を包み込み、この場所だけの静かな時間が流れていた。\n\n日が沈むと、今度は満天の星空が広がる。街の灯りは遠く、見上げた空は星で埋め尽くされていた。白い砂丘、青い海、黄金色の砂漠、そして夜空。一日の中でこれほど景色が変わる場所は、そう多くないと思う。",
+      "pullquote": "同じ道を走っているのに、景色は何度も姿を変えた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09918_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6974_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles Desert",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6961_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09966_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles Desert",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00100_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles Desert",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00035_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles Desert",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00108_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Pinnacles Desert",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lancelin Sand Dunes",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6923_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lancelin Sand Dunes",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09896_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lancelin Beach",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09908_pinnacles.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lancelin Beach",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/UTZIk6R7m90?si=7_w8FB99LYUkwKqx",
+          "video": "",
+          "duration": "0:30",
+          "cap": "https://youtu.be/UTZIk6R7m90?si=7_w8FB99LYUkwKqx",
+          "size": "md",
           "shape": "land"
         }
       ]
