@@ -13517,7 +13517,7 @@
         {
           "type": "photo",
           "image": "/uploads/DSC05817_result.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "",
           "videoUrl": "",
           "video": "",
@@ -16397,7 +16397,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_7281_rottenest.jpg",
-          "cover": true,
+          "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
@@ -16777,7 +16777,7 @@
         },
         {
           "type": "photo",
-          "image": "",
+          "image": "/uploads/IMG_6927_pinnacles.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
