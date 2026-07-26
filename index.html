@@ -1166,7 +1166,7 @@ function router(){const h=location.hash;
 /* --- Stories 一覧（主役）--- */
 const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
 const JL_CONT_ORDER=['antarctica','europe','asia','namerica','samerica','africa','oceania'];
-let JL_HIDDEN=["ベリーズ","パナマ","ペルー","ブラジル","パラグアイ","ウルグアイ","ザンビア","ジンバブエ","ボツワナ"];
+let JL_HIDDEN=["ベリーズ","パナマ","ペルー","ブラジル","パラグアイ","ウルグアイ","ザンビア","ジンバブエ","ボツワナ","南アフリカ"];
 const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
 const JL_PER=3;let jlCat='',jlCont='',jlQ='',jlRec=true;const jlExp={};
 function jlThumb(c){if(c.heroImage)return c.heroImage;var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)return p.image;var v=(c.media||[]).find(m=>m.type==='video'&&m.image);return v?v.image:'';}
