@@ -33,7 +33,7 @@
     {
       "type": "photo",
       "image": "/uploads/IMG_7281_rottenest.jpg",
-      "cover": true,
+      "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
