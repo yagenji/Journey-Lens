@@ -10,7 +10,6 @@
     "nature",
     "wildlife"
   ],
-  "featured": true,
   "publishedAt": "2026-06-25",
   "lat": -24.7274,
   "lon": 15.3424,
@@ -129,7 +128,7 @@
     {
       "type": "photo",
       "image": "/uploads/DSC05817_result.jpg",
-      "cover": true,
+      "cover": false,
       "mode": "",
       "videoUrl": "",
       "video": "",
@@ -271,5 +270,6 @@
       "shape": "land"
     }
   ],
-  "num": "05"
+  "num": "05",
+  "featured": true
 }
