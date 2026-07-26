@@ -16397,7 +16397,7 @@
         {
           "type": "photo",
           "image": "/uploads/IMG_7281_rottenest.jpg",
-          "cover": false,
+          "cover": true,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
