@@ -281,6 +281,30 @@
       "cap": "Rottnest Island Railway",
       "size": "sm",
       "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/be9fG9StGjA?si=JcTLHoKt2UkNj-Kk",
+      "video": "",
+      "duration": "0:35",
+      "cap": "Quokkas",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/P8247ezye_k?si=f6c7kvFqfaZzD8yD",
+      "video": "",
+      "duration": "0:29",
+      "cap": "Quokkas",
+      "size": "md",
+      "shape": "land"
     }
   ]
 }
