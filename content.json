@@ -17121,6 +17121,231 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "cuba2",
+      "order": 2,
+      "en": "CUBA",
+      "jp": "キューバ",
+      "placeJa": "Casablanca",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-07-27",
+      "lat": 23.1439,
+      "lon": -82.3428,
+      "standfirst": "湾を船で渡っただけで、Havanaの喧騒は遠くなり、別の時間が流れ始めた。",
+      "essay": "Havanaから小さな船に乗り、湾を渡るとCasablancaに着いた。時間にすれば十分ほどだった。それほど近い場所なのに、船を降りた先の空気はHavanaとは大きく違っていた。\n\nCasablancaには要塞や、Che Guevaraが一時期使ったとされる邸宅がある。なぜ彼は、Havanaの中心ではなく、この湾を見下ろす場所にいたのだろう。要塞と邸宅を歩きながら、そんなことを考えた。\n\n湾の対岸には、Havanaの建物が並んでいた。街の姿はすぐ近くにあるのに、車の音や人の声は届かない。こちら側には広い空と、ゆっくり流れる時間だけがあった。\n\nHavanaを離れたというより、少し距離を置いて眺め直しているようだった。Casablancaは、賑やかな街のすぐ隣にありながら、その喧騒から静かに切り離された場所だった。\n\nChe Guevaraは革命後、湾岸のLa Cabaña要塞で司令官を務め、近くの建物を住居兼執務場所として使ったとされる。",
+      "pullquote": "湾の向こうに見える街は、先ほどまでいた場所とは思えなかった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02970_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Havana Skyline",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03084_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Morro Castle",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03056_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Morro Castle",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03036_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Morro Castle",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03095_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "La Cabaña Fortress",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03050_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "La Cabaña Fortress",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02948_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Havana Skyline",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03074_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Paseo de Martí and Malecón",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03142_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Morro Castle",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03196_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "La Cabaña Fortress",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03061_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "La Cabaña Fortress",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03216_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Our Lady of Kazan Orthodox Cathedral",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03065_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Malecón",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03194_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Morro Castle",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03200_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Christ of Havana",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02844_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Che Guevara's House Museum",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02846_casablanca.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Che Guevara's Office",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
