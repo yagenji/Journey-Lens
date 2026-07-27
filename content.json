@@ -18627,6 +18627,171 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "mexico6",
+      "order": 6,
+      "en": "MEXICO",
+      "jp": "メキシコ",
+      "placeJa": "Teotihuacan",
+      "year": "2013",
+      "continent": "namerica",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-07-27",
+      "lat": 19.6925,
+      "lon": -98.8439,
+      "standfirst": "巨大な石造りの遺跡は、文明が消えたあとも静かに残り続けていた。",
+      "essay": "Teotihuacanは、想像していた以上に広かった。太陽のピラミッドや月のピラミッドを結ぶ「死者の道」はまっすぐ遠くまで続き、歩いても歩いても遺跡の全体が見えてこない。\n\nこの都市は二千年近く前に繁栄したとされるが、誰が築き、なぜ衰退したのか、今も分からないことが多い。それでも石造りの建物は驚くほど美しい姿で残り、当時の都市の大きさを今へ伝えている。\n\n広大な遺跡を歩いていると、古代都市というより、一つの街の中を散歩しているような感覚になった。建物の配置や道幅から、人々がここで暮らしていた時間を自然と想像してしまう。\n\n文明は消えても、街は残る。Teotihuacanは、歴史を学ぶ場所というより、人が築いた時間の大きさを静かに感じる場所だった。",
+      "pullquote": "誰が築いたのか分からなくても、その大きさだけは確かだった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/P1040188_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pyramid of the Sun",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040190_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Avenue of the Dead",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040145_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pyramid of the Moon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040147_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Avenue of the Dead",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040189_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Steep Steps of the Pyramid of the Moon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040180_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pyramid of the Sun and Avenue of the Dead",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040131_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pyramid of the Moon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040133_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pyramid of the Sun",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040163_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View from the Pyramid of the Sun",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040168_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Plaza of the Moon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040191_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Teotihuacan Stone Wall",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1040148_teotihuacan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Avenue of the Dead",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
