@@ -280,6 +280,18 @@
       "cap": "Gran Hotel Manzana Kempinski La Habana",
       "size": "md",
       "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/DM8XDZW6kng?si=6HWEJNnLThei7Mab",
+      "video": "",
+      "duration": "0:11",
+      "cap": "Street",
+      "size": "md",
+      "shape": "land"
     }
   ]
 }
