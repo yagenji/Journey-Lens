@@ -18024,6 +18024,208 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "mexico2",
+      "order": 2,
+      "en": "MEXICO",
+      "jp": "メキシコ",
+      "placeJa": "Tulum",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "heritage",
+        "cities"
+      ],
+      "publishedAt": "2026-07-27",
+      "lat": 20.215,
+      "lon": -87.4297,
+      "standfirst": "青いカリブ海を見下ろす崖の上に、静かに遺跡が残されていた。",
+      "essay": "これまで訪れたマヤ遺跡の多くは、森の奥深くにあった。そのため、海のすぐそばに建つTulumは少し不思議な存在だった。崖の上に築かれた石造りの建物の向こうには、どこまでも青いカリブ海が広がっている。\n\nTulumは、マヤ文明の港町として栄えた都市だという。海を行き交う船を見守るように、この場所から人々は何を眺めていたのだろう。景色は変わっても、海だけは当時と同じように目の前へ広がっている。\n\n遺跡そのものは比較的きれいな姿で残っていて、歩きやすく整備されていた。巨大な遺跡というより、海辺に暮らしていた人々の町を歩いているような感覚だった。\n\nその後に立ち寄ったTulumの街は、遺跡とは対照的に明るく賑やかだった。新しい店が並び、多くの旅行者が行き交う。古代と現在が、同じ場所で自然につながっている街だった。",
+      "pullquote": "海を見下ろす遺跡は、交易のために築かれた町だった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03480_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of the Wind God",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03386_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Castillo",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03383_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "House of the Cenote",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03416_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Castillo",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03490_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Great Palace",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03393_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "House of the Columns",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ancient Mayan Arch",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of the Wind God",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03400_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Castillo",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03410_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "El Castillo",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03376_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Great Palace",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03414_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of the Wind God",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3672_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Jimmy the cat",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03500_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Black Spiny-tailed Iguana",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3694_tulum.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tulum Centro",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
