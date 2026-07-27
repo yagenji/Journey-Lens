@@ -1,0 +1,117 @@
+{
+  "id": "mexico5",
+  "order": 5,
+  "en": "MEXICO",
+  "jp": "メキシコ",
+  "placeJa": "Mexico City",
+  "year": "2013",
+  "continent": "namerica",
+  "categories": [
+    "cities"
+  ],
+  "publishedAt": "2026-07-27",
+  "lat": 19.4326,
+  "lon": -99.1332,
+  "standfirst": "歴史ある広場は祭りの人波に包まれ、街はいつも以上の熱気にあふれていた。",
+  "essay": "Mexico Cityを訪れた日は、ちょうど祭りの最中だった。中心部のソカロ広場は大勢の人で埋め尽くされ、思っていた景色を見ることはできなかった。それでも街全体が祝祭の空気に包まれ、その熱気に自然と足取りも軽くなった。\n\n現在のMexico Cityは、かつてアステカ帝国の都テノチティトランがあった場所に築かれている。スペイン統治を経て姿は変わったが、この街には今も歴史が幾重にも重なっている。\n\n歩き疲れるたびに屋台へ立ち寄り、焼きたてのタコスを頬張った。豪華なレストランではなく、道端で食べるタコスが驚くほどおいしい。少し歩いては食べ、また歩く。その繰り返しが、この街では何より贅沢な時間だった。\n\n祭りの賑わいも、歴史ある建物も印象に残った。それでも最後に思い出すのは、タコスを片手に街を歩いた、あの何気ない時間かもしれない。",
+  "pullquote": "この街は、何百年もの歴史の上に今日が積み重なっている。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/P1040247_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Mexico City Metropolitan Cathedral",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010178_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Palacio de Bellas Artes",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010053_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Sagrario Metropolitano",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010176_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Torre Latinoamericana",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010204_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Mexico City Metropolitan Cathedral",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010034_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "National Palace",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010059_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Plaza de Santo Domingo",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/P1010175_mexicocity.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Francisco I. Madero Statue",
+      "size": "md",
+      "shape": "land"
+    }
+  ]
+}
