@@ -18428,6 +18428,88 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "mexico4",
+      "order": 4,
+      "en": "MEXICO",
+      "jp": "メキシコ",
+      "placeJa": "Cancún",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "cities",
+        "nature"
+      ],
+      "publishedAt": "2026-07-27",
+      "lat": 21.1619,
+      "lon": -86.8515,
+      "standfirst": "白い砂浜と青い海は美しかった。それでも心は、少し落ち着かなかった。",
+      "essay": "Cancúnは、世界を代表するビーチリゾートの一つとして知られている。実際に訪れてみると、海は驚くほど青く、白い砂浜はどこまでも続いていた。景色だけを見れば、多くの人が憧れる理由もよく分かる。\n\nホテルが並び、多くの旅行者が集まる海岸は活気にあふれていた。一方で、その賑やかさの中にいると、私はどこか落ち着かなかった。\n\n島で過ごす時間が好きだからかもしれない。ゆっくり流れる空気や、小さな集落の静けさの方が、自分には合っていると改めて感じた。\n\nCancúnの海は間違いなく美しかった。ただ、旅には景色だけでは測れない相性もある。ここでは、そのことを静かに教えられた気がした。",
+      "pullquote": "美しさと、自分が心地よい場所は、必ずしも同じではなかった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01420_cancun.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Playa Delfines",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01423_cancun.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Playa Delfines",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2304_cancun.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Black Spiny-tailed Iguana",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2313_cancun.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Lucha Libre Street Art",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2315_cancun.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Mexican Street Cat",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
