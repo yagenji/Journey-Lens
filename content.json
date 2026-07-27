@@ -17644,6 +17644,124 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "cuba4",
+      "order": 4,
+      "en": "CUBA",
+      "jp": "キューバ",
+      "placeJa": "Varadero",
+      "year": "2025",
+      "continent": "namerica",
+      "categories": [
+        "nature",
+        "cities"
+      ],
+      "publishedAt": "2026-07-27",
+      "lat": 23.1799,
+      "lon": -81.1885,
+      "standfirst": "長く伸びる砂浜には人影が少なく、波の音だけが一定の間隔で届いていた。",
+      "essay": "Cubaを代表するリゾートの一つと聞き、Varaderoを訪れた。残念ながら天気には恵まれず、空には雲が広がっていた。思い描いていた鮮やかな青とは違い、海の色も少し濁って見えた。\n\n砂浜に出ると、海は遠くまで続いていた。白い砂の上に人の姿は多くなく、波の音だけが静かに響いていた。\n\n強い日差しがあれば、もっと鮮やかな景色だったのかもしれない。ただ、曇り空の下でも水の色にはカリブ海らしい明るさが残っていた。\n\n完璧な天気ではなかったからこそ、人で埋め尽くされたリゾートではなく、静かに続く海岸として記憶に残った。Varaderoでは、晴天がなくても、砂浜と海だけで十分だった。",
+      "pullquote": "期待していた色がなくても、海辺の静けさは残っていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3290_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Playa Varadero",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3361_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Playa Varadero",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02584_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Playa Varadero",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02565_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Avenida Kawama",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3328_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A Classic Blue Convertible Taxi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3163_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A Classic Car Parked Under Large Trees",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3319_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Santa Elvira Church",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02481_varadero.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Varadero Beach",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
