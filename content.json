@@ -16384,7 +16384,7 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/DSC00963_rottenest.jpg",
+          "image": "/uploads/DSC00592_rottenest.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -16492,6 +16492,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC00963_rottenest.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Quokka",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC00687_rottenest.jpg",
           "cover": false,
           "mode": "feature",
@@ -16499,24 +16511,12 @@
           "video": "",
           "duration": "",
           "cap": "Quokka Family",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC00673_rottenest.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Quokka",
           "size": "sm",
           "shape": "land"
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC00592_rottenest.jpg",
+          "image": "/uploads/DSC00673_rottenest.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
