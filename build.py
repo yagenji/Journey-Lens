@@ -154,8 +154,57 @@ def more_from(c):
             '<div class="jl-grid">%s</div></section>'
             % (esc(c.get("en")), esc(c.get("jp") or c.get("en")), cards))
 
+# --- SEO: タイトルに入れる主題語（検索価値の高い語だけを厳選。弱い汎用語は入れない）---
+SEO_THEMES = [
+    "氷の洞窟","氷の海峡","氷河","氷山","オーロラ","塩湖","砂丘","砂漠","火山","クレーター",
+    "滝","温泉","星空","遺跡","岩峰","運河","大聖堂","噴火",
+    "ペンギン","シャチ","クジラ","ライオン","ゾウ","バオバブ","アザラシ","パフィン",
+]
+def seo_theme(c):
+    text = (c.get("standfirst","") or "") + " " + (c.get("essay","") or "")[:160]
+    found = [w for w in SEO_THEMES if w in text]
+    found.sort(key=len, reverse=True)          # 長い語を優先（氷の洞窟＞洞窟）
+    uniq = []
+    for w in found:
+        if not any(w in u for u in uniq):      # 部分重複を除く
+            uniq.append(w)
+    return uniq[:2]                            # 最大2語
+
+# 日本語で検索される有名地だけ、タイトルの地名を日本語表記に置換（含めば置換／長い語優先）
+PLACE_JA = {
+    "Uyuni Salt Flat":"ウユニ塩湖","Uyuni":"ウユニ塩湖","Maasai Mara":"マサイマラ",
+    "Iguazú Falls":"イグアスの滝","Iguaçu Falls":"イグアスの滝","Victoria Falls":"ヴィクトリアの滝",
+    "Perito Moreno":"ペリトモレノ氷河","Fitz Roy":"フィッツロイ","Torres del Paine":"トレス・デル・パイネ",
+    "Easter Island":"イースター島","Serengeti":"セレンゲティ","Ngorongoro":"ンゴロンゴロ","Tikal":"ティカル遺跡",
+    "Rio de Janeiro":"リオデジャネイロ","Buenos Aires":"ブエノスアイレス","Blue Lagoon":"ブルーラグーン",
+    "Great Blue Hole":"グレートブルーホール","Pangong Lake":"パンゴン湖","Lenin Peak":"レーニン峰",
+    "Pamir":"パミール高原","Atacama":"アタカマ砂漠","Etosha":"エトーシャ","Chobe":"チョベ",
+    "Machu Picchu":"マチュピチュ","Cusco":"クスコ","Lima":"リマ","Chichén Itzá":"チチェンイッツァ",
+    "Teotihuacan":"テオティワカン","Tulum":"トゥルム","Cancún":"カンクン","Mexico City":"メキシコシティ",
+    "Bacalar":"バカラル","Havana":"ハバナ","Trinidad":"トリニダー","Rottnest Island":"ロットネスト島",
+    "The Pinnacles":"ピナクルズ","Perth":"パース",
+}
+def seo_place(pl):
+    for en in sorted(PLACE_JA, key=len, reverse=True):
+        if en in pl:
+            return PLACE_JA[en]
+    return pl   # 対応が無ければ英語のまま
+
+def seo_title_plain(c):
+    jp = c.get("jp") or c.get("en") or ""
+    pl_raw = c.get("placeJa") or ""
+    pl = seo_place(pl_raw)
+    th = "・".join(seo_theme(c))
+    head = (jp + " " + th).strip() if th else jp
+    # 日本語化された地名はそのまま、英語のまま連なる場合は先頭のみ
+    pl_out = pl if pl != pl_raw else (pl.split(" / ")[0].strip() if " / " in pl else pl)
+    return (head + "｜" + pl_out) if pl_out else head
+
 def meta_desc(c):
     d = (c.get("standfirst") or "").strip()
+    jp = c.get("jp") or ""
+    if d and jp and jp not in d:
+        d = jp + " — " + d
     if not d:
         first = re.split(r'\n\n+', c.get("essay") or "")[0].strip()
         d = (first[:110] + "…") if len(first) > 110 else first
@@ -168,7 +217,7 @@ def page(c, prv, nxt):
     hero_abs = DOMAIN + hero if hero.startswith("/") else hero
     canonical = "%s/%s/" % (DOMAIN, c["id"])
     place = c.get("placeJa") or c.get("jp") or ""
-    title_plain = (("%s｜%s" % (c["placeJa"], c.get("jp"))) if c.get("placeJa") else (c.get("jp") or c.get("en")))
+    title_plain = seo_title_plain(c)
     title = title_plain + " — JOURNEY LENS"
     desc = meta_desc(c)
     figures = "".join(media_figure(m) for m in (c.get("media") or []))
