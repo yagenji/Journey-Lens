@@ -1,6 +1,7 @@
 {
   "id": "turkmenistan3",
-  "order": 2,
+  "order": 3,
+  "featured": true,
   "en": "TURKMENISTAN",
   "jp": "トルクメニスタン",
   "placeJa": "Darvaza",
