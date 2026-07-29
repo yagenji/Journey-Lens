@@ -1,6 +1,7 @@
 {
   "id": "turkmenistan1",
   "order": 1,
+  "featured": true,
   "en": "TURKMENISTAN",
   "jp": "トルクメニスタン",
   "placeJa": "Ashgabat",
