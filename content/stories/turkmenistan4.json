@@ -1,6 +1,7 @@
 {
   "id": "turkmenistan4",
-  "order": 3,
+  "order": 4,
+  "featured": true,
   "en": "TURKMENISTAN",
   "jp": "トルクメニスタン",
   "placeJa": "Kunya-Urgench",
