@@ -34,6 +34,7 @@ collections:
     fields:
       - { label: "ID（英小文字・記号なし）", name: id, widget: string, hint: "URL/ファイル名になります。公開後は変えないでください。例: iceland3" }
       - { label: "並び順（任意・空なら番号順）", name: order, widget: number, required: false, value_type: float, step: 0.1, hint: "同じ国の中の並び順。空なら id の番号順（iceland1→2→3…）。途中に差し込みたいときだけ数値を入れる（例: 3.5）" }
+      - { label: "トップに表示する", name: featured, widget: boolean, required: false, default: false, hint: "オンにすると、この物語がトップページの前面に出ます。オフならトップの前面には出ません（一覧や地図からは常に見られます）" }
       - { label: 国名（英）, name: en, widget: string, hint: "国でまとめる単位。同じ国は毎回同じ表記で（例: JAPAN）" }
       - { label: 国名（日）, name: jp, widget: string, hint: "国でまとめる単位（必須）。同じ国は毎回同じ表記で（例: 日本）。地図・並びはこの表記で束ねます" }
       - { label: 場所（都市・地域・任意。国名｜場所で表示）, name: placeJa, widget: string, required: false }
