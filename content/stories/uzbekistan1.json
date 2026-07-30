@@ -21,6 +21,18 @@
   "media": [
     {
       "type": "photo",
+      "image": "/uploads/DSC03486_khiva.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Islam Khodja Minaret",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC04650_khiva.jpg",
       "cover": false,
       "mode": "feature",
@@ -28,7 +40,7 @@
       "video": "",
       "duration": "",
       "cap": "Ota Darvaza",
-      "size": "full",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -40,18 +52,6 @@
       "video": "",
       "duration": "",
       "cap": "Kalta Minor",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/DSC03499_khiva.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Islam Khodja Minaret",
       "size": "md",
       "shape": "land"
     },
@@ -81,6 +81,18 @@
     },
     {
       "type": "photo",
+      "image": "/uploads/DSC03499_khiva.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Islam Khodja Minaret",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC05187_khiva.jpg",
       "cover": false,
       "mode": "feature",
@@ -100,18 +112,6 @@
       "video": "",
       "duration": "",
       "cap": "Kalta Minor",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/DSC03486_khiva.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Islam Khodja Minaret",
       "size": "md",
       "shape": "land"
     },
