@@ -5242,7 +5242,7 @@
           "mode": "feature",
           "videoUrl": "https://youtu.be/Cj9miFlquvA?si=P4mkZjW3VIoMaeBn",
           "video": "",
-          "duration": "",
+          "duration": "0:23",
           "cap": "Sunset in Khiva",
           "size": "md",
           "shape": "land"
@@ -5567,6 +5567,18 @@
           "video": "",
           "duration": "",
           "cap": "Silk Road Cat",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/8L-a8LMFA-Q?si=yXL37cIBHxTucFLL",
+          "video": "",
+          "duration": "0:40",
+          "cap": "Streets of Bukhara",
           "size": "md",
           "shape": "land"
         }
