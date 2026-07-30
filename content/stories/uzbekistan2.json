@@ -318,6 +318,18 @@
       "cap": "Silk Road Cat",
       "size": "md",
       "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/8L-a8LMFA-Q?si=yXL37cIBHxTucFLL",
+      "video": "",
+      "duration": "0:40",
+      "cap": "Streets of Bukhara",
+      "size": "md",
+      "shape": "land"
     }
   ]
 }
