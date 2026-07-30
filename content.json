@@ -5916,6 +5916,30 @@
           "cap": "Registan Square by Night",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "0:33",
+          "cap": "https://youtu.be/akIvSu1tSQg?si=oiHRyhg7mlNBSrQT",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "0:25",
+          "cap": "https://youtu.be/gbq392J5DZg?si=C-LgH-BuqjCTJeZM",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
