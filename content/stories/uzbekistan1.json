@@ -330,6 +330,18 @@
       "cap": "Khiva's street cat",
       "size": "md",
       "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/Cj9miFlquvA?si=P4mkZjW3VIoMaeBn",
+      "video": "",
+      "duration": "",
+      "cap": "Sunset in Khiva",
+      "size": "md",
+      "shape": "land"
     }
   ]
 }
