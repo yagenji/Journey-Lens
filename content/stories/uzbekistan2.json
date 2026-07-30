@@ -141,6 +141,18 @@
     },
     {
       "type": "photo",
+      "image": "/uploads/DSC06468_bukhara.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Mir-i-Arab Madrasah",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/IMG_0820_bukhara.jpg",
       "cover": false,
       "mode": "feature",
@@ -165,6 +177,18 @@
     },
     {
       "type": "photo",
+      "image": "/uploads/DSC06107_bukhara.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Spice Cone Installation",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC06064_bukhara.jpg",
       "cover": false,
       "mode": "feature",
@@ -172,6 +196,30 @@
       "video": "",
       "duration": "",
       "cap": "Mir-i-Arab Madrasah",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC06072_bukhara.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kalyan Mosque",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC06286_bukhara.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kalyan Mosque",
       "size": "md",
       "shape": "land"
     },
@@ -244,6 +292,30 @@
       "video": "",
       "duration": "",
       "cap": "Bukhara's street cat",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC06545_bukhara.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Silk Road Cat",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC06157_bukhara.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Silk Road Cat",
       "size": "md",
       "shape": "land"
     }
