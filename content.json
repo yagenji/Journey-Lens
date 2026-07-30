@@ -5009,6 +5009,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC03905_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Carved Wooden Doors",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC03486_khiva.jpg",
           "cover": false,
           "mode": "feature",
@@ -5256,18 +5268,6 @@
           "duration": "",
           "cap": "Kalyan Minaret",
           "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC05638_bukhara.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Chor Minor",
-          "size": "md",
           "shape": "land"
         },
         {
