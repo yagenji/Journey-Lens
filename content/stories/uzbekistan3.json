@@ -21,18 +21,6 @@
   "media": [
     {
       "type": "photo",
-      "image": "/uploads/IMG_1704_samarkand.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Registan Square",
-      "size": "full",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
       "image": "/uploads/IMG_1543_samarkand.jpg",
       "cover": false,
       "mode": "feature",
@@ -40,7 +28,19 @@
       "video": "",
       "duration": "",
       "cap": "Sher-Dor Madrasah",
-      "size": "md",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_1704_samarkand.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Registan Square",
+      "size": "lg",
       "shape": "land"
     },
     {
