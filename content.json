@@ -18901,13 +18901,13 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/IMG_8792_malealea.jpg",
+          "image": "/uploads/IMG_8846_malealea.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Pony Trekking",
+          "cap": "Malealea",
           "size": "full",
           "shape": "land"
         },
@@ -18997,13 +18997,13 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_8846_malealea.jpg",
+          "image": "/uploads/IMG_8792_malealea.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "Malealea",
+          "cap": "Pony Trekking",
           "size": "full",
           "shape": "land"
         },
