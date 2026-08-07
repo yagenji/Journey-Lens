@@ -21030,6 +21030,233 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "saudiarabia",
+      "order": 3,
+      "featured": true,
+      "en": "SAUDI ARABIA",
+      "jp": "サウジアラビア",
+      "placeJa": "Medina",
+      "year": "2024",
+      "continent": "asia",
+      "categories": [
+        "cities",
+        "heritage"
+      ],
+      "publishedAt": "2026-08-07",
+      "lat": 24.4672,
+      "lon": 39.6111,
+      "standfirst": "巨大なモスクの周囲には、途切れることなく人の波が続いていた。",
+      "essay": "Medinaの預言者のモスクを訪れたとき、最初に圧倒されたのは建物の大きさよりも、人の多さだった。\n\n広い敷地を大勢の人が行き交い、それぞれが同じ場所を目指している。観光地の混雑とは少し違う。そこにいる人々の多くにとって、この場所へ来ること自体に大きな意味があるのだと感じた。\n\nMedinaは、Makkahに次ぐイスラム教第二の聖地である。中心にある預言者のモスクは、預言者Muhammadが築いたモスクを起源とし、その墓所も内部にある。世界各地のイスラム教徒が祈りと訪問のために集まる場所である。\n\n私はイスラム教徒ではない。だから、一生に一度は訪れたいと願い、長い距離を移動してここへ来た人たちの気持ちを、本当の意味で理解することはできない。\n\nそれでも、モスクへ向かう人の表情や、広場で祈る姿を見ていると、ここが単なる巨大建築ではないことは分かった。\n\n日中になると、モスクを囲む広場では大きな傘が開いていた。約250基の可動式の傘が強い日差しを遮り、一度に二十万人以上がその下に入れるという。この傘の製作には、日本の太陽工業も関わっている。\n\n宗教的な意味を理解しきれないままでも、その場所に集まる人々を見ることで伝わるものがある。\n\nMedinaで見たのは、モスクの大きさだけではなかった。人が一つの場所を目指す思いの大きさだった。",
+      "pullquote": "私には見えないものを、人々はこの場所に見ているようだった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01638_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01663_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01636_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01679_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01921_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01807_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01827_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01815_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01998_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Masjid an-Nabawi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01742_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Masjid al-Qiblatayn",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01722_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Masjid al-Qiblatayn",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01704_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Quba Mosque",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02050_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Seven Mosques",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02045_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Mount Sila'",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01700_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Al-Ghamama Mosque",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC02034_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "View from Mount Sila'",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7842_medina.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Madinah Station",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
