@@ -20838,6 +20838,18 @@
           "cap": "At-Turaif, Diriyah",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "0:27",
+          "cap": "https://youtu.be/7zvCsq8jzBo?si=RmVVGqAlZ7hKizDY",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
