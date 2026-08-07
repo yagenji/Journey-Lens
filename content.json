@@ -21530,6 +21530,30 @@
           "cap": "teamLab Borderless Jeddah",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/kfWgAjkbtyk?si=sRRvBOB1YiYB3zwk",
+          "video": "",
+          "duration": "0:24",
+          "cap": "Sunset at King Fahd's Fountain",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/cwCxdf9jsPI?si=sPWFZ7hYrNXNupVM",
+          "video": "",
+          "duration": "0:23",
+          "cap": "Sunset at Al-Rahma Mosque",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
