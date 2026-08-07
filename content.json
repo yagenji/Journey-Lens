@@ -20626,6 +20626,220 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "saudiarabia1",
+      "order": 1,
+      "featured": false,
+      "en": "SAUDI ARABIA",
+      "jp": "サウジアラビア",
+      "placeJa": "Riyadh",
+      "year": "2024",
+      "continent": "asia",
+      "categories": [
+        "cities"
+      ],
+      "publishedAt": "2026-08-07",
+      "lat": 24.7136,
+      "lon": 46.6753,
+      "standfirst": "高層ビルの上から見ても、街の端がどこにあるのか分からなかった。",
+      "essay": "Riyadhは、とてつもなく大きな街だった。地図の上では近く見える場所でも、実際に移動すると途方もなく遠い。道幅は広く、建物と建物の間にも大きな空間がある。一つ見終えて次へ向かうだけで、街の広さを何度も思い知らされた。\n\nKingdom Centreの展望台へ上がると、Riyadhの全体像が少しだけ見えた。高層ビルの足元から、直線的な道路が遠くまで伸びている。市街地はどこまでも続いているのに、そのさらに向こうには乾いた大地があった。\n\nRiyadhは古くから存在する街だが、現在見える都市の大部分は、サウジアラビアの首都として急速に拡大してきたものだ。特に二十世紀後半以降、道路と市街地が大きく広がり、砂漠の中に巨大な首都が形づくられていった。\n\n上から見ると、道が計画的に敷かれていることもよく分かった。街というより、広い土地の上に巨大な設計図をそのまま描いたようにも見えた。\n\n歴史ある路地を歩く街とは違う。Riyadhで印象に残ったのは、一つひとつの建物よりも、都市そのものの大きさだった。\n\n砂漠の中に、これほど大きな街がある。その単純な事実が、展望台から見た景色の中で最も現実離れしていた。",
+      "pullquote": "砂漠の中につくられた都市は、地上より上から見た方が理解しやすかった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01089_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sky Bridge at Kingdom Center",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01072_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sky Bridge at Kingdom Center",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01117_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kingdom Centre at night",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00992_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Deera Square",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01012_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Fifth Pyramid",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00973_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Imam Turki bin Abdullah Grand Mosque",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00977_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Path to Masmak Fort",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC00979_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Old Riyadh",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01146_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Architecture by Zaha Hadid",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01151_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "KAFD",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7160_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "KAFD Metro Station",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7505_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "At-Turaif, Diriyah",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01623_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "At-Turaif, Diriyah",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7478_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "At-Turaif, Diriyah",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7473_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "At-Turaif, Diriyah",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7524_liyadh.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "At-Turaif, Diriyah",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
