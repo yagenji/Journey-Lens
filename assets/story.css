@@ -84,6 +84,8 @@ a{color:inherit;text-decoration:none}
 .recent-name{font-family:var(--mincho);font-size:1.05rem;color:var(--ink)}
 .recent-name .nm-place{color:var(--ink-soft)}
 .recent-go{margin-left:auto;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;color:var(--ink-soft);flex:none}
+.recent-more{margin-top:16px;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--trail);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 20px;cursor:pointer;transition:border-color .2s}
+.recent-more:hover{border-color:var(--trail)}
 .recent-list a:hover .recent-go{color:var(--trail)}
 .statement{padding:clamp(84px,15vh,160px) clamp(18px,5vw,80px);text-align:center;display:flex;flex-direction:column;align-items:center}
 .st-rule{width:46px;height:1px;background:var(--trail);opacity:.85;margin:28px 0 42px}
@@ -267,7 +269,7 @@ a{color:inherit;text-decoration:none}
   .nav-links.open{max-height:60vh}.nav-links a{width:100%;padding:14px clamp(18px,4vw,52px);border-top:1px solid var(--line)}
   .nav-toggle{display:block}
 }
-@media(max-width:620px){.plates{grid-template-columns:repeat(2,1fr);gap:8px}.f-3,.f-4,.f-6{grid-column:span 2}.f-2{grid-column:span 1}.r-port{grid-column:span 2}.r-wide{aspect-ratio:16/9}.kit{grid-template-columns:1fr}}
+@media(max-width:620px){.plates{grid-template-columns:repeat(2,1fr);gap:8px}.f-3,.f-4,.f-6{grid-column:span 2}.f-2,.r-port{grid-column:span 1}.r-wide{aspect-ratio:16/9}.kit{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
 
 /* --- Stories 一覧（主役） --- */
