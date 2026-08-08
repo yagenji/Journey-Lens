@@ -4925,6 +4925,18 @@
       "media": [
         {
           "type": "photo",
+          "image": "/uploads/DSC03606_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kalta Minor Minaret",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC03486_khiva.jpg",
           "cover": false,
           "mode": "feature",
@@ -4932,7 +4944,19 @@
           "video": "",
           "duration": "",
           "cap": "Islam Khodja Minaret",
-          "size": "full",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03451_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kalta Minor Minaret",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -4949,7 +4973,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03464_khiva.jpg",
+          "image": "/uploads/DSC03480_khiva.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -4961,7 +4985,7 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03480_khiva.jpg",
+          "image": "/uploads/DSC03464_khiva.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -5016,7 +5040,7 @@
           "video": "",
           "duration": "",
           "cap": "Kalta Minor",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -5028,7 +5052,7 @@
           "video": "",
           "duration": "",
           "cap": "Carved Wooden Doors",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -5040,18 +5064,6 @@
           "video": "",
           "duration": "",
           "cap": "Pahlavon Mahmud Complex",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC03575_khiva.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Throne Room at Kuhna Ark",
           "size": "sm",
           "shape": "land"
         },
@@ -5069,6 +5081,30 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC03807_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Toshhovli Palace",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03575_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Throne Room at Kuhna Ark",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC04080_khiva.jpg",
           "cover": false,
           "mode": "feature",
@@ -5077,6 +5113,18 @@
           "duration": "",
           "cap": "Juma Mosque Minaret",
           "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04132_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Islam Khodja Minaret",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -5136,6 +5184,18 @@
           "video": "",
           "duration": "",
           "cap": "Ota Darvaza",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC04444_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Kutlugmurad Inak Madrasah",
           "size": "md",
           "shape": "land"
         },
