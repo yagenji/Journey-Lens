@@ -9656,11 +9656,11 @@
         },
         {
           "type": "photo",
-          "image": "",
+          "image": "/uploads/DSC03567_muscat.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
-          "video": "/uploads/DSC03567_muscat.jpg",
+          "video": "",
           "duration": "",
           "cap": "The Coastal Road from the Fort",
           "size": "md",
@@ -9844,7 +9844,7 @@
           "duration": "",
           "cap": "A Sleeping Cat in a Mutrah Payphone",
           "size": "md",
-          "shape": "land"
+          "shape": "port"
         },
         {
           "type": "video",
