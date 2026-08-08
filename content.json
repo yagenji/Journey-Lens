@@ -5045,18 +5045,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/DSC03905_khiva.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Carved Wooden Doors",
-          "size": "sm",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/DSC05062_khiva.jpg",
           "cover": false,
           "mode": "feature",
@@ -5088,6 +5076,18 @@
           "video": "",
           "duration": "",
           "cap": "Toshhovli Palace",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC03905_khiva.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Carved Wooden Doors",
           "size": "sm",
           "shape": "land"
         },
