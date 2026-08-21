@@ -1,0 +1,142 @@
+{
+  "id": "india7",
+  "order": 7,
+  "featured": false,
+  "en": "INDIA",
+  "jp": "インド",
+  "placeJa": "Chennai",
+  "year": "2025",
+  "continent": "asia",
+  "categories": [
+    "cities"
+  ],
+  "publishedAt": "2026-08-21",
+  "lat": 13.0827,
+  "lon": 80.2707,
+  "standfirst": "Bay of Bengalから届く湿った風の向こうに、南インドの大都市が広がっていた。",
+  "essay": "Chennaiには、北インドの古都とはまったく違う空気があった。暑さだけではなく、海から届く湿気があり、街にはTamil Naduらしい寺院の塔と、大きな現代都市の景色が混ざっていた。\n\n現在のChennaiは、古くから存在した集落の上に、17世紀以降の植民都市が重なって成長した街でもある。British East India Companyが1640年代にFort St. Georgeを築き、その周囲にMadrasと呼ばれる都市が発展していった。Fort St. Georgeは、その後のイギリスによる南インド進出の重要な拠点となった。\n\n一方、海岸へ出ると長いMarina Beachが続いている。街の中心にこれほど大きな海岸があることも、Chennaiの景色を特徴づけていた。植民地時代の建物、Tamilの文化、そしてBay of Bengal。それぞれ違う時代や背景を持つものが、大きな街の中に並んでいる。\n\n北インドで見てきた宮殿や巨大なイスラム建築とは違う。\n\nChennaiでは、「インド」という一つの言葉ではこの国をまとめられないことを改めて感じる。\n\n同じ国を旅しているのに、ここまで空気が変わる。その違い自体が、この街で一番面白かった。",
+  "pullquote": "この街を形づくった歴史は、内陸よりも海の向こうへつながっていた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01085_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Marina Beach",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01053_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "George Town street looking towards the Madras High Court",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7451_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kapaleeshwarar Temple",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7501_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Senate House, University of Madras",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01133_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Sri Ramakrishna Math",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01097_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "St. Thomas Cathedral Basilica",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01101_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "St. Thomas Cathedral Basilica",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01029_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC01095_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Marina Beach (A ginger cat peering from a tree in Chennai)",
+      "size": "sm",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_7422_chiangnai.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Kapaleeshwarar Temple (Courtyard and Shrines, Chennai)",
+      "size": "sm",
+      "shape": "land"
+    }
+  ]
+}
