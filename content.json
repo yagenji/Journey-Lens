@@ -9000,6 +9000,137 @@
       ]
     },
     {
+      "id": "india9",
+      "order": 9,
+      "featured": false,
+      "en": "INDIA",
+      "jp": "インド",
+      "placeJa": "Varanasi",
+      "year": "2009-2010",
+      "continent": "asia",
+      "categories": [
+        "cities",
+        "heritage"
+      ],
+      "publishedAt": "2026-08-21",
+      "lat": 25.3176,
+      "lon": 82.9739,
+      "standfirst": "ガンジスの岸では、祈りも暮らしも死も、同じ川のそばにあった。",
+      "essay": "Varanasiでは、川辺に立っているだけで次々と違う光景が目に入ってくる。沐浴をする人がいて、祈る人がいる。舟が行き交い、そのすぐそばでは洗濯をする人もいる。どこまでが宗教で、どこからが日常なのか、その境目がほとんど見えなかった。\n\nVaranasiはヒンドゥー教の聖地の一つであり、ガンジス沿いには数多くのghatと呼ばれる階段状の河岸が続いている。多くは沐浴や祈りに使われる一方、Manikarnika Ghatのように火葬が行われる場所もある。現在見られるghatの多くは18世紀以降に再建されたものだという。\n\n夕方になると、Dashashwamedh Ghatでは火を使ったGanga Aartiが始まり、大勢の人が集まる。一方で少し離れれば、川は何事もなかったように流れている。何千年ものあいだ、人々は同じようにこの水辺へ集まってきたのだろう。\n\nVaranasiをきれいな街だとは思わない。音も、人も、匂いも多く、落ち着かない瞬間もある。\n\nそれでも、不思議と目を背けられなかった。\n\n人が生まれ、暮らし、祈り、死んでいく。そのすべてが隠されずに同じ場所にある。Varanasiが強く記憶に残るのは、そんな当たり前のことを、街全体で見せてくるからなのかもしれない。",
+      "pullquote": "ここでは、生きることと死ぬことが別々の場所に置かれていなかった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01406_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ghats in Varanasi",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01408_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dashashwamedh Ghat",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01413_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Assi Ghat",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01331_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Manikarnika Ghat",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01400_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ganges River",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01335_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dhobi Ghat in Varanasi (Laundry at the Ganges River)",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01334_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Water Buffaloes at Mansarowar Ghat, Varanasi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01360_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ganga Aarti at Dashashwamedh Ghat, Varanasi",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01355_varanasi.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ganga Aarti at Dashashwamedh Ghat, Varanasi",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
+    },
+    {
       "id": "saudiarabia1",
       "order": 1,
       "featured": false,
