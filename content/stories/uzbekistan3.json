@@ -21,6 +21,18 @@
   "media": [
     {
       "type": "photo",
+      "image": "/uploads/DSC07539_Samarkand.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Registan Square by Night",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/IMG_1543_samarkand.jpg",
       "cover": false,
       "mode": "feature",
@@ -28,19 +40,7 @@
       "video": "",
       "duration": "",
       "cap": "Sher-Dor Madrasah",
-      "size": "full",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_1704_samarkand.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Registan Square",
-      "size": "lg",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -297,19 +297,7 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC07539_Samarkand.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Registan Square by Night",
-      "size": "full",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_1564_Samarkand.jpg",
+      "image": "/uploads/DSC07506_Samarkand.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -321,7 +309,19 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC07506_Samarkand.jpg",
+      "image": "/uploads/IMG_1704_samarkand.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Registan Square",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_1564_Samarkand.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
