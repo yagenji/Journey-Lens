@@ -16153,18 +16153,6 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/P1020562_lapaz.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Mirador Killi Killi",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/P1020396_lapaz.jpg",
           "cover": false,
           "mode": "feature",
@@ -16172,6 +16160,18 @@
           "video": "",
           "duration": "",
           "cap": "Entrada Universitaria",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/P1020562_lapaz.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Mirador Killi Killi",
           "size": "md",
           "shape": "land"
         },
