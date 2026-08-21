@@ -9131,6 +9131,88 @@
       ]
     },
     {
+      "id": "india10",
+      "order": 10,
+      "featured": false,
+      "en": "INDIA",
+      "jp": "インド",
+      "placeJa": "Agra",
+      "year": "2009",
+      "continent": "asia",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-08-21",
+      "lat": 27.1767,
+      "lon": 78.0081,
+      "standfirst": "白い建物は、近づくほど巨大になるのに、不思議なほど軽やかに見えた",
+      "essay": "Agraといえば、やはりTaj Mahalだった。写真では何度も見てきた建物なのに、実際に正面に立つと、その均整の取れた姿に改めて目を奪われる。巨大なドームと四本のミナレット、水路を挟んだ左右対称の庭園。あまりにも整っていて、遠くから見ると一枚の絵のようだった。\n\nTaj Mahalは、ムガル皇帝Shah Jahanが亡き妻Mumtaz Mahalを偲んで建てた霊廟で、1632年に建設が始まり、主要部分は1648年までに完成した。中央アジアやイランを含む各地から職人が集められ、白大理石を中心に、イスラム建築やインドの建築文化が重ねられている。\n\n近くまで行くと、遠景では一つの白い塊に見えていた建物に、細かな装飾や文字が刻まれていることが分かる。大きさで圧倒しながら、細部まで手を抜かない。その二つが同時にあることが、この建物を特別なものにしているのだろう。\n\n世界には、有名になりすぎて実物を見る前から知った気になっている場所がある。Taj Mahalもその一つだった。\n\nそれでも、実際に立ってみると写真とは違った。有名だからではなく、人がここまで整ったものをつくったこと自体に驚かされた。",
+      "pullquote": "完成されすぎた建築には、どこを見ればいいのか迷うほどの静けさがあった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01034_agura.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Taj Mahal, Agra",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01058_agura.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Taj Mahal, Agra",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01076_agura.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Great Gate (Darwaza-i rauza) of the Taj Mahal, Agra",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01071_agura.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ruins of Kahn-i-Dauran's Palace on the banks of Yamuna River, Agra",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC01122_agura.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "National Highway 19 (Sunrise near Agra, Uttar Pradesh)",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
+    },
+    {
       "id": "saudiarabia1",
       "order": 1,
       "featured": false,
