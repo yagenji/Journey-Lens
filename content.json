@@ -8200,6 +8200,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/IMG_5578_jodhpur.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ghanta Ghar (Clock Tower) and Sardar Market",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/IMG_5729_jodhpur.jpg",
           "cover": false,
           "mode": "feature",
