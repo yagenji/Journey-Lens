@@ -1,0 +1,142 @@
+{
+  "id": "bangladesh2",
+  "order": 2,
+  "featured": false,
+  "en": "BANGLADESH",
+  "jp": "バングラデシュ",
+  "placeJa": "Panam City",
+  "year": "2025",
+  "continent": "asia",
+  "categories": [
+    "heritage"
+  ],
+  "publishedAt": "2026-08-21",
+  "lat": 23.6558,
+  "lon": 90.6037,
+  "standfirst": "一本の細い道の両側に、使われなくなった商家が静かに並んでいた。",
+  "essay": "Dhakaの喧騒を離れてPanam Cityへ行くと、空気が急に変わった。長い一本の道に沿って、古い建物が両側に並んでいる。人の暮らしが密集するDhakaとは対照的に、ここでは建物だけが過去から取り残されたように見えた。\n\nPanam Cityは、Dhakaから南東へ約30キロ、歴史都市Sonargaonの一角にある。Sonargaonは中世ベンガルの政治・交易の重要拠点で、のちには綿やモスリンの商業でも栄えた。現在のPanam Cityには、主に19世紀から20世紀初頭に富裕な商人たちが築いた邸宅群が残り、Mughalとヨーロッパ植民地建築の要素が混ざっている。\n\n道路の両側には、装飾の残る柱やバルコニー、色褪せた壁が続いていた。完全に崩れているわけではない。しかし、そこに暮らしていた人たちの姿はもうない。\n\n建物の数は多くなく、街も決して広くない。それでも、同じような古い商家が一本の道に並ぶことで、かつてここに一つの社会が存在していたことを想像しやすかった。\n\nDhakaでは現在の人の多さに圧倒された。\n\nPanam Cityでは、その反対に、人がいなくなった後の静けさが印象に残った。\n\n同じBangladeshでも、この二つの場所に流れている時間はまるで違っていた。",
+  "pullquote": "かつて人と物が行き交った場所には、今は時間だけが残っていた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07017_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Panam Nagar (Panam City)",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07058_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Panam Nagar (Panam City)",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07054_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Panam Nagar (Panam City)",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07020_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "A cat resting in Panam Nagar,",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07012_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Panam Nagar (Panam City)",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07045_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Two White-throated Kingfishers perched on a wire",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "An information board explaining the history of Panam Nagar",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC06985_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Boro Sardar Bari",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07023_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Abandoned merchant mansions in Panam Nagar",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/DSC07066_panam.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Abandoned merchant mansions in Panam Nagar",
+      "size": "md",
+      "shape": "land"
+    }
+  ]
+}
