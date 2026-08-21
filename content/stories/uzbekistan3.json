@@ -21,13 +21,13 @@
   "media": [
     {
       "type": "photo",
-      "image": "/uploads/DSC07539_Samarkand.jpg",
+      "image": "/uploads/DSC08014_Samarkand.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
       "duration": "",
-      "cap": "Registan Square by Night",
+      "cap": "Bibi-Khanym Mosque",
       "size": "full",
       "shape": "land"
     },
@@ -45,6 +45,18 @@
     },
     {
       "type": "photo",
+      "image": "/uploads/IMG_1704_samarkand.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Registan Square",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC07084_samarkand.jpg",
       "cover": false,
       "mode": "feature",
@@ -52,18 +64,6 @@
       "video": "",
       "duration": "",
       "cap": "Gur-e-Amir Mausoleum",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/DSC08014_Samarkand.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Bibi-Khanym Mosque",
       "size": "md",
       "shape": "land"
     },
@@ -297,6 +297,18 @@
     },
     {
       "type": "photo",
+      "image": "/uploads/DSC07539_Samarkand.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Registan Square by Night",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC07506_Samarkand.jpg",
       "cover": false,
       "mode": "feature",
@@ -305,18 +317,6 @@
       "duration": "",
       "cap": "Registan Square by Night",
       "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_1704_samarkand.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Registan Square",
-      "size": "full",
       "shape": "land"
     },
     {
