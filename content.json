@@ -8894,6 +8894,112 @@
       ]
     },
     {
+      "id": "india8",
+      "order": 8,
+      "featured": false,
+      "en": "INDIA",
+      "jp": "インド",
+      "placeJa": "Mumbai",
+      "year": "2025",
+      "continent": "asia",
+      "categories": [
+        "cities"
+      ],
+      "publishedAt": "2026-08-21",
+      "lat": 19.076,
+      "lon": 72.8777,
+      "standfirst": "海沿いの巨大都市には、異なる時代の建物が同じ速度で街をつくっていた。",
+      "essay": "Mumbaiは、とにかく街の密度が高かった。人も車も建物も多い。古い建築のすぐ後ろに高層ビルが立ち、海岸沿いにはまた違う時代につくられた街並みが続いている。\n\nMumbaiは港湾都市として発展し、19世紀後半にはBritish Indiaを代表する交易都市の一つとなった。その時代につくられたVictorian Gothicの公共建築と、20世紀前半に建てられたArt Decoの建物が現在もまとまって残り、二つの異なる都市拡張の時代を今に伝えている。\n\nChhatrapati Shivaji Terminusも、その象徴の一つだった。19世紀末につくられた壮大な駅舎でありながら、現在も多くの人が利用する現役の駅である。歴史的建築の前で立ち止まる人と、そこを毎日の通勤で通り過ぎる人が同じ場所にいる。\n\nMumbaiでは、歴史だけを切り離して眺めることが難しい。\n\n植民地時代の建物も、海沿いのArt Decoも、高層ビルも、人で埋まる道路も、すべてが同時に存在している。\n\n整っているとは言いにくい。それでも、その異なるものがものすごい密度で重なっていること自体が、この街の力なのだと思った。",
+      "pullquote": "この街では、古いものが残るというより、新しいものと並んで生きていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6104_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chhatrapati Shivaji Maharaj Terminus",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08841_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Rajabai Clock Tower",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08885_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gateway of India",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08949_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Municipal Corporation Building",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08898_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Taj Mahal Palace",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC08911_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09011_mumbai.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dhobi Ghat",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
+    },
+    {
       "id": "saudiarabia1",
       "order": 1,
       "featured": false,
