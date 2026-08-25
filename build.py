@@ -78,7 +78,7 @@ NAV = NAV.replace('href="#"', 'href="/"') \
 MORE_CSS = (
 ".cview-more{max-width:1240px;margin:0 auto;padding:clamp(44px,7vh,84px) clamp(18px,5vw,40px) 0;border-top:1px solid var(--line)}\n"
 ".cview-more-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:22px}\n"
-".cview-more .more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:.01em;color:var(--ink);margin:0}\n"
+".cview-more .more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin:0}\n"
 ".cview-more .more-ja{font-family:var(--sans);font-size:.78rem;letter-spacing:.2em;color:var(--ink-soft)}\n"
 )
 
