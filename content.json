@@ -24622,6 +24622,220 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "iran3",
+      "order": 3,
+      "featured": false,
+      "en": "IRAN",
+      "jp": "イラン",
+      "placeJa": "Persepolis",
+      "year": "2017",
+      "continent": "asia",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-08-26",
+      "lat": 29.935,
+      "lon": 52.8916,
+      "standfirst": "乾いた大地の上に、巨大な柱と石のレリーフだけが二千年以上の時間を越えて残っていた。",
+      "essay": "Persepolisは、遺跡という言葉から想像していたよりも大きかった。高い石柱や巨大な階段、その壁に刻まれた人々の姿。建物の多くは失われているのに、ここがかつて特別な場所だったことは十分に伝わってくる。\n\nPersepolisは紀元前518年頃、アケメネス朝のDarius Iによって建設が始められた。広大な帝国の王が各地から使節を迎えるための宮殿群が築かれ、Apadanaの階段にはさまざまな地域から貢物を運ぶ人々の姿が今も残されている。単なる都市というより、帝国そのものを見せるための舞台だったと考えられている。\n\nそのレリーフを見ていると、当時のペルシャがどれほど広い世界とつながっていたのかが少しだけ想像できる。服装も顔立ちも異なる人々が、一つの石壁の中に並んでいた。\n\n今は柱の間を風が通り抜けるだけだ。\n\nかつて多くの人が集まり、巨大な帝国の力を示した場所から、人も屋根も失われた。それでも石だけは残り、二千年以上前の世界がここにあったことを伝え続けていた。",
+      "pullquote": "石に刻まれていたのは、建物ではなく巨大な帝国の姿だった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6555_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The majestic ruins of Apadana Palace at Persepolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6641_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tachara (Palace of Darius) at Persepolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6548_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Gate of All Nations (Persepolis)",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6754_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sunset over Persepolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6801_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The silhouette of the Gate of All Nations at sunset",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6672_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The famous bas-relief of a lion attacking a bull at Persepolis",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6588_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Homa bird (Griffin) column capital at Persepolis",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6591_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The bas-relief of delegations bringing gifts at Persepolis",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6563_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Gate of All Nations at Persepolis",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6365_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tomb of Cyrus the Great",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6369_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Residential Palace of Cyrus at Pasargadae （",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6700_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Panoramic view of Persepolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6387_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Audience Hall at Pasargadae",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6516_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Naqsh-e Rostam (Necropolis)",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6381_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Cuneiform inscription at Pasargadae",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_6455_persepolis.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Tomb of Darius II at Naqsh-e Rostam",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
