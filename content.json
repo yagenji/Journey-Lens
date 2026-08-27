@@ -25577,6 +25577,233 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "bhutan",
+      "order": 2,
+      "featured": false,
+      "en": "BHUTAN",
+      "jp": "ブータン",
+      "placeJa": "Thimphu",
+      "year": "2014",
+      "continent": "asia",
+      "categories": [
+        "cities",
+        "heritage"
+      ],
+      "publishedAt": "2026-08-27",
+      "lat": 27.4728,
+      "lon": 89.639,
+      "standfirst": "一国の首都なのに、山の間に収まった街は驚くほど大きく見えなかった。",
+      "essay": "Thimphuはブータンの首都である。それでも、これまで訪れてきた多くの首都とはずいぶん印象が違った。高層ビルが密集するわけでもなく、山に囲まれた谷の中に、伝統的な意匠を残した建物が並んでいる。\n\nThimphuには交通信号がなかった。街の中心では、警察官が交差点に立ち、腕を大きく動かしながら車を誘導していた。\n\n当時は「世界で唯一、信号機のない首都」と聞いた。\n\n大都市なら当然のようにあるものが、ここにはない。その代わりに人が立ち、運転手はその手の動きを見て進む。少し不思議で、同時にこの街らしい光景にも見えた。\n\n実際、Thimphuではかつて交通信号が設置されたこともあったが、その後撤去され、警察官による手信号が使われてきた。\n\nThimphuが通年の首都となったのは1950年代で、現在は政府機関や王宮が置かれる国の中心である。それでも街の周囲にはすぐ山が迫り、首都だけが土地から切り離されて大きくなったようには見えない。\n\n建物の向こうにはいつも山があり、交差点では人が車を動かしている。\n\n近代的な首都でありながら、すべてを機械や大きな都市構造に置き換えない。その少し不思議なバランスが、Thimphuの記憶として残っている。",
+      "pullquote": "首都なのに、街の動きまでどこか人の手に委ねられていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3288_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The majestic Tashichho Dzong complex",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3296_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A panoramic view of Tashichho Dzong",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3295_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A beautiful view of the traditional Bhutanese building",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3133_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A panoramic view of Thimphu city and the valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3319_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Wang Chhu river",
+          "size": "md",
+          "shape": "port"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3211_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A bustling street scene on Norzin Lam",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3254_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The famous traffic police booth on Norzin Lam",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3310_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Local people wearing traditional Bhutanese dress (Gho and Kira)",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3193_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Devotees praying at the Memorial Chorten",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3163_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The iconic National Memorial Chorten",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3148_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The majestic Buddha Dordenma statue",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3324_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A row of colorful Buddhist prayer wheels at Kyichu Lhakhang",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3306_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Dechen Phodrang Monastery",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3377_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Dechen Phodrang Monastery",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3368_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The grand inner courtyard of Tashichho Dzong",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3346_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The exterior of Tashichho Dzong",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3369_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Intricate Bhutanese architecture at Punakha Dzong",
+          "size": "md",
+          "shape": "port"
+        }
+      ]
     }
   ],
   "newDays": 14
