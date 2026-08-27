@@ -10506,7 +10506,7 @@
           "video": "",
           "duration": "",
           "cap": "Agha Bozorg Mosque at night",
-          "size": "full",
+          "size": "md",
           "shape": "port"
         },
         {
@@ -10518,7 +10518,7 @@
           "video": "",
           "duration": "",
           "cap": "Sultan Amir Ahmad Bathhouse",
-          "size": "md",
+          "size": "full",
           "shape": "land"
         },
         {
@@ -10607,18 +10607,6 @@
         },
         {
           "type": "photo",
-          "image": "/uploads/IMG_9916_kashan.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Traditional costume rental sign in Iran",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/IMG_0318のコピー_kashan.jpg",
           "cover": false,
           "mode": "feature",
@@ -10638,6 +10626,18 @@
           "video": "",
           "duration": "",
           "cap": "Local father and son in Kashan",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9916_kashan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Traditional costume rental sign in Iran",
           "size": "md",
           "shape": "land"
         },
