@@ -29,6 +29,10 @@
       "show": false
     },
     {
+      "jp": "ブータン",
+      "show": true
+    },
+    {
       "jp": "インド",
       "show": true
     },
@@ -134,10 +138,6 @@
     },
     {
       "jp": "オーストラリア",
-      "show": true
-    },
-    {
-      "jp": "ブータン",
       "show": true
     }
   ]
