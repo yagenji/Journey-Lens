@@ -21,6 +21,18 @@
   "media": [
     {
       "type": "photo",
+      "image": "/uploads/DSC07826_Samarkand.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Ziyarat-khana at Qusam ibn Abbas Complex",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/DSC07778_Samarkand.jpg",
       "cover": false,
       "mode": "feature",
@@ -28,7 +40,7 @@
       "video": "",
       "duration": "",
       "cap": "Tuman Aka Complex",
-      "size": "full",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -40,7 +52,7 @@
       "video": "",
       "duration": "",
       "cap": "Shah-i-Zinda",
-      "size": "sm",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -52,7 +64,7 @@
       "video": "",
       "duration": "",
       "cap": "Intricate Mosaic Tiles",
-      "size": "sm",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -64,7 +76,7 @@
       "video": "",
       "duration": "",
       "cap": "Shirin Bika Aka Mausoleum",
-      "size": "sm",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -209,18 +221,6 @@
       "duration": "",
       "cap": "Hazrat Khizr Mosque",
       "size": "sm",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/DSC07826_Samarkand.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Ziyarat-khana at Qusam ibn Abbas Complex",
-      "size": "full",
       "shape": "land"
     },
     {
