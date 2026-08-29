@@ -14705,14 +14705,38 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/IMG_7844_jerusalemout.jpg",
+          "image": "/uploads/IMG_8084_jerusalemout.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
           "video": "",
           "duration": "",
-          "cap": "The historic Golden Gate beneath the stunning Dome of the Rock",
+          "cap": "Dead Sea",
           "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_8009_jerusalemout.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dead Sea",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_8172_jerusalemout.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Dead Sea",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -14724,6 +14748,18 @@
           "video": "",
           "duration": "",
           "cap": "The breathtaking panorama of the Temple Mount from the Mount of Olives",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7844_jerusalemout.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Golden Gate beneath the stunning Dome of the Rock",
           "size": "md",
           "shape": "land"
         },
@@ -14928,42 +14964,6 @@
           "video": "",
           "duration": "",
           "cap": "Shrine of the Book",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_8084_jerusalemout.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Dead Sea",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_8009_jerusalemout.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Dead Sea",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_8172_jerusalemout.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "Dead Sea",
           "size": "md",
           "shape": "land"
         }
