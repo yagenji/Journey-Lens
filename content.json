@@ -7691,66 +7691,6 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/IMG_3288_thimphu.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "The majestic Tashichho Dzong complex",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_3296_thimphu.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "A panoramic view of Tashichho Dzong",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_3295_thimphu.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "A beautiful view of the traditional Bhutanese building",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_3133_thimphu.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "A panoramic view of Thimphu city and the valley",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/IMG_3319_thimphu.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "The Wang Chhu river",
-          "size": "md",
-          "shape": "port"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/IMG_3211_thimphu.jpg",
           "cover": false,
           "mode": "feature",
@@ -7820,6 +7760,66 @@
           "cap": "The majestic Buddha Dordenma statue",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3288_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The majestic Tashichho Dzong complex",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3296_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A panoramic view of Tashichho Dzong",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3295_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A beautiful view of the traditional Bhutanese building",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3133_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A panoramic view of Thimphu city and the valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3319_thimphu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Wang Chhu river",
+          "size": "md",
+          "shape": "port"
         },
         {
           "type": "photo",
