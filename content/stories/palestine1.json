@@ -21,6 +21,18 @@
   "media": [
     {
       "type": "photo",
+      "image": "/uploads/IMG_6795_bethlehem.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "A panoramic view overlooking the hills of Bethlehem",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/IMG_6701_bethlehem.jpg",
       "cover": false,
       "mode": "feature",
@@ -28,7 +40,7 @@
       "video": "",
       "duration": "",
       "cap": "Church of the Nativity",
-      "size": "full",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -52,6 +64,18 @@
       "video": "",
       "duration": "",
       "cap": "Church of the Nativity",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_6881_bethlehem.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Church of the Holy Sepulchre",
       "size": "md",
       "shape": "land"
     },
@@ -117,18 +141,6 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/IMG_6795_bethlehem.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "A panoramic view overlooking the hills of Bethlehem",
-      "size": "full",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
       "image": "/uploads/IMG_6810_bethlehem.jpg",
       "cover": false,
       "mode": "feature",
@@ -149,18 +161,6 @@
       "duration": "",
       "cap": "The quiet stone alleyways of historic Bethlehem",
       "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_6881_bethlehem.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Church of the Holy Sepulchre",
-      "size": "sm",
       "shape": "land"
     },
     {
