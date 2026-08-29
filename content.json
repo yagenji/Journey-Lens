@@ -26652,6 +26652,233 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "jordan2",
+      "order": 3,
+      "featured": false,
+      "en": "JORDAN",
+      "jp": "ヨルダン",
+      "placeJa": "Jerash",
+      "year": "2019",
+      "continent": "asia",
+      "categories": [
+        "cities",
+        "heritage"
+      ],
+      "publishedAt": "2026-08-29",
+      "lat": 32.2742,
+      "lon": 35.8916,
+      "standfirst": "石畳の道と列柱が遠くまで続き、古代の街の形がそのまま残っているようだった。",
+      "essay": "Jerashに入ると、遺跡の広さにまず驚いた。一本の石畳の道に柱が並び、その先には広場や神殿、劇場が続いている。\n\n一つの建物だけが残った遺跡ではなく、街を歩いている感覚があった。\n\nJerashは古代にはGerasaと呼ばれ、紀元前1世紀にローマの支配下へ入り、Decapolisの一都市として発展した。現在も列柱道路、Oval Plaza、神殿、劇場、浴場などが残り、中東でも保存状態のよいローマ地方都市の一つとされている。\n\n特に印象に残るのは、Oval Plazaから伸びる長い列柱道路だった。\n\n柱が一本、二本残っているのではない。道路に沿って何本も続いている。そのため、かつてここを人々が歩き、店や公共施設を行き来していた姿を想像しやすい。\n\nPetraが岩の中につくられた特別な都市だとすれば、Jerashは古代の「普通の街」が巨大な規模で残っている場所だった。\n\n遺跡を見ているというより、使われなくなった街を歩いている。\n\nその感覚が、Jerashを強く印象に残る場所にしていた。",
+      "pullquote": "崩れた建物よりも、残された街路が当時の暮らしを想像させた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/GOPR0468_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "North Theater",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/GOPR0435_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Oval Plaza",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_0147_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Colonnaded Street",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_0087_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of Artemis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9705_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "South Gate",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9738_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Arch of Hadrian",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_0054_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "South Theater",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9717_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of Zeus",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9750_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Oval Plaza",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_0163_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Colonnaded Street",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9888_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Colonnaded Street",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9672_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Arch of Hadrian",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9942_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of Artemis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_0120_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of Artemis",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9746_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "North Theater",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/GOPR0453_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "South Theater",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_9992_jerash.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Temple of Artemis",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
