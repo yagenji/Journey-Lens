@@ -14705,18 +14705,6 @@
       "media": [
         {
           "type": "photo",
-          "image": "/uploads/IMG_7821_jerusalemout.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "The breathtaking panorama of the Temple Mount from the Mount of Olives",
-          "size": "full",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
           "image": "/uploads/IMG_7844_jerusalemout.jpg",
           "cover": false,
           "mode": "feature",
@@ -14724,6 +14712,18 @@
           "video": "",
           "duration": "",
           "cap": "The historic Golden Gate beneath the stunning Dome of the Rock",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_7821_jerusalemout.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The breathtaking panorama of the Temple Mount from the Mount of Olives",
           "size": "md",
           "shape": "land"
         },
