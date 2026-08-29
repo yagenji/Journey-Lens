@@ -190,6 +190,18 @@
     },
     {
       "type": "photo",
+      "image": "/uploads/IMG_6391_jerusalemout.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Tower of David & Dormition Abbey",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/IMG_6370_jerusalemout.jpg",
       "cover": false,
       "mode": "feature",
@@ -209,18 +221,6 @@
       "video": "",
       "duration": "",
       "cap": "Old City Hall",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_6391_jerusalemout.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Tower of David & Dormition Abbey",
       "size": "md",
       "shape": "land"
     },
@@ -250,7 +250,7 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/IMG_8009_jerusalemout.jpg",
+      "image": "/uploads/IMG_8084_jerusalemout.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -262,7 +262,7 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/IMG_8172_jerusalemout.jpg",
+      "image": "/uploads/IMG_8009_jerusalemout.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -274,7 +274,7 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/IMG_8084_jerusalemout.jpg",
+      "image": "/uploads/IMG_8172_jerusalemout.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
