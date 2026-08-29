@@ -21,6 +21,42 @@
   "media": [
     {
       "type": "photo",
+      "image": "/uploads/IMG_3772_phunakha.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The 108 chortens at Dochula Pass with the Himalayas in the background",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_3795_phunakha.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Buddhist prayer flags fluttering with the snow-capped Himalayas in the background",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_3409_phunakha.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "A stunning view of the snow-capped Himalayan peaks",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
       "image": "/uploads/IMG_3650_phunakha.jpg",
       "cover": false,
       "mode": "feature",
@@ -196,42 +232,6 @@
       "video": "",
       "duration": "",
       "cap": "The Nalanda Buddhist Institute nestled on a mountain slope in Punakha",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_3772_phunakha.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "The 108 chortens at Dochula Pass with the Himalayas in the background",
-      "size": "full",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_3795_phunakha.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Buddhist prayer flags fluttering with the snow-capped Himalayas in the background",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
-      "image": "/uploads/IMG_3409_phunakha.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "A stunning view of the snow-capped Himalayan peaks",
       "size": "md",
       "shape": "land"
     }
