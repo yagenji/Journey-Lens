@@ -7,12 +7,13 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Sat, 29 Aug 2026 12:20:52 +0900</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2026 17:18:12 +0900</lastBuildDate>
 <item>
 <title>パレスチナ｜Bethlehem</title>
 <link>https://journey.yagenji.com/palestine1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/palestine1/</guid>
 <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_6795_bethlehem.jpg" type="image/jpeg"/>
 <description>石造りの街の中心に、二千年近く人々が祈り続けてきた場所があった。</description>
 </item>
 <item>
@@ -20,6 +21,7 @@
 <link>https://journey.yagenji.com/israel2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/israel2/</guid>
 <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8084_jerusalemout.jpg" type="image/jpeg"/>
 <description>城壁を離れると街の景色は薄れ、やがて乾いた大地と低い海へつながっていった。</description>
 </item>
 <item>
@@ -27,6 +29,7 @@
 <link>https://journey.yagenji.com/israel1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/israel1/</guid>
 <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_7671_jerusalem.jpg" type="image/jpeg"/>
 <description>城壁の中には、祈りと生活と歴史が、狭い路地の中に重なっていた。</description>
 </item>
 <item>
@@ -34,6 +37,7 @@
 <link>https://journey.yagenji.com/jordan3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/jordan3/</guid>
 <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/GOPR0468_jerash.jpg" type="image/jpeg"/>
 <description>石畳の道と列柱が遠くまで続き、古代の街の形がそのまま残っているようだった。</description>
 </item>
 <item>
@@ -41,6 +45,7 @@
 <link>https://journey.yagenji.com/jordan2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/jordan2/</guid>
 <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_6189_anman.jpg" type="image/jpeg"/>
 <description>丘の斜面を埋めるように白い建物が広がり、その中に古代の遺跡が残っていた。</description>
 </item>
 <item>
@@ -48,6 +53,7 @@
 <link>https://journey.yagenji.com/jordan1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/jordan1/</guid>
 <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_9478_petra.jpg" type="image/jpeg"/>
 <description>狭い岩の裂け目を抜けた先に、赤い岩壁から削り出された巨大な建物が現れた。</description>
 </item>
 <item>
@@ -55,13 +61,15 @@
 <link>https://journey.yagenji.com/bhutan3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bhutan3/</guid>
 <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_3772_phunakha.jpg" type="image/jpeg"/>
 <description>峠を越えると山の空気が変わり、どこか日本の田舎へ帰ってきたような懐かしさがあった。</description>
 </item>
 <item>
 <title>ブータン｜Thimphu</title>
-<link>https://journey.yagenji.com/bhutan/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/bhutan/</guid>
+<link>https://journey.yagenji.com/bhutan2/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/bhutan2/</guid>
 <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_3211_thimphu.jpg" type="image/jpeg"/>
 <description>一国の首都なのに、山の間に収まった街は驚くほど大きく見えなかった。</description>
 </item>
 <item>
@@ -69,6 +77,7 @@
 <link>https://journey.yagenji.com/bhutan1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bhutan1/</guid>
 <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_4459_paro.jpg" type="image/jpeg"/>
 <description>山に囲まれた谷の奥で、崖に張り付くような僧院を目指して歩いた。</description>
 </item>
 <item>
@@ -76,6 +85,7 @@
 <link>https://journey.yagenji.com/iran5/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iran5/</guid>
 <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_9284_abyaneh.jpg" type="image/jpeg"/>
 <description>赤い山村では花柄のスカーフが揺れ、そこを離れると景色はやがて砂だけになった。</description>
 </item>
 <item>
@@ -83,6 +93,7 @@
 <link>https://journey.yagenji.com/iran4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iran4/</guid>
 <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_0170のコピー_kashan.jpg" type="image/jpeg"/>
 <description>土色の街の外側からは想像できないほど、古い邸宅の内側には静かな美しさが隠れていた。</description>
 </item>
 <item>
@@ -90,6 +101,7 @@
 <link>https://journey.yagenji.com/iran3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iran3/</guid>
 <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_6555_persepolis.jpg" type="image/jpeg"/>
 <description>乾いた大地の上に、巨大な柱と石のレリーフだけが二千年以上の時間を越えて残っていた。</description>
 </item>
 <item>
@@ -97,6 +109,7 @@
 <link>https://journey.yagenji.com/iran2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iran2/</guid>
 <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8736_isfahan.jpg" type="image/jpeg"/>
 <description>巨大な広場を囲むように、青いモスクと宮殿と市場が一つの景色をつくっていた。</description>
 </item>
 <item>
@@ -104,6 +117,7 @@
 <link>https://journey.yagenji.com/iran1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iran1/</guid>
 <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_6924_shiraz.jpg" type="image/jpeg"/>
 <description>庭園と詩人の記憶が残る街には、古代遺跡とは違う柔らかな時間が流れていた。</description>
 </item>
 <item>
@@ -111,6 +125,7 @@
 <link>https://journey.yagenji.com/bangladesh2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bangladesh2/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC07017_panam.jpg" type="image/jpeg"/>
 <description>一本の細い道の両側に、使われなくなった商家が静かに並んでいた。</description>
 </item>
 <item>
@@ -118,6 +133,7 @@
 <link>https://journey.yagenji.com/bangladesh1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bangladesh1/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC07149_dhaka.jpg" type="image/jpeg"/>
 <description>人と車とリキシャが絶えず流れ、街そのものが動いているようだった。</description>
 </item>
 <item>
@@ -125,6 +141,7 @@
 <link>https://journey.yagenji.com/india10/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india10/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01034_agura.jpg" type="image/jpeg"/>
 <description>白い建物は、近づくほど巨大になるのに、不思議なほど軽やかに見えた</description>
 </item>
 <item>
@@ -132,6 +149,7 @@
 <link>https://journey.yagenji.com/india9/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india9/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01406_varanasi.jpg" type="image/jpeg"/>
 <description>ガンジスの岸では、祈りも暮らしも死も、同じ川のそばにあった。</description>
 </item>
 <item>
@@ -139,6 +157,7 @@
 <link>https://journey.yagenji.com/india8/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india8/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_6104_mumbai.jpg" type="image/jpeg"/>
 <description>海沿いの巨大都市には、異なる時代の建物が同じ速度で街をつくっていた。</description>
 </item>
 <item>
@@ -146,6 +165,7 @@
 <link>https://journey.yagenji.com/india7/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india7/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01085_chiangnai.jpg" type="image/jpeg"/>
 <description>Bay of Bengalから届く湿った風の向こうに、南インドの大都市が広がっていた。</description>
 </item>
 <item>
@@ -153,6 +173,7 @@
 <link>https://journey.yagenji.com/india6/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india6/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01244_kochi.jpg" type="image/jpeg"/>
 <description>海辺の街には、異なる宗教と文化が長い時間をかけて静かに重なっていた。</description>
 </item>
 <item>
@@ -160,6 +181,7 @@
 <link>https://journey.yagenji.com/india5/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india5/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_6482_jaisalmer.jpg" type="image/jpeg"/>
 <description>砂と同じ色をした城塞が、Thar Desertの中からそのまま立ち上がっていた。</description>
 </item>
 <item>
@@ -167,6 +189,7 @@
 <link>https://journey.yagenji.com/india4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india4/</guid>
 <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_5784_jodhpur.jpg" type="image/jpeg"/>
 <description>岩山の上に巨大な砦が立ち、その足元には青い家々が広がっていた。</description>
 </item>
 <item>
@@ -174,6 +197,7 @@
 <link>https://journey.yagenji.com/oman2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/oman2/</guid>
 <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03612_muscat.jpg" type="image/jpeg"/>
 <description>岩山と海のあいだに、白い建物が低く連なっていた。</description>
 </item>
 <item>
@@ -181,6 +205,7 @@
 <link>https://journey.yagenji.com/oman1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/oman1/</guid>
 <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8462_qaboos.jpg" type="image/jpeg"/>
 <description>白い大理石の空間は、建物そのものが床に映り込むほど静かに磨かれていた。</description>
 </item>
 <item>
@@ -188,6 +213,7 @@
 <link>https://journey.yagenji.com/saudiarabia5/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/saudiarabia5/</guid>
 <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02314_catsinsaudi.jpg" type="image/jpeg"/>
 <description>街を歩くたびに猫に出会い、この国では猫の姿が日常の風景になっていた。</description>
 </item>
 <item>
@@ -195,13 +221,15 @@
 <link>https://journey.yagenji.com/saudiarabia4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/saudiarabia4/</guid>
 <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02855_jeddah.jpg" type="image/jpeg"/>
 <description>紅海沿いに広がる街には、内陸のRiyadhとは違う開かれた空気があった。</description>
 </item>
 <item>
 <title>サウジアラビア｜Medina</title>
-<link>https://journey.yagenji.com/saudiarabia/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/saudiarabia/</guid>
+<link>https://journey.yagenji.com/saudiarabia3/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/saudiarabia3/</guid>
 <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01638_medina.jpg" type="image/jpeg"/>
 <description>巨大なモスクの周囲には、途切れることなく人の波が続いていた。</description>
 </item>
 <item>
@@ -209,6 +237,7 @@
 <link>https://journey.yagenji.com/saudiarabia2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/saudiarabia2/</guid>
 <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01360_edge.jpg" type="image/jpeg"/>
 <description>切り立った岩壁の先には、地面と空だけが途切れることなく続いていた。</description>
 </item>
 <item>
@@ -216,6 +245,7 @@
 <link>https://journey.yagenji.com/saudiarabia1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/saudiarabia1/</guid>
 <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01089_liyadh.jpg" type="image/jpeg"/>
 <description>高層ビルの上から見ても、街の端がどこにあるのか分からなかった。</description>
 </item>
 <item>
@@ -223,6 +253,7 @@
 <link>https://journey.yagenji.com/uzbekistan4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/uzbekistan4/</guid>
 <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_2637_tashkent.jpg" type="image/jpeg"/>
 <description>広い道路と大きな建物が続く首都では、古い街の輪郭がなかなか見つからなかった。</description>
 </item>
 <item>
@@ -230,6 +261,7 @@
 <link>https://journey.yagenji.com/uzbekistan3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/uzbekistan3/</guid>
 <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC07826_Samarkand.jpg" type="image/jpeg"/>
 <description>夕焼けを撮る場所を探しながら、青い建物の間を何度も行き来した。</description>
 </item>
 <item>
@@ -237,6 +269,7 @@
 <link>https://journey.yagenji.com/uzbekistan2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/uzbekistan2/</guid>
 <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06225_bukhara.jpg" type="image/jpeg"/>
 <description>土色の路地と青い装飾の間を歩くと、街全体が一つの博物館のように続いていた。</description>
 </item>
 <item>
@@ -244,6 +277,7 @@
 <link>https://journey.yagenji.com/uzbekistan1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/uzbekistan1/</guid>
 <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03451_khiva.jpg" type="image/jpeg"/>
 <description>十年ぶりに城門をくぐると、記憶より賑やかな古い街が広がっていた。</description>
 </item>
 <item>
@@ -251,6 +285,7 @@
 <link>https://journey.yagenji.com/turkmenistan4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/turkmenistan4/</guid>
 <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03154_urgench.jpg" type="image/jpeg"/>
 <description>トルクメニスタン北西部の草原で、久しぶりに見るイスラム建築が静かに空を切り取っていた。</description>
 </item>
 <item>
@@ -258,6 +293,7 @@
 <link>https://journey.yagenji.com/turkmenistan3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/turkmenistan3/</guid>
 <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02878_darwaza.jpg" type="image/jpeg"/>
 <description>カラクム砂漠の暗闇に、燃え続ける大きな穴だけが赤く浮かび、夜の冷気を照らしていた。</description>
 </item>
 <item>
@@ -265,6 +301,7 @@
 <link>https://journey.yagenji.com/turkmenistan2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/turkmenistan2/</guid>
 <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02520_nissa.jpg" type="image/jpeg"/>
 <description>白い首都のすぐ外で、土色の要塞が二千年近い時間を抱え、乾いた大地に静かに残っていた。</description>
 </item>
 <item>
@@ -272,6 +309,7 @@
 <link>https://journey.yagenji.com/turkmenistan1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/turkmenistan1/</guid>
 <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02395_ashgabat.jpg" type="image/jpeg"/>
 <description>白い大理石の建物が並ぶ街には、整いすぎた静けさと現実離れした空気が広がっていた。</description>
 </item>
 <item>
@@ -279,6 +317,7 @@
 <link>https://journey.yagenji.com/mexico6/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/mexico6/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1040188_teotihuacan.jpg" type="image/jpeg"/>
 <description>巨大な石造りの遺跡は、文明が消えたあとも静かに残り続けていた。</description>
 </item>
 <item>
@@ -286,6 +325,7 @@
 <link>https://journey.yagenji.com/mexico5/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/mexico5/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1040247_mexicocity.jpg" type="image/jpeg"/>
 <description>歴史ある広場は祭りの人波に包まれ、街はいつも以上の熱気にあふれていた。</description>
 </item>
 <item>
@@ -293,6 +333,7 @@
 <link>https://journey.yagenji.com/mexico4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/mexico4/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01420_cancun.jpg" type="image/jpeg"/>
 <description>白い砂浜と青い海は美しかった。それでも心は、少し落ち着かなかった。</description>
 </item>
 <item>
@@ -300,6 +341,7 @@
 <link>https://journey.yagenji.com/mexico3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/mexico3/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01580_chechemiza.jpg" type="image/jpeg"/>
 <description>地下の泉から古代都市へ。そして静かな町へ。一日の中で、Yucatán半島の異なる表情を巡った。</description>
 </item>
 <item>
@@ -307,6 +349,7 @@
 <link>https://journey.yagenji.com/mexico2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/mexico2/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03480_tulum.jpg" type="image/jpeg"/>
 <description>青いカリブ海を見下ろす崖の上に、静かに遺跡が残されていた。</description>
 </item>
 <item>
@@ -314,6 +357,7 @@
 <link>https://journey.yagenji.com/mexico1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/mexico1/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_3790_bacalar.jpg" type="image/jpeg"/>
 <description>湖とは思えない青さが、ゆっくりと地平線まで続いていた。</description>
 </item>
 <item>
@@ -321,6 +365,7 @@
 <link>https://journey.yagenji.com/cuba4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/cuba4/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_3290_varadero.jpg" type="image/jpeg"/>
 <description>長く伸びる砂浜には人影が少なく、波の音だけが一定の間隔で届いていた。</description>
 </item>
 <item>
@@ -328,6 +373,7 @@
 <link>https://journey.yagenji.com/cuba3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/cuba3/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02106_trinidad.jpg" type="image/jpeg"/>
 <description>石畳の路地と低い建物の間に、人々の暮らしがそのまま見えていた。</description>
 </item>
 <item>
@@ -335,6 +381,7 @@
 <link>https://journey.yagenji.com/cuba2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/cuba2/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03095_casablanca.jpg" type="image/jpeg"/>
 <description>小さな船で湾を渡ると、Havanaはすぐ近くにありながら遠く見えた。</description>
 </item>
 <item>
@@ -342,6 +389,7 @@
 <link>https://journey.yagenji.com/cuba1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/cuba1/</guid>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_2707_havana.jpg" type="image/jpeg"/>
 <description>色褪せた建物の間を、鮮やかな車体がゆっくりと通り過ぎていった。</description>
 </item>
 <item>
@@ -349,6 +397,7 @@
 <link>https://journey.yagenji.com/australia3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/australia3/</guid>
 <pubDate>Sun, 26 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09918_pinnacles.jpg" type="image/jpeg"/>
 <description>白い砂丘から青い海へ。そして夕暮れの砂漠へ。景色が変わるたび、この土地の広さを感じた。</description>
 </item>
 <item>
@@ -356,6 +405,7 @@
 <link>https://journey.yagenji.com/australia2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/australia2/</guid>
 <pubDate>Sun, 26 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC00592_rottenest.jpg" type="image/jpeg"/>
 <description>島を歩いていると、美しい海と、思わず笑顔にさせてくれる動物が待っていた。</description>
 </item>
 <item>
@@ -363,6 +413,7 @@
 <link>https://journey.yagenji.com/australia1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/australia1/</guid>
 <pubDate>Sun, 26 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09110_perth.jpg" type="image/jpeg"/>
 <description>自然を訪ねる街ではなく、自然の中で暮らす街だった。</description>
 </item>
 <item>
@@ -370,6 +421,7 @@
 <link>https://journey.yagenji.com/peru3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/peru3/</guid>
 <pubDate>Wed, 22 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1030994_lima.jpg" type="image/jpeg"/>
 <description>歴史ある建物が並ぶ街の向こうには海があり、Limaには凜とした明るさがあった。</description>
 </item>
 <item>
@@ -377,6 +429,7 @@
 <link>https://journey.yagenji.com/peru2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/peru2/</guid>
 <pubDate>Wed, 22 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1010330_csco.jpg" type="image/jpeg"/>
 <description>斜面を覆う瓦屋根と石畳の路地が、Cuscoに流れてきた長い時間を映していた。</description>
 </item>
 <item>
@@ -384,6 +437,7 @@
 <link>https://journey.yagenji.com/peru1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/peru1/</guid>
 <pubDate>Wed, 22 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1010947_machupichu.jpg" type="image/jpeg"/>
 <description>雲に包まれた遺跡を歩きながら、かつてここにあった暮らしへ思いを巡らせた。</description>
 </item>
 <item>
@@ -391,6 +445,7 @@
 <link>https://journey.yagenji.com/kenya3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kenya3/</guid>
 <pubDate>Tue, 21 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_7357_nairobi.jpg" type="image/jpeg"/>
 <description>あらゆるものが揃う大都会のすぐそばで、人々はそれぞれの夢を抱いて暮らしていた。</description>
 </item>
 <item>
@@ -398,6 +453,7 @@
 <link>https://journey.yagenji.com/kenya2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kenya2/</guid>
 <pubDate>Tue, 21 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02220_masaimalatwo.jpg" type="image/jpeg"/>
 <description>草原の奥まで進むと、国境は見えないまま、動物たちの世界だけが続いていた。</description>
 </item>
 <item>
@@ -405,6 +461,7 @@
 <link>https://journey.yagenji.com/kenya1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kenya1/</guid>
 <pubDate>Tue, 21 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01683_masaimalaone.jpg" type="image/jpeg"/>
 <description>雨が草原を濡らし、光が戻るたび、動物たちはそれぞれの時間へ戻っていった。</description>
 </item>
 <item>
@@ -412,6 +469,7 @@
 <link>https://journey.yagenji.com/bolivia3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bolivia3/</guid>
 <pubDate>Tue, 21 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1020396_lapaz.jpg" type="image/jpeg"/>
 <description>斜面を埋め尽くす家々を見下ろしながら、バスは巨大な街の底へと降りていった。</description>
 </item>
 <item>
@@ -419,6 +477,7 @@
 <link>https://journey.yagenji.com/bolivia2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bolivia2/</guid>
 <pubDate>Mon, 20 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06438_atakama.jpg" type="image/jpeg"/>
 <description>寒さに身を縮めた国境の先には、木々のない高原と、淡いピンクを帯びた湖が続いていた。</description>
 </item>
 <item>
@@ -426,6 +485,7 @@
 <link>https://journey.yagenji.com/bolivia1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/bolivia1/</guid>
 <pubDate>Mon, 20 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09991_uyuni.jpg" type="image/jpeg"/>
 <description>十年以上前に心残りを置いた白い大地は、今度こそ空を映して待っていた。</description>
 </item>
 <item>
@@ -433,6 +493,7 @@
 <link>https://journey.yagenji.com/southafrica2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/southafrica2/</guid>
 <pubDate>Sat, 18 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_0633_cape.jpg" type="image/jpeg"/>
 <description>華やかな街のすぐそばに、消えない歴史と、雲をまとった山が静かに残っていた。</description>
 </item>
 <item>
@@ -440,6 +501,7 @@
 <link>https://journey.yagenji.com/southafrica1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/southafrica1/</guid>
 <pubDate>Sat, 18 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_0023_capepe.jpg" type="image/jpeg"/>
 <description>半島を南へ進むほど、街の気配は薄れ、海と岩と動物の姿が残っていった。</description>
 </item>
 <item>
@@ -447,6 +509,7 @@
 <link>https://journey.yagenji.com/botswana1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/botswana1/</guid>
 <pubDate>Fri, 17 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_7804_botsuwana.jpg" type="image/jpeg"/>
 <description>チョベ川のほとりには、動物たちの穏やかな時間が、広い土地の上をゆっくりと流れていた。</description>
 </item>
 <item>
@@ -454,6 +517,7 @@
 <link>https://journey.yagenji.com/zimbabwe1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/zimbabwe1/</guid>
 <pubDate>Fri, 17 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_9216D_zimbabwe.jpg" type="image/jpeg"/>
 <description>ジンバブエ側のVictoria Fallsでは、滝を見るより先に、全身が飛沫に包まれた。</description>
 </item>
 <item>
@@ -461,6 +525,7 @@
 <link>https://journey.yagenji.com/zambia1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/zambia1/</guid>
 <pubDate>Fri, 17 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8529_zambia.jpg" type="image/jpeg"/>
 <description>乾季のVictoria Fallsでは、飛沫の向こうにいくつもの虹が浮かび、岩肌の奥へ道が続いていた。</description>
 </item>
 <item>
@@ -468,6 +533,7 @@
 <link>https://journey.yagenji.com/lesotho3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/lesotho3/</guid>
 <pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8236_resotho.jpg" type="image/jpeg"/>
 <description>岩山と草原の間を、空へ向かうように車を走らせた。</description>
 </item>
 <item>
@@ -475,6 +541,7 @@
 <link>https://journey.yagenji.com/lesotho2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/lesotho2/</guid>
 <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8846_malealea.jpg" type="image/jpeg"/>
 <description>ポニーに揺られながら、花咲く村と広い大地を歩いた。</description>
 </item>
 <item>
@@ -482,6 +549,7 @@
 <link>https://journey.yagenji.com/lesotho1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/lesotho1/</guid>
 <pubDate>Mon, 13 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_8468_semonkong.jpg" type="image/jpeg"/>
 <description>空が近く、緑の大地に雲の影が落ちていた。</description>
 </item>
 <item>
@@ -489,6 +557,7 @@
 <link>https://journey.yagenji.com/chile3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/chile3/</guid>
 <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1030248_santiago.jpg" type="image/jpeg"/>
 <description>近代的な都市の向こうに、霞んだアンデス山脈が広がっていた。</description>
 </item>
 <item>
@@ -496,6 +565,7 @@
 <link>https://journey.yagenji.com/chile4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/chile4/</guid>
 <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/P1030530_easter.jpg" type="image/jpeg"/>
 <description>強い風の中を進みながら、島のあちこちでモアイに出会った。</description>
 </item>
 <item>
@@ -503,6 +573,7 @@
 <link>https://journey.yagenji.com/argentina7/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina7/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02707_salta.jpg" type="image/jpeg"/>
 <description>教会の美しさと整った街並みが印象に残る、穏やかな街だった。</description>
 </item>
 <item>
@@ -510,6 +581,7 @@
 <link>https://journey.yagenji.com/argentina5/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina5/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02874_iguazA.jpg" type="image/jpeg"/>
 <description>上から見下ろすIguazú Fallsは、水が集まり落ちていく迫力まで見える場所だった。</description>
 </item>
 <item>
@@ -517,6 +589,7 @@
 <link>https://journey.yagenji.com/argentina4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina4/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_7524_buenos.jpg" type="image/jpeg"/>
 <description>ヨーロッパのような街角に、サッカーの国らしい熱があった。</description>
 </item>
 <item>
@@ -524,6 +597,7 @@
 <link>https://journey.yagenji.com/argentina6/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina6/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02176_humahu.jpg" type="image/jpeg"/>
 <description>カーニバル前夜のHumahuacaから、14色の山肌が広がるHornocalへ向かった。</description>
 </item>
 <item>
@@ -531,6 +605,7 @@
 <link>https://journey.yagenji.com/uruguay2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/uruguay2/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC00395_colonia.jpg" type="image/jpeg"/>
 <description>石畳の道と高い街路樹が残る、静かに歩きたくなる港町だった。</description>
 </item>
 <item>
@@ -538,6 +613,7 @@
 <link>https://journey.yagenji.com/uruguay1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/uruguay1/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_7211_monte.jpg" type="image/jpeg"/>
 <description>落ち着いた首都の中に、第1回ワールドカップの記憶が残っていた。</description>
 </item>
 <item>
@@ -545,6 +621,7 @@
 <link>https://journey.yagenji.com/panama1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/panama1/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC00018_panama.jpg" type="image/jpeg"/>
 <description>Panama Cityでは、旧市街の街並みと、世界をつなぐパナマ運河の大きさを見た。</description>
 </item>
 <item>
@@ -552,6 +629,7 @@
 <link>https://journey.yagenji.com/belize1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/belize1/</guid>
 <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC04451_belize.jpg" type="image/jpeg"/>
 <description>Belize Cityを足早に抜けた先で、Caye Caulkerの海の青さに出会った。</description>
 </item>
 <item>
@@ -559,6 +637,7 @@
 <link>https://journey.yagenji.com/brazil3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/brazil3/</guid>
 <pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC04515_saopau.jpg" type="image/jpeg"/>
 <description>São Pauloでは、少し不思議な日本語の街と、移民の歴史が印象に残った。</description>
 </item>
 <item>
@@ -566,6 +645,7 @@
 <link>https://journey.yagenji.com/brazil2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/brazil2/</guid>
 <pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_3881_lio.jpg" type="image/jpeg"/>
 <description>カーニバルの熱気の中で、山と海に囲まれたRio de Janeiroを歩いた。</description>
 </item>
 <item>
@@ -573,6 +653,7 @@
 <link>https://journey.yagenji.com/brazil1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/brazil1/</guid>
 <pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03877_iguazB.jpg" type="image/jpeg"/>
 <description>ブラジル側から見るIguaçu Fallsは、水しぶきまで含めて迫力があった。</description>
 </item>
 <item>
@@ -580,6 +661,7 @@
 <link>https://journey.yagenji.com/guatemala4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/guatemala4/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC05130_attilan.jpg" type="image/jpeg"/>
 <description>火山を背にした湖には、美しさと暮らしの気配が並んでいた。</description>
 </item>
 <item>
@@ -587,6 +669,7 @@
 <link>https://journey.yagenji.com/guatemala3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/guatemala3/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC05746_fuego.jpg" type="image/jpeg"/>
 <description>Acatenangoのキャンプから、Fuego Volcanoの噴火を夜通し見ていた。</description>
 </item>
 <item>
@@ -594,6 +677,7 @@
 <link>https://journey.yagenji.com/guatemala2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/guatemala2/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06262_antigua.jpg" type="image/jpeg"/>
 <description>カラフルな街の向こうで、Fuego Volcanoが何度も煙を上げていた。</description>
 </item>
 <item>
@@ -601,6 +685,7 @@
 <link>https://journey.yagenji.com/guatemala1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/guatemala1/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC04709_tilal.jpg" type="image/jpeg"/>
 <description>霧のジャングルの奥に、Tikalの遺跡が静かに立っていた。</description>
 </item>
 <item>
@@ -608,6 +693,7 @@
 <link>https://journey.yagenji.com/india3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india3/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09534_pangon.jpg" type="image/jpeg"/>
 <description>映画で見た湖は、光が差すと驚くほど澄んだ青を見せた。</description>
 </item>
 <item>
@@ -615,6 +701,7 @@
 <link>https://journey.yagenji.com/india2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india2/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC08879_lehto.jpg" type="image/jpeg"/>
 <description>5,000mを超える峠を越え、砂埃の舞う道をPangong Lakeへ向かった。</description>
 </item>
 <item>
@@ -622,6 +709,7 @@
 <link>https://journey.yagenji.com/india1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/india1/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC00151_leh.jpg" type="image/jpeg"/>
 <description>標高約3,500mの街で、高地の静けさとLadakhの山々に出会った。</description>
 </item>
 <item>
@@ -629,6 +717,7 @@
 <link>https://journey.yagenji.com/iceland7/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland7/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06123_ice7.jpg" type="image/jpeg"/>
 <description>ロードトリップの最後にReykjavikを歩き、旅の終わりを少しずつ感じた。</description>
 </item>
 <item>
@@ -636,6 +725,7 @@
 <link>https://journey.yagenji.com/iceland6/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland6/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC04140_ice6.jpg" type="image/jpeg"/>
 <description>青空のSnæfellsnes Peninsulaを回り、旅の終わりへ少しずつ近づいた。</description>
 </item>
 <item>
@@ -643,6 +733,7 @@
 <link>https://journey.yagenji.com/iceland5/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland5/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03809_ice5.jpg" type="image/jpeg"/>
 <description>天気の冴えない道を走り、Snæfellsnes Peninsulaへ入っていった。</description>
 </item>
 <item>
@@ -650,6 +741,7 @@
 <link>https://journey.yagenji.com/iceland4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland4/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03002_ice4.jpg" type="image/jpeg"/>
 <description>吹雪の道を越えた夜、空には美しいオーロラが現れた。</description>
 </item>
 <item>
@@ -657,6 +749,7 @@
 <link>https://journey.yagenji.com/iceland3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland3/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02285_ice3.jpg" type="image/jpeg"/>
 <description>春にはまだ早い北東部で、ようやくパフィンに出会った。</description>
 </item>
 <item>
@@ -664,6 +757,7 @@
 <link>https://journey.yagenji.com/iceland2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland2/</guid>
 <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC00934_ice2.jpg" type="image/jpeg"/>
 <description>黒い氷の洞窟を抜け、氷河と大地の景色を追いながら東へ進んだ。</description>
 </item>
 <item>
@@ -671,6 +765,7 @@
 <link>https://journey.yagenji.com/iceland1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/iceland1/</guid>
 <pubDate>Mon, 29 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09238_ice1.jpg" type="image/jpeg"/>
 <description>Reykjavikを離れたその日から、滝と風の国が始まっていた。</description>
 </item>
 <item>
@@ -678,6 +773,7 @@
 <link>https://journey.yagenji.com/kazakhstan3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kazakhstan3/</guid>
 <pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC07296_kolsai.jpg" type="image/jpeg"/>
 <description>Almatyの郊外には、湖の静けさと峡谷の迫力が並んでいた。</description>
 </item>
 <item>
@@ -685,6 +781,7 @@
 <link>https://journey.yagenji.com/kazakhstan2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kazakhstan2/</guid>
 <pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06644_bigalmaty.jpg" type="image/jpeg"/>
 <description>Almatyから日帰りで行ける高地に、冷たい色の湖が静かに広がっていた。</description>
 </item>
 <item>
@@ -692,6 +789,7 @@
 <link>https://journey.yagenji.com/kazakhstan1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kazakhstan1/</guid>
 <pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC08476_almaty.jpg" type="image/jpeg"/>
 <description>天山山脈を背にした街で、秋の終わりの夕景を見た。</description>
 </item>
 <item>
@@ -699,6 +797,7 @@
 <link>https://journey.yagenji.com/kyrgyz3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kyrgyz3/</guid>
 <pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC05266_oshto.jpg" type="image/jpeg"/>
 <description>Pamirを越えた先で、街の音と旧ソ連の名残に出会った。</description>
 </item>
 <item>
@@ -706,6 +805,7 @@
 <link>https://journey.yagenji.com/kyrgyz4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kyrgyz4/</guid>
 <pubDate>Sat, 27 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC05844_alaarcha.jpg" type="image/jpeg"/>
 <description>秋の終わりの山と高原で、鳥の軽さと紅葉の深さに出会った。</description>
 </item>
 <item>
@@ -713,6 +813,7 @@
 <link>https://journey.yagenji.com/tajikistan1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tajikistan1/</guid>
 <pubDate>Fri, 26 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09246_dus.jpg" type="image/jpeg"/>
 <description>Pamirへ向かう前に、無骨で華やかな首都を歩いた。</description>
 </item>
 <item>
@@ -720,6 +821,7 @@
 <link>https://journey.yagenji.com/namibia3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/namibia3/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC08012_etosha.jpg" type="image/jpeg"/>
 <description>広い大地の先に、野生の姿を探しながら走った。</description>
 </item>
 <item>
@@ -727,6 +829,7 @@
 <link>https://journey.yagenji.com/namibia2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/namibia2/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06016_spi.jpg" type="image/jpeg"/>
 <description>海に迫る砂丘から、剥き出しの岩の大地へ走った。</description>
 </item>
 <item>
@@ -734,6 +837,7 @@
 <link>https://journey.yagenji.com/namibia1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/namibia1/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC05606_result.jpg" type="image/jpeg"/>
 <description>オレンジ色の砂丘の奥に、白い大地と黒い木々が立っていた。</description>
 </item>
 <item>
@@ -741,6 +845,7 @@
 <link>https://journey.yagenji.com/tanzania3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tanzania3/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC00685_ngoro.jpg" type="image/jpeg"/>
 <description>外輪山を下ると、クレーターの底に動物の楽園が広がっていた。</description>
 </item>
 <item>
@@ -748,6 +853,7 @@
 <link>https://journey.yagenji.com/tanzania2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tanzania2/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09295_sere.jpg" type="image/jpeg"/>
 <description>草原の先まで、動物たちの時間が続いていた。</description>
 </item>
 <item>
@@ -755,6 +861,7 @@
 <link>https://journey.yagenji.com/tanzania1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tanzania1/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09168_tala.jpg" type="image/jpeg"/>
 <description>最初のサファリで、木の上のヒョウを間近に見た。</description>
 </item>
 <item>
@@ -762,6 +869,7 @@
 <link>https://journey.yagenji.com/paraguay1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/paraguay1/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03420_para.jpg" type="image/jpeg"/>
 <description>南米の旅の途中に、日本があった。</description>
 </item>
 <item>
@@ -769,6 +877,7 @@
 <link>https://journey.yagenji.com/kyrgyz2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kyrgyz2/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_3989_renin.jpg" type="image/jpeg"/>
 <description>雪山に囲まれた小さな街から、Oshへの道を進んだ。</description>
 </item>
 <item>
@@ -776,6 +885,7 @@
 <link>https://journey.yagenji.com/kyrgyz1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/kyrgyz1/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03355_renin.jpg" type="image/jpeg"/>
 <description>雪の中を歩き始め、Lenin Peakが姿を見せるのを待った。</description>
 </item>
 <item>
@@ -783,6 +893,7 @@
 <link>https://journey.yagenji.com/tajikistan4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tajikistan4/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02873_karakul.jpg" type="image/jpeg"/>
 <description>国境近くの高地に、深い青の湖が静かに広がっていた。</description>
 </item>
 <item>
@@ -790,6 +901,7 @@
 <link>https://journey.yagenji.com/tajikistan3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tajikistan3/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02618_pam.jpg" type="image/jpeg"/>
 <description>山深い高原に入ると、岩と砂の大地が果てなく続いていた。</description>
 </item>
 <item>
@@ -797,6 +909,7 @@
 <link>https://journey.yagenji.com/tajikistan2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/tajikistan2/</guid>
 <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01525_waha.jpg" type="image/jpeg"/>
 <description>右手にアフガニスタンを見ながら、Pamir Highwayを進んだ。</description>
 </item>
 <item>
@@ -804,6 +917,7 @@
 <link>https://journey.yagenji.com/chile2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/chile2/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC05386_Arenas.jpg" type="image/jpeg"/>
 <description>Strait of Magellanの風の中に、南へ向かう旅の気配があった。</description>
 </item>
 <item>
@@ -811,6 +925,7 @@
 <link>https://journey.yagenji.com/chile1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/chile1/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC04901_Natares.jpg" type="image/jpeg"/>
 <description>強い風の先に、Torres del Paineの岩峰が立っていた。</description>
 </item>
 <item>
@@ -818,6 +933,7 @@
 <link>https://journey.yagenji.com/argentina2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina2/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01386_result.jpg" type="image/jpeg"/>
 <description>南極へ向かう船を眺めながら、南の果ての街を歩いた。</description>
 </item>
 <item>
@@ -825,6 +941,7 @@
 <link>https://journey.yagenji.com/argentina3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina3/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC03772_el.jpg" type="image/jpeg"/>
 <description>雨上がりの氷河に、虹がかかった。</description>
 </item>
 <item>
@@ -832,6 +949,7 @@
 <link>https://journey.yagenji.com/argentina1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/argentina1/</guid>
 <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02942_result.jpg" type="image/jpeg"/>
 <description>午前一時に歩き始め、朝のFitz Royを待った。</description>
 </item>
 <item>
@@ -839,6 +957,7 @@
 <link>https://journey.yagenji.com/antarctica4/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/antarctica4/</guid>
 <pubDate>Tue, 23 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC01931_result.jpg" type="image/jpeg"/>
 <description>氷山の上に、一羽のエンペラーペンギンが立っていた。</description>
 </item>
 <item>
@@ -846,6 +965,7 @@
 <link>https://journey.yagenji.com/antarctica3/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/antarctica3/</guid>
 <pubDate>Tue, 23 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC09574_result.jpg" type="image/jpeg"/>
 <description>氷の海峡を抜けた先で、シャチが船に並んだ。</description>
 </item>
 <item>
@@ -853,6 +973,7 @@
 <link>https://journey.yagenji.com/antarctica2/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/antarctica2/</guid>
 <pubDate>Tue, 23 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC06172_result.jpg" type="image/jpeg"/>
 <description>雪の海に、クジラの背がゆっくり浮いた。</description>
 </item>
 <item>
@@ -860,6 +981,7 @@
 <link>https://journey.yagenji.com/antarctica1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/antarctica1/</guid>
 <pubDate>Tue, 23 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC02304_result.jpg" type="image/jpeg"/>
 <description>Drake Passageを越えて、初めて南極の雪を踏んだ。</description>
 </item>
 <item>
@@ -867,6 +989,7 @@
 <link>https://journey.yagenji.com/costarica1/</link>
 <guid isPermaLink="true">https://journey.yagenji.com/costarica1/</guid>
 <pubDate>Sat, 20 Jun 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/tucan.jpg" type="image/jpeg"/>
 <description>湿った森の奥で、鳥の色と声を追いかけた。</description>
 </item>
 </channel>
