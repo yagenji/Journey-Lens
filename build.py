@@ -332,7 +332,7 @@ def rfc822(s):
     except Exception: return ""
     return "%s, %02d %s %04d 00:00:00 +0900" % (_DOW[d.weekday()], d.day, _MON[d.month-1], d.year)
 def xesc(s):
-    return ("" if s is None else str(s)).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+    return ("" if s is None else str(s)).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")
 
 feed_items = [(i, c) for i, c in enumerate(LOCS) if c.get("publishedAt")]
 # publishedAt desc, tie-break by array index desc (later added = newer), matches site "recently added"
@@ -343,14 +343,21 @@ for i, c in feed_items:
     title = (c.get("jp") or c.get("en") or "") + (("｜" + place) if place else "")
     link = "%s/%s/" % (DOMAIN, c["id"])
     desc = (c.get("standfirst") or "").strip()
+    thumb = entryThumb(c)
+    thumb_abs = (DOMAIN + thumb) if thumb.startswith("/") else thumb
+    enclosure = (
+        '<enclosure url="%s" type="image/jpeg"/>\n' % xesc(thumb_abs)
+        if thumb_abs else ""
+    )
     rows.append(
         "<item>\n"
         "<title>%s</title>\n"
         "<link>%s</link>\n"
         "<guid isPermaLink=\"true\">%s</guid>\n"
         "<pubDate>%s</pubDate>\n"
+        "%s"
         "<description>%s</description>\n"
-        "</item>" % (xesc(title), link, link, rfc822(c["publishedAt"]), xesc(desc))
+        "</item>" % (xesc(title), link, link, rfc822(c["publishedAt"]), enclosure, xesc(desc))
     )
 now822 = _dt.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0900")
 rss = ('<?xml version="1.0" encoding="UTF-8"?>\n'
