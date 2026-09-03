@@ -41,6 +41,10 @@
       "show": false
     },
     {
+      "jp": "アルメニア",
+      "show": false
+    },
+    {
       "jp": "イラン",
       "show": true
     },
@@ -150,10 +154,6 @@
     },
     {
       "jp": "オーストラリア",
-      "show": true
-    },
-    {
-      "jp": "アルメニア",
       "show": true
     }
   ]
