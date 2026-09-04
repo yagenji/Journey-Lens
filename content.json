@@ -11166,7 +11166,7 @@
           "video": "",
           "duration": "",
           "cap": "St. Saba Church in Truso Valley",
-          "size": "md",
+          "size": "full",
           "shape": "land"
         },
         {
@@ -11298,7 +11298,7 @@
           "video": "",
           "duration": "",
           "cap": "View from Zakagori Fortress in Truso Valley",
-          "size": "md",
+          "size": "sm",
           "shape": "land"
         },
         {
@@ -11334,6 +11334,30 @@
           "video": "",
           "duration": "",
           "cap": "Cattle at the travertines in Truso Valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/jdcixFdzlGw?si=zILjYXdxsrd22Pbt",
+          "video": "",
+          "duration": "0:21",
+          "cap": "Zakagori Fortress and a Flock of Sheep in Truso Valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/jr3_RiTuP5E?si=lwCbWMJ5cHaoHQMb",
+          "video": "",
+          "duration": "0:23",
+          "cap": "Cattle Grazing by the River in Truso Valley",
           "size": "md",
           "shape": "land"
         }
