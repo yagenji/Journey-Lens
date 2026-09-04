@@ -22,11 +22,11 @@
   "media": [
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/DSC07369_kazbegi.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
-      "video": "/uploads/DSC07369_kazbegi.jpg",
+      "video": "",
       "duration": "",
       "cap": "The iconic Gergeti Trinity Church on the hill",
       "size": "full",
@@ -106,7 +106,7 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/DSC07587_kazbegi.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -130,7 +130,7 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/DSC07724_kazbegi.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -233,6 +233,54 @@
       "video": "",
       "duration": "",
       "cap": "The old stone houses in Gergeti village",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/ITUGBLAmPKU?si=0v2LVI1t61BXnU5W",
+      "video": "",
+      "duration": "0:25",
+      "cap": "Gergeti Trinity Church 1",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/oCZSr7JOlDw?si=gB-ebryjyQMg4eTw",
+      "video": "",
+      "duration": "0:38",
+      "cap": "Gergeti Trinity Church 2",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/klAvWe_URP8?si=p5S7qqrcXDmNpupZ",
+      "video": "",
+      "duration": "0:40",
+      "cap": "Gergeti Trinity Church at Night from Stepantsminda",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/wRv-oj1dnRk?si=awqzqrwquy1fexMF",
+      "video": "",
+      "duration": "0:27",
+      "cap": "Gergeti Trinity Church in the Morning from Stepantsminda",
       "size": "md",
       "shape": "land"
     }
