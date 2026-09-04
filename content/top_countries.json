@@ -53,6 +53,10 @@
       "show": false
     },
     {
+      "jp": "カタール",
+      "show": false
+    },
+    {
       "jp": "イラン",
       "show": true
     },
@@ -162,10 +166,6 @@
     },
     {
       "jp": "オーストラリア",
-      "show": true
-    },
-    {
-      "jp": "カタール",
       "show": true
     }
   ]
