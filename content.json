@@ -10680,7 +10680,7 @@
         },
         {
           "type": "photo",
-          "image": "",
+          "image": "/uploads/DSC09376_tbilisi.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -10736,6 +10736,42 @@
           "duration": "",
           "cap": "Street scene near Marjanishvili",
           "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/-krUTV5R2fE?si=nflrURZIELN2chaz",
+          "video": "",
+          "duration": "0:22",
+          "cap": "Tbilisi Cityscape 1",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/rQVsJaMBTkU?si=Z8yQ4zMem6_Es1Ke",
+          "video": "",
+          "duration": "0:31",
+          "cap": "Tbilisi Cityscape 2",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/2Sqcj-KQr08?si=Yp9U5_YhUXB0_IFO",
+          "video": "",
+          "duration": "0:31",
+          "cap": "Tbilisi at Night",
+          "size": "md",
           "shape": "land"
         }
       ]
