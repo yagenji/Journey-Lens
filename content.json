@@ -11503,6 +11503,18 @@
           "cap": "Green slopes of the Caucasus Mountains",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/WBH0ivSBBso?si=25xee8BSRDczRp8c",
+          "video": "",
+          "duration": "0:30",
+          "cap": "Georgian Military Road to Kazbegi",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
