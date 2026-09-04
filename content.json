@@ -30537,6 +30537,197 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "azerbaijan2",
+      "order": 2,
+      "featured": false,
+      "en": "AZERBAIJAN",
+      "jp": "アゼルバイジャン",
+      "placeJa": "Gobustan / Mud Volcanoes / Yanar Dag / Ateshgah",
+      "year": "2023",
+      "continent": "asia",
+      "categories": [
+        "nature",
+        "heritage"
+      ],
+      "publishedAt": "2026-09-04",
+      "lat": 40.1124,
+      "lon": 49.378,
+      "standfirst": "岩に刻まれた人の痕跡から、泥が噴き、地面が燃える風景へと続いていった。",
+      "essay": "Bakuを離れると、街の景色はすぐに乾いた大地へ変わった。\n\n最初に訪れたGobustanでは、岩肌に古い人々が残した線刻画があった。狩りをする人、動物、舟のような形。単純な線なのに、ここで人が暮らしていた時間を想像させるには十分だった。\n\nGobustanには先史時代からの岩絵が数多く残り、人々の生活や儀礼の様子を伝えている。その周辺には泥火山も多く、地中からガスと泥が押し上げられ、小さな火山のような形をつくっている。\n\n泥火山は、大きな噴火を想像すると少し拍子抜けするほど静かだった。地面の穴から泥が膨らみ、ときどき気泡のように弾ける。\n\nしかし、その先で見るYanar Dagはまた違った。\n\n地面の一部から炎が上がり続けている。天然ガスが地下から漏れ出し、長い間燃え続けてきた場所だ。\n\nさらにAteshgah Fire Templeへ行くと、この土地で火がどれほど特別な存在だったのかが分かる。現在の建物は主に17〜18世紀に形成され、ゾロアスター教徒やインド系の火の信仰と関わりを持つ場所として知られている。\n\nGobustanでは人が岩に記憶を残し、泥火山では地面が動き、Yanar Dagでは大地が燃えている。\n\n最後にAteshgahで、その火を人が信仰の対象として見てきた歴史につながった。\n\nアゼルバイジャンが「Land of Fire」と呼ばれる理由は、言葉だけではなく、この一日の景色の中にそのまま現れていた。",
+      "pullquote": "古い人の記憶を見たあと、大地そのものが動いている場所へ向かった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09708_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Ateshgah of Baku Fire Temple",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09744_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The grand entrance of Ateshgah Fire Temple",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09699_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The beautiful arched arcades of Ateshgah Fire Temple",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09650_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The burning hillside of Yanar Dag",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09599_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The unique mud volcanoes in Gobustan",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09512_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ancient rock art at Gobustan National Park",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09510_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The dancing figures petroglyph in Gobustan",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09559_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Animal petroglyphs at Gobustan National Park",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09612_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The beautiful arches at Bibi-Heybat Mosque terrace",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09630_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The grand facade of Bibi-Heybat Mosque",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09626_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The stunning green dome interior of Bibi-Heybat Mosque",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09684_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Overlooking the outskirts of Baku",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09611_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The beautiful stone architecture of Bibi-Heybat Mosque",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09535_gobustan.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Overlooking the Caspian Sea from Gobustan",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
