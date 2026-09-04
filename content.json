@@ -13474,6 +13474,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/IMG_6951_qatar.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Traditional Dhow boats",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/IMG_7083_qatar.jpg",
           "cover": false,
           "mode": "feature",
