@@ -7,7 +7,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 04 Sep 2026 05:53:20 +0900</lastBuildDate>
+<lastBuildDate>Fri, 04 Sep 2026 06:08:50 +0900</lastBuildDate>
 <item>
 <title>ジョージア｜Tbilisi to Kazbegi / Georgian Military Highway</title>
 <link>https://journey.yagenji.com/georgia2/</link>
@@ -15,6 +15,14 @@
 <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
 <enclosure url="https://journey.yagenji.com/uploads/DSC06944_roadtokazbegi.jpg" type="image/jpeg"/>
 <description>首都を離れるほど道は高くなり、街の景色はコーカサスの山へ変わっていった。</description>
+</item>
+<item>
+<title>ジョージア｜Truso Valley</title>
+<link>https://journey.yagenji.com/georgia4/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/georgia4/</guid>
+<pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
+<enclosure url="https://journey.yagenji.com/uploads/DSC08674_truso.jpg" type="image/jpeg"/>
+<description>谷の奥へ進むほど家は少なくなり、最後には山と川だけが残った。</description>
 </item>
 <item>
 <title>ジョージア｜Kazbegi / Stepantsminda</title>
