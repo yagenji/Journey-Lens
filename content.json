@@ -12601,6 +12601,18 @@
           "cap": "Massive Soviet-era apartment building",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/d2vyqXz1YMI?si=-uee0eu5VAjesXg8",
+          "video": "",
+          "duration": "0:21",
+          "cap": "Dance at the Cascade Complex",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
