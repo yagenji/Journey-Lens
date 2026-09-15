@@ -115,7 +115,6 @@ SHAPE= {"land":"r-land","port":"r-port","sq":"r-sq","wide":"r-wide"}
 
 # --- 一覧表示用の縮小版 ---
 # /thumbs/ に同名ファイルがあればそれを表示に使う。無ければ従来どおり原寸。
-# 拡大表示(ライトボックス)は figure の data-full が指す原寸を読むので影響を受けない。
 def thumb_src(u):
     if not u or not u.startswith("/uploads/"): return u
     name = u.split("/")[-1]
@@ -304,6 +303,62 @@ STORY_JS = r'''(function(){
     tgl.setAttribute('aria-expanded',o);tgl.textContent=o?'閉じる ×':'メニュー ＋';});
 })();'''
 open(OUT+"/assets/story.js","w",encoding="utf-8").write(STORY_JS)
+
+
+# ---------- 一覧表示用の縮小版 (/thumbs/) を生成 ----------
+# /uploads/ の原寸から、表示枠に合わせた縮小版を作る。
+# 拡大表示(ライトボックス)は figure の data-full が指す原寸を読むので影響しない。
+# Pillow が無い環境では黙ってスキップし、従来どおり原寸を表示する（ビルドは止めない）。
+THUMB_TARGET  = {"sm": 900, "md": 1280}   # 表示枠(px) × 2（Retina対応）
+THUMB_QUALITY = 82
+def build_thumbs():
+    try:
+        from PIL import Image, ImageOps
+    except Exception as e:
+        print("thumbs: Pillow なし — スキップ（原寸で表示されます）:", e)
+        return
+    tdir = os.path.join(OUT, "thumbs")
+    os.makedirs(tdir, exist_ok=True)
+    mpath = os.path.join(tdir, "manifest.json")
+    try:
+        man = json.load(open(mpath, encoding="utf-8"))
+    except Exception:
+        man = {}
+    made = kept = small = err = 0
+    seen = set()
+    for c in LOCS:
+        for m in (c.get("media") or []):
+            if m.get("type") != "photo": continue
+            u = m.get("image") or ""
+            if not u.startswith("/uploads/"): continue
+            t = THUMB_TARGET.get(m.get("size"))
+            if not t: continue
+            name = u.split("/")[-1]
+            src  = os.path.join(OUT, "uploads", name)
+            dst  = os.path.join(tdir, name)
+            if not os.path.isfile(src): continue
+            seen.add(name)
+            key = "%d:%d" % (os.path.getsize(src), t)
+            if man.get(name) == key and os.path.isfile(dst):
+                kept += 1; continue
+            try:
+                im = ImageOps.exif_transpose(Image.open(src))
+                w, h = im.size
+                if w <= t:
+                    small += 1
+                    man.pop(name, None)
+                    continue
+                im = im.convert("RGB").resize((t, max(1, round(h * t / w))), Image.LANCZOS)
+                im.save(dst, "JPEG", quality=THUMB_QUALITY, optimize=True, progressive=True)
+                man[name] = key
+                made += 1
+            except Exception as e:
+                print("thumbs: スキップ", name, e); err += 1
+    for name in [k for k in man if k not in seen]:
+        man.pop(name, None)
+    json.dump(man, open(mpath, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)
+    print("thumbs: 生成 %d / 据置 %d / 原寸のまま %d / エラー %d" % (made, kept, small, err))
+build_thumbs()
 
 # ---------- write story pages ----------
 # country-level nav: LOCS is already sorted by the CMS country order, so walk distinct
