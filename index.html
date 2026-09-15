@@ -470,7 +470,7 @@ a{color:inherit;text-decoration:none}
       <div class="sec-head"><div><h2 class="sec-en">About</h2><span class="sec-ja">自己紹介</span></div><span class="idx"></span></div>
       <div class="about-grid">
         <div class="about-id">
-          <div class="portrait"><img id="aboutPortrait" src="/uploads/IMG_9759_Pro.jpg" alt="八源寺 誠 のポートレート"></div>
+          <div class="portrait"><img id="aboutPortrait" src="/thumbs/IMG_9759_Pro.jpg" alt="八源寺 誠 のポートレート"></div>
           <p class="about-role" id="aboutRole">旅する人</p>
           <p class="about-name" id="aboutName">八源寺 誠<span class="about-name-en">Makoto Yagenji</span></p>
           <p class="about-style" id="aboutStyle">休みができれば、身軽に行きたい場所へ。街より自然が好きで、美しい景色ではタイムラプスを回す。宿や移動は質素に、その土地のビールやワイン、温泉は楽しむ。猫や鳥を撮りつつ、サッカー好きでスタジアムにも寄る。もとは一人旅、最近は妻とふたりが多い。</p>
@@ -967,7 +967,7 @@ function buildFeatured(){const w=document.getElementById('featuredRows');if(!w)r
       '<span class="feat-read">読む →</span></div>';
     w.appendChild(a);});}
 function buildCover(){const w=document.getElementById('coverMosaic');w.innerHTML='';
-  coverTiles().forEach(t=>{const a=el('a','cover-tile');a.href='/'+t.c.id+'/';a.innerHTML='<img decoding="async" src="'+t.img+'" alt="'+esc(t.c.en)+'"><span class="cover-tile-label">'+esc(t.c.en)+'</span>';w.appendChild(a);});}
+  coverTiles().forEach(t=>{const a=el('a','cover-tile');a.href='/'+t.c.id+'/';a.innerHTML='<img decoding="async" src="'+jlThumbSrc(t.img)+'" alt="'+esc(t.c.en)+'"><span class="cover-tile-label">'+esc(t.c.en)+'</span>';w.appendChild(a);});}
 
 /* atlas: continent-first */
 const wm=document.getElementById('worldmap');
