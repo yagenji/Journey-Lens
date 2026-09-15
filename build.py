@@ -158,7 +158,7 @@ def more_from(c):
         place = s.get("placeJa") or s.get("jp") or ""
         cards += ('<a class="jl-card" href="/%s/"><img loading="lazy" decoding="async" src="%s" alt="%s">'
                   '<div class="cap"><p class="jl-place">%s</p><div class="jl-year">%s</div></div></a>'
-                  % (esc(s["id"]), esc(entryThumb(s)), esc(place), esc(place), esc(s.get("year") or "")))
+                  % (esc(s["id"]), esc(thumb_src(entryThumb(s))), esc(place), esc(place), esc(s.get("year") or "")))
     return ('<section class="cview-more"><div class="cview-more-head">'
             '<h2 class="more-en">More from %s</h2>'
             '<span class="more-ja">%sの他の旅</span></div>'
@@ -310,6 +310,7 @@ open(OUT+"/assets/story.js","w",encoding="utf-8").write(STORY_JS)
 # 拡大表示(ライトボックス)は figure の data-full が指す原寸を読むので影響しない。
 # Pillow が無い環境では黙ってスキップし、従来どおり原寸を表示する（ビルドは止めない）。
 THUMB_TARGET  = {"sm": 900, "md": 1280}   # 表示枠(px) × 2（Retina対応）
+THUMB_CARD    = 900                       # 一覧カードの表示枠(最大419px) × 2
 THUMB_QUALITY = 82
 def build_thumbs():
     try:
@@ -326,6 +327,7 @@ def build_thumbs():
         man = {}
     made = kept = small = err = 0
     seen = set()
+    targets = []
     for c in LOCS:
         for m in (c.get("media") or []):
             if m.get("type") != "photo": continue
@@ -333,6 +335,18 @@ def build_thumbs():
             if not u.startswith("/uploads/"): continue
             t = THUMB_TARGET.get(m.get("size"))
             if not t: continue
+            targets.append((u, t))
+        # 一覧カード用（トップページ／More from）。表示枠は最大419px。
+        cu = entryThumb(c)
+        if cu.startswith("/uploads/"):
+            targets.append((cu, THUMB_CARD))
+    # 同じ写真が記事本文と一覧カードの両方で使われる場合は、大きいほうに合わせる
+    best = {}
+    for u, t in targets:
+        nm = u.split("/")[-1]
+        if best.get(nm, (None, 0))[1] < t: best[nm] = (u, t)
+    for u, t in best.values():
+        if True:
             name = u.split("/")[-1]
             src  = os.path.join(OUT, "uploads", name)
             dst  = os.path.join(tdir, name)
@@ -460,7 +474,7 @@ def _jl_thumb(c):
 def _jl_card(c):
     place=esc(c.get("placeJa") or c.get("jp") or "")
     return ('<a class="jl-card" href="/'+esc(c["id"])+'/"><img loading="lazy" decoding="async" src="'
-            +esc(_jl_thumb(c))+'" alt="'+place+'"><div class="cap"><p class="jl-place">'+place
+            +esc(thumb_src(_jl_thumb(c)))+'" alt="'+place+'"><div class="cap"><p class="jl-place">'+place
             +'</p><div class="jl-year">'+esc(c.get("year") or "")+'</div></div></a>')
 _jl_cards="".join(_jl_card(c) for c in LOCS)
 _idx=open("index.html",encoding="utf-8").read()
