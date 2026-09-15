@@ -10,6 +10,7 @@ on:
       - 'content/visited.json'
       - 'index.html'
       - 'build.py'
+      - 'uploads/**'
   workflow_dispatch:
 
 # 新しい push が来たら、実行中の古いビルドは自動キャンセル（競合を減らす）
@@ -33,6 +34,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Install Pillow (縮小版の生成に使用)
+        run: python3 -m pip install --quiet pillow
 
       - name: Build & commit (retry on push conflict)
         run: |
