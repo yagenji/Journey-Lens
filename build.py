@@ -78,7 +78,7 @@ NAV = NAV.replace('href="#"', 'href="/"') \
 MORE_CSS = (
 ".cview-more{max-width:1240px;margin:0 auto;padding:clamp(44px,7vh,84px) clamp(18px,5vw,40px) 0;border-top:1px solid var(--line)}\n"
 ".cview-more-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:22px}\n"
-".cview-more .more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin:0}\n"
+".cview-more .more-en{font-family:var(--latin);font-weight:600;font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:.01em;color:var(--ink);margin:0}\n"
 ".cview-more .more-ja{font-family:var(--sans);font-size:.78rem;letter-spacing:.2em;color:var(--ink-soft)}\n"
 )
 
@@ -113,6 +113,14 @@ def nameHTML(c):
 SIZE = {"sm":"f-2","md":"f-3","lg":"f-4","full":"f-6"}
 SHAPE= {"land":"r-land","port":"r-port","sq":"r-sq","wide":"r-wide"}
 
+# --- 一覧表示用の縮小版 ---
+# /thumbs/ に同名ファイルがあればそれを表示に使う。無ければ従来どおり原寸。
+# 拡大表示(ライトボックス)は figure の data-full が指す原寸を読むので影響を受けない。
+def thumb_src(u):
+    if not u or not u.startswith("/uploads/"): return u
+    name = u.split("/")[-1]
+    return "/thumbs/" + name if os.path.isfile(os.path.join(OUT, "thumbs", name)) else u
+
 def media_figure(m):
     cls = "plate %s %s" % (SIZE.get(m.get("size"),"f-3"), SHAPE.get(m.get("shape"),"r-land"))
     attrs = ' class="%s" tabindex="0" data-cap="%s"' % (cls, esc(m.get("cap") or ""))
@@ -126,7 +134,11 @@ def media_figure(m):
         inner += '<span class="tag">time-lapse</span>'
         if m.get("duration"): inner += '<span class="dur">%s</span>' % esc(m["duration"])
     else:
-        inner += '<img class="ph" loading="lazy" decoding="async" src="%s" alt="%s">' % (esc(m.get("image") or ""), esc(m.get("cap") or ""))
+        _full = m.get("image") or ""
+        _disp = thumb_src(_full)
+        if _disp != _full:
+            attrs += ' data-full="%s"' % esc(_full)
+        inner += '<img class="ph" loading="lazy" decoding="async" src="%s" alt="%s">' % (esc(_disp), esc(m.get("cap") or ""))
     if m.get("cap"): inner += '<figcaption>%s</figcaption>' % esc(m["cap"])
     return "<figure%s>%s</figure>" % (attrs, inner)
 
@@ -332,7 +344,7 @@ def rfc822(s):
     except Exception: return ""
     return "%s, %02d %s %04d 00:00:00 +0900" % (_DOW[d.weekday()], d.day, _MON[d.month-1], d.year)
 def xesc(s):
-    return ("" if s is None else str(s)).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")
+    return ("" if s is None else str(s)).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
 
 feed_items = [(i, c) for i, c in enumerate(LOCS) if c.get("publishedAt")]
 # publishedAt desc, tie-break by array index desc (later added = newer), matches site "recently added"
@@ -343,21 +355,14 @@ for i, c in feed_items:
     title = (c.get("jp") or c.get("en") or "") + (("｜" + place) if place else "")
     link = "%s/%s/" % (DOMAIN, c["id"])
     desc = (c.get("standfirst") or "").strip()
-    thumb = entryThumb(c)
-    thumb_abs = (DOMAIN + thumb) if thumb.startswith("/") else thumb
-    enclosure = (
-        '<enclosure url="%s" type="image/jpeg"/>\n' % xesc(thumb_abs)
-        if thumb_abs else ""
-    )
     rows.append(
         "<item>\n"
         "<title>%s</title>\n"
         "<link>%s</link>\n"
         "<guid isPermaLink=\"true\">%s</guid>\n"
         "<pubDate>%s</pubDate>\n"
-        "%s"
         "<description>%s</description>\n"
-        "</item>" % (xesc(title), link, link, rfc822(c["publishedAt"]), enclosure, xesc(desc))
+        "</item>" % (xesc(title), link, link, rfc822(c["publishedAt"]), xesc(desc))
     )
 now822 = _dt.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0900")
 rss = ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -377,7 +382,7 @@ open(OUT + "/rss.xml", "w", encoding="utf-8").write(rss)
 print("PWA + RSS written (", len(rows), "feed items )")
 # ---------- remove stale story dirs (deleted stories only) ----------
 _valid = set(c["id"] for c in LOCS)
-_protected = {"assets","icons","content",".github","uploads","node_modules",".git","_generator"}
+_protected = {"assets","icons","content",".github","uploads","thumbs","node_modules",".git","_generator"}
 for _name in os.listdir(OUT):
     _p = os.path.join(OUT, _name)
     if (not os.path.isdir(_p)) or _name in _protected: continue
