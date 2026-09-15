@@ -899,7 +899,7 @@ function nameHTML(c){return esc(c.jp||c.en)+(c.placeJa?'<span class="nm-place">'
 async function loadContent(){try{const r=await fetch('content.json',{cache:'no-store'});if(r.ok)return await r.json();}catch(e){}return FALLBACK;}
 async function loadProfile(){try{const r=await fetch('about.json',{cache:'no-store'});if(r.ok)return await r.json();}catch(e){}return null;}
 function buildAbout(p){if(!p)return;
-  const img=document.getElementById('aboutPortrait');if(img&&p.portrait){img.src=p.portrait;if(p.portraitAlt)img.alt=p.portraitAlt;}
+  const img=document.getElementById('aboutPortrait');if(img&&p.portrait){img.src=jlThumbSrc(p.portrait);if(p.portraitAlt)img.alt=p.portraitAlt;}
   const rl=document.getElementById('aboutRole');if(rl&&p.role!==undefined){if(p.role){rl.textContent=p.role;rl.style.display='';}else{rl.style.display='none';}}
   const nm=document.getElementById('aboutName');if(nm){nm.innerHTML=esc(p.nameJa||'')+(p.nameEn?'<span class="about-name-en">'+esc(p.nameEn)+'</span>':'');}
   const sy=document.getElementById('aboutStyle');if(sy&&p.travelStyle!==undefined){if(p.travelStyle){sy.textContent=p.travelStyle;sy.style.display='';}else{sy.style.display='none';}}
