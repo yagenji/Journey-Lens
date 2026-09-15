@@ -18,6 +18,25 @@ PWA_HEAD = (
 )
 SW_REG = "<script>if('serviceWorker'in navigator){addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
 
+
+# ---------- index.html 内の画像参照を縮小版へ向ける（冪等・ビルド前に実行） ----------
+# カバーのモザイクと About のポートレートは index.html 内で直接 src を組み立てているため、
+# ここで /thumbs/ を向くように書き換える。該当が無ければ何もしない。
+# 実行時に /thumbs/ が無い場合は index.html 内のフォールバックが /uploads/ に戻すので安全。
+def _retarget_index_images():
+    try:
+        _t = open(SRC_HTML, encoding="utf-8").read()
+    except Exception:
+        return
+    _o = _t
+    if "function jlThumbSrc" in _t:
+        _t = _t.replace('a.innerHTML=\'<img decoding="async" src="\'+t.img+\'"', 'a.innerHTML=\'<img decoding="async" src="\'+jlThumbSrc(t.img)+\'"')
+    _t = _t.replace('<img id="aboutPortrait" src="/uploads/', '<img id="aboutPortrait" src="/thumbs/')
+    if _t != _o:
+        open(SRC_HTML, "w", encoding="utf-8").write(_t)
+        print("index.html: カバー／固定画像を縮小版に切替")
+_retarget_index_images()
+
 src = open(SRC_HTML, encoding="utf-8").read()
 
 # --- combine per-story files (content/stories/*.json) via content/top_countries.json ---
@@ -340,6 +359,13 @@ def build_thumbs():
         cu = entryThumb(c)
         if cu.startswith("/uploads/"):
             targets.append((cu, THUMB_CARD))
+    # index.html に直接書かれている画像（About のポートレートなど）も対象にする
+    try:
+        _ix = open(SRC_HTML, encoding="utf-8").read()
+        for _n in set(re.findall(r'<img[^>]+src="/thumbs/([^"]+)"', _ix)):
+            targets.append(("/uploads/" + _n, THUMB_CARD))
+    except Exception:
+        pass
     # 同じ写真が記事本文と一覧カードの両方で使われる場合は、大きいほうに合わせる
     best = {}
     for u, t in targets:
