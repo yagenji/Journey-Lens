@@ -8,9 +8,11 @@
   Cache-Control: no-cache
 
 # 写真は30日間ブラウザにキャッシュさせる。
-# 指定がないとCloudflare Pagesの既定 max-age=0, must-revalidate が適用され、
-# 再訪のたびに1枚につき1往復の再検証が発生する（トップページで約96往復）。
-# 同名での差し替えを行うため immutable は使わず、30日で自然に更新されるようにしている。
+# 指定がないと既定の max-age=0, must-revalidate となり、再訪のたびに1枚ごとに再検証の往復が発生する。
+# 同名での差し替えがあるため immutable は使わない。
 
 /uploads/*
+  Cache-Control: public, max-age=2592000
+
+/thumbs/*
   Cache-Control: public, max-age=2592000
