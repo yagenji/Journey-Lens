@@ -11,7 +11,7 @@
     if(fig.dataset.video){var info=parseVideo(fig.dataset.video);
       if(info&&info.kind==='embed'){var f=el('iframe');f.src=info.embed;f.allow='autoplay; fullscreen; encrypted-media';f.allowFullscreen=true;slot.appendChild(f);}
       else{var v=el('video');v.controls=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.setAttribute('playsinline','');if(fig.dataset.poster)v.poster=fig.dataset.poster;var s=el('source');s.src=info?info.src:fig.dataset.video;v.appendChild(s);slot.appendChild(v);}
-    }else{var im=fig.querySelector('img');var i=el('img');i.src=fig.dataset.full||im.src;i.alt=im.alt;slot.appendChild(i);}
+    }else{var im=fig.querySelector('img');var i=el('img');i.src=im.src;i.alt=im.alt;slot.appendChild(i);}
     var cap=document.getElementById('lbCap');if(cap)cap.textContent=fig.dataset.cap||'';}
   function openLb(fig){lbFigs=[].slice.call((fig.closest('.plates')||document).querySelectorAll('.plate'));lbIdx=lbFigs.indexOf(fig);lbShow(fig);if(lb)lb.classList.add('open');}
   function lbNav(d){if(lbFigs.length<2)return;lbIdx=(lbIdx+d+lbFigs.length)%lbFigs.length;lbShow(lbFigs[lbIdx]);}
