@@ -31,6 +31,7 @@ def _retarget_index_images():
     _o = _t
     if "function jlThumbSrc" in _t:
         _t = _t.replace('a.innerHTML=\'<img decoding="async" src="\'+t.img+\'"', 'a.innerHTML=\'<img decoding="async" src="\'+jlThumbSrc(t.img)+\'"')
+        _t = _t.replace('if(img&&p.portrait){img.src=p.portrait;', 'if(img&&p.portrait){img.src=jlThumbSrc(p.portrait);')
     _t = _t.replace('<img id="aboutPortrait" src="/uploads/', '<img id="aboutPortrait" src="/thumbs/')
     if _t != _o:
         open(SRC_HTML, "w", encoding="utf-8").write(_t)
