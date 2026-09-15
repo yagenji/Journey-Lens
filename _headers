@@ -1,9 +1,16 @@
 # Cloudflare Pages headers
 # データ系JSONはCMS/ビルドで更新されるため、古いキャッシュを配信しないよう毎回再検証させる。
-# （画像やCSS/JS等の静的アセットは従来通りキャッシュされます）
 
 /content.json
   Cache-Control: no-cache
 
 /content/*
   Cache-Control: no-cache
+
+# 写真は30日間ブラウザにキャッシュさせる。
+# 指定がないとCloudflare Pagesの既定 max-age=0, must-revalidate が適用され、
+# 再訪のたびに1枚につき1往復の再検証が発生する（トップページで約96往復）。
+# 同名での差し替えを行うため immutable は使わず、30日で自然に更新されるようにしている。
+
+/uploads/*
+  Cache-Control: public, max-age=2592000
