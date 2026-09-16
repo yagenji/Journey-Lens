@@ -7,6 +7,11 @@
 /content/*
   Cache-Control: no-cache
 
+# 公開RSSはATLASを含む別オリジンからも読み込む。認証情報は含まない。
+/rss.xml
+  Cache-Control: no-cache
+  Access-Control-Allow-Origin: *
+
 # 写真は30日間ブラウザにキャッシュさせる。
 # 指定がないと既定の max-age=0, must-revalidate となり、再訪のたびに1枚ごとに再検証の往復が発生する。
 # 同名での差し替えがあるため immutable は使わない。
