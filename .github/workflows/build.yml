@@ -10,6 +10,8 @@ on:
       - 'content/visited.json'
       - 'index.html'
       - 'build.py'
+      - 'rss_photo_enclosures.py'
+      - '.github/workflows/build.yml'
       - 'uploads/**'
   workflow_dispatch:
 
@@ -46,6 +48,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python3 build.py
+            python3 rss_photo_enclosures.py
             git add -A
             if git diff --cached --quiet; then
               echo "No changes — already up to date."
