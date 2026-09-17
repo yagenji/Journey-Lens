@@ -32066,6 +32066,220 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "turkiye6",
+      "order": 6,
+      "featured": false,
+      "en": "TURKIYE",
+      "jp": "トルコ",
+      "placeJa": "Ephesus",
+      "year": "2019",
+      "continent": "asia",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-09-17",
+      "lat": 37.939,
+      "lon": 27.341,
+      "standfirst": "大理石の道の先に巨大な図書館が立ち、古代都市の輪郭が今も残っていた。",
+      "essay": "Ephesusでは、遺跡の中を歩いているというより、かつての街路をそのまま進んでいるような感覚になった。\n\n石畳の道が続き、その両側には柱や建物の跡が残っている。少し進むとCelsus Libraryの大きな正面が現れ、その先には巨大な劇場もある。\n\nEphesusは古代の重要な港湾都市であり、ヘレニズム時代からローマ時代にかけて繁栄した。現在残るCelsus Libraryや大劇場は、ローマ帝国時代の都市の規模を伝えている。しかし長い年月の間に川が運ぶ土砂によって海岸線が後退し、かつての港は次第に海から離れていった。\nUNESCO World Heritage Centre\n\n今の遺跡を歩いていても、海はすぐ近くには見えない。\n\nそれでも、かつてここに船が入り、多くの人や物が集まっていたことを知ると、広い街路の見え方が変わってくる。\n\n建物の規模だけではない。道路や広場、劇場が一つの都市としてまとまって残っていることに驚いた。\n\n人々が行き交っていた道を、今は旅行者が歩いている。\n\n都市としての役割は失われても、その形が残ることで、かつての暮らしを想像できる場所だった。",
+      "pullquote": "これほど大きな都市が、今は海から離れた場所に残っていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3885_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The ancient Library of Celsus in Ephesus",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3567_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Details of the Library of Celsus in Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3598_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ancient Roman columns at Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3667_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Temple of Hadrian in Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3796_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Fountain of Trajan in Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3595_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Great Theatre of Ephesus",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3820_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Panoramic view of Ephesus with Celsus Library",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3621_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Walking down Curetes Street in Ephesus",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3505_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Great Theatre of Ephesus",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3682_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Gate of Hercules in Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3586_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The ancient ruins of Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3760_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Memmius Monument in Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3703_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Fountain of Pollio in Ephesus",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3532_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Arcadian Street in Ephesus",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3745_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ancient stone arch in Ephesus",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3775_efes.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Looking down Curetes Street in Ephesus",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
