@@ -31195,7 +31195,7 @@
       ]
     },
     {
-      "id": "turkiye",
+      "id": "turkiye2",
       "order": 2,
       "featured": false,
       "en": "TURKIYE",
@@ -31860,6 +31860,209 @@
           "duration": "",
           "cap": "Panoramic view of Göreme town",
           "size": "sm",
+          "shape": "land"
+        }
+      ]
+    },
+    {
+      "id": "turkiye5",
+      "order": 5,
+      "featured": true,
+      "en": "TURKIYE",
+      "jp": "トルコ",
+      "placeJa": "Pamukkale",
+      "year": "2019",
+      "continent": "asia",
+      "categories": [
+        "heritage",
+        "nature"
+      ],
+      "publishedAt": "2026-09-17",
+      "lat": 37.9204,
+      "lon": 29.121,
+      "standfirst": "乾いた大地の斜面に、雪が積もったような白い段々の地形が広がっていた。",
+      "essay": "Pamukkaleの白さは、周囲の景色から少し浮いて見えた。乾いた大地の中に、そこだけ雪が積もったような斜面が続いている。しかし近づけば、それは雪でも氷でもなく、温泉水によってつくられた石灰の地形だった。\n\nPamukkaleの地形は、炭酸カルシウムを含む温泉水が長い時間をかけて石灰を堆積させたことで形成された。その上には古代都市Hierapolisがあり、紀元前2世紀末に温泉保養地として発展し始め、ローマ時代にも繁栄した。現在も劇場や浴場などの遺跡が残っている。\n\n白い石灰棚と古代都市。\n\n一見するとまったく違う二つの景色だが、どちらも同じ温泉によって生まれたものだった。\n\n地面から湧き出す水が長い時間をかけて白い斜面をつくり、その水を求めて人々が街を築いた。\n\n自然がつくった景色と、人が残した歴史が、ここでは一つの場所に重なっていた。\n\nPamukkaleでは、白い石灰棚だけを見て終わるのではなく、その上に残る古代都市まで含めて眺めることで、この土地の長い時間が少し見えてきた。",
+      "pullquote": "白い斜面の上には、かつて人々が温泉を求めて集まった都市が残っていた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2260_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The white travertines of Pamukkale",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2340_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Walking on the travertines of Pamukkale",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2327_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The layered travertines of Pamukkale",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3193_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Sunset over Pamukkale travertines",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2352_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The stunning white terraces of Pamukkale",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2297_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Walking through the thermal pools of Pamukkale",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2573_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Overlooking the valley from Pamukkale",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2153_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The dramatic white terraces of Pamukkale",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/GOPR0906_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The ancient theatre of Hierapolis",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2463_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ancient columns of Hierapolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2451_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The ancient Frontinus Gate of Hierapolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2431_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ancient columns and statue at Hierapolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2287_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The vast ancient ruins of Hierapolis",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2282_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Swimming in the Cleopatra Antique Pool",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2088_pamukkale.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Looking up at the white cliffs of Pamukkale",
+          "size": "md",
           "shape": "land"
         }
       ]

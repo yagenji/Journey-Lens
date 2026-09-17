@@ -7,7 +7,15 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 17 Sep 2026 16:18:00 +0900</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 16:27:34 +0900</lastBuildDate>
+<item>
+<title>トルコ｜Pamukkale</title>
+<link>https://journey.yagenji.com/turkiye5/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/turkiye5/</guid>
+<pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+<description>乾いた大地の斜面に、雪が積もったような白い段々の地形が広がっていた。</description>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_2260_pamukkale.jpg" length="0" type="image/jpeg"/>
+</item>
 <item>
 <title>トルコ｜Cappadocia</title>
 <link>https://journey.yagenji.com/turkiye4/</link>
@@ -22,12 +30,12 @@
 <guid isPermaLink="true">https://journey.yagenji.com/turkiye/</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
 <description>内陸の高原に広がる首都には、古い城塞と近代的な街並みが並んでいた。</description>
-<enclosure url="https://journey.yagenji.com/uploads/IMG_9193_saflanbor.jpg" length="0" type="image/jpeg"/>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_9792_ankara.jpg" length="0" type="image/jpeg"/>
 </item>
 <item>
 <title>トルコ｜Safranbolu</title>
-<link>https://journey.yagenji.com/turkiye/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/turkiye/</guid>
+<link>https://journey.yagenji.com/turkiye2/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/turkiye2/</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
 <description>谷に沿って古い家々が重なり、赤い屋根が丘の斜面を埋めていた。</description>
 <enclosure url="https://journey.yagenji.com/uploads/IMG_9193_saflanbor.jpg" length="0" type="image/jpeg"/>
