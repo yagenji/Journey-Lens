@@ -32434,6 +32434,112 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "turkiye8",
+      "order": 8,
+      "featured": false,
+      "en": "TURKIYE",
+      "jp": "トルコ",
+      "placeJa": "İzmir / Çeşme",
+      "year": "2019",
+      "continent": "asia",
+      "categories": [
+        "cities"
+      ],
+      "publishedAt": "2026-09-17",
+      "lat": 38.3225,
+      "lon": 26.3051,
+      "standfirst": "大きな港町から半島の先へ進むと、エーゲ海の青さが少しずつ近づいてきた。",
+      "essay": "İzmirは、海とともに広がってきた都市だった。大きな湾に沿って市街地が続き、海岸沿いには歩道や建物が並んでいる。内陸の街を巡ってきた後では、海がすぐそばにあるだけで、街の空気が大きく変わったように感じる。\n\nİzmirは古代にはSmyrnaと呼ばれ、エーゲ海の交易都市として発展した。オスマン帝国時代にも重要な港として栄え、現在もトルコ西部を代表する大都市の一つである。\n\nそこから西へ進むと、Çeşme半島がエーゲ海へ突き出している。\n\nÇeşmeには小さな湾や砂浜が点在し、街の中心には16世紀の城塞も残る。海辺のリゾートでありながら、長く船が行き交ってきた土地の歴史も見える場所だった。\n\nİzmirでは、大きな港町としての海を見た。\n\nÇeşmeでは、より近くに海を感じる景色が広がっていた。\n\n同じエーゲ海でも、街から眺める海と、半島の先で見る海では印象が違う。\n\n都市の大きさから少しずつ離れ、海と空が広がる場所へ向かう。その変化が、この一帯を巡る旅の記憶になった。",
+      "pullquote": "都市を離れて半島を進むと、海は港の景色から小さな入り江へ変わっていった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4882_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Fishing at Kordon Alsancak in Izmir",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4939_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Izmir Clock Tower in Konak Square",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4908_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Konak Pier in Izmir",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4893_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Pasaport Pier in Izmir",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4921_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Looking at the city hills from Izmir Kordon",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4941_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Konak Mosque in Izmir",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4077_izmr.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Cesme Castle in Izmir",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
