@@ -1,0 +1,143 @@
+{
+  "id": "turkiye",
+  "order": 2,
+  "featured": false,
+  "en": "TURKIYE",
+  "jp": "トルコ",
+  "placeJa": "Safranbolu",
+  "year": "2019",
+  "continent": "asia",
+  "categories": [
+    "cities",
+    "heritage"
+  ],
+  "publishedAt": "2026-09-17",
+  "lat": 41.2508,
+  "lon": 32.6942,
+  "standfirst": "谷に沿って古い家々が重なり、赤い屋根が丘の斜面を埋めていた。",
+  "essay": "Safranboluは、大都市とは違う時間が流れる街だった。谷に沿って古い家が並び、細い石畳の道がその間を曲がりながら続いている。白い壁と木の骨組み、赤い屋根が重なる街並みには、どこか親しみやすさがあった。\n\nSafranboluは、13世紀から20世紀初頭にかけて、東西を結ぶ隊商交易の中継地として栄えた。特に17世紀には商業都市として発展し、その繁栄の中で築かれた住宅や街路が現在も残っている。伝統的なオスマン都市の姿を伝える街として、世界遺産にも登録されている。\nUNESCO World Heritage Centre\n\n家々は平らな土地に整然と並んでいるわけではない。斜面に沿って少しずつ高さを変え、道もその地形に合わせて続いていく。\n\n高い場所から眺めると、赤い屋根が一つの大きな街並みになっていた。\n\nIstanbulのような巨大なモスクや宮殿はない。それでも、Safranboluには人が暮らすためにつくられた建築がまとまって残っている。\n\n街を歩いていて印象に残るのは、特別な建物というより、その間をつなぐ道だった。",
+  "pullquote": "家々の間を歩くと、かつて旅人が立ち寄った街の姿が見えてきた。",
+  "noteUrl": "",
+  "media": [
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9193_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Historic Ottoman Town",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9118_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Cobblestone Alley",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9164_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Traditional Ottoman Village",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9083_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Historic Mosque and the Square",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9062_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Traditional Houses on the Hillside",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9682_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Old Town Lit Up at Night",
+      "size": "full",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9471_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "Sunset Over the Mountains",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9460_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Clock Tower and the Minaret",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9246_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Vintage Car and the Domes",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "photo",
+      "image": "/uploads/IMG_9305_saflanbor.jpg",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "",
+      "video": "",
+      "duration": "",
+      "cap": "The Alley Cat on the Move",
+      "size": "md",
+      "shape": "land"
+    }
+  ]
+}
