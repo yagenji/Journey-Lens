@@ -7,15 +7,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 17 Sep 2026 17:21:38 +0900</lastBuildDate>
-<item>
-<title>ギリシャ｜Chios</title>
-<link>https://journey.yagenji.com/greece1/</link>
-<guid isPermaLink="true">https://journey.yagenji.com/greece1/</guid>
-<pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-<description>エーゲ海の島を内陸へ進むと、幾何学模様の家々や石造りの村が現れた。</description>
-<enclosure url="https://journey.yagenji.com/uploads/IMG_4705_chios.jpg" length="0" type="image/jpeg"/>
-</item>
+<lastBuildDate>Thu, 17 Sep 2026 17:25:05 +0900</lastBuildDate>
 <item>
 <title>トルコ｜İzmir / Çeşme</title>
 <link>https://journey.yagenji.com/turkiye8/</link>
@@ -79,6 +71,14 @@
 <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
 <description>海峡を挟んで二つの大陸が向かい合い、その間を船が絶えず行き交っていた。</description>
 <enclosure url="https://journey.yagenji.com/uploads/IMG_7246_istanbur.jpg" length="0" type="image/jpeg"/>
+</item>
+<item>
+<title>ギリシャ｜Chios</title>
+<link>https://journey.yagenji.com/greece1/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/greece1/</guid>
+<pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+<description>エーゲ海の島を内陸へ進むと、幾何学模様の家々や石造りの村が現れた。</description>
+<enclosure url="https://journey.yagenji.com/uploads/IMG_4705_chios.jpg" length="0" type="image/jpeg"/>
 </item>
 <item>
 <title>カタール｜Doha</title>
