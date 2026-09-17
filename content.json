@@ -32280,6 +32280,160 @@
           "shape": "land"
         }
       ]
+    },
+    {
+      "id": "turkiye7",
+      "order": 7,
+      "featured": false,
+      "en": "TURKIYE",
+      "jp": "トルコ",
+      "placeJa": "Selçuk",
+      "year": "2019",
+      "continent": "asia",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-09-17",
+      "lat": 37.9508,
+      "lon": 27.3686,
+      "standfirst": "古代都市のすぐ近くに、別の時代につくられた街と教会の跡が残っていた。",
+      "essay": "Selçukは、Ephesusのすぐそばにある街だった。しかし、巨大な古代都市とは違い、そこには現在の人々の暮らしが続いている。\n\n街を歩くと、古い城塞や教会の遺跡があり、その間に住宅や店が並んでいる。\n\nEphesusは港が土砂で埋まるにつれて、その重要性を次第に失っていった。人々の生活の中心はAyasuluk Hill周辺へ移り、そこには6世紀にSt. John’s Basilicaが建てられた。その後もトルコ系勢力やオスマン帝国の時代を経て、現在のSelçukへとつながっている。\n\n丘の上には、使徒ヨハネの墓所と伝えられる場所に築かれた大聖堂の跡が残る。\n\nその近くには、14世紀に建てられたİsa Bey Mosqueもある。\n\n古代の神殿、キリスト教の大聖堂、イスラム教のモスク。\n\n同じ地域に異なる信仰の建物が残っていることからも、この土地が長い時間をかけて変わってきたことが分かる。\n\nEphesusでは、かつて栄えた巨大な都市の姿を見た。\n\nSelçukでは、その都市が衰退した後にも、人々の暮らしが別の形で続いてきたことが見えてくる。\n\n二つの場所は近い。それでも、そこに残る歴史は同じではなかった。",
+      "pullquote": "海から離れた古代都市の人々は、やがて別の場所に街を築いていった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3975_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Basilica of St John in Selcuk",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3950_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ayasuluk Citadel in Selcuk",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3955_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The beautiful town of Selçuk",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3918_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Byzantine Aqueduct in Selçuk",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3932_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Basilica of St John in Selçuk",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3979_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Basilica of St John and Ayasuluk Castle",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3939_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Basilica of St John in Selçuk",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4047_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Turkish cat on a traditional carpet",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3986_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Ayasuluk Citadel in Selçuk",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4020_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Stork nest on the Selçuk Aqueduct",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_3961_cerchku.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Basilica of St John in Selçuk",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
