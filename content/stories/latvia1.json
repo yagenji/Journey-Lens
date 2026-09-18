@@ -141,7 +141,7 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/IMG_3917_riga.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -208,7 +208,7 @@
       "video": "",
       "duration": "",
       "cap": "The House of the Blackheads and St. Peter's Church",
-      "size": "md",
+      "size": "full",
       "shape": "land"
     },
     {
