@@ -34413,6 +34413,101 @@
           "shape": "port"
         }
       ]
+    },
+    {
+      "id": "estonia2",
+      "order": 2,
+      "featured": false,
+      "en": "ESTONIA",
+      "jp": "エストニア",
+      "placeJa": "Pärnu",
+      "year": "2019",
+      "continent": "europe",
+      "categories": [
+        "cities",
+        "nature"
+      ],
+      "publishedAt": "2026-09-18",
+      "lat": 58.3859,
+      "lon": 24.4971,
+      "standfirst": "長い砂浜と緑の多い街並みが続くバルト海沿いの小さな街には、首都とは違う穏やかな時間が流れていた。",
+      "essay": "Pärnuは、Tallinnの旧市街とはまったく違う表情を持つ街だった。\n\n高い城壁や教会の尖塔が並ぶのではなく、低い建物と緑の多い通りが続いている。街から海へ向かうと、広い砂浜が現れる。バルト海の海岸は遠くまで続き、空まで大きくなったように感じられる。\n\nPärnuは中世には交易都市として栄えたが、19世紀になると海辺の保養地として発展した。1838年には海水浴や温浴を楽しむ施設が開かれ、その後は夏を過ごすために人々が訪れる街となった。現在もエストニアの「夏の首都」として親しまれている。\n\n海岸の近くには、古い木造住宅や保養施設が残っている。かつて療養のために訪れた人々が過ごした街には、今もその時代の建築が見られる。\n\n旧市街を歩いて歴史を探すTallinnとは違い、Pärnuでは街の中を歩き、そのまま海へ出ることが自然な過ごし方に思えた。\n\n大きな見どころが次々と現れる街ではない。\n\nそれでも、木々の間を抜けた先に砂浜があり、海が広がっている。その距離の近さが心地よかった。\n\nPärnuでは、何かを見に行くというより、海辺の街で過ごすこと自体が旅になっていた。",
+      "pullquote": "この街では、海辺で過ごす時間そのものが、長く受け継がれてきた文化だった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4314_parnu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pärnu Beach",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4303_parnu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pärnu Beach",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4281_parnu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "A colorful mural of a captain on an old building",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4335_parnu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "St. Elizabeth's Church",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4331_parnu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Creative window art gallery",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_4289_parnu.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Pärnu Mud Baths",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
