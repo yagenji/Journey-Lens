@@ -1190,7 +1190,7 @@ function router(){const h=location.hash;
 /* --- Stories 一覧（主役）--- */
 const JL_CONT_JA={asia:'アジア',europe:'ヨーロッパ',africa:'アフリカ',namerica:'北米',samerica:'南米',oceania:'オセアニア',antarctica:'南極'};
 const JL_CONT_ORDER=['antarctica','europe','asia','namerica','samerica','africa','oceania'];
-let JL_HIDDEN=["ギリシャ","カザフスタン","トルクメニスタン","ブータン","バングラデシュ","アゼルバイジャン","アルメニア","カタール","オマーン","イスラエル","パレスチナ","メキシコ","ベリーズ","パナマ","ペルー","ブラジル","パラグアイ","ウルグアイ","ケニア","ザンビア","ジンバブエ","ボツワナ","南アフリカ"];
+let JL_HIDDEN=["ギリシャ","エストニア","ラトビア","カザフスタン","トルクメニスタン","ブータン","バングラデシュ","アゼルバイジャン","アルメニア","カタール","オマーン","イスラエル","パレスチナ","メキシコ","ベリーズ","パナマ","ペルー","ブラジル","パラグアイ","ウルグアイ","ケニア","ザンビア","ジンバブエ","ボツワナ","南アフリカ"];
 const JL_CAT_JA={nature:'自然',cities:'街',heritage:'遺跡',wildlife:'生きもの'};
 const JL_PER=3;let jlCat='',jlCont='',jlQ='',jlRec=true;const jlExp={};
 function jlThumbSrc(u){return (u&&u.indexOf('/uploads/')===0)?u.replace('/uploads/','/thumbs/'):u;}addEventListener('error',function(e){var t=e.target;if(t&&t.tagName==='IMG'&&t.src.indexOf('/thumbs/')>-1){t.onerror=null;t.src=t.src.replace('/thumbs/','/uploads/');}},true);function jlThumb(c){var u='';if(c.heroImage)u=c.heroImage;else{var p=(c.media||[]).find(m=>m.type==='photo');if(p&&p.image)u=p.image;else{var v=(c.media||[]).find(m=>m.type==='video'&&m.image);u=v?v.image:'';}}return jlThumbSrc(u);}
