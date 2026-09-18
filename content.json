@@ -33638,6 +33638,148 @@
           "shape": "port"
         }
       ]
+    },
+    {
+      "id": "lithuania",
+      "order": 4,
+      "featured": false,
+      "en": "LITHUANIA",
+      "jp": "リトアニア",
+      "placeJa": "Hill of Crosses",
+      "year": "2019",
+      "continent": "europe",
+      "categories": [
+        "heritage"
+      ],
+      "publishedAt": "2026-09-18",
+      "lat": 56.0153,
+      "lon": 23.4167,
+      "standfirst": "小さな丘を埋め尽くすように十字架が立ち、その間にも、誰かが残した新しい祈りが重なっていた。",
+      "essay": "Hill of Crossesには、数えきれないほどの十字架が立っていた。\n\n大きなものもあれば、手のひらに収まりそうな小さなものもある。木製の十字架、金属の十字架、その間に結ばれたロザリオ。一本一本は違う形をしているのに、丘全体が十字架で覆われていた。\n\nこの丘に十字架が立てられるようになった起源には諸説あるが、19世紀のロシア帝国に対する蜂起で亡くなった人々を追悼するためだったとも伝えられている。\n\nソ連統治下では、当局によって十字架が撤去され、丘が繰り返し破壊された。それでも人々は再び十字架を立て続けた。現在では信仰や追悼、願いを託す場所として、多くの人が訪れている。\n\n丘の中には細い道があり、その両側に十字架が重なっている。\n\n一つひとつに込められた願いを知ることはできない。それでも、これほど多くの人が同じ場所に何かを残してきたことには、言葉では説明しきれない重みがある。\n\n大きな教会でも、豪華な宗教建築でもない。\n\n小さな丘に、人々が十字架を持ち寄った。\n\nHill of Crossesで印象に残ったのは、十字架の数そのものよりも、それを置き続けてきた人々の存在だった。",
+      "pullquote": "何度取り払われても、人々はこの丘に十字架を戻してきた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2728_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2739_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2701_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2747_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2750_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2756_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2816_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2755_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2710_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "sm",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/IMG_2718_hillofcross.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Hill of Crosses",
+          "size": "sm",
+          "shape": "land"
+        }
+      ]
     }
   ],
   "newDays": 14
