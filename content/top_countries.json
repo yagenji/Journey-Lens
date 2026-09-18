@@ -13,6 +13,22 @@
       "show": false
     },
     {
+      "jp": "スロベニア",
+      "show": true
+    },
+    {
+      "jp": "エストニア",
+      "show": true
+    },
+    {
+      "jp": "ラトビア",
+      "show": true
+    },
+    {
+      "jp": "リトアニア",
+      "show": true
+    },
+    {
       "jp": "タジキスタン",
       "show": true
     },
@@ -174,22 +190,6 @@
     },
     {
       "jp": "オーストラリア",
-      "show": true
-    },
-    {
-      "jp": "リトアニア",
-      "show": true
-    },
-    {
-      "jp": "ラトビア",
-      "show": true
-    },
-    {
-      "jp": "エストニア",
-      "show": true
-    },
-    {
-      "jp": "スロベニア",
       "show": true
     }
   ]
