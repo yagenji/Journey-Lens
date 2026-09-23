@@ -38,6 +38,22 @@ def _retarget_index_images():
         print("index.html: カバー／固定画像を縮小版に切替")
 _retarget_index_images()
 
+
+# ---------- フッターの注記を削除（Q&Aページへ移設済み・冪等） ----------
+# index.html から消すと、ここから抽出されるフッターを使う全物語ページにも反映される。
+# 単体ページ（privacy / qa）にも同じ記述があるため、存在すればあわせて削除する。
+_FOOTER_NOTE = '<span class="meta-note">写真とことばは、旅の記憶にもとづく個人的な記録です。</span><br>'
+def _strip_footer_note():
+    for _p in (SRC_HTML, 'privacy/index.html', 'qa/index.html'):
+        try:
+            _t = open(_p, encoding='utf-8').read()
+        except Exception:
+            continue
+        if _FOOTER_NOTE in _t:
+            open(_p, 'w', encoding='utf-8').write(_t.replace(_FOOTER_NOTE, ''))
+            print('footer: 注記を削除', _p)
+_strip_footer_note()
+
 src = open(SRC_HTML, encoding="utf-8").read()
 
 # --- combine per-story files (content/stories/*.json) via content/top_countries.json ---
