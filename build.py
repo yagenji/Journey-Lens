@@ -54,6 +54,23 @@ def _strip_footer_note():
             print('footer: 注記を削除', _p)
 _strip_footer_note()
 
+# ---------- フッターに Q&A へのリンクを追加（冪等） ----------
+_QA_FROM = '<span class="meta-links"><a class="rss-link" href="/privacy/">プライバシー</a>'
+_QA_TO   = '<span class="meta-links"><a class="rss-link" href="/qa/">Q&amp;A</a><a class="rss-link" href="/privacy/">プライバシー</a>'
+def _add_qa_link():
+    for _p in (SRC_HTML, 'privacy/index.html', 'qa/index.html'):
+        try:
+            _t = open(_p, encoding='utf-8').read()
+        except Exception:
+            continue
+        if 'href="/qa/"' in _t:
+            continue
+        if _QA_FROM in _t:
+            open(_p, 'w', encoding='utf-8').write(_t.replace(_QA_FROM, _QA_TO))
+            print('footer: Q&A リンクを追加', _p)
+_add_qa_link()
+
+
 src = open(SRC_HTML, encoding="utf-8").read()
 
 # --- combine per-story files (content/stories/*.json) via content/top_countries.json ---
