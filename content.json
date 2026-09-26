@@ -21572,6 +21572,42 @@
           "cap": "Panoramic view of Göreme town",
           "size": "sm",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/WLahwgMqZ9E?si=Not5TMGledZcE-7N",
+          "video": "",
+          "duration": "0:22",
+          "cap": "Morning Hot Air Balloons in Cappadocia",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/Ze3pUT0YZcY?si=_zfkxQmkJu2p6fRA",
+          "video": "",
+          "duration": "0:21",
+          "cap": "Hot Air Balloons over Cappadocia",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/wxUUTp_Qpfw?si=164awSfkBGuaHCRR",
+          "video": "",
+          "duration": "0:32",
+          "cap": "Sunrise Balloons in Cappadocia",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
