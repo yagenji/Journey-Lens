@@ -21811,6 +21811,30 @@
           "cap": "Looking up at the white cliffs of Pamukkale",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/jp3olVpdH7Q?si=9L-VRwfo0Tikr0pD",
+          "video": "",
+          "duration": "0:35",
+          "cap": "Pamukkale Travertines in Daylight",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/b5GQdbx5Uik?si=BeA5YDk1vqxyjclX",
+          "video": "",
+          "duration": "0:23",
+          "cap": "Sunset at Pamukkale Travertines",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
