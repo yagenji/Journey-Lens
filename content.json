@@ -20890,6 +20890,18 @@
           "cap": "Inside the Egyptian Bazaar",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/d2Qk79akIZU?si=nq_QC4UshBU6lMok",
+          "video": "",
+          "duration": "0:39",
+          "cap": "Sunset in Istanbul",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
