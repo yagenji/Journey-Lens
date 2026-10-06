@@ -10,3 +10,8 @@
 /azerbaijan   /azerbaijan1/  301
 /qatar/  /qatar1/  301
 /qatar   /qatar1/  301
+
+# 公開不要なビルド用ファイルは 404 ページへ飛ばす（Pages の _redirects は 404 を直接返せないため 302）
+/build.py      /404.html  302
+/build.yml     /404.html  302
+/.github/*     /404.html  302
