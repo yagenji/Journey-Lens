@@ -34929,6 +34929,18 @@
       "media": [
         {
           "type": "photo",
+          "image": "/uploads/DSC09613_cairo.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The Great Pyramids of Giza looming through the hazy skyline",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/IMG_2469_cairo.jpg",
           "cover": false,
           "mode": "feature",
@@ -34936,7 +34948,7 @@
           "video": "",
           "duration": "",
           "cap": "Sunset glow over the iconic Grand Nile Tower skyline",
-          "size": "full",
+          "size": "md",
           "shape": "land"
         },
         {
@@ -34948,18 +34960,6 @@
           "video": "",
           "duration": "",
           "cap": "Golden hour framed by the Citadel of Saladin",
-          "size": "md",
-          "shape": "land"
-        },
-        {
-          "type": "photo",
-          "image": "/uploads/DSC09613_cairo.jpg",
-          "cover": false,
-          "mode": "feature",
-          "videoUrl": "",
-          "video": "",
-          "duration": "",
-          "cap": "The Great Pyramids of Giza looming through the hazy skyline",
           "size": "md",
           "shape": "land"
         },
@@ -35217,7 +35217,7 @@
         },
         {
           "type": "photo",
-          "image": "",
+          "image": "/uploads/DSC09068_cairo.jpg",
           "cover": false,
           "mode": "feature",
           "videoUrl": "",
@@ -35273,7 +35273,7 @@
           "duration": "",
           "cap": "The magical glowing lanterns of Khan El-Khalili at night",
           "size": "md",
-          "shape": "land"
+          "shape": "port"
         }
       ]
     },
