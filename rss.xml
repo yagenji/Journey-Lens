@@ -7,7 +7,7 @@
 <atom:link href="https://journey.yagenji.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>旅の風景・街・人の写真とタイムラプス。</description>
 <language>ja</language>
-<lastBuildDate>Sat, 17 Oct 2026 14:36:35 +0900</lastBuildDate>
+<lastBuildDate>Sat, 17 Oct 2026 14:47:24 +0900</lastBuildDate>
 <item>
 <title>エジプト｜Cats in Cairo</title>
 <link>https://journey.yagenji.com/egypt2/</link>
@@ -15,6 +15,14 @@
 <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
 <description>人と車であふれる街の隙間に、猫たちは当然のような顔をして居場所を見つけていた。</description>
 <enclosure url="https://journey.yagenji.com/uploads/DSC09290_cairocats.jpg" length="0" type="image/jpeg"/>
+</item>
+<item>
+<title>エジプト｜White Desert</title>
+<link>https://journey.yagenji.com/egypt4/</link>
+<guid isPermaLink="true">https://journey.yagenji.com/egypt4/</guid>
+<pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
+<description>砂漠の中に白い岩が点々と立ち、地面まで光を反射しているように見えた。</description>
+<enclosure url="https://journey.yagenji.com/uploads/DSC08550_whitedessert.jpg" length="0" type="image/jpeg"/>
 </item>
 <item>
 <title>エジプト｜Giza</title>
