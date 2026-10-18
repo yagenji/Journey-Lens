@@ -76,7 +76,7 @@
       "video": "",
       "duration": "",
       "cap": "Looking out into the sunlit courtyard of Sultan Hassan Mosque",
-      "size": "full",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -124,7 +124,7 @@
       "video": "",
       "duration": "",
       "cap": "Exploring the stone structures of the Amir Khayrbak Complex",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
@@ -136,7 +136,7 @@
       "video": "",
       "duration": "",
       "cap": "The serene central fountain of Al-Hakim Mosque",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
@@ -148,7 +148,7 @@
       "video": "",
       "duration": "",
       "cap": "The stunning historic facade of the Complex of Qalawun",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
