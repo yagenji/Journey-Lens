@@ -31834,6 +31834,18 @@
         },
         {
           "type": "photo",
+          "image": "/uploads/DSC04861_nile.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The banks of the Nile River with camels and livestock grazing in the fertile valley",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
           "image": "/uploads/DSC04893_nile.jpg",
           "cover": false,
           "mode": "feature",
