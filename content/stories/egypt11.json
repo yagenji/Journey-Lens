@@ -212,14 +212,14 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/DSC06337_luxorwest.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
       "video": "",
       "duration": "",
       "cap": "The statue of the lioness goddess Sekhmet at the Temple of Mut",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
@@ -231,7 +231,7 @@
       "video": "",
       "duration": "",
       "cap": "The relief carvings inside the Tomb of Ramose at the Tombs of the Nobles",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
@@ -243,7 +243,7 @@
       "video": "",
       "duration": "",
       "cap": "The grand columned portico and entrance to the hypostyle hall at Medinet Habu",
-      "size": "md",
+      "size": "sm",
       "shape": "land"
     },
     {
