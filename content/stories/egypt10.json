@@ -188,7 +188,7 @@
     },
     {
       "type": "photo",
-      "image": "",
+      "image": "/uploads/DSC05131_esfu.jpg",
       "cover": false,
       "mode": "feature",
       "videoUrl": "",
@@ -207,7 +207,7 @@
       "video": "",
       "duration": "",
       "cap": "The colonnade and inner enclosure wall at the Temple of Edfu",
-      "size": "md",
+      "size": "sm",
       "shape": "port"
     },
     {
@@ -219,8 +219,8 @@
       "video": "",
       "duration": "",
       "cap": "The Horus falcon statue wearing the double crown at the Temple of Edfu",
-      "size": "md",
-      "shape": "land"
+      "size": "sm",
+      "shape": "port"
     },
     {
       "type": "photo",
@@ -231,8 +231,8 @@
       "video": "",
       "duration": "",
       "cap": "The decorated lintel and winged sun disc at the entrance of the Temple of Edfu",
-      "size": "md",
-      "shape": "land"
+      "size": "sm",
+      "shape": "port"
     }
   ]
 }
