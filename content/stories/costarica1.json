@@ -1,20 +1,22 @@
 {
   "id": "costarica1",
-  "order": null,
+  "order": 1,
+  "featured": true,
   "en": "COSTA RICA",
   "jp": "コスタリカ",
-  "placeJa": "Los Quetzales / Sarapiqui",
+  "placeJa": "Sarapiquí",
   "year": "2026",
   "continent": "namerica",
   "categories": [
-    "wildlife"
+    "wildlife",
+    "nature"
   ],
-  "publishedAt": "2026-06-20",
-  "lat": 10.32,
-  "lon": -83.94,
-  "standfirst": "湿った森の奥で、鳥の色と声を追いかけた。",
-  "essay": "コスタリカでは、まず南のParque Nacional Parkへ向かった。目的はケツァールだった。森の中を歩きながら、枝のあいだを何度も探した。葉の重なりの中にその色が見えたとき、思っていた以上に美しい鳥だと思った。\n\nその後に訪れたSarapiquiでは、森の雰囲気が少し変わった。空気は湿っていて、葉の匂いが近かった。枝の上ではナマケモノが、止まっているようで少しだけ動いていた。見ているこちらの時間まで、ゆっくりになるようだった。\n\nトゥーカンやオウムの声もよく聞こえた。姿を探して見上げると、緑の中に鮮やかな色が一瞬だけ現れる。すぐに隠れてしまうことも多かったが、そのたびにまた探したくなる。森を歩くというより、森の中で待つ時間が長かった。\n\n目の赤い蛙や、色とりどりの蝶にも出会った。大きな動物だけでなく、葉の裏や足元にも生きものがいる。写真を撮るたびに、まだ見えていないものがたくさんある気がした。コスタリカの森は、そういう場所だった。",
-  "pullquote": "鳥の色を探した森のあとで、動かない生きものの時間に出会った。",
+  "publishedAt": "2026-06-21",
+  "lat": 10.452,
+  "lon": -84.016,
+  "standfirst": "湿った森では、上を見ても足元を見ても、どこかに生きものの気配があった。",
+  "essay": "Sarapiquíへ入ると、森の空気が近くなったように感じた。\n\n湿度が高く、葉の匂いが濃い。枝の上にはナマケモノがいて、止まっているように見えても、しばらく眺めているとほんの少しだけ動いている。\n\nトゥーカンやオウムの声が聞こえるたびに、木の上を探した。緑の中に鮮やかな色が一瞬だけ現れ、次の瞬間にはまた葉の向こうへ消えていく。\n\n目の赤い蛙や、色とりどりの蝶にも出会った。\n\n大きな動物だけを探していては気づかない。葉の裏にも、枝の先にも、足元にも生きものがいる。\n\nそのうち、森を歩くというより、立ち止まって探している時間の方が長くなっていった。\n\n何かを見つけても、それで終わりではない。\n\n写真を撮って顔を上げると、その少し先にまた別の気配がある。\n\nSarapiquíでは、森そのものが生きものを隠していて、こちらがどれだけ気づけるか試されているようだった。",
+  "pullquote": "一匹を見つけると、その周りにもまだ何かが隠れている気がした。",
   "noteUrl": "https://note.com/m_yagenji/n/nff8097e2c780",
   "media": [
     {
@@ -31,19 +33,19 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC06593.jpg",
+      "image": "/uploads/DSC06808_result.jpg",
       "cover": false,
-      "mode": "",
+      "mode": "feature",
       "videoUrl": "",
+      "video": "",
       "duration": "",
-      "cap": "Quetzal",
+      "cap": "Red-eyed Tree Frog",
       "size": "md",
-      "shape": "land",
-      "alt": "写真（サンプル）— ご自身の作品に差し替えてください"
+      "shape": "land"
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC07894_result.jpg",
+      "image": "/uploads/DSC08042_result.jpg",
       "cover": false,
       "videoUrl": "",
       "duration": "",
@@ -232,18 +234,6 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC06808_result.jpg",
-      "cover": false,
-      "mode": "feature",
-      "videoUrl": "",
-      "video": "",
-      "duration": "",
-      "cap": "Red-eyed Tree Frog",
-      "size": "md",
-      "shape": "land"
-    },
-    {
-      "type": "photo",
       "image": "/uploads/DSC07488_result.jpg",
       "cover": false,
       "mode": "",
@@ -263,7 +253,7 @@
       "video": "",
       "duration": "",
       "cap": "Green Iguana",
-      "size": "sm",
+      "size": "md",
       "shape": "land"
     },
     {
@@ -292,17 +282,16 @@
     },
     {
       "type": "photo",
-      "image": "/uploads/DSC06546_result.jpg",
+      "image": "/uploads/DSC09014_sarapiqui.jpg",
       "cover": false,
-      "mode": "",
+      "mode": "feature",
       "videoUrl": "",
       "video": "",
       "duration": "",
-      "cap": "Sunset",
-      "size": "full",
+      "cap": "Captured a quiet moment with a Heliconius butterfly",
+      "size": "sm",
       "shape": "land"
     }
   ],
-  "num": "03",
-  "featured": true
+  "num": "03"
 }
