@@ -25421,6 +25421,65 @@
       "featured": true
     },
     {
+      "id": "costraica2",
+      "order": 2,
+      "featured": false,
+      "en": "COSTA RICA",
+      "jp": "コスタリカ",
+      "placeJa": "Los Quetzales",
+      "year": "2026",
+      "continent": "samerica",
+      "categories": [
+        "nature",
+        "wildlife"
+      ],
+      "publishedAt": "2026-10-21",
+      "lat": 9.639,
+      "lon": -83.849,
+      "standfirst": "深い緑の中で、枝のあいだに一瞬だけ現れる色を探しながら歩いた。",
+      "essay": "Parque Nacional Los Quetzalesへ向かった目的は、その名前の通りケツァールを見ることだった。\n\n森に入ると、ただ歩くだけでは見つからない。何度も立ち止まり、木の上を見上げ、葉の隙間を探した。緑ばかりの森の中で、鳥の姿が現れるのを待つ時間が続いた。\n\nそして枝のあいだにケツァールを見つけた。\n\n鮮やかな緑と赤。長く伸びた尾羽。その色は写真で知っていたはずなのに、実際の森の中で見るとずっと美しく感じた。\n\n派手な色をしているのに、葉の中に入ると意外なほど見つけにくい。少し動けば枝に隠れ、また姿を探すことになる。\n\n森にはもっと多くの生きものがいたはずだ。\n\nそれでも、この場所では一羽の鳥だけを探していた記憶が強く残っている。\n\n何かをたくさん見た森ではない。\n\n見つけたかったものを、ようやく見つけた森だった。",
+      "pullquote": "探し続けたあとだからこそ、その色は森の中で特別に見えた。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06593.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The magnificent Resplendent Quetzal",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06516_quetzales.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Meet the charming Collared Whitestart",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC06546_quetzales.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The sky speaking in colors words can't describe",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
+    },
+    {
       "id": "panama1",
       "order": null,
       "en": "PANAMA",
