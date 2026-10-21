@@ -25417,10 +25417,10 @@
       "jp": "コスタリカ",
       "placeJa": "Los Quetzales",
       "year": "2026",
-      "continent": "samerica",
+      "continent": "namerica",
       "categories": [
-        "nature",
-        "wildlife"
+        "wildlife",
+        "nature"
       ],
       "publishedAt": "2026-10-21",
       "lat": 9.639,
@@ -25476,7 +25476,7 @@
       "jp": "コスタリカ",
       "placeJa": "San José",
       "year": "2026",
-      "continent": "samerica",
+      "continent": "namerica",
       "categories": [
         "cities"
       ],
