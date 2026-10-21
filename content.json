@@ -25469,6 +25469,88 @@
       ]
     },
     {
+      "id": "costrarica3",
+      "order": 3,
+      "featured": false,
+      "en": "COSTRA RICA",
+      "jp": "コスタリカ",
+      "placeJa": "San José",
+      "year": "2026",
+      "continent": "samerica",
+      "categories": [
+        "cities"
+      ],
+      "publishedAt": "2026-10-21",
+      "lat": 9.9281,
+      "lon": -84.0907,
+      "standfirst": "山に囲まれた盆地の中に、コスタリカの首都が広がっていた。",
+      "essay": "San Joséは、コスタリカの自然を巡る旅の中では少し違う場所だった。\n\n森や火山、海岸のように景色そのものが強く印象に残る場所ではない。人や車が多く、街の中心には店や市場、古い建物が集まっている。\n\nSan Joséは19世紀にコーヒー産業の発展とともに大きく成長し、1820年代には首都となった。中心部にはNational Theatreや市場、博物館などがあり、現在も国の政治や文化の中心である。\n\n街を歩いていると、観光地として整えられた場所だけでなく、人々が買い物をし、働き、バスを待つ姿が目に入る。\n\nコスタリカでは、どうしても森や野生動物の記憶が強くなる。\n\nだからこそ、San Joséではこの国にも普通の都市の日常があることを改めて感じた。\n\n旅の中で最も美しい場所ではなかった。\n\nそれでも、自然の風景だけでは見えないコスタリカのもう一つの顔として、San Joséは旅の中に残っている。",
+      "pullquote": "自然の国という印象の裏側には、日常を支える普通の都市があった。",
+      "noteUrl": "",
+      "media": [
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09612_sanjose.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "The historic Teatro Nacional de Costa Rica glowing under the night sky",
+          "size": "full",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09593_sanjose.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Where history watches over the bustling modern streets",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Passing by the famous ‘La Chola’ statue on a casual stroll",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09672_sanjose.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Where the city streets lead your eyes straight to the Central Valley mountains",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "photo",
+          "image": "/uploads/DSC09646_sanjose.jpg",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "",
+          "video": "",
+          "duration": "",
+          "cap": "Classical elegance at the Templo de la Música in Parque Morazán",
+          "size": "md",
+          "shape": "land"
+        }
+      ]
+    },
+    {
       "id": "panama1",
       "order": null,
       "en": "PANAMA",
