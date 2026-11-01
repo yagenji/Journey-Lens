@@ -76,6 +76,10 @@ _add_qa_link()
 ATLAS_PROMO_IMG = "https://atlas.yagenji.com/assets/images/top/og-default.jpg"
 ATLAS_PROMO_JA  = "世界202の国と地域を、一冊の図鑑に。"
 ATLAS_PROMO_CUE = "世界を知る →"
+ATLAS_PROMO_SUB = (
+    "これから行く場所の下調べに。"
+    "国ごとに、基本情報や旅の地図、季節の景色をまとめた姉妹サイトです。"
+)
 _ATLAS_PROMO = (
     '<!--ATLASPROMO-->\n'
     '<section class="jvpromo" id="journey-atlas">\n'
@@ -83,7 +87,9 @@ _ATLAS_PROMO = (
     '    <a class="jvpromo-inner" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">\n'
     '      <div class="jvpromo-bg" style="background-image:url(\'' + ATLAS_PROMO_IMG + '\')"></div>\n'
     '      <div class="jvpromo-head"><h2 class="jvpromo-en">Journey Atlas</h2>'
-    '<span class="jvpromo-ja">' + ATLAS_PROMO_JA + '</span></div>\n'
+    '<span class="jvpromo-ja">' + ATLAS_PROMO_JA + '</span>'
+    '<span class="jvpromo-ja" style="margin-top:7px;font-size:.84rem;max-width:46ch;line-height:1.75">'
+    + ATLAS_PROMO_SUB + '</span></div>\n'
     '      <span class="jvpromo-cue">' + ATLAS_PROMO_CUE + '</span>\n'
     '    </a>\n'
     '  </div>\n'
