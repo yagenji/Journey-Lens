@@ -70,19 +70,43 @@ def _add_qa_link():
             print('footer: Q&A リンクを追加', _p)
 _add_qa_link()
 
-# ---------- トップページに JOURNEY ATLAS の紹介セクションを入れる（冪等） ----------
+# ---------- トップページの JOURNEY ATLAS バナー（冪等・毎回最新に保つ） ----------
+# Journey View のプロモ帯（.jvpromo）と同じ見た目。
+# 背景写真・副題・導線の文言は、この3行を書き換えれば差し替わる。
+ATLAS_PROMO_IMG = "/thumbs/DSC09238_ice1.jpg"
+ATLAS_PROMO_JA  = "世界の国と地域を、一冊の図鑑に。"
+ATLAS_PROMO_CUE = "世界を知る →"
+_ATLAS_PROMO = (
+    '<!--ATLASPROMO-->\n'
+    '<section class="jvpromo" id="journey-atlas">\n'
+    '  <div class="wrap">\n'
+    '    <a class="jvpromo-inner" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">\n'
+    '      <div class="jvpromo-bg" style="background-image:url(\'' + ATLAS_PROMO_IMG + '\')"></div>\n'
+    '      <div class="jvpromo-head"><h2 class="jvpromo-en">Journey Atlas</h2>'
+    '<span class="jvpromo-ja">' + ATLAS_PROMO_JA + '</span></div>\n'
+    '      <span class="jvpromo-cue">' + ATLAS_PROMO_CUE + '</span>\n'
+    '    </a>\n'
+    '  </div>\n'
+    '</section>\n'
+    '<!--/ATLASPROMO-->\n'
+)
 _ATLAS_ANCHOR = '</section>\n</main>\n\n<main id="country-view" class="hidden"></main>'
-_ATLAS_NEW    = '</section>\n\n<section class="section-pad" id="journey-atlas">\n  <div class="wrap">\n    <div class="sec-head"><div><h2 class="sec-en">Journey Atlas</h2><span class="sec-ja">姉妹サイト</span></div><span class="idx"></span></div>\n    <div class="bio" style="max-width:760px">\n      <p>JOURNEY ATLAS は、世界の国と地域を一冊の図鑑のようにまとめた姉妹サイトです。国ごとに、基本情報、旅の地図、見ておきたい景色、季節ごとの表情などを並べています。</p>\n      <p>JOURNEY LENS が行った場所の記録なら、JOURNEY ATLAS はこれから行く場所の下調べ。気になる国があれば、こちらも覗いてみてください。</p>\n      <p><a class="rss-link" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">JOURNEY ATLAS を見る →</a></p>\n    </div>\n  </div>\n</section>\n</main>\n\n<main id="country-view" class="hidden"></main>'
+_ATLAS_OLD    = '\n<section class="section-pad" id="journey-atlas">\n  <div class="wrap">\n    <div class="sec-head"><div><h2 class="sec-en">Journey Atlas</h2><span class="sec-ja">姉妹サイト</span></div><span class="idx"></span></div>\n    <div class="bio" style="max-width:760px">\n      <p>JOURNEY ATLAS は、世界の国と地域を一冊の図鑑のようにまとめた姉妹サイトです。国ごとに、基本情報、旅の地図、見ておきたい景色、季節ごとの表情などを並べています。</p>\n      <p>JOURNEY LENS が行った場所の記録なら、JOURNEY ATLAS はこれから行く場所の下調べ。気になる国があれば、こちらも覗いてみてください。</p>\n      <p><a class="rss-link" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">JOURNEY ATLAS を見る →</a></p>\n    </div>\n  </div>\n</section>\n</main>\n\n<main id="country-view" class="hidden">'
 def _add_atlas_section():
     try:
         _t = open(SRC_HTML, encoding="utf-8").read()
     except Exception:
         return
-    if 'id="journey-atlas"' in _t:
-        return
-    if _ATLAS_ANCHOR in _t:
-        open(SRC_HTML, "w", encoding="utf-8").write(_t.replace(_ATLAS_ANCHOR, _ATLAS_NEW, 1))
-        print("index.html: JOURNEY ATLAS セクションを追加")
+    _o = _t
+    if "<!--ATLASPROMO-->" in _t:
+        _t = re.sub(r"<!--ATLASPROMO-->.*?<!--/ATLASPROMO-->\n?", lambda m: _ATLAS_PROMO, _t, count=1, flags=re.S)
+    elif _ATLAS_OLD in _t:
+        _t = _t.replace(_ATLAS_OLD, _ATLAS_PROMO, 1)
+    elif _ATLAS_ANCHOR in _t:
+        _t = _t.replace(_ATLAS_ANCHOR, "</section>\n" + _ATLAS_PROMO + "</main>", 1)
+    if _t != _o:
+        open(SRC_HTML, "w", encoding="utf-8").write(_t)
+        print("index.html: JOURNEY ATLAS バナーを更新")
 _add_atlas_section()
 
 
