@@ -70,6 +70,22 @@ def _add_qa_link():
             print('footer: Q&A リンクを追加', _p)
 _add_qa_link()
 
+# ---------- トップページに JOURNEY ATLAS の紹介セクションを入れる（冪等） ----------
+_ATLAS_ANCHOR = '</section>\n</main>\n\n<main id="country-view" class="hidden"></main>'
+_ATLAS_NEW    = '</section>\n\n<section class="section-pad" id="journey-atlas">\n  <div class="wrap">\n    <div class="sec-head"><div><h2 class="sec-en">Journey Atlas</h2><span class="sec-ja">姉妹サイト</span></div><span class="idx"></span></div>\n    <div class="bio" style="max-width:760px">\n      <p>JOURNEY ATLAS は、世界の国と地域を一冊の図鑑のようにまとめた姉妹サイトです。国ごとに、基本情報、旅の地図、見ておきたい景色、季節ごとの表情などを並べています。</p>\n      <p>JOURNEY LENS が行った場所の記録なら、JOURNEY ATLAS はこれから行く場所の下調べ。気になる国があれば、こちらも覗いてみてください。</p>\n      <p><a class="rss-link" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">JOURNEY ATLAS を見る →</a></p>\n    </div>\n  </div>\n</section>\n</main>\n\n<main id="country-view" class="hidden"></main>'
+def _add_atlas_section():
+    try:
+        _t = open(SRC_HTML, encoding="utf-8").read()
+    except Exception:
+        return
+    if 'id="journey-atlas"' in _t:
+        return
+    if _ATLAS_ANCHOR in _t:
+        open(SRC_HTML, "w", encoding="utf-8").write(_t.replace(_ATLAS_ANCHOR, _ATLAS_NEW, 1))
+        print("index.html: JOURNEY ATLAS セクションを追加")
+_add_atlas_section()
+
+
 
 src = open(SRC_HTML, encoding="utf-8").read()
 
@@ -165,6 +181,67 @@ def nameHTML(c):
 
 SIZE = {"sm":"f-2","md":"f-3","lg":"f-4","full":"f-6"}
 SHAPE= {"land":"r-land","port":"r-port","sq":"r-sq","wide":"r-wide"}
+
+# ---------- JOURNEY ATLAS（姉妹サイト）への国別リンク ----------
+# 日本語の国名 → atlas.yagenji.com のスラッグ。英名からの自動生成だと
+# トルコ(turkiye)やキルギス(kyrgyz)のように外れる国があるため、表で持つ。
+# 表にない国はリンクを出さない（誤った URL を出さないため）。
+ATLAS_BASE = "https://atlas.yagenji.com/countries/%s/"
+ATLAS_SLUG = {
+   
+    "アイスランド": "iceland",
+    "アゼルバイジャン": "azerbaijan",
+    "アルゼンチン": "argentina",
+    "アルメニア": "armenia",
+    "イスラエル": "israel",
+    "イラン": "iran",
+    "インド": "india",
+    "ウズベキスタン": "uzbekistan",
+    "ウルグアイ": "uruguay",
+    "エジプト": "egypt",
+    "エストニア": "estonia",
+    "オマーン": "oman",
+    "オーストラリア": "australia",
+    "カザフスタン": "kazakhstan",
+    "カタール": "qatar",
+    "キューバ": "cuba",
+    "キルギス": "kyrgyz",
+    "ギリシャ": "greece",
+    "グアテマラ": "guatemala",
+    "ケニア": "kenya",
+    "コスタリカ": "costarica",
+    "サウジアラビア": "saudiarabia",
+    "ザンビア": "zambia",
+    "ジョージア": "georgia",
+    "ジンバブエ": "zimbabwe",
+    "スロベニア": "slovenia",
+    "タジキスタン": "tajikistan",
+    "タンザニア": "tanzania",
+    "チリ": "chile",
+    "トルクメニスタン": "turkmenistan",
+    "トルコ": "turkiye",
+    "ナミビア": "namibia",
+    "バングラデシュ": "bangladesh",
+    "パナマ": "panama",
+    "パラグアイ": "paraguay",
+    "パレスチナ": "palestine",
+    "ブラジル": "brazil",
+    "ブータン": "bhutan",
+    "ベリーズ": "belize",
+    "ペルー": "peru",
+    "ボツワナ": "botswana",
+    "ボリビア": "bolivia",
+    "メキシコ": "mexico",
+    "ヨルダン": "jordan",
+    "ラトビア": "latvia",
+    "リトアニア": "lithuania",
+    "レソト": "lesotho",
+    "南アフリカ": "southafrica",
+    "南極": "antarctica"
+}
+def atlas_url(c):
+    slug = ATLAS_SLUG.get((c.get("jp") or "").strip())
+    return (ATLAS_BASE % slug) if slug else ""
 
 # --- 一覧表示用の縮小版 ---
 # /thumbs/ に同名ファイルがあればそれを表示に使う。無ければ従来どおり原寸。
@@ -262,6 +339,11 @@ def page(c, prv, nxt):
     ]}
     ld_json = json.dumps(ld, ensure_ascii=False)
 
+    _au = atlas_url(c)
+    atlas_link = ('<div class="cview-note" style="margin-top:clamp(32px,5vh,56px)">'
+                  '<a href="%s" target="_blank" rel="noopener">'
+                  '<span>この国を JOURNEY ATLAS で見る</span>'
+                  '<span class="note-arrow">→</span></a></div>' % esc(_au)) if _au else ""
     head = f'''<!doctype html>
 <html lang="ja">
 <head>
@@ -300,6 +382,7 @@ def page(c, prv, nxt):
 <div class="cview-essay">{essay_html(c)}</div>{note}
 <div class="cview-gallery"><div class="plates">{figures}</div></div>
 {more_from(c)}
+{atlas_link}
 {foot_nav}
 </article>
 </main>
