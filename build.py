@@ -73,8 +73,8 @@ _add_qa_link()
 # ---------- トップページの JOURNEY ATLAS バナー（冪等・毎回最新に保つ） ----------
 # Journey View のプロモ帯（.jvpromo）と同じ見た目。
 # 背景写真・副題・導線の文言は、この3行を書き換えれば差し替わる。
-ATLAS_PROMO_IMG = "/thumbs/DSC09238_ice1.jpg"
-ATLAS_PROMO_JA  = "世界の国と地域を、一冊の図鑑に。"
+ATLAS_PROMO_IMG = "https://atlas.yagenji.com/assets/images/top/og-default.jpg"
+ATLAS_PROMO_JA  = "世界202の国と地域を、一冊の図鑑に。"
 ATLAS_PROMO_CUE = "世界を知る →"
 _ATLAS_PROMO = (
     '<!--ATLASPROMO-->\n'
@@ -337,12 +337,21 @@ def page(c, prv, nxt):
     title = title_plain + " — JOURNEY LENS"
     desc = meta_desc(c)
     figures = "".join(media_figure(m) for m in (c.get("media") or []))
-    note = ""
+    # note と JOURNEY ATLAS のリンクを同じ行に並べる。
+    # note が無ければ ATLAS だけが同じ位置に出る。どちらも無ければ何も出さない。
+    _btns = []
     if c.get("noteUrl"):
-        note = ('<div class="cview-note"><a href="%s" target="_blank" rel="noopener">'
+        _btns.append('<a href="%s" target="_blank" rel="noopener">'
                 '<svg class="note-mark" viewBox="111 111 270 270" fill="currentColor" aria-hidden="true">'
                 '<path d="M139.57,142.06c41.19,0,97.6-2.09,138.1-1.04,54.34,1.39,74.76,25.06,75.45,83.53.69,33.06,0,127.73,0,127.73h-58.79c0-82.83.35-96.5,0-122.6-.69-22.97-7.25-33.92-24.9-36.01-18.69-2.09-71.07-.35-71.07-.35v158.96h-58.79v-210.22Z"/>'
-                '</svg><span>noteで読む</span><span class="note-arrow">→</span></a></div>' % esc(c["noteUrl"]))
+                '</svg><span>noteで読む</span><span class="note-arrow">→</span></a>' % esc(c["noteUrl"]))
+    _au = atlas_url(c)
+    if _au:
+        _btns.append('<a href="%s" target="_blank" rel="noopener">'
+                '<span>JOURNEY ATLAS で見る</span>'
+                '<span class="note-arrow">→</span></a>' % esc(_au))
+    note = ('<div class="cview-note" style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">'
+            + "".join(_btns) + '</div>') if _btns else ""
     prev_a = ('<a class="cf-prev" href="/%s/">← %s</a>' % (esc(prv["id"]), esc(prv.get("jp") or prv.get("en")))) if prv else '<span class="cf-prev"></span>'
     next_a = ('<a class="cf-next" href="/%s/">%s →</a>' % (esc(nxt["id"]), esc(nxt.get("jp") or nxt.get("en")))) if nxt else '<span class="cf-next"></span>'
     foot_nav = '<nav class="cview-foot">%s<a class="cf-home" href="/#atlas">地図へ戻る</a>%s</nav>' % (prev_a, next_a)
@@ -363,11 +372,6 @@ def page(c, prv, nxt):
     ]}
     ld_json = json.dumps(ld, ensure_ascii=False)
 
-    _au = atlas_url(c)
-    atlas_link = ('<div class="cview-note" style="margin-top:clamp(32px,5vh,56px)">'
-                  '<a href="%s" target="_blank" rel="noopener">'
-                  '<span>この国を JOURNEY ATLAS で見る</span>'
-                  '<span class="note-arrow">→</span></a></div>' % esc(_au)) if _au else ""
     head = f'''<!doctype html>
 <html lang="ja">
 <head>
@@ -406,7 +410,6 @@ def page(c, prv, nxt):
 <div class="cview-essay">{essay_html(c)}</div>{note}
 <div class="cview-gallery"><div class="plates">{figures}</div></div>
 {more_from(c)}
-{atlas_link}
 {foot_nav}
 </article>
 </main>
