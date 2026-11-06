@@ -500,12 +500,26 @@ a{color:inherit;text-decoration:none}
     </div>
   </section>
 <!--ATLASPROMO-->
-<section class="jvpromo" id="journey-atlas">
+<section class="section-pad" id="journey-atlas">
+  <style>
+  #journey-atlas .atlas-card{display:grid;grid-template-columns:5fr 7fr;gap:clamp(18px,3vw,38px);align-items:center;border:1px solid var(--line);padding:clamp(16px,2.4vw,28px);text-decoration:none;color:var(--ink);transition:border-color .35s}
+  #journey-atlas .atlas-card:hover{border-color:var(--trail)}
+  #journey-atlas .atlas-card__art{overflow:hidden;line-height:0}
+  #journey-atlas .atlas-card__art img{width:100%;height:auto;display:block;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}
+  #journey-atlas .atlas-card:hover .atlas-card__art img{transform:scale(1.03)}
+  #journey-atlas .atlas-card__body{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+  #journey-atlas .atlas-card__body p{font-family:var(--mincho);font-size:.95rem;line-height:1.95;color:var(--ink-soft);margin:0;max-width:44ch}
+  @media(max-width:720px){#journey-atlas .atlas-card{grid-template-columns:1fr}}
+  </style>
   <div class="wrap">
-    <a class="jvpromo-inner" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">
-      <div class="jvpromo-bg" style="background-image:url('https://atlas.yagenji.com/assets/images/top/og-default.jpg')"></div>
-      <div class="jvpromo-head"><h2 class="jvpromo-en">Journey Atlas</h2><span class="jvpromo-ja">世界202の国と地域を、一冊の図鑑に。</span><span class="jvpromo-ja" style="margin-top:7px;font-size:.84rem;max-width:46ch;line-height:1.75">これから行く場所の下調べに。国ごとに、基本情報や旅の地図、季節の景色をまとめた姉妹サイトです。</span></div>
-      <span class="jvpromo-cue">世界を知る →</span>
+    <a class="atlas-card" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">
+      <div class="atlas-card__art"><img src="/assets/atlas-world.webp" alt="JOURNEY ATLAS" loading="lazy" decoding="async"></div>
+      <div class="atlas-card__body">
+        <h2 class="jvpromo-en">Journey Atlas</h2>
+        <span class="jvpromo-ja">世界200の国と地域を、一冊の図鑑に。</span>
+        <p>これから行く場所の下調べに。国ごとに、基本情報や旅の地図、季節の景色をまとめた姉妹サイトです。</p>
+        <span class="jvpromo-cue">世界を知る →</span>
+      </div>
     </a>
   </div>
 </section>
