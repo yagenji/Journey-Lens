@@ -73,8 +73,11 @@ _add_qa_link()
 # ---------- トップページの JOURNEY ATLAS バナー（冪等・毎回最新に保つ） ----------
 # Journey View のプロモ帯（.jvpromo）と同じ見た目。
 # 背景写真・副題・導線の文言は、この3行を書き換えれば差し替わる。
-ATLAS_PROMO_IMG = "https://atlas.yagenji.com/assets/images/top/og-default.jpg"
-ATLAS_PROMO_JA  = "世界202の国と地域を、一冊の図鑑に。"
+ATLAS_PROMO_LOCAL  = "/assets/atlas-world.webp"   # LENS 側に置いた画像
+ATLAS_PROMO_REMOTE = "https://atlas.yagenji.com/assets/images/top/og-default.jpg"  # 画像を置くまでの予備
+# ローカルに画像があればそれを、無ければ ATLAS から直接読む（どちらでも表示は崩れない）
+ATLAS_PROMO_IMG = ATLAS_PROMO_LOCAL if os.path.isfile(OUT + ATLAS_PROMO_LOCAL) else ATLAS_PROMO_REMOTE
+ATLAS_PROMO_JA  = "世界200の国と地域を、一冊の図鑑に。"
 ATLAS_PROMO_CUE = "世界を知る →"
 ATLAS_PROMO_SUB = (
     "これから行く場所の下調べに。"
@@ -82,15 +85,31 @@ ATLAS_PROMO_SUB = (
 )
 _ATLAS_PROMO = (
     '<!--ATLASPROMO-->\n'
-    '<section class="jvpromo" id="journey-atlas">\n'
+    '<section class="section-pad" id="journey-atlas">\n'
+    '  <style>\n'
+    '  #journey-atlas .atlas-card{display:grid;grid-template-columns:5fr 7fr;gap:clamp(18px,3vw,38px);'
+    'align-items:center;border:1px solid var(--line);padding:clamp(16px,2.4vw,28px);'
+    'text-decoration:none;color:var(--ink);transition:border-color .35s}\n'
+    '  #journey-atlas .atlas-card:hover{border-color:var(--trail)}\n'
+    '  #journey-atlas .atlas-card__art{overflow:hidden;line-height:0}\n'
+    '  #journey-atlas .atlas-card__art img{width:100%;height:auto;display:block;'
+    'transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}\n'
+    '  #journey-atlas .atlas-card:hover .atlas-card__art img{transform:scale(1.03)}\n'
+    '  #journey-atlas .atlas-card__body{display:flex;flex-direction:column;align-items:flex-start;gap:12px}\n'
+    '  #journey-atlas .atlas-card__body p{font-family:var(--mincho);font-size:.95rem;line-height:1.95;'
+    'color:var(--ink-soft);margin:0;max-width:44ch}\n'
+    '  @media(max-width:720px){#journey-atlas .atlas-card{grid-template-columns:1fr}}\n'
+    '  </style>\n'
     '  <div class="wrap">\n'
-    '    <a class="jvpromo-inner" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">\n'
-    '      <div class="jvpromo-bg" style="background-image:url(\'' + ATLAS_PROMO_IMG + '\')"></div>\n'
-    '      <div class="jvpromo-head"><h2 class="jvpromo-en">Journey Atlas</h2>'
-    '<span class="jvpromo-ja">' + ATLAS_PROMO_JA + '</span>'
-    '<span class="jvpromo-ja" style="margin-top:7px;font-size:.84rem;max-width:46ch;line-height:1.75">'
-    + ATLAS_PROMO_SUB + '</span></div>\n'
-    '      <span class="jvpromo-cue">' + ATLAS_PROMO_CUE + '</span>\n'
+    '    <a class="atlas-card" href="https://atlas.yagenji.com/" target="_blank" rel="noopener">\n'
+    '      <div class="atlas-card__art">'
+    '<img src="' + ATLAS_PROMO_IMG + '" alt="JOURNEY ATLAS" loading="lazy" decoding="async"></div>\n'
+    '      <div class="atlas-card__body">\n'
+    '        <h2 class="jvpromo-en">Journey Atlas</h2>\n'
+    '        <span class="jvpromo-ja">' + ATLAS_PROMO_JA + '</span>\n'
+    '        <p>' + ATLAS_PROMO_SUB + '</p>\n'
+    '        <span class="jvpromo-cue">' + ATLAS_PROMO_CUE + '</span>\n'
+    '      </div>\n'
     '    </a>\n'
     '  </div>\n'
     '</section>\n'
