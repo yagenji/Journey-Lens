@@ -31535,6 +31535,30 @@
           "cap": "The grand entrance to the spectacular valley of Agabat",
           "size": "md",
           "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/PAT9rYEf_UY?si=QRrgb9hhuJ3UK4Pp",
+          "video": "",
+          "duration": "0:30",
+          "cap": "Sunset in the White Desert",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/QId3n1sK9gY?si=peXsvIZFI4stpUE9",
+          "video": "",
+          "duration": "0:36",
+          "cap": "Sunrise in the White Desert",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
