@@ -30782,6 +30782,30 @@
           "cap": "A majestic camel resting before the grand Pyramid of Khafre",
           "size": "md",
           "shape": "port"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/qD1gLhSqZIQ?si=zu-L0FrrUGSLPnPW",
+          "video": "",
+          "duration": "0:33",
+          "cap": "Sunrise over the Sphinx and Pyramids",
+          "size": "md",
+          "shape": "land"
+        },
+        {
+          "type": "video",
+          "image": "",
+          "cover": false,
+          "mode": "feature",
+          "videoUrl": "https://youtu.be/KEb6Fx2MvLo?si=QUcuzWrTDeJ2i74S",
+          "video": "",
+          "duration": "0:29",
+          "cap": "Camels and the Pyramids",
+          "size": "md",
+          "shape": "land"
         }
       ]
     },
