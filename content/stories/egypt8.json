@@ -245,6 +245,54 @@
       "cap": "The stunning contrast of lush green palms and rugged desert cliffs along the Nile",
       "size": "md",
       "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/-uTIXqWPqt0?si=aB4uwNDWRV7cAwhk",
+      "video": "",
+      "duration": "0:38",
+      "cap": "Nile River Cruise Scenery",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/ICyr7fnUCSw?si=pUml2zUDHxH2gIU4",
+      "video": "",
+      "duration": "0:25",
+      "cap": "Cruising the Nile River",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/yC-W8VMltgY?si=bFTpD_7q0q_gOqyk",
+      "video": "",
+      "duration": "0:22",
+      "cap": "Sunset at Esna Lock | Egypt",
+      "size": "md",
+      "shape": "land"
+    },
+    {
+      "type": "video",
+      "image": "",
+      "cover": false,
+      "mode": "feature",
+      "videoUrl": "https://youtu.be/ZbMcV3_w0Ow?si=_9Nv1XUru-uReled",
+      "video": "",
+      "duration": "0:31",
+      "cap": "Passing through Esna Lock",
+      "size": "md",
+      "shape": "land"
     }
   ]
 }
